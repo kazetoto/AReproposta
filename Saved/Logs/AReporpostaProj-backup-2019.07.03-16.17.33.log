@@ -1,0 +1,841 @@
+﻿Log file open, 07/03/19 15:50:31
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: AReporpostaProj
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.270253
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -3:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.095s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz, GPU: NVIDIA GeForce GTX 1050 Ti
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.004s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.07.03-18.50.32:065][  0]LogInit: Selected Device Profile: [Windows]
+[2019.07.03-18.50.32:065][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.07.03-18.50.32:079][  0]LogHAL: Display: Platform has ~ 16 GB [17123594240 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.07.03-18.50.32:079][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.07.03-18.50.32:079][  0]LogInit: Going up to parent DeviceProfile []
+[2019.07.03-18.50.32:079][  0]LogInit: Computer: DESKTOP-INFGEQ6
+[2019.07.03-18.50.32:079][  0]LogInit: User: Keigo
+[2019.07.03-18.50.32:079][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.07.03-18.50.32:079][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.07.03-18.50.32:080][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.07.03-18.50.32:080][  0]LogMemory: Platform Memory Stats for Windows
+[2019.07.03-18.50.32:080][  0]LogMemory: Process Physical Memory: 102.14 MB used, 102.14 MB peak
+[2019.07.03-18.50.32:080][  0]LogMemory: Process Virtual Memory: 90.47 MB used, 90.47 MB peak
+[2019.07.03-18.50.32:080][  0]LogMemory: Physical Memory: 5388.11 MB used,  10942.22 MB free, 16330.33 MB total
+[2019.07.03-18.50.32:080][  0]LogMemory: Virtual Memory: 4642.10 MB used,  10942.22 MB free, 134217728.00 MB total
+[2019.07.03-18.50.32:094][  0]LogInit: Overriding language with editor language configuration option (en).
+[2019.07.03-18.50.32:094][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2019.07.03-18.50.32:414][  0]LogStreaming: Display: Took  0.320s to InitEngineTextLocalization.
+[2019.07.03-18.50.32:414][  0]LogInit: Setting process to per monitor DPI aware
+[2019.07.03-18.50.32:441][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.07.03-18.50.32:441][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.07.03-18.50.32:612][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.07.03-18.50.32:612][  0]LogD3D11RHI: D3D11 adapters:
+[2019.07.03-18.50.32:667][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050 Ti' (Feature Level 11_0)
+[2019.07.03-18.50.32:667][  0]LogD3D11RHI:       4018/0/8165 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.07.03-18.50.32:669][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.07.03-18.50.32:669][  0]LogD3D11RHI:       0/0/8165 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.07.03-18.50.32:669][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.07.03-18.50.32:675][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.07.03-18.50.32:675][  0]LogD3D11RHI:     GPU DeviceId: 0x1c82 (for the marketing name, search the web for "GPU Device Id")
+[2019.07.03-18.50.32:675][  0]LogWindows: EnumDisplayDevices:
+[2019.07.03-18.50.32:675][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1050 Ti' (P:1 D:1)
+[2019.07.03-18.50.32:676][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2019.07.03-18.50.32:676][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2019.07.03-18.50.32:676][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2019.07.03-18.50.32:676][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.07.03-18.50.32:676][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050 Ti
+[2019.07.03-18.50.32:676][  0]LogD3D11RHI:   Driver Version: 430.86 (internal:26.21.14.3086, unified:430.86)
+[2019.07.03-18.50.32:676][  0]LogD3D11RHI:      Driver Date: 5-22-2019
+[2019.07.03-18.50.32:676][  0]LogRHI: Texture pool is 2812 MB (70% of 4018 MB)
+[2019.07.03-18.50.32:719][  0]LogD3D11RHI: Async texture creation enabled
+[2019.07.03-18.50.32:740][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.07.03-18.50.32:790][  0]LogShaderCompilers: Guid format shader working directory is -3 characters bigger than the processId version (../../../../../../Users/Keigo/Desktop/AReproposta/Intermediate/Shaders/WorkingDirectory/8444/).
+[2019.07.03-18.50.32:790][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Keigo/AppData/Local/Temp/UnrealShaderWorkingDir/B05406B04845F23DCF5A50812FD6BB54/'.
+[2019.07.03-18.50.33:061][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.07.03-18.50.33:073][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.07.03-18.50.33:086][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.07.03-18.50.33:099][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.07.03-18.50.33:111][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.07.03-18.50.33:122][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.07.03-18.50.33:133][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.07.03-18.50.33:145][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.07.03-18.50.33:151][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.07.03-18.50.33:217][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.03-18.50.33:217][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.03-18.50.33:217][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.03-18.50.33:217][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.03-18.50.33:217][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.03-18.50.33:217][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.03-18.50.33:217][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.03-18.50.33:217][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.03-18.50.33:217][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.03-18.50.33:217][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.03-18.50.33:217][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.03-18.50.33:217][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.03-18.50.33:217][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.03-18.50.33:217][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.03-18.50.33:217][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.03-18.50.33:217][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.03-18.50.33:217][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.03-18.50.33:217][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.03-18.50.33:218][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.07.03-18.50.33:274][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.07.03-18.50.33:274][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.07.03-18.50.33:294][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.07.03-18.50.33:294][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.07.03-18.50.33:304][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.07.03-18.50.33:322][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.07.03-18.50.33:339][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.07.03-18.50.33:350][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.07.03-18.50.33:357][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.07.03-18.50.33:357][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.07.03-18.50.33:405][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.07.03-18.50.33:405][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.07.03-18.50.33:405][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.07.03-18.50.34:052][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.07.03-18.50.34:106][  0]LogDerivedDataCache: Loaded boot cache 0.05s 71MB C:/Users/Keigo/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.07.03-18.50.34:106][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Keigo/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.07.03-18.50.34:106][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Keigo/Desktop/AReproposta/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.07.03-18.50.34:106][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.07.03-18.50.34:106][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Keigo/Desktop/AReproposta/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.07.03-18.50.34:106][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.07.03-18.50.34:121][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.07.03-18.50.34:133][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Keigo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.07.03-18.50.34:133][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.07.03-18.50.34:133][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.07.03-18.50.34:149][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.07.03-18.50.34:150][  0]LogSlate: Using FreeType 2.6.0
+[2019.07.03-18.50.34:151][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.07.03-18.50.34:217][  0]LogAssetRegistry: FAssetRegistry took 0.0252 seconds to start up
+[2019.07.03-18.50.34:536][  0]LogInit: Selected Device Profile: [Windows]
+[2019.07.03-18.50.34:648][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.07.03-18.50.34:651][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.07.03-18.50.34:651][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.07.03-18.50.34:651][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.07.03-18.50.34:651][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.07.03-18.50.34:666][  0]LogNetVersion: AReporpostaProj 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3188191889)
+[2019.07.03-18.50.35:107][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 1 prioritized culture(s) in 0.061177 seconds
+[2019.07.03-18.50.35:114][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.07.03-18.50.35:114][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2019.07.03-18.50.35:114][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.07.03-18.50.35:952][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.07.03-18.50.35:964][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.07.03-18.50.36:112][  0]SourceControl: Source control is disabled
+[2019.07.03-18.50.37:054][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.07.03-18.50.37:137][  0]LogOcInput: OculusInput pre-init called
+[2019.07.03-18.50.37:191][  0]LogEngine: Initializing Engine...
+[2019.07.03-18.50.37:192][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.07.03-18.50.37:194][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.07.03-18.50.37:194][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.07.03-18.50.37:194][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.07.03-18.50.37:194][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.07.03-18.50.37:407][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.07.03-18.50.37:428][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.07.03-18.50.37:452][  0]LogInit: XAudio2 using 'Alto-falantes (2- Logicool G430 Gaming Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.07.03-18.50.37:481][  0]LogInit: FAudioDevice initialized.
+[2019.07.03-18.50.37:482][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.07.03-18.50.37:626][  0]LogDerivedDataCache: Saved boot cache 0.14s 71MB C:/Users/Keigo/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.07.03-18.50.37:650][  0]LogInit: Texture streaming: Enabled
+[2019.07.03-18.50.37:666][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.07.03-18.50.37:683][  0]LogInit: Transaction tracking system initialized
+[2019.07.03-18.50.37:703][  0]BlueprintLog: New page: Editor Load
+[2019.07.03-18.50.37:769][  0]LocalizationService: Localization service is disabled
+[2019.07.03-18.50.38:028][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.07.03-18.50.38:028][  0]LogCook: Display: Mobile HDR setting 1
+[2019.07.03-18.50.38:028][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.07.03-18.50.38:028][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.07.03-18.50.38:028][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.07.03-18.50.38:028][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.07.03-18.50.38:028][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.07.03-18.50.38:150][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Keigo/Desktop/AReproposta/Content/' took 0.02s
+[2019.07.03-18.50.38:150][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Keigo/Desktop/AReproposta/Content/Map/Fase01.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.07.03-18.50.38:154][  0]LightingResults: New page: Lighting Build
+[2019.07.03-18.50.38:157][  0]MapCheck: New page: Map Check
+[2019.07.03-18.50.38:157][  0]LightingResults: New page: Lighting Build
+[2019.07.03-18.50.40:221][  0]LogAIModule: Creating AISystem for world Fase01
+[2019.07.03-18.50.40:233][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.07.03-18.50.40:259][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.07.03-18.50.40:344][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 84.035ms to complete.
+[2019.07.03-18.50.40:344][  0]LogFileHelpers: Loading map 'Fase01' took 2.194
+[2019.07.03-18.50.40:480][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.03-18.50.40:490][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.03-18.50.40:500][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.03-18.50.40:511][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.03-18.50.40:527][  0]LogCollectionManager: Loaded 0 collections in 0.001808 seconds
+[2019.07.03-18.50.40:587][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Keigo/Desktop/AReproposta/Saved/Collections/' took 0.01s
+[2019.07.03-18.50.40:587][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Keigo/Desktop/AReproposta/Content/Developers/Keigo/Collections/' took 0.01s
+[2019.07.03-18.50.40:587][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Keigo/Desktop/AReproposta/Content/Collections/' took 0.01s
+[2019.07.03-18.50.40:587][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2019.07.03-18.50.40:602][  0]LogContentBrowser: Native class hierarchy populated in 0.0151 seconds. Added 2572 classes and 603 folders.
+[2019.07.03-18.50.40:617][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.07.03-18.50.40:959][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.07.03-18.50.40:973][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2019.07.03-18.50.41:032][  0]LogSlate: Took 0.000257 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.07.03-18.50.41:035][  0]LogSlate: Took 0.000180 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.07.03-18.50.41:047][  0]LogSlate: Took 0.004844 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.07.03-18.50.41:147][  0]LogRenderer: Reallocating scene render targets to support 1300x628 Format 10 NumSamples 1 (Frame:1).
+[2019.07.03-18.50.41:332][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.07.03-18.50.41:333][  0]LogLoad: (Engine Initialization) Total time: 10.79 seconds
+[2019.07.03-18.50.41:333][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.07.03-18.50.41:362][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.07.03-18.50.41:390][  0]LogSlate: Took 0.004861 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.07.03-18.50.42:363][106]LogSlate: Took 0.000139 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.07.03-18.50.45:646][498]LogAssetRegistry: Asset discovery search completed in 11.4518 seconds
+[2019.07.03-18.50.45:647][498]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.07.03-18.50.45:647][498]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000042 seconds (updated 0 objects)
+[2019.07.03-18.50.52:233][284]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.03-18.50.55:598][596]LogLinker: Warning: Can't find file '/Game/Inimigos/AI/Teste(Melee)/Spawn_Melee01'
+[2019.07.03-18.50.55:598][596]LogLinker: Warning: Can't find file for asset '/Game/Inimigos/AI/Teste(Melee)/Spawn_Melee01' while loading ../../../../../../Users/Keigo/Desktop/AReproposta/Content/Map/Fase_Ceu1.umap.
+[2019.07.03-18.50.55:598][596]LoadErrors: Error: /Game/Map/Fase_Ceu1 : Can't find file for asset. /Game/Inimigos/AI/Teste(Melee)/Spawn_Melee01
+[2019.07.03-18.50.55:687][596]LogLinker: Warning: Can't find file '/Game/Inimigos/AI/Teste(Melee)/Spawn_Melee01'
+[2019.07.03-18.50.55:687][596]LogLinker: Warning: Can't find file for asset '/Game/Inimigos/AI/Teste(Melee)/Spawn_Melee01' while loading ../../../../../../Users/Keigo/Desktop/AReproposta/Content/Map/Fase_Ceu1.umap.
+[2019.07.03-18.50.55:691][596]LogLinker: Warning: Can't find file '/Game/Inimigos/AI/Teste(Melee)/Spawn_Melee01'
+[2019.07.03-18.50.55:691][596]LogLinker: Warning: Can't find file for asset '/Game/Inimigos/AI/Teste(Melee)/Spawn_Melee01' while loading ../../../../../../Users/Keigo/Desktop/AReproposta/Content/Map/Fase_Ceu1.umap.
+[2019.07.03-18.50.55:692][596]LogLinker: Warning: Can't find file '/Game/Inimigos/AI/Teste(Melee)/Spawn_Melee01'
+[2019.07.03-18.50.55:692][596]LogLinker: Warning: Can't find file for asset '/Game/Inimigos/AI/Teste(Melee)/Spawn_Melee01' while loading NULL.
+[2019.07.03-18.50.55:692][596]LogLinker: Warning: Can't find file '/Game/Inimigos/AI/Teste(Melee)/Spawn_Melee01'
+[2019.07.03-18.50.55:692][596]LogLinker: Warning: Can't find file for asset '/Game/Inimigos/AI/Teste(Melee)/Spawn_Melee01' while loading NULL.
+[2019.07.03-18.50.55:693][596]LogLinker: Warning: Can't find file '/Game/Inimigos/AI/Teste(Melee)/Spawn_Melee01'
+[2019.07.03-18.50.55:693][596]LogLinker: Warning: Can't find file for asset '/Game/Inimigos/AI/Teste(Melee)/Spawn_Melee01' while loading NULL.
+[2019.07.03-18.50.55:703][596]LogLinker: Warning: Can't find file '/Game/Inimigos/AI/Teste(Melee)/Spawn_Melee01'
+[2019.07.03-18.50.55:703][596]LogLinker: Warning: Can't find file for asset '/Game/Inimigos/AI/Teste(Melee)/Spawn_Melee01' while loading NULL.
+[2019.07.03-18.50.55:703][596]LogLinker: Warning: Can't find file '/Game/Inimigos/AI/Teste(Melee)/Spawn_Melee01'
+[2019.07.03-18.50.55:703][596]LogLinker: Warning: Can't find file for asset '/Game/Inimigos/AI/Teste(Melee)/Spawn_Melee01' while loading NULL.
+[2019.07.03-18.50.56:032][596]LogMaterial: Display: Missing cached shader map for material M_Melee, compiling. 
+[2019.07.03-18.50.56:190][596]LogShaderCompilers: Display: Shaders left to compile 60
+[2019.07.03-18.50.56:190][596]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.07.03-18.50.56:190][596]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.07.03-18.50.56:190][596]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.07.03-18.50.56:190][596]LogAIModule: Creating AISystem for world Fase_Ceu1
+[2019.07.03-18.50.56:214][596]LogAssetEditorManager: Opening Asset editor for World /Game/Map/Fase_Ceu1.Fase_Ceu1
+[2019.07.03-18.50.56:239][596]Cmd: MAP LOAD FILE="../../../../../../Users/Keigo/Desktop/AReproposta/Content/Map/Fase_Ceu1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.07.03-18.50.56:239][596]LightingResults: New page: Lighting Build
+[2019.07.03-18.50.56:239][596]LoadErrors: New page: Loading map: Fase_Ceu1.umap
+[2019.07.03-18.50.56:240][596]MapCheck: New page: Map Check
+[2019.07.03-18.50.56:240][596]LightingResults: New page: Lighting Build
+[2019.07.03-18.50.56:274][596]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.07.03-18.50.56:338][596]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.07.03-18.50.56:422][596]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 83.865ms to complete.
+[2019.07.03-18.50.56:423][596]LogFileHelpers: Loading map 'Fase_Ceu1' took 0.186
+[2019.07.03-18.50.56:482][596]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'DefaultSceneRoot': Spawn_Melee01_C /Game/Map/Fase_Ceu1.Fase_Ceu1:PersistentLevel.Spawn_Melee01_2
+[2019.07.03-18.50.59:090][826]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.07.03-18.50.59:924][902]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.07.03-18.51.00:485][955]LogTemp: Repeating last play command: Selected Viewport
+[2019.07.03-18.51.00:528][955]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/Fase_Ceu1.Fase_Ceu1:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Fase_Ceu1.Fase_Ceu1:PersistentLevel.Fase_Ceu1' with GeneratedClass '/Game/Map/Fase_Ceu1.Fase_Ceu1_C' with ClassGeneratedBy '/Game/Map/Fase_Ceu1.Fase_Ceu1:PersistentLevel.Fase_Ceu1'
+[2019.07.03-18.51.00:528][955]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.03-18.51.00:542][955]PIE: New page: PIE session: Fase_Ceu1 (Jul 3, 2019, 12:51:00 PM)
+[2019.07.03-18.51.00:542][955]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_Fase_Ceu1
+[2019.07.03-18.51.00:552][955]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009549s)
+[2019.07.03-18.51.00:552][955]LogAIModule: Creating AISystem for world Fase_Ceu1
+[2019.07.03-18.51.00:553][955]LogPlayLevel: PIE: World Init took: (0.000860s)
+[2019.07.03-18.51.00:553][955]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/Fase_Ceu1.Fase_Ceu1 to /Game/Map/UEDPIE_0_Fase_Ceu1.Fase_Ceu1 (0.010637s)
+[2019.07.03-18.51.00:600][955]LogInit: XAudio2 using 'Alto-falantes (2- Logicool G430 Gaming Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.07.03-18.51.00:615][955]LogInit: FAudioDevice initialized.
+[2019.07.03-18.51.00:665][955]LogLoad: Game class is 'GameMode_BP_C'
+[2019.07.03-18.51.00:669][955]LogWorld: Bringing World /Game/Map/UEDPIE_0_Fase_Ceu1.Fase_Ceu1 up for play (max tick rate 0) at 2019.07.03-15.51.00
+[2019.07.03-18.51.00:681][955]LogWorld: Bringing up level for play took: 0.013916
+[2019.07.03-18.51.00:701][955]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 10 classes and 0 folders.
+[2019.07.03-18.51.00:717][955]PIE: Play in editor start time for /Game/Map/UEDPIE_0_Fase_Ceu1 -0.583
+[2019.07.03-18.51.00:717][955]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/Fase_Ceu1.Fase_Ceu1:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Fase_Ceu1.Fase_Ceu1:PersistentLevel.Fase_Ceu1' with GeneratedClass '/Game/Map/Fase_Ceu1.Fase_Ceu1_C' with ClassGeneratedBy '/Game/Map/Fase_Ceu1.Fase_Ceu1:PersistentLevel.Fase_Ceu1'
+[2019.07.03-18.51.00:719][955]LogScript: Warning: Accessed None trying to read property Target2
+	Boss_BP_C /Game/Map/UEDPIE_0_Fase_Ceu1.Fase_Ceu1:PersistentLevel.Boss_BP_2
+	Function /Game/Inimigos/Boss/Boss_BP.Boss_BP_C:ExecuteUbergraph_Boss_BP:2F22
+[2019.07.03-18.51.00:719][955]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Target2". Blueprint:  Boss_BP Function:  Execute Ubergraph Boss BP Graph:  EventGraph Node:  SetActorLocation
+[2019.07.03-18.51.00:719][955]LogScript: Warning: Accessed None trying to read property Target1
+	Boss_BP_C /Game/Map/UEDPIE_0_Fase_Ceu1.Fase_Ceu1:PersistentLevel.Boss_BP_2
+	Function /Game/Inimigos/Boss/Boss_BP.Boss_BP_C:ExecuteUbergraph_Boss_BP:2F54
+[2019.07.03-18.51.00:719][955]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Target1". Blueprint:  Boss_BP Function:  Execute Ubergraph Boss BP Graph:  EventGraph Node:  SetActorLocation
+[2019.07.03-18.51.00:730][955]LogAudio: Warning: Detected orphaned looping sound 'Fase01_Sound'.
+[2019.07.03-18.51.01:372][956]LogScript: Warning: Accessed None trying to read property Target2
+	Boss_BP_C /Game/Map/UEDPIE_0_Fase_Ceu1.Fase_Ceu1:PersistentLevel.Boss_BP_2
+	Function /Game/Inimigos/Boss/Boss_BP.Boss_BP_C:ExecuteUbergraph_Boss_BP:2F22
+[2019.07.03-18.51.01:373][956]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Target2". Blueprint:  Boss_BP Function:  Execute Ubergraph Boss BP Graph:  EventGraph Node:  SetActorLocation
+[2019.07.03-18.51.01:373][956]LogScript: Warning: Accessed None trying to read property Target1
+	Boss_BP_C /Game/Map/UEDPIE_0_Fase_Ceu1.Fase_Ceu1:PersistentLevel.Boss_BP_2
+	Function /Game/Inimigos/Boss/Boss_BP.Boss_BP_C:ExecuteUbergraph_Boss_BP:2F54
+[2019.07.03-18.51.01:373][956]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Target1". Blueprint:  Boss_BP Function:  Execute Ubergraph Boss BP Graph:  EventGraph Node:  SetActorLocation
+[2019.07.03-18.51.01:387][957]LogScript: Warning: Accessed None trying to read property Target2
+	Boss_BP_C /Game/Map/UEDPIE_0_Fase_Ceu1.Fase_Ceu1:PersistentLevel.Boss_BP_2
+	Function /Game/Inimigos/Boss/Boss_BP.Boss_BP_C:ExecuteUbergraph_Boss_BP:2F22
+[2019.07.03-18.51.01:388][957]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Target2". Blueprint:  Boss_BP Function:  Execute Ubergraph Boss BP Graph:  EventGraph Node:  SetActorLocation
+[2019.07.03-18.51.01:388][957]LogScript: Warning: Accessed None trying to read property Target1
+	Boss_BP_C /Game/Map/UEDPIE_0_Fase_Ceu1.Fase_Ceu1:PersistentLevel.Boss_BP_2
+	Function /Game/Inimigos/Boss/Boss_BP.Boss_BP_C:ExecuteUbergraph_Boss_BP:2F54
+[2019.07.03-18.51.01:388][957]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Target1". Blueprint:  Boss_BP Function:  Execute Ubergraph Boss BP Graph:  EventGraph Node:  SetActorLocation
+[2019.07.03-18.51.01:446][958]LogScript: Warning: Accessed None trying to read property Target2
+	Boss_BP_C /Game/Map/UEDPIE_0_Fase_Ceu1.Fase_Ceu1:PersistentLevel.Boss_BP_2
+	Function /Game/Inimigos/Boss/Boss_BP.Boss_BP_C:ExecuteUbergraph_Boss_BP:2F22
+[2019.07.03-18.51.01:446][958]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Target2". Blueprint:  Boss_BP Function:  Execute Ubergraph Boss BP Graph:  EventGraph Node:  SetActorLocation
+[2019.07.03-18.51.01:446][958]LogScript: Warning: Accessed None trying to read property Target1
+	Boss_BP_C /Game/Map/UEDPIE_0_Fase_Ceu1.Fase_Ceu1:PersistentLevel.Boss_BP_2
+	Function /Game/Inimigos/Boss/Boss_BP.Boss_BP_C:ExecuteUbergraph_Boss_BP:2F54
+[2019.07.03-18.51.01:446][958]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Target1". Blueprint:  Boss_BP Function:  Execute Ubergraph Boss BP Graph:  EventGraph Node:  SetActorLocation
+[2019.07.03-18.51.01:525][959]LogScript: Warning: Accessed None trying to read property Target2
+	Boss_BP_C /Game/Map/UEDPIE_0_Fase_Ceu1.Fase_Ceu1:PersistentLevel.Boss_BP_2
+	Function /Game/Inimigos/Boss/Boss_BP.Boss_BP_C:ExecuteUbergraph_Boss_BP:2F22
+[2019.07.03-18.51.01:525][959]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Target2". Blueprint:  Boss_BP Function:  Execute Ubergraph Boss BP Graph:  EventGraph Node:  SetActorLocation
+[2019.07.03-18.51.01:525][959]LogScript: Warning: Accessed None trying to read property Target1
+	Boss_BP_C /Game/Map/UEDPIE_0_Fase_Ceu1.Fase_Ceu1:PersistentLevel.Boss_BP_2
+	Function /Game/Inimigos/Boss/Boss_BP.Boss_BP_C:ExecuteUbergraph_Boss_BP:2F54
+[2019.07.03-18.51.01:525][959]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Target1". Blueprint:  Boss_BP Function:  Execute Ubergraph Boss BP Graph:  EventGraph Node:  SetActorLocation
+[2019.07.03-18.51.01:602][960]LogScript: Warning: Accessed None trying to read property Target2
+	Boss_BP_C /Game/Map/UEDPIE_0_Fase_Ceu1.Fase_Ceu1:PersistentLevel.Boss_BP_2
+	Function /Game/Inimigos/Boss/Boss_BP.Boss_BP_C:ExecuteUbergraph_Boss_BP:2F22
+[2019.07.03-18.51.01:603][960]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Target2". Blueprint:  Boss_BP Function:  Execute Ubergraph Boss BP Graph:  EventGraph Node:  SetActorLocation
+[2019.07.03-18.51.01:603][960]LogScript: Warning: Accessed None trying to read property Target1
+	Boss_BP_C /Game/Map/UEDPIE_0_Fase_Ceu1.Fase_Ceu1:PersistentLevel.Boss_BP_2
+	Function /Game/Inimigos/Boss/Boss_BP.Boss_BP_C:ExecuteUbergraph_Boss_BP:2F54
+[2019.07.03-18.51.01:603][960]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Target1". Blueprint:  Boss_BP Function:  Execute Ubergraph Boss BP Graph:  EventGraph Node:  SetActorLocation
+[2019.07.03-18.51.01:624][961]LogScript: Warning: Accessed None trying to read property Target2
+	Boss_BP_C /Game/Map/UEDPIE_0_Fase_Ceu1.Fase_Ceu1:PersistentLevel.Boss_BP_2
+	Function /Game/Inimigos/Boss/Boss_BP.Boss_BP_C:ExecuteUbergraph_Boss_BP:2F22
+[2019.07.03-18.51.01:625][961]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Target2". Blueprint:  Boss_BP Function:  Execute Ubergraph Boss BP Graph:  EventGraph Node:  SetActorLocation
+[2019.07.03-18.51.01:625][961]LogScript: Warning: Accessed None trying to read property Target1
+	Boss_BP_C /Game/Map/UEDPIE_0_Fase_Ceu1.Fase_Ceu1:PersistentLevel.Boss_BP_2
+	Function /Game/Inimigos/Boss/Boss_BP.Boss_BP_C:ExecuteUbergraph_Boss_BP:2F54
+[2019.07.03-18.51.01:625][961]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Target1". Blueprint:  Boss_BP Function:  Execute Ubergraph Boss BP Graph:  EventGraph Node:  SetActorLocation
+[2019.07.03-18.51.01:640][962]LogScript: Warning: Accessed None trying to read property Target2
+	Boss_BP_C /Game/Map/UEDPIE_0_Fase_Ceu1.Fase_Ceu1:PersistentLevel.Boss_BP_2
+	Function /Game/Inimigos/Boss/Boss_BP.Boss_BP_C:ExecuteUbergraph_Boss_BP:2F22
+[2019.07.03-18.51.01:641][962]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Target2". Blueprint:  Boss_BP Function:  Execute Ubergraph Boss BP Graph:  EventGraph Node:  SetActorLocation
+[2019.07.03-18.51.01:641][962]LogScript: Warning: Accessed None trying to read property Target1
+	Boss_BP_C /Game/Map/UEDPIE_0_Fase_Ceu1.Fase_Ceu1:PersistentLevel.Boss_BP_2
+	Function /Game/Inimigos/Boss/Boss_BP.Boss_BP_C:ExecuteUbergraph_Boss_BP:2F54
+[2019.07.03-18.51.01:641][962]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Target1". Blueprint:  Boss_BP Function:  Execute Ubergraph Boss BP Graph:  EventGraph Node:  SetActorLocation
+[2019.07.03-18.51.01:656][963]LogScript: Warning: Accessed None trying to read property Target2
+	Boss_BP_C /Game/Map/UEDPIE_0_Fase_Ceu1.Fase_Ceu1:PersistentLevel.Boss_BP_2
+	Function /Game/Inimigos/Boss/Boss_BP.Boss_BP_C:ExecuteUbergraph_Boss_BP:2F22
+[2019.07.03-18.51.01:657][963]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Target2". Blueprint:  Boss_BP Function:  Execute Ubergraph Boss BP Graph:  EventGraph Node:  SetActorLocation
+[2019.07.03-18.51.01:657][963]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Target1". Blueprint:  Boss_BP Function:  Execute Ubergraph Boss BP Graph:  EventGraph Node:  SetActorLocation
+[2019.07.03-18.51.01:670][964]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Target2". Blueprint:  Boss_BP Function:  Execute Ubergraph Boss BP Graph:  EventGraph Node:  SetActorLocation
+[2019.07.03-18.51.01:670][964]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Target1". Blueprint:  Boss_BP Function:  Execute Ubergraph Boss BP Graph:  EventGraph Node:  SetActorLocation
+[2019.07.03-18.51.01:681][965]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Target2". Blueprint:  Boss_BP Function:  Execute Ubergraph Boss BP Graph:  EventGraph Node:  SetActorLocation
+[2019.07.03-18.51.01:682][965]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Target1". Blueprint:  Boss_BP Function:  Execute Ubergraph Boss BP Graph:  EventGraph Node:  SetActorLocation
+[2019.07.03-18.51.01:696][966]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Target2". Blueprint:  Boss_BP Function:  Execute Ubergraph Boss BP Graph:  EventGraph Node:  SetActorLocation
+[2019.07.03-18.51.01:696][966]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Target1". Blueprint:  Boss_BP Function:  Execute Ubergraph Boss BP Graph:  EventGraph Node:  SetActorLocation
+[2019.07.03-18.51.01:708][967]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Target2". Blueprint:  Boss_BP Function:  Execute Ubergraph Boss BP Graph:  EventGraph Node:  SetActorLocation
+[2019.07.03-18.51.01:708][967]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Target1". Blueprint:  Boss_BP Function:  Execute Ubergraph Boss BP Graph:  EventGraph Node:  SetActorLocation
+[2019.07.03-18.51.01:719][968]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Target2". Blueprint:  Boss_BP Function:  Execute Ubergraph Boss BP Graph:  EventGraph Node:  SetActorLocation
+[2019.07.03-18.51.01:720][968]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Target1". Blueprint:  Boss_BP Function:  Execute Ubergraph Boss BP Graph:  EventGraph Node:  SetActorLocation
+[2019.07.03-18.51.01:731][969]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Target2". Blueprint:  Boss_BP Function:  Execute Ubergraph Boss BP Graph:  EventGraph Node:  SetActorLocation
+[2019.07.03-18.51.01:731][969]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Target1". Blueprint:  Boss_BP Function:  Execute Ubergraph Boss BP Graph:  EventGraph Node:  SetActorLocation
+[2019.07.03-18.51.01:742][970]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Target2". Blueprint:  Boss_BP Function:  Execute Ubergraph Boss BP Graph:  EventGraph Node:  SetActorLocation
+[2019.07.03-18.51.01:742][970]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Target1". Blueprint:  Boss_BP Function:  Execute Ubergraph Boss BP Graph:  EventGraph Node:  SetActorLocation
+[2019.07.03-18.51.01:751][971]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Target2". Blueprint:  Boss_BP Function:  Execute Ubergraph Boss BP Graph:  EventGraph Node:  SetActorLocation
+[2019.07.03-18.51.01:751][971]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Target1". Blueprint:  Boss_BP Function:  Execute Ubergraph Boss BP Graph:  EventGraph Node:  SetActorLocation
+[2019.07.03-18.51.01:764][972]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Target2". Blueprint:  Boss_BP Function:  Execute Ubergraph Boss BP Graph:  EventGraph Node:  SetActorLocation
+[2019.07.03-18.51.01:764][972]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Target1". Blueprint:  Boss_BP Function:  Execute Ubergraph Boss BP Graph:  EventGraph Node:  SetActorLocation
+[2019.07.03-18.51.01:775][973]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Target2". Blueprint:  Boss_BP Function:  Execute Ubergraph Boss BP Graph:  EventGraph Node:  SetActorLocation
+[2019.07.03-18.51.01:775][973]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Target1". Blueprint:  Boss_BP Function:  Execute Ubergraph Boss BP Graph:  EventGraph Node:  SetActorLocation
+[2019.07.03-18.51.01:786][974]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Target2". Blueprint:  Boss_BP Function:  Execute Ubergraph Boss BP Graph:  EventGraph Node:  SetActorLocation
+[2019.07.03-18.51.01:786][974]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Target1". Blueprint:  Boss_BP Function:  Execute Ubergraph Boss BP Graph:  EventGraph Node:  SetActorLocation
+[2019.07.03-18.51.01:798][975]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Target2". Blueprint:  Boss_BP Function:  Execute Ubergraph Boss BP Graph:  EventGraph Node:  SetActorLocation
+[2019.07.03-18.51.01:798][975]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Target1". Blueprint:  Boss_BP Function:  Execute Ubergraph Boss BP Graph:  EventGraph Node:  SetActorLocation
+[2019.07.03-18.51.01:808][976]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Target2". Blueprint:  Boss_BP Function:  Execute Ubergraph Boss BP Graph:  EventGraph Node:  SetActorLocation
+[2019.07.03-18.51.01:808][976]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Target1". Blueprint:  Boss_BP Function:  Execute Ubergraph Boss BP Graph:  EventGraph Node:  SetActorLocation
+[2019.07.03-18.51.01:818][977]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Target2". Blueprint:  Boss_BP Function:  Execute Ubergraph Boss BP Graph:  EventGraph Node:  SetActorLocation
+[2019.07.03-18.51.01:818][977]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Target1". Blueprint:  Boss_BP Function:  Execute Ubergraph Boss BP Graph:  EventGraph Node:  SetActorLocation
+[2019.07.03-18.51.01:829][978]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Target2". Blueprint:  Boss_BP Function:  Execute Ubergraph Boss BP Graph:  EventGraph Node:  SetActorLocation
+[2019.07.03-18.51.01:829][978]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Target1". Blueprint:  Boss_BP Function:  Execute Ubergraph Boss BP Graph:  EventGraph Node:  SetActorLocation
+[2019.07.03-18.51.01:840][979]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Target2". Blueprint:  Boss_BP Function:  Execute Ubergraph Boss BP Graph:  EventGraph Node:  SetActorLocation
+[2019.07.03-18.51.01:840][979]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Target1". Blueprint:  Boss_BP Function:  Execute Ubergraph Boss BP Graph:  EventGraph Node:  SetActorLocation
+[2019.07.03-18.51.01:851][980]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Target2". Blueprint:  Boss_BP Function:  Execute Ubergraph Boss BP Graph:  EventGraph Node:  SetActorLocation
+[2019.07.03-18.51.01:852][980]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Target1". Blueprint:  Boss_BP Function:  Execute Ubergraph Boss BP Graph:  EventGraph Node:  SetActorLocation
+[2019.07.03-18.51.01:861][981]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Target2". Blueprint:  Boss_BP Function:  Execute Ubergraph Boss BP Graph:  EventGraph Node:  SetActorLocation
+[2019.07.03-18.51.01:861][981]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Target1". Blueprint:  Boss_BP Function:  Execute Ubergraph Boss BP Graph:  EventGraph Node:  SetActorLocation
+[2019.07.03-18.51.01:873][982]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Target2". Blueprint:  Boss_BP Function:  Execute Ubergraph Boss BP Graph:  EventGraph Node:  SetActorLocation
+[2019.07.03-18.51.01:873][982]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Target1". Blueprint:  Boss_BP Function:  Execute Ubergraph Boss BP Graph:  EventGraph Node:  SetActorLocation
+[2019.07.03-18.51.01:883][983]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Target2". Blueprint:  Boss_BP Function:  Execute Ubergraph Boss BP Graph:  EventGraph Node:  SetActorLocation
+[2019.07.03-18.51.01:884][983]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Target1". Blueprint:  Boss_BP Function:  Execute Ubergraph Boss BP Graph:  EventGraph Node:  SetActorLocation
+[2019.07.03-18.51.01:894][984]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Target2". Blueprint:  Boss_BP Function:  Execute Ubergraph Boss BP Graph:  EventGraph Node:  SetActorLocation
+[2019.07.03-18.51.01:895][984]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Target1". Blueprint:  Boss_BP Function:  Execute Ubergraph Boss BP Graph:  EventGraph Node:  SetActorLocation
+[2019.07.03-18.51.01:903][985]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Target2". Blueprint:  Boss_BP Function:  Execute Ubergraph Boss BP Graph:  EventGraph Node:  SetActorLocation
+[2019.07.03-18.51.01:904][985]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Target1". Blueprint:  Boss_BP Function:  Execute Ubergraph Boss BP Graph:  EventGraph Node:  SetActorLocation
+[2019.07.03-18.51.01:913][986]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Target2". Blueprint:  Boss_BP Function:  Execute Ubergraph Boss BP Graph:  EventGraph Node:  SetActorLocation
+[2019.07.03-18.51.01:914][986]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Target1". Blueprint:  Boss_BP Function:  Execute Ubergraph Boss BP Graph:  EventGraph Node:  SetActorLocation
+[2019.07.03-18.51.01:925][987]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Target2". Blueprint:  Boss_BP Function:  Execute Ubergraph Boss BP Graph:  EventGraph Node:  SetActorLocation
+[2019.07.03-18.51.01:925][987]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Target1". Blueprint:  Boss_BP Function:  Execute Ubergraph Boss BP Graph:  EventGraph Node:  SetActorLocation
+[2019.07.03-18.51.01:935][988]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Target2". Blueprint:  Boss_BP Function:  Execute Ubergraph Boss BP Graph:  EventGraph Node:  SetActorLocation
+[2019.07.03-18.51.01:935][988]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Target1". Blueprint:  Boss_BP Function:  Execute Ubergraph Boss BP Graph:  EventGraph Node:  SetActorLocation
+[2019.07.03-18.51.01:947][989]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Target2". Blueprint:  Boss_BP Function:  Execute Ubergraph Boss BP Graph:  EventGraph Node:  SetActorLocation
+[2019.07.03-18.51.01:947][989]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Target1". Blueprint:  Boss_BP Function:  Execute Ubergraph Boss BP Graph:  EventGraph Node:  SetActorLocation
+[2019.07.03-18.51.01:957][990]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Target2". Blueprint:  Boss_BP Function:  Execute Ubergraph Boss BP Graph:  EventGraph Node:  SetActorLocation
+[2019.07.03-18.51.01:958][990]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Target1". Blueprint:  Boss_BP Function:  Execute Ubergraph Boss BP Graph:  EventGraph Node:  SetActorLocation
+[2019.07.03-18.51.01:968][991]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Target2". Blueprint:  Boss_BP Function:  Execute Ubergraph Boss BP Graph:  EventGraph Node:  SetActorLocation
+[2019.07.03-18.51.01:968][991]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Target1". Blueprint:  Boss_BP Function:  Execute Ubergraph Boss BP Graph:  EventGraph Node:  SetActorLocation
+[2019.07.03-18.51.04:702][292]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/Fase_Ceu1.Fase_Ceu1:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Fase_Ceu1.Fase_Ceu1:PersistentLevel.Fase_Ceu1' with GeneratedClass '/Game/Map/Fase_Ceu1.Fase_Ceu1_C' with ClassGeneratedBy '/Game/Map/Fase_Ceu1.Fase_Ceu1:PersistentLevel.Fase_Ceu1'
+[2019.07.03-18.51.04:703][292]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.03-18.51.04:737][292]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.03-18.51.04:738][292]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/Fase_Ceu1.Fase_Ceu1:PersistentLevel' has LevelScriptBlueprint '/Game/Map/Fase_Ceu1.Fase_Ceu1:PersistentLevel.Fase_Ceu1' with GeneratedClass '/Game/Map/Fase_Ceu1.Fase_Ceu1_C' with ClassGeneratedBy '/Game/Map/Fase_Ceu1.Fase_Ceu1:PersistentLevel.Fase_Ceu1'
+[2019.07.03-18.51.04:757][292]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.03-18.51.04:802][294]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2019.07.03-18.51.07:519][613]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.03-18.51.12:631][ 77]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Inimigos/Boss/Boss_BP.Boss_BP
+[2019.07.03-18.51.13:043][ 77]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 116 classes and 0 folders.
+[2019.07.03-18.51.15:165][215]LogSlate: Took 0.006233 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.07.03-18.51.15:444][216]LogSlate: Took 0.004278 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.07.03-18.51.20:781][701]LogSlate: Window 'Message Log' being destroyed
+[2019.07.03-18.51.20:785][701]LogSlate: Window 'Message Log' being destroyed
+[2019.07.03-18.51.33:686][207]LogSlate: Window 'AReporpostaProj - Unreal Editor' being destroyed
+[2019.07.03-18.51.33:687][207]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.07.03-18.51.33:889][208]Cmd: QUIT_EDITOR
+[2019.07.03-18.51.34:933][208]LogExit: Preparing to exit.
+[2019.07.03-18.51.36:049][208]LogExit: Editor shut down
+[2019.07.03-18.51.36:049][208]LogExit: Transaction tracking system shut down
+[2019.07.03-18.51.36:693][208]LogExit: Object subsystem successfully closed.
+[2019.07.03-18.51.36:705][208]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.07.03-18.51.36:708][208]LogD3D11RHI: Shutdown
+[2019.07.03-18.51.36:708][208]LogD3D11RHI: CleanupD3DDevice
+[2019.07.03-18.51.36:709][208]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.07.03-18.51.36:724][208]LogModuleManager: Shutting down and abandoning module BlueprintGraph (616)
+[2019.07.03-18.51.36:724][208]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (614)
+[2019.07.03-18.51.36:724][208]LogModuleManager: Shutting down and abandoning module Voice (612)
+[2019.07.03-18.51.36:724][208]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (610)
+[2019.07.03-18.51.36:724][208]LogModuleManager: Shutting down and abandoning module SceneOutliner (608)
+[2019.07.03-18.51.36:724][208]LogModuleManager: Shutting down and abandoning module AddContentDialog (606)
+[2019.07.03-18.51.36:725][208]LogModuleManager: Shutting down and abandoning module WidgetCarousel (605)
+[2019.07.03-18.51.36:725][208]LogModuleManager: Shutting down and abandoning module EditorWidgets (602)
+[2019.07.03-18.51.36:725][208]LogModuleManager: Shutting down and abandoning module CollectionManager (600)
+[2019.07.03-18.51.36:725][208]LogModuleManager: Shutting down and abandoning module StatsViewer (598)
+[2019.07.03-18.51.36:725][208]LogModuleManager: Shutting down and abandoning module FoliageEdit (596)
+[2019.07.03-18.51.36:725][208]LogModuleManager: Shutting down and abandoning module LandscapeEditor (594)
+[2019.07.03-18.51.36:725][208]LogModuleManager: Shutting down and abandoning module MeshPaintMode (592)
+[2019.07.03-18.51.36:725][208]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (590)
+[2019.07.03-18.51.36:725][208]LogModuleManager: Shutting down and abandoning module ActorPickerMode (588)
+[2019.07.03-18.51.36:725][208]LogModuleManager: Shutting down and abandoning module GeometryMode (586)
+[2019.07.03-18.51.36:725][208]LogModuleManager: Shutting down and abandoning module TextureAlignMode (584)
+[2019.07.03-18.51.36:725][208]LogModuleManager: Shutting down and abandoning module BspMode (582)
+[2019.07.03-18.51.36:726][208]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (580)
+[2019.07.03-18.51.36:726][208]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (578)
+[2019.07.03-18.51.36:726][208]LogModuleManager: Shutting down and abandoning module AutomationWorker (576)
+[2019.07.03-18.51.36:726][208]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (574)
+[2019.07.03-18.51.36:726][208]LogModuleManager: Shutting down and abandoning module SequenceRecorder (573)
+[2019.07.03-18.51.36:726][208]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (570)
+[2019.07.03-18.51.36:726][208]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (568)
+[2019.07.03-18.51.36:726][208]LogModuleManager: Shutting down and abandoning module PlacementMode (567)
+[2019.07.03-18.51.36:726][208]LogModuleManager: Shutting down and abandoning module MaterialEditor (566)
+[2019.07.03-18.51.36:726][208]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (562)
+[2019.07.03-18.51.36:726][208]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (560)
+[2019.07.03-18.51.36:726][208]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (558)
+[2019.07.03-18.51.36:726][208]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (556)
+[2019.07.03-18.51.36:726][208]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (554)
+[2019.07.03-18.51.36:726][208]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (552)
+[2019.07.03-18.51.36:726][208]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (550)
+[2019.07.03-18.51.36:726][208]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (548)
+[2019.07.03-18.51.36:726][208]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (546)
+[2019.07.03-18.51.36:726][208]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (544)
+[2019.07.03-18.51.36:726][208]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (542)
+[2019.07.03-18.51.36:726][208]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (540)
+[2019.07.03-18.51.36:726][208]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (538)
+[2019.07.03-18.51.36:726][208]LogModuleManager: Shutting down and abandoning module CharacterAI (536)
+[2019.07.03-18.51.36:727][208]LogModuleManager: Shutting down and abandoning module SmartSnapping (534)
+[2019.07.03-18.51.36:727][208]LogModuleManager: Shutting down and abandoning module SessionServices (532)
+[2019.07.03-18.51.36:727][208]LogModuleManager: Shutting down and abandoning module ViewportSnapping (530)
+[2019.07.03-18.51.36:727][208]LogModuleManager: Shutting down and abandoning module ViewportInteraction (528)
+[2019.07.03-18.51.36:727][208]LogModuleManager: Shutting down and abandoning module ClothPainter (526)
+[2019.07.03-18.51.36:727][208]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (525)
+[2019.07.03-18.51.36:727][208]LogModuleManager: Shutting down and abandoning module LogVisualizer (522)
+[2019.07.03-18.51.36:727][208]LogModuleManager: Shutting down and abandoning module IntroTutorials (520)
+[2019.07.03-18.51.36:727][208]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (519)
+[2019.07.03-18.51.36:727][208]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (516)
+[2019.07.03-18.51.36:727][208]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (514)
+[2019.07.03-18.51.36:727][208]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (512)
+[2019.07.03-18.51.36:727][208]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (510)
+[2019.07.03-18.51.36:727][208]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (509)
+[2019.07.03-18.51.36:841][208]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (506)
+[2019.07.03-18.51.36:841][208]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (504)
+[2019.07.03-18.51.36:841][208]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (502)
+[2019.07.03-18.51.36:842][208]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (500)
+[2019.07.03-18.51.36:842][208]LogModuleManager: Shutting down and abandoning module InputBindingEditor (498)
+[2019.07.03-18.51.36:842][208]LogModuleManager: Shutting down and abandoning module MergeActors (496)
+[2019.07.03-18.51.36:842][208]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (494)
+[2019.07.03-18.51.36:842][208]LogModuleManager: Shutting down and abandoning module LocalizationService (493)
+[2019.07.03-18.51.36:842][208]LogModuleManager: Shutting down and abandoning module HardwareTargeting (490)
+[2019.07.03-18.51.36:842][208]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (488)
+[2019.07.03-18.51.36:842][208]LogModuleManager: Shutting down and abandoning module UndoHistory (486)
+[2019.07.03-18.51.36:843][208]LogModuleManager: Shutting down and abandoning module XmlParser (484)
+[2019.07.03-18.51.36:843][208]LogModuleManager: Shutting down and abandoning module Blutility (482)
+[2019.07.03-18.51.36:843][208]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (480)
+[2019.07.03-18.51.36:843][208]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (479)
+[2019.07.03-18.51.36:843][208]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (476)
+[2019.07.03-18.51.36:843][208]LogModuleManager: Shutting down and abandoning module SettingsEditor (474)
+[2019.07.03-18.51.36:843][208]LogModuleManager: Shutting down and abandoning module ProjectLauncher (472)
+[2019.07.03-18.51.36:844][208]LogModuleManager: Shutting down and abandoning module SessionFrontend (470)
+[2019.07.03-18.51.36:844][208]LogModuleManager: Shutting down and abandoning module ProfilerClient (468)
+[2019.07.03-18.51.36:844][208]LogModuleManager: Shutting down and abandoning module DeviceManager (466)
+[2019.07.03-18.51.36:844][208]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (465)
+[2019.07.03-18.51.36:899][208]LogModuleManager: Shutting down and abandoning module AutomationController (462)
+[2019.07.03-18.51.36:899][208]LogModuleManager: Shutting down and abandoning module AutomationWindow (460)
+[2019.07.03-18.51.36:899][208]LogModuleManager: Shutting down and abandoning module Layers (458)
+[2019.07.03-18.51.36:899][208]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (456)
+[2019.07.03-18.51.36:899][208]LogModuleManager: Shutting down and abandoning module DetailCustomizations (454)
+[2019.07.03-18.51.36:899][208]LogModuleManager: Shutting down and abandoning module PackagesDialog (452)
+[2019.07.03-18.51.36:899][208]LogModuleManager: Shutting down and abandoning module Persona (450)
+[2019.07.03-18.51.36:899][208]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (449)
+[2019.07.03-18.51.36:900][208]LogModuleManager: Shutting down and abandoning module AnimGraph (447)
+[2019.07.03-18.51.36:900][208]LogModuleManager: Shutting down and abandoning module Kismet (444)
+[2019.07.03-18.51.36:909][208]LogModuleManager: Shutting down and abandoning module GraphEditor (442)
+[2019.07.03-18.51.36:909][208]LogModuleManager: Shutting down and abandoning module ClassViewer (440)
+[2019.07.03-18.51.36:909][208]LogModuleManager: Shutting down and abandoning module Toolbox (438)
+[2019.07.03-18.51.36:909][208]LogModuleManager: Shutting down and abandoning module ModuleUI (436)
+[2019.07.03-18.51.36:909][208]LogModuleManager: Shutting down and abandoning module MovieSceneTools (434)
+[2019.07.03-18.51.36:909][208]LogModuleManager: Shutting down and abandoning module OutputLog (432)
+[2019.07.03-18.51.36:909][208]LogModuleManager: Shutting down and abandoning module GammaUI (430)
+[2019.07.03-18.51.36:909][208]LogModuleManager: Shutting down and abandoning module Documentation (428)
+[2019.07.03-18.51.36:909][208]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (426)
+[2019.07.03-18.51.36:909][208]LogModuleManager: Shutting down and abandoning module MovieScene (424)
+[2019.07.03-18.51.36:909][208]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (422)
+[2019.07.03-18.51.36:909][208]LogModuleManager: Shutting down and abandoning module LauncherPlatform (420)
+[2019.07.03-18.51.36:909][208]LogModuleManager: Shutting down and abandoning module AnalyticsET (418)
+[2019.07.03-18.51.36:909][208]LogModuleManager: Shutting down and abandoning module PortalServices (416)
+[2019.07.03-18.51.36:910][208]LogModuleManager: Shutting down and abandoning module PortalRpc (414)
+[2019.07.03-18.51.36:910][208]LogModuleManager: Shutting down and abandoning module MessagingRpc (412)
+[2019.07.03-18.51.36:910][208]LogModuleManager: Shutting down and abandoning module AIModule (410)
+[2019.07.03-18.51.36:910][208]LogModuleManager: Shutting down and abandoning module GameplayDebugger (409)
+[2019.07.03-18.51.36:910][208]LogModuleManager: Shutting down and abandoning module AITestSuite (407)
+[2019.07.03-18.51.36:910][208]LogModuleManager: Shutting down and abandoning module NavigationSystem (405)
+[2019.07.03-18.51.36:910][208]LogModuleManager: Shutting down and abandoning module DesktopPlatform (402)
+[2019.07.03-18.51.36:910][208]LogModuleManager: Shutting down and abandoning module ProfilerService (400)
+[2019.07.03-18.51.37:020][208]LogModuleManager: Shutting down and abandoning module TaskGraph (398)
+[2019.07.03-18.51.37:020][208]LogModuleManager: Shutting down and abandoning module SteamVRController (396)
+[2019.07.03-18.51.37:020][208]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (394)
+[2019.07.03-18.51.37:020][208]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (392)
+[2019.07.03-18.51.37:020][208]LogModuleManager: Shutting down and abandoning module OculusInput (390)
+[2019.07.03-18.51.37:021][208]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (388)
+[2019.07.03-18.51.37:021][208]LogModuleManager: Shutting down and abandoning module EditableMesh (386)
+[2019.07.03-18.51.37:021][208]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (384)
+[2019.07.03-18.51.37:021][208]LogModuleManager: Shutting down and abandoning module CableComponent (382)
+[2019.07.03-18.51.37:021][208]LogModuleManager: Shutting down and abandoning module AudioCapture (380)
+[2019.07.03-18.51.37:021][208]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (378)
+[2019.07.03-18.51.37:021][208]LogModuleManager: Shutting down and abandoning module AndroidPermission (376)
+[2019.07.03-18.51.37:021][208]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (374)
+[2019.07.03-18.51.37:021][208]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (372)
+[2019.07.03-18.51.37:022][208]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (370)
+[2019.07.03-18.51.37:022][208]LogModuleManager: Shutting down and abandoning module MediaCompositing (368)
+[2019.07.03-18.51.37:022][208]LogModuleManager: Shutting down and abandoning module LinearTimecode (366)
+[2019.07.03-18.51.37:022][208]LogModuleManager: Shutting down and abandoning module ImgMedia (364)
+[2019.07.03-18.51.37:030][208]LogModuleManager: Shutting down and abandoning module HTML5Networking (362)
+[2019.07.03-18.51.37:030][208]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (360)
+[2019.07.03-18.51.37:030][208]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (358)
+[2019.07.03-18.51.37:030][208]LogModuleManager: Shutting down and abandoning module BackChannel (356)
+[2019.07.03-18.51.37:030][208]LogModuleManager: Shutting down and abandoning module AppleVision (354)
+[2019.07.03-18.51.37:031][208]LogModuleManager: Shutting down and abandoning module AppleImageUtils (352)
+[2019.07.03-18.51.37:031][208]LogModuleManager: Shutting down and abandoning module AlembicImporter (350)
+[2019.07.03-18.51.37:031][208]LogModuleManager: Shutting down and abandoning module AlembicLibrary (349)
+[2019.07.03-18.51.37:031][208]LogModuleManager: Shutting down and abandoning module GeometryCache (348)
+[2019.07.03-18.51.37:031][208]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (347)
+[2019.07.03-18.51.37:031][208]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (342)
+[2019.07.03-18.51.37:031][208]LogModuleManager: Shutting down and abandoning module DatasmithContent (340)
+[2019.07.03-18.51.37:032][208]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (338)
+[2019.07.03-18.51.37:032][208]LogModuleManager: Shutting down and abandoning module PluginBrowser (336)
+[2019.07.03-18.51.37:032][208]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (334)
+[2019.07.03-18.51.37:032][208]LogModuleManager: Shutting down and abandoning module PolygonModeling (332)
+[2019.07.03-18.51.37:032][208]LogModuleManager: Shutting down and abandoning module MeshEditor (330)
+[2019.07.03-18.51.37:032][208]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (328)
+[2019.07.03-18.51.37:033][208]LogModuleManager: Shutting down and abandoning module CryptoKeys (326)
+[2019.07.03-18.51.37:033][208]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (324)
+[2019.07.03-18.51.37:033][208]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (322)
+[2019.07.03-18.51.37:033][208]LogModuleManager: Shutting down and abandoning module UObjectPlugin (320)
+[2019.07.03-18.51.37:033][208]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (318)
+[2019.07.03-18.51.37:033][208]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (316)
+[2019.07.03-18.51.37:033][208]LogModuleManager: Shutting down and abandoning module GitSourceControl (314)
+[2019.07.03-18.51.37:033][208]LogModuleManager: Shutting down and abandoning module SourceControl (313)
+[2019.07.03-18.51.37:033][208]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (310)
+[2019.07.03-18.51.37:034][208]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (308)
+[2019.07.03-18.51.37:034][208]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (306)
+[2019.07.03-18.51.37:034][208]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (304)
+[2019.07.03-18.51.37:034][208]LogModuleManager: Shutting down and abandoning module Paper2DEditor (302)
+[2019.07.03-18.51.37:034][208]LogModuleManager: Shutting down and abandoning module MeshPaint (301)
+[2019.07.03-18.51.37:034][208]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (298)
+[2019.07.03-18.51.37:034][208]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (296)
+[2019.07.03-18.51.37:034][208]LogModuleManager: Shutting down and abandoning module PhysXVehicles (294)
+[2019.07.03-18.51.37:034][208]LogModuleManager: Shutting down and abandoning module OculusEditor (292)
+[2019.07.03-18.51.37:034][208]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (290)
+[2019.07.03-18.51.37:034][208]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (288)
+[2019.07.03-18.51.37:035][208]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (286)
+[2019.07.03-18.51.37:035][208]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2019.07.03-18.51.37:035][208]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2019.07.03-18.51.37:136][208]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2019.07.03-18.51.37:236][208]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
+[2019.07.03-18.51.37:236][208]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
+[2019.07.03-18.51.37:236][208]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
+[2019.07.03-18.51.37:236][208]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
+[2019.07.03-18.51.37:236][208]LogModuleManager: Shutting down and abandoning module DataValidation (270)
+[2019.07.03-18.51.37:236][208]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
+[2019.07.03-18.51.37:237][208]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
+[2019.07.03-18.51.37:239][208]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
+[2019.07.03-18.51.37:239][208]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
+[2019.07.03-18.51.37:239][208]LogModuleManager: Shutting down and abandoning module MainFrame (262)
+[2019.07.03-18.51.37:239][208]LogModuleManager: Shutting down and abandoning module HotReload (261)
+[2019.07.03-18.51.37:241][208]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
+[2019.07.03-18.51.37:243][208]LogModuleManager: Shutting down and abandoning module TreeMap (255)
+[2019.07.03-18.51.37:243][208]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
+[2019.07.03-18.51.37:243][208]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
+[2019.07.03-18.51.37:243][208]LogModuleManager: Shutting down and abandoning module Paper2D (248)
+[2019.07.03-18.51.37:243][208]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
+[2019.07.03-18.51.37:244][208]LogModuleManager: Shutting down and abandoning module WmfMedia (244)
+[2019.07.03-18.51.37:247][208]LogModuleManager: Shutting down and abandoning module Media (243)
+[2019.07.03-18.51.37:254][208]LogModuleManager: Shutting down and abandoning module PacketHandler (240)
+[2019.07.03-18.51.37:254][208]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (238)
+[2019.07.03-18.51.37:255][208]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (236)
+[2019.07.03-18.51.37:255][208]LogModuleManager: Shutting down and abandoning module MediaAssets (234)
+[2019.07.03-18.51.37:255][208]LogModuleManager: Shutting down and abandoning module Overlay (232)
+[2019.07.03-18.51.37:255][208]LogModuleManager: Shutting down and abandoning module OverlayEditor (231)
+[2019.07.03-18.51.37:255][208]LogModuleManager: Shutting down and abandoning module VREditor (228)
+[2019.07.03-18.51.37:255][208]LogModuleManager: Shutting down and abandoning module StringTableEditor (226)
+[2019.07.03-18.51.37:255][208]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (224)
+[2019.07.03-18.51.37:255][208]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (222)
+[2019.07.03-18.51.37:255][208]LogModuleManager: Shutting down and abandoning module FunctionalTesting (220)
+[2019.07.03-18.51.37:255][208]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (218)
+[2019.07.03-18.51.37:255][208]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (217)
+[2019.07.03-18.51.37:256][208]LogModuleManager: Shutting down and abandoning module UMG (214)
+[2019.07.03-18.51.37:256][208]LogModuleManager: Shutting down and abandoning module UMGEditor (213)
+[2019.07.03-18.51.37:256][208]LogModuleManager: Shutting down and abandoning module Sequencer (212)
+[2019.07.03-18.51.37:256][208]LogModuleManager: Shutting down and abandoning module MessageLog (209)
+[2019.07.03-18.51.37:256][208]LogModuleManager: Shutting down and abandoning module SlateReflector (204)
+[2019.07.03-18.51.37:257][208]LogModuleManager: Shutting down and abandoning module Slate (202)
+[2019.07.03-18.51.37:257][208]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
+[2019.07.03-18.51.37:262][208]LogModuleManager: Shutting down and abandoning module MRMesh (198)
+[2019.07.03-18.51.37:262][208]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (196)
+[2019.07.03-18.51.37:262][208]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (194)
+[2019.07.03-18.51.37:262][208]LogModuleManager: Shutting down and abandoning module XAudio2 (192)
+[2019.07.03-18.51.37:262][208]LogModuleManager: Shutting down and abandoning module Networking (190)
+[2019.07.03-18.51.37:262][208]LogModuleManager: Shutting down and abandoning module Core (188)
+[2019.07.03-18.51.37:262][208]LogModuleManager: Shutting down and abandoning module LevelSequence (186)
+[2019.07.03-18.51.37:262][208]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
+[2019.07.03-18.51.37:262][208]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
+[2019.07.03-18.51.37:262][208]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
+[2019.07.03-18.51.37:263][208]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
+[2019.07.03-18.51.37:263][208]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (179)
+[2019.07.03-18.51.37:263][208]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
+[2019.07.03-18.51.37:263][208]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (175)
+[2019.07.03-18.51.37:263][208]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (173)
+[2019.07.03-18.51.37:263][208]LogModuleManager: Shutting down and abandoning module MaterialBaking (169)
+[2019.07.03-18.51.37:263][208]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (165)
+[2019.07.03-18.51.37:263][208]LogModuleManager: Shutting down and abandoning module DerivedDataCache (162)
+[2019.07.03-18.51.37:696][208]LogDerivedDataCache: Shutdown
+[2019.07.03-18.51.37:696][208]LogModuleManager: Shutting down and abandoning module XGEController (160)
+[2019.07.03-18.51.37:696][208]LogModuleManager: Shutting down and abandoning module TargetPlatform (158)
+[2019.07.03-18.51.37:696][208]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (157)
+[2019.07.03-18.51.37:696][208]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (155)
+[2019.07.03-18.51.37:696][208]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (153)
+[2019.07.03-18.51.37:697][208]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (151)
+[2019.07.03-18.51.37:697][208]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (149)
+[2019.07.03-18.51.37:697][208]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (147)
+[2019.07.03-18.51.37:697][208]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (145)
+[2019.07.03-18.51.37:697][208]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (143)
+[2019.07.03-18.51.37:697][208]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (141)
+[2019.07.03-18.51.37:697][208]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (139)
+[2019.07.03-18.51.37:697][208]LogModuleManager: Shutting down and abandoning module ImageWrapper (138)
+[2019.07.03-18.51.37:697][208]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (135)
+[2019.07.03-18.51.37:697][208]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (133)
+[2019.07.03-18.51.37:697][208]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (131)
+[2019.07.03-18.51.37:697][208]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (129)
+[2019.07.03-18.51.37:697][208]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (127)
+[2019.07.03-18.51.37:697][208]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (125)
+[2019.07.03-18.51.37:697][208]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (123)
+[2019.07.03-18.51.37:697][208]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (121)
+[2019.07.03-18.51.37:697][208]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
+[2019.07.03-18.51.37:697][208]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (117)
+[2019.07.03-18.51.37:698][208]LogModuleManager: Shutting down and abandoning module Messaging (115)
+[2019.07.03-18.51.37:698][208]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
+[2019.07.03-18.51.37:699][208]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (111)
+[2019.07.03-18.51.37:700][208]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (109)
+[2019.07.03-18.51.37:711][208]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (107)
+[2019.07.03-18.51.37:711][208]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (105)
+[2019.07.03-18.51.37:712][208]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (103)
+[2019.07.03-18.51.37:712][208]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (101)
+[2019.07.03-18.51.37:712][208]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (99)
+[2019.07.03-18.51.37:712][208]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (97)
+[2019.07.03-18.51.37:712][208]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (95)
+[2019.07.03-18.51.37:712][208]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (93)
+[2019.07.03-18.51.37:712][208]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (91)
+[2019.07.03-18.51.37:712][208]LogModuleManager: Shutting down and abandoning module InputCore (88)
+[2019.07.03-18.51.37:712][208]LogModuleManager: Shutting down and abandoning module Settings (86)
+[2019.07.03-18.51.37:712][208]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
+[2019.07.03-18.51.37:712][208]LogModuleManager: Shutting down and abandoning module SteamVR (82)
+[2019.07.03-18.51.37:712][208]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
+[2019.07.03-18.51.37:712][208]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
+[2019.07.03-18.51.37:712][208]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
+[2019.07.03-18.51.37:712][208]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2019.07.03-18.51.37:712][208]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
+[2019.07.03-18.51.37:713][208]LogModuleManager: Shutting down and abandoning module XMPP (65)
+[2019.07.03-18.51.37:713][208]LogModuleManager: Shutting down and abandoning module WebSockets (64)
+[2019.07.03-18.51.37:723][208]LogModuleManager: Shutting down and abandoning module HTTP (61)
+[2019.07.03-18.51.37:723][208]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2019.07.03-18.51.37:723][208]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BCBE6F33B-40A3-C2D6-2D35-2C8053DE7FFA%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.3-4369336%2B%2B%2BUE4%2BRelease-4.20&UserID=a09f42dc43aaeb0f04ddc29c86213c2b%7C4c2601be919f402d9501d9d60ed3db91%7Cd7ecb138-3baf-4aea-8701-89f443cac187&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.07.03-18.51.37:752][208]LogModuleManager: Shutting down and abandoning module SSL (60)
+[2019.07.03-18.51.37:755][208]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
+[2019.07.03-18.51.37:755][208]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
+[2019.07.03-18.51.37:755][208]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
+[2019.07.03-18.51.37:755][208]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
+[2019.07.03-18.51.37:755][208]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
+[2019.07.03-18.51.37:755][208]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
+[2019.07.03-18.51.37:755][208]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
+[2019.07.03-18.51.37:755][208]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
+[2019.07.03-18.51.37:755][208]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
+[2019.07.03-18.51.37:756][208]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2019.07.03-18.51.37:756][208]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
+[2019.07.03-18.51.37:756][208]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2019.07.03-18.51.37:756][208]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2019.07.03-18.51.37:756][208]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2019.07.03-18.51.37:756][208]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2019.07.03-18.51.37:757][208]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2019.07.03-18.51.37:757][208]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2019.07.03-18.51.37:757][208]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2019.07.03-18.51.37:758][208]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2019.07.03-18.51.37:758][208]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2019.07.03-18.51.37:758][208]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2019.07.03-18.51.37:758][208]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2019.07.03-18.51.37:759][208]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2019.07.03-18.51.37:759][208]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2019.07.03-18.51.37:759][208]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2019.07.03-18.51.37:759][208]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2019.07.03-18.51.37:759][208]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2019.07.03-18.51.37:759][208]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2019.07.03-18.51.37:759][208]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2019.07.03-18.51.37:778][208]LogExit: Exiting.
+[2019.07.03-18.51.37:829][208]Log file closed, 07/03/19 15:51:37
