@@ -1,0 +1,548 @@
+﻿Log file open, 02/21/24 22:33:42
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: AReporpostaProj
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.393113
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -3:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.136s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-7700K CPU @ 4.20GHz, GPU: NVIDIA GeForce RTX 2060
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.003s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2024.02.22-01.33.42:993][  0]LogInit: Selected Device Profile: [Windows]
+[2024.02.22-01.33.42:993][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2024.02.22-01.33.43:003][  0]LogHAL: Display: Platform has ~ 16 GB [17134534656 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2024.02.22-01.33.43:003][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2024.02.22-01.33.43:003][  0]LogInit: Going up to parent DeviceProfile []
+[2024.02.22-01.33.43:004][  0]LogInit: Computer: DESKTOP-VE7UTN2
+[2024.02.22-01.33.43:004][  0]LogInit: User: Teika
+[2024.02.22-01.33.43:004][  0]LogInit: CPU Page size=4096, Cores=4
+[2024.02.22-01.33.43:004][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2024.02.22-01.33.43:004][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2024.02.22-01.33.43:004][  0]LogMemory: Platform Memory Stats for Windows
+[2024.02.22-01.33.43:004][  0]LogMemory: Process Physical Memory: 103.96 MB used, 103.96 MB peak
+[2024.02.22-01.33.43:004][  0]LogMemory: Process Virtual Memory: 93.23 MB used, 93.23 MB peak
+[2024.02.22-01.33.43:004][  0]LogMemory: Physical Memory: 7916.16 MB used,  8424.61 MB free, 16340.77 MB total
+[2024.02.22-01.33.43:004][  0]LogMemory: Virtual Memory: 4631.86 MB used,  8424.61 MB free, 134217728.00 MB total
+[2024.02.22-01.33.43:039][  0]LogInit: Overriding language with editor language configuration option (en).
+[2024.02.22-01.33.43:039][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2024.02.22-01.33.43:356][  0]LogStreaming: Display: Took  0.316s to InitEngineTextLocalization.
+[2024.02.22-01.33.43:356][  0]LogInit: Setting process to per monitor DPI aware
+[2024.02.22-01.33.43:391][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2024.02.22-01.33.43:391][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2024.02.22-01.33.43:581][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2024.02.22-01.33.43:581][  0]LogD3D11RHI: D3D11 adapters:
+[2024.02.22-01.33.43:718][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2060' (Feature Level 11_0)
+[2024.02.22-01.33.43:718][  0]LogD3D11RHI:       5945/0/8170 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2024.02.22-01.33.43:720][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2024.02.22-01.33.43:720][  0]LogD3D11RHI:       0/0/8170 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2024.02.22-01.33.43:720][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2024.02.22-01.33.43:725][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2024.02.22-01.33.43:725][  0]LogD3D11RHI:     GPU DeviceId: 0x1e89 (for the marketing name, search the web for "GPU Device Id")
+[2024.02.22-01.33.43:725][  0]LogWindows: EnumDisplayDevices:
+[2024.02.22-01.33.43:725][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2060' (P:1 D:1)
+[2024.02.22-01.33.43:725][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2060' (P:0 D:1)
+[2024.02.22-01.33.43:726][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2060' (P:0 D:0)
+[2024.02.22-01.33.43:726][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2060' (P:0 D:0)
+[2024.02.22-01.33.43:726][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2024.02.22-01.33.43:726][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2060
+[2024.02.22-01.33.43:726][  0]LogD3D11RHI:   Driver Version: 551.52 (internal:31.0.15.5152, unified:551.52)
+[2024.02.22-01.33.43:726][  0]LogD3D11RHI:      Driver Date: 2-7-2024
+[2024.02.22-01.33.43:726][  0]LogRHI: Texture pool is 4161 MB (70% of 5945 MB)
+[2024.02.22-01.33.43:831][  0]LogD3D11RHI: Async texture creation enabled
+[2024.02.22-01.33.43:846][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2024.02.22-01.33.43:848][  0]LogShaderCompilers: Guid format shader working directory is 16 characters bigger than the processId version (../../../../../../AReproposta/Intermediate/Shaders/WorkingDirectory/14356/).
+[2024.02.22-01.33.43:849][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Teika/AppData/Local/Temp/UnrealShaderWorkingDir/E3F8768C4DA17CCB4A3E328305BF2C8A/'.
+[2024.02.22-01.33.44:106][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2024.02.22-01.33.44:120][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2024.02.22-01.33.44:136][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2024.02.22-01.33.44:147][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2024.02.22-01.33.44:162][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2024.02.22-01.33.44:177][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2024.02.22-01.33.44:188][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2024.02.22-01.33.44:202][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2024.02.22-01.33.44:207][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2024.02.22-01.33.44:282][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2024.02.22-01.33.44:282][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2024.02.22-01.33.44:282][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2024.02.22-01.33.44:282][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2024.02.22-01.33.44:282][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2024.02.22-01.33.44:282][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2024.02.22-01.33.44:282][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2024.02.22-01.33.44:282][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2024.02.22-01.33.44:282][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2024.02.22-01.33.44:282][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2024.02.22-01.33.44:282][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2024.02.22-01.33.44:282][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2024.02.22-01.33.44:282][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2024.02.22-01.33.44:282][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2024.02.22-01.33.44:282][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2024.02.22-01.33.44:282][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2024.02.22-01.33.44:282][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2024.02.22-01.33.44:282][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2024.02.22-01.33.44:284][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2024.02.22-01.33.44:340][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2024.02.22-01.33.44:340][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2024.02.22-01.33.44:366][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2024.02.22-01.33.44:366][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2024.02.22-01.33.44:378][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2024.02.22-01.33.44:388][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2024.02.22-01.33.44:404][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2024.02.22-01.33.44:416][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2024.02.22-01.33.44:424][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2024.02.22-01.33.44:424][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2024.02.22-01.33.44:478][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2024.02.22-01.33.44:478][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2024.02.22-01.33.44:478][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2024.02.22-01.33.45:212][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2024.02.22-01.33.45:260][  0]LogDerivedDataCache: Loaded boot cache 0.05s 71MB C:/Users/Teika/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2024.02.22-01.33.45:261][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Teika/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2024.02.22-01.33.45:261][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../AReproposta/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2024.02.22-01.33.45:261][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2024.02.22-01.33.45:261][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../AReproposta/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2024.02.22-01.33.45:261][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2024.02.22-01.33.45:275][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2024.02.22-01.33.45:288][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Teika/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2024.02.22-01.33.45:288][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2024.02.22-01.33.45:288][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2024.02.22-01.33.45:303][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2024.02.22-01.33.45:304][  0]LogSlate: Using FreeType 2.6.0
+[2024.02.22-01.33.45:304][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2024.02.22-01.33.45:365][  0]LogAssetRegistry: FAssetRegistry took 0.0252 seconds to start up
+[2024.02.22-01.33.45:631][  0]LogInit: Selected Device Profile: [Windows]
+[2024.02.22-01.33.45:737][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2024.02.22-01.33.45:740][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2024.02.22-01.33.45:740][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2024.02.22-01.33.45:740][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2024.02.22-01.33.45:740][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2024.02.22-01.33.45:754][  0]LogNetVersion: AReporpostaProj 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3188191889)
+[2024.02.22-01.33.46:152][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 1 prioritized culture(s) in 0.049914 seconds
+[2024.02.22-01.33.46:159][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2024.02.22-01.33.46:159][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2024.02.22-01.33.46:159][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2024.02.22-01.33.46:871][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2024.02.22-01.33.46:883][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2024.02.22-01.33.47:006][  0]SourceControl: Source control is disabled
+[2024.02.22-01.33.47:556][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2024.02.22-01.33.47:621][  0]LogOcInput: OculusInput pre-init called
+[2024.02.22-01.33.47:671][  0]LogEngine: Initializing Engine...
+[2024.02.22-01.33.47:671][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2024.02.22-01.33.47:672][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2024.02.22-01.33.47:672][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2024.02.22-01.33.47:673][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2024.02.22-01.33.47:673][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2024.02.22-01.33.47:842][  0]LogInit: Initializing FReadOnlyCVARCache
+[2024.02.22-01.33.47:854][  0]LogAIModule: Creating AISystem for world Untitled
+[2024.02.22-01.33.47:881][  0]LogInit: XAudio2 using 'Alto-falantes (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2024.02.22-01.33.47:901][  0]LogInit: FAudioDevice initialized.
+[2024.02.22-01.33.47:901][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2024.02.22-01.33.47:941][  0]LogDerivedDataCache: Saved boot cache 0.04s 71MB C:/Users/Teika/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2024.02.22-01.33.47:941][  0]LogInit: Texture streaming: Enabled
+[2024.02.22-01.33.47:955][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2024.02.22-01.33.47:964][  0]LogInit: Transaction tracking system initialized
+[2024.02.22-01.33.47:982][  0]BlueprintLog: New page: Editor Load
+[2024.02.22-01.33.48:048][  0]LocalizationService: Localization service is disabled
+[2024.02.22-01.33.48:267][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2024.02.22-01.33.48:267][  0]LogCook: Display: Mobile HDR setting 1
+[2024.02.22-01.33.48:267][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2024.02.22-01.33.48:267][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2024.02.22-01.33.48:267][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2024.02.22-01.33.48:267][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2024.02.22-01.33.48:267][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2024.02.22-01.33.48:363][  0]LogFileCache: Scanning file cache for directory 'C:/AReproposta/Content/' took 0.02s
+[2024.02.22-01.33.48:363][  0]Cmd: MAP LOAD FILE="../../../../../../AReproposta/Content/Map/03Fase.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2024.02.22-01.33.48:364][  0]LightingResults: New page: Lighting Build
+[2024.02.22-01.33.48:366][  0]MapCheck: New page: Map Check
+[2024.02.22-01.33.48:366][  0]LightingResults: New page: Lighting Build
+[2024.02.22-01.33.49:634][  0]LogAIModule: Creating AISystem for world 03Fase
+[2024.02.22-01.33.49:646][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.02.22-01.33.49:669][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.02.22-01.33.49:757][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 87.966ms to complete.
+[2024.02.22-01.33.49:757][  0]LogFileHelpers: Loading map '03Fase' took 1.394
+[2024.02.22-01.33.49:865][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-01.33.49:872][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-01.33.49:880][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-01.33.49:887][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-01.33.49:898][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-01.33.49:907][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-01.33.49:915][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-01.33.49:923][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-01.33.49:931][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-01.33.49:940][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-01.33.49:948][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-01.33.49:955][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-01.33.49:960][  0]LogCollectionManager: Loaded 0 collections in 0.001741 seconds
+[2024.02.22-01.33.50:003][  0]LogFileCache: Scanning file cache for directory 'C:/AReproposta/Saved/Collections/' took 0.01s
+[2024.02.22-01.33.50:003][  0]LogFileCache: Scanning file cache for directory 'C:/AReproposta/Content/Developers/Teika/Collections/' took 0.01s
+[2024.02.22-01.33.50:003][  0]LogFileCache: Scanning file cache for directory 'C:/AReproposta/Content/Collections/' took 0.01s
+[2024.02.22-01.33.50:003][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2024.02.22-01.33.50:014][  0]LogContentBrowser: Native class hierarchy populated in 0.0108 seconds. Added 2572 classes and 603 folders.
+[2024.02.22-01.33.50:023][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2024.02.22-01.33.50:061][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2024.02.22-01.33.50:067][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2024.02.22-01.33.50:234][  0]LogSlate: Took 0.000175 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2024.02.22-01.33.50:237][  0]LogSlate: Took 0.000124 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2024.02.22-01.33.50:241][  0]LogSlate: Took 0.000187 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2024.02.22-01.33.50:244][  0]LogSlate: Took 0.000144 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2024.02.22-01.33.50:278][  0]LogRenderer: Reallocating scene render targets to support 816x508 Format 10 NumSamples 1 (Frame:1).
+[2024.02.22-01.33.50:438][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2024.02.22-01.33.50:438][  0]LogLoad: (Engine Initialization) Total time: 9.24 seconds
+[2024.02.22-01.33.50:438][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2024.02.22-01.33.50:470][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2024.02.22-01.33.50:503][  0]LogSlate: Took 0.000259 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2024.02.22-01.33.50:542][  1]LogAssetRegistry: Asset discovery search completed in 5.1996 seconds
+[2024.02.22-01.33.50:543][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2024.02.22-01.33.50:543][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000062 seconds (updated 0 objects)
+[2024.02.22-01.33.51:611][121]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2024.02.22-01.33.51:718][134]LogSlate: Window 'Reference Viewer' being destroyed
+[2024.02.22-01.33.51:722][134]LogSlate: Window 'Reference Viewer' being destroyed
+[2024.02.22-01.33.53:476][335]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2024.02.22-01.33.56:780][716]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2024.02.22-01.34.13:172][716]LogSlate: Window 'Delete Assets' being destroyed
+[2024.02.22-01.34.13:208][716]LogSlate: Took 0.000148 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2024.02.22-01.34.13:215][716]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/NAVE_PROPOSTA/BP_navi_test.BP_navi_test
+[2024.02.22-01.34.13:615][716]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 116 classes and 0 folders.
+[2024.02.22-01.34.14:521][717]LogSlate: Took 0.000171 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2024.02.22-01.34.24:930][591]LogAssetEditorManager: Opening Asset editor for Material /Game/Nave/M_Espaco.M_Espaco
+[2024.02.22-01.34.24:933][591]LogMaterial: Display: Missing cached shader map for material M_Espaco, compiling. 
+[2024.02.22-01.34.25:259][591]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2024.02.22-01.34.25:263][591]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2024.02.22-01.34.25:268][591]LogMaterial: Display: Missing cached shader map for material M_Espaco, compiling. 
+[2024.02.22-01.34.25:290][591]LogShaderCompilers: Display: Shaders left to compile 4
+[2024.02.22-01.34.25:290][591]LogShaderCompilers: Display: Shaders left to compile 3
+[2024.02.22-01.34.25:290][591]LogShaderCompilers: Display: Shaders left to compile 2
+[2024.02.22-01.34.25:290][591]LogShaderCompilers: Display: Shaders left to compile 1
+[2024.02.22-01.34.25:292][591]LogMaterial: Display: Missing cached shader map for material M_Espaco, compiling. 
+[2024.02.22-01.34.25:344][591]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2024.02.22-01.34.25:350][591]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2024.02.22-01.34.25:519][592]LogRenderer: Reallocating scene render targets to support 816x588 Format 10 NumSamples 1 (Frame:1).
+[2024.02.22-01.34.26:353][638]LogShaderCompilers: Display: Shaders left to compile 34
+[2024.02.22-01.34.26:525][648]LogShaderCompilers: Display: Shaders left to compile 33
+[2024.02.22-01.34.26:542][649]LogShaderCompilers: Display: Shaders left to compile 32
+[2024.02.22-01.34.26:559][650]LogShaderCompilers: Display: Shaders left to compile 31
+[2024.02.22-01.34.26:751][661]LogShaderCompilers: Display: Shaders left to compile 30
+[2024.02.22-01.34.26:958][673]LogShaderCompilers: Display: Shaders left to compile 29
+[2024.02.22-01.34.27:232][690]LogShaderCompilers: Display: Shaders left to compile 28
+[2024.02.22-01.34.27:281][693]LogShaderCompilers: Display: Shaders left to compile 27
+[2024.02.22-01.34.27:281][693]LogShaderCompilers: Display: Shaders left to compile 26
+[2024.02.22-01.34.27:281][693]LogShaderCompilers: Display: Shaders left to compile 25
+[2024.02.22-01.34.27:913][726]LogShaderCompilers: Display: Shaders left to compile 24
+[2024.02.22-01.34.27:913][726]LogShaderCompilers: Display: Shaders left to compile 23
+[2024.02.22-01.34.27:946][728]LogShaderCompilers: Display: Shaders left to compile 22
+[2024.02.22-01.34.28:322][749]LogShaderCompilers: Display: Shaders left to compile 21
+[2024.02.22-01.34.28:620][766]LogShaderCompilers: Display: Shaders left to compile 20
+[2024.02.22-01.34.28:620][766]LogShaderCompilers: Display: Shaders left to compile 19
+[2024.02.22-01.34.28:843][780]LogShaderCompilers: Display: Shaders left to compile 18
+[2024.02.22-01.34.29:052][792]LogShaderCompilers: Display: Shaders left to compile 17
+[2024.02.22-01.34.29:192][800]LogShaderCompilers: Display: Shaders left to compile 16
+[2024.02.22-01.34.29:243][803]LogShaderCompilers: Display: Shaders left to compile 15
+[2024.02.22-01.34.29:490][818]LogShaderCompilers: Display: Shaders left to compile 14
+[2024.02.22-01.34.29:838][838]LogShaderCompilers: Display: Shaders left to compile 13
+[2024.02.22-01.34.29:838][838]LogShaderCompilers: Display: Shaders left to compile 12
+[2024.02.22-01.34.29:950][845]LogShaderCompilers: Display: Shaders left to compile 11
+[2024.02.22-01.34.30:312][864]LogShaderCompilers: Display: Shaders left to compile 10
+[2024.02.22-01.34.30:576][879]LogShaderCompilers: Display: Shaders left to compile 9
+[2024.02.22-01.34.30:576][879]LogShaderCompilers: Display: Shaders left to compile 8
+[2024.02.22-01.34.30:692][886]LogShaderCompilers: Display: Shaders left to compile 7
+[2024.02.22-01.34.30:970][902]LogShaderCompilers: Display: Shaders left to compile 6
+[2024.02.22-01.34.31:168][913]LogShaderCompilers: Display: Shaders left to compile 5
+[2024.02.22-01.34.31:304][921]LogShaderCompilers: Display: Shaders left to compile 4
+[2024.02.22-01.34.31:367][922]LogShaderCompilers: Display: Shaders left to compile 3
+[2024.02.22-01.34.31:645][938]LogShaderCompilers: Display: Shaders left to compile 2
+[2024.02.22-01.34.31:758][944]LogShaderCompilers: Display: Shaders left to compile 1
+[2024.02.22-01.34.31:913][953]MaterialEditorStats: Base pass shader: 71 instructions
+[2024.02.22-01.34.31:913][953]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 92 instructions
+[2024.02.22-01.34.31:913][953]MaterialEditorStats: Base pass vertex shader: 111 instructions
+[2024.02.22-01.34.31:913][953]MaterialEditorStats: Texture samplers: 3/16
+[2024.02.22-01.34.31:913][953]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2024.02.22-01.34.31:913][953]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.02.22-01.34.40:640][832]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2024.02.22-01.34.40:750][845]LogSlate: Window 'M_Espaco' being destroyed
+[2024.02.22-01.34.40:754][845]LogSlate: Window 'M_Espaco' being destroyed
+[2024.02.22-01.34.51:310][ 38]LogSlate: Window 'Reference Viewer' being destroyed
+[2024.02.22-01.34.51:362][ 38]LogSlate: Window 'Reference Viewer' being destroyed
+[2024.02.22-01.34.58:733][782]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/Espaco" FILE="../../../../../../AReproposta/Content/Map/Espaco.uasset" SILENT=true
+[2024.02.22-01.34.58:743][782]LogSavePackage: Moving '../../../../../../AReproposta/Saved/Espaco4E527E0142500633CCC5809E8E65F01B.tmp' to '../../../../../../AReproposta/Content/Map/Espaco.uasset'
+[2024.02.22-01.34.58:905][782]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Nave/Espaco" FILE="../../../../../../AReproposta/Content/Nave/Espaco.uasset" SILENT=true
+[2024.02.22-01.34.58:972][782]LogSavePackage: Moving '../../../../../../AReproposta/Saved/EspacoB0DA9F6C44CF6A10802E4BB2C2A2BEA9.tmp' to '../../../../../../AReproposta/Content/Nave/Espaco.uasset'
+[2024.02.22-01.34.58:992][782]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/Espaco_Mat" FILE="../../../../../../AReproposta/Content/Map/Espaco_Mat.uasset" SILENT=true
+[2024.02.22-01.34.59:001][782]LogSavePackage: Moving '../../../../../../AReproposta/Saved/Espaco_Mat188942F34C58C53367C45AB366F13840.tmp' to '../../../../../../AReproposta/Content/Map/Espaco_Mat.uasset'
+[2024.02.22-01.34.59:205][782]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Nave/Espaco_Mat" FILE="../../../../../../AReproposta/Content/Nave/Espaco_Mat.uasset" SILENT=true
+[2024.02.22-01.34.59:256][782]LogSavePackage: Moving '../../../../../../AReproposta/Saved/Espaco_MatD666B1974BC988865F52AC9156B4C30A.tmp' to '../../../../../../AReproposta/Content/Nave/Espaco_Mat.uasset'
+[2024.02.22-01.34.59:276][782]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/M_Espaco" FILE="../../../../../../AReproposta/Content/Map/M_Espaco.uasset" SILENT=true
+[2024.02.22-01.34.59:290][782]LogSavePackage: Moving '../../../../../../AReproposta/Saved/M_Espaco0268030A4EAD3B8506F40FBB9AEA2881.tmp' to '../../../../../../AReproposta/Content/Map/M_Espaco.uasset'
+[2024.02.22-01.34.59:439][782]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Nave/M_Espaco" FILE="../../../../../../AReproposta/Content/Nave/M_Espaco.uasset" SILENT=true
+[2024.02.22-01.34.59:490][782]LogSavePackage: Moving '../../../../../../AReproposta/Saved/M_EspacoC1628BF547BB648E60F5359A1095C733.tmp' to '../../../../../../AReproposta/Content/Nave/M_Espaco.uasset'
+[2024.02.22-01.35.07:701][616]LogAIModule: Creating AISystem for world FaseTest
+[2024.02.22-01.35.07:964][616]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/FaseTest" FILE="../../../../../../AReproposta/Content/Map/FaseTest.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.02.22-01.35.07:966][616]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/Map/FaseTest.FaseTest:PersistentLevel.Nave_Especial_2.SkeletalMeshComponent0'
+[2024.02.22-01.35.08:156][616]LogSavePackage: Moving '../../../../../../AReproposta/Saved/FaseTest243019FC4D3949241C3045886A6B910C.tmp' to '../../../../../../AReproposta/Content/Map/FaseTest.umap'
+[2024.02.22-01.35.08:161][616]LogFileHelpers: Saving map 'FaseTest' took 0.299
+[2024.02.22-01.35.09:618][616]SourceControl: Error: Updated 3 paths from the index
+[2024.02.22-01.35.09:739][616]SourceControl: rm 'Content/Nave/Espaco.uasset'
+[2024.02.22-01.35.09:739][616]SourceControl: rm 'Content/Nave/Espaco_Mat.uasset'
+[2024.02.22-01.35.09:739][616]SourceControl: rm 'Content/Nave/M_Espaco.uasset'
+[2024.02.22-01.36.07:832][737]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/NAVE_PROPOSTA/BP_Nave_Proposta2.BP_Nave_Proposta2
+[2024.02.22-01.36.09:911][842]LogSlate: Window 'BP_Nave_Proposta2' being destroyed
+[2024.02.22-01.36.24:331][451]BlueprintLog: New page: Compile BP_Nave_Proposta2
+[2024.02.22-01.36.30:756][ 60]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Nave/Tiro_BP.Tiro_BP
+[2024.02.22-01.36.41:746][287]LogSlate: Window 'Reference Viewer' being destroyed
+[2024.02.22-01.36.41:750][287]LogSlate: Window 'Reference Viewer' being destroyed
+[2024.02.22-01.36.49:353][105]LogSlate: Window 'Reference Viewer' being destroyed
+[2024.02.22-01.36.49:356][105]LogSlate: Window 'Reference Viewer' being destroyed
+[2024.02.22-01.37.19:834][610]LogSlate: Window 'Reference Viewer' being destroyed
+[2024.02.22-01.37.19:837][610]LogSlate: Window 'Reference Viewer' being destroyed
+[2024.02.22-01.37.20:899][732]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Nave/Tiro_BP.Tiro_BP
+[2024.02.22-01.37.45:374][493]LogSlate: Window 'Reference Viewer' being destroyed
+[2024.02.22-01.37.45:379][493]LogSlate: Window 'Reference Viewer' being destroyed
+[2024.02.22-01.39.19:707][666]LogHttp: Warning: 000001AD41FBBC40: request has been successfully processed. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B2E45ACC5-43EC-9AAC-8A85-67AD0C427867%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.3-4369336%2B%2B%2BUE4%2BRelease-4.20&UserID=06d1374d4b1e416f4d2ae2924a792f08%7C422e9c7ce01f49ebadcd6a44a0a170a0%7C7c161fbe-103b-41cb-8ff8-59c2d5305b5e&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 502, content length: 122, actual payload size: 122
+[2024.02.22-01.39.19:707][666]LogHttp: Warning: 000001AD41FBBC40 Response Header Server: awselb/2.0
+[2024.02.22-01.39.19:707][666]LogHttp: Warning: 000001AD41FBBC40 Response Header Date: Thu, 22 Feb 2024 01:39:20 GMT
+[2024.02.22-01.39.19:707][666]LogHttp: Warning: 000001AD41FBBC40 Response Header Content-Type: text/html
+[2024.02.22-01.39.19:707][666]LogHttp: Warning: 000001AD41FBBC40 Response Header Content-Length: 122
+[2024.02.22-01.39.19:707][666]LogHttp: Warning: 000001AD41FBBC40 Response Header Connection: keep-alive
+[2024.02.22-01.39.20:010][696]LogRenderer: Reallocating scene render targets to support 1076x744 Format 10 NumSamples 1 (Frame:1).
+[2024.02.22-01.39.51:188][ 80]LogSlate: Window 'Delete Assets' being destroyed
+[2024.02.22-01.39.51:214][ 80]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2024.02.22-01.39.52:529][ 80]LogSkeletalMesh: Building Skeletal Mesh Nave_Metralhadora...
+[2024.02.22-01.39.52:532][ 80]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Nave/Propos/Nave_Metralhadora.Nave_Metralhadora
+[2024.02.22-01.39.52:532][ 80]LogSkeletalMesh: Building Skeletal Mesh Nave_Metralhadora...
+[2024.02.22-01.39.52:536][ 80]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Nave/Propos/Nave_Metralhadora.Nave_Metralhadora
+[2024.02.22-01.39.52:540][ 80]LogSkeletalMesh: Building Skeletal Mesh Nave_Metralhadora...
+[2024.02.22-01.39.52:544][ 80]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Nave/Propos/Nave_Metralhadora.Nave_Metralhadora
+[2024.02.22-01.39.52:559][ 80]LogSkeletalMesh: Building Skeletal Mesh Nave_Player...
+[2024.02.22-01.39.52:565][ 80]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/Nave/Propos/Nave_Player.Nave_Player
+[2024.02.22-01.39.52:566][ 80]LogSkeletalMesh: Building Skeletal Mesh Nave_Player...
+[2024.02.22-01.39.52:572][ 80]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/Nave/Propos/Nave_Player.Nave_Player
+[2024.02.22-01.39.52:578][ 80]LogSkeletalMesh: Building Skeletal Mesh Nave_Player...
+[2024.02.22-01.39.52:582][ 80]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Nave/Propos/Nave_Player.Nave_Player
+[2024.02.22-01.39.52:583][ 80]LogSkeletalMesh: Building Skeletal Mesh Nave_Player...
+[2024.02.22-01.39.52:587][ 80]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Nave/Propos/Nave_Player.Nave_Player
+[2024.02.22-01.39.52:589][ 80]LogSkeletalMesh: Building Skeletal Mesh Nave_Especial...
+[2024.02.22-01.39.52:590][ 80]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Nave/Propos/Nave_Especial.Nave_Especial
+[2024.02.22-01.39.52:591][ 80]LogSkeletalMesh: Building Skeletal Mesh Nave_Especial...
+[2024.02.22-01.39.52:592][ 80]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Nave/Propos/Nave_Especial.Nave_Especial
+[2024.02.22-01.39.52:597][ 80]LogSkeletalMesh: Building Skeletal Mesh Nave_Especial...
+[2024.02.22-01.39.52:598][ 80]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Nave/Propos/Nave_Especial.Nave_Especial
+[2024.02.22-01.39.52:599][ 80]LogSkeletalMesh: Building Skeletal Mesh Nave_Arma...
+[2024.02.22-01.39.52:600][ 80]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Nave/Propos/Nave_Arma.Nave_Arma
+[2024.02.22-01.39.52:600][ 80]LogSkeletalMesh: Building Skeletal Mesh Nave_Arma...
+[2024.02.22-01.39.52:601][ 80]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Nave/Propos/Nave_Arma.Nave_Arma
+[2024.02.22-01.39.52:607][ 80]LogSkeletalMesh: Building Skeletal Mesh Nave_Arma...
+[2024.02.22-01.39.52:607][ 80]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Nave/Propos/Nave_Arma.Nave_Arma
+[2024.02.22-01.39.52:608][ 80]LogSkeletalMesh: Building Skeletal Mesh Nave...
+[2024.02.22-01.39.52:624][ 80]LogSkeletalMesh: Built Skeletal Mesh [0.02s] /Game/Nave/Propos/Nave.Nave
+[2024.02.22-01.39.52:626][ 80]LogSkeletalMesh: Building Skeletal Mesh Nave...
+[2024.02.22-01.39.52:639][ 80]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/Nave/Propos/Nave.Nave
+[2024.02.22-01.39.52:644][ 80]LogSkeletalMesh: Building Skeletal Mesh Nave...
+[2024.02.22-01.39.52:657][ 80]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/Nave/Propos/Nave.Nave
+[2024.02.22-01.39.52:659][ 80]LogSkeletalMesh: Building Skeletal Mesh Nave...
+[2024.02.22-01.39.52:674][ 80]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/Nave/Propos/Nave.Nave
+[2024.02.22-01.39.52:675][ 80]LogSkeletalMesh: Building Skeletal Mesh Nave...
+[2024.02.22-01.39.52:689][ 80]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/Nave/Propos/Nave.Nave
+[2024.02.22-01.39.52:690][ 80]LogSkeletalMesh: Building Skeletal Mesh Nave...
+[2024.02.22-01.39.52:703][ 80]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/Nave/Propos/Nave.Nave
+[2024.02.22-01.39.52:705][ 80]LogSkeletalMesh: Building Skeletal Mesh Nave...
+[2024.02.22-01.39.52:719][ 80]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/Nave/Propos/Nave.Nave
+[2024.02.22-01.39.52:720][ 80]LogSkeletalMesh: Building Skeletal Mesh Nave...
+[2024.02.22-01.39.52:736][ 80]LogSkeletalMesh: Built Skeletal Mesh [0.02s] /Game/Nave/Nave.Nave
+[2024.02.22-01.39.52:741][ 80]LogSkeletalMesh: Building Skeletal Mesh Nave...
+[2024.02.22-01.39.52:756][ 80]LogSkeletalMesh: Built Skeletal Mesh [0.02s] /Game/Nave/Nave.Nave
+[2024.02.22-01.39.52:757][ 80]LogSkeletalMesh: Building Skeletal Mesh Nave...
+[2024.02.22-01.39.52:774][ 80]LogSkeletalMesh: Built Skeletal Mesh [0.02s] /Game/Nave/Nave.Nave
+[2024.02.22-01.39.56:155][ 80]LogStats: FPlatformStackWalk::StackWalkAndDump -  1.113 s
+[2024.02.22-01.39.56:155][ 80]LogOutputDevice: Error: === Handled ensure: ===
+[2024.02.22-01.39.56:155][ 80]LogOutputDevice: Error: 
+[2024.02.22-01.39.56:155][ 80]LogOutputDevice: Error: Ensure condition failed: CurObject != NULL [File:D:\Build\++UE4\Sync\Engine\Source\Editor\UnrealEd\Private\ObjectTools.cpp] [Line: 2510]
+[2024.02.22-01.39.56:155][ 80]LogOutputDevice: Error: 
+[2024.02.22-01.39.56:155][ 80]LogOutputDevice: Error: Stack: 
+[2024.02.22-01.39.56:155][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff875f471f6 UE4Editor-Core.dll!UnknownFunction []
+[2024.02.22-01.39.56:156][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff875c80c92 UE4Editor-Core.dll!UnknownFunction []
+[2024.02.22-01.39.56:156][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff875c9b356 UE4Editor-Core.dll!UnknownFunction []
+[2024.02.22-01.39.56:156][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff874790be4 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2024.02.22-01.39.56:156][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff873ed1068 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2024.02.22-01.39.56:156][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff874182970 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2024.02.22-01.39.56:156][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff87417cd7f UE4Editor-UnrealEd.dll!UnknownFunction []
+[2024.02.22-01.39.56:156][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff875769c3b UE4Editor-Slate.dll!UnknownFunction []
+[2024.02.22-01.39.56:156][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff8755594c5 UE4Editor-Slate.dll!UnknownFunction []
+[2024.02.22-01.39.56:156][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff8755f1db2 UE4Editor-Slate.dll!UnknownFunction []
+[2024.02.22-01.39.56:156][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff8755d7c7a UE4Editor-Slate.dll!UnknownFunction []
+[2024.02.22-01.39.56:156][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff8755cb25c UE4Editor-Slate.dll!UnknownFunction []
+[2024.02.22-01.39.56:156][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff89f0fd1c7 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2024.02.22-01.39.56:156][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff89f0f0270 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2024.02.22-01.39.56:156][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff89f0ff4c5 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2024.02.22-01.39.56:156][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff89f0ec209 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2024.02.22-01.39.56:156][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff8ca37ef75 USER32.dll!UnknownFunction []
+[2024.02.22-01.39.56:156][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff8ca37e69d USER32.dll!UnknownFunction []
+[2024.02.22-01.39.56:156][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff89f1005a9 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2024.02.22-01.39.56:156][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff8755ff2b2 UE4Editor-Slate.dll!UnknownFunction []
+[2024.02.22-01.39.56:156][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff8755877c7 UE4Editor-Slate.dll!UnknownFunction []
+[2024.02.22-01.39.56:156][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff874221156 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2024.02.22-01.39.56:156][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff8747844f0 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2024.02.22-01.39.56:156][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff861acdc8f UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2024.02.22-01.39.56:156][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff861bd8119 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2024.02.22-01.39.56:156][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff861bd13da UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2024.02.22-01.39.56:156][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff861b30103 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2024.02.22-01.39.56:156][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff861ad461f UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2024.02.22-01.39.56:156][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff875769c3b UE4Editor-Slate.dll!UnknownFunction []
+[2024.02.22-01.39.56:156][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff8755594c5 UE4Editor-Slate.dll!UnknownFunction []
+[2024.02.22-01.39.56:156][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff8755f1db2 UE4Editor-Slate.dll!UnknownFunction []
+[2024.02.22-01.39.56:156][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff8755d7c7a UE4Editor-Slate.dll!UnknownFunction []
+[2024.02.22-01.39.56:156][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff8755cb25c UE4Editor-Slate.dll!UnknownFunction []
+[2024.02.22-01.39.56:156][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff89f0fd1c7 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2024.02.22-01.39.56:156][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff89f0f0270 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2024.02.22-01.39.56:156][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff89f0ff4c5 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2024.02.22-01.39.56:156][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff89f0ec209 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2024.02.22-01.39.56:156][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff8ca37ef75 USER32.dll!UnknownFunction []
+[2024.02.22-01.39.56:156][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff8ca37e69d USER32.dll!UnknownFunction []
+[2024.02.22-01.39.56:156][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff89f100646 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2024.02.22-01.39.56:156][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff6a84854e5 UE4Editor.exe!UnknownFunction []
+[2024.02.22-01.39.56:156][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff6a8495b3c UE4Editor.exe!UnknownFunction []
+[2024.02.22-01.39.56:156][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff6a8495bba UE4Editor.exe!UnknownFunction []
+[2024.02.22-01.39.56:156][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff6a84a3dac UE4Editor.exe!UnknownFunction []
+[2024.02.22-01.39.56:156][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff6a84a5aaa UE4Editor.exe!UnknownFunction []
+[2024.02.22-01.39.56:156][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff8c9cf7344 KERNEL32.DLL!UnknownFunction []
+[2024.02.22-01.39.56:156][ 80]LogOutputDevice: Error: [Callstack] 0x00007ff8ca5a26b1 ntdll.dll!UnknownFunction []
+[2024.02.22-01.39.56:156][ 80]LogOutputDevice: Error: 
+[2024.02.22-01.39.56:157][ 80]LogStats:                SubmitErrorReport -  0.000 s

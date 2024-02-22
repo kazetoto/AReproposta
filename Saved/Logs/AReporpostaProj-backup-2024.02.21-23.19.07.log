@@ -1,0 +1,1411 @@
+﻿Log file open, 02/21/24 23:07:23
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: AReporpostaProj
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.363791
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -3:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.138s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-7700K CPU @ 4.20GHz, GPU: NVIDIA GeForce RTX 2060
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.002s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2024.02.22-02.07.23:648][  0]LogInit: Selected Device Profile: [Windows]
+[2024.02.22-02.07.23:648][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2024.02.22-02.07.23:655][  0]LogHAL: Display: Platform has ~ 16 GB [17134534656 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2024.02.22-02.07.23:655][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2024.02.22-02.07.23:655][  0]LogInit: Going up to parent DeviceProfile []
+[2024.02.22-02.07.23:656][  0]LogInit: Computer: DESKTOP-VE7UTN2
+[2024.02.22-02.07.23:656][  0]LogInit: User: Teika
+[2024.02.22-02.07.23:656][  0]LogInit: CPU Page size=4096, Cores=4
+[2024.02.22-02.07.23:656][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2024.02.22-02.07.23:656][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2024.02.22-02.07.23:656][  0]LogMemory: Platform Memory Stats for Windows
+[2024.02.22-02.07.23:656][  0]LogMemory: Process Physical Memory: 104.07 MB used, 104.08 MB peak
+[2024.02.22-02.07.23:656][  0]LogMemory: Process Virtual Memory: 93.46 MB used, 93.46 MB peak
+[2024.02.22-02.07.23:656][  0]LogMemory: Physical Memory: 6949.32 MB used,  9391.45 MB free, 16340.77 MB total
+[2024.02.22-02.07.23:656][  0]LogMemory: Virtual Memory: 4631.86 MB used,  9391.45 MB free, 134217728.00 MB total
+[2024.02.22-02.07.23:691][  0]LogInit: Overriding language with editor language configuration option (en).
+[2024.02.22-02.07.23:691][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2024.02.22-02.07.23:989][  0]LogStreaming: Display: Took  0.297s to InitEngineTextLocalization.
+[2024.02.22-02.07.23:989][  0]LogInit: Setting process to per monitor DPI aware
+[2024.02.22-02.07.24:021][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2024.02.22-02.07.24:021][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2024.02.22-02.07.24:203][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2024.02.22-02.07.24:203][  0]LogD3D11RHI: D3D11 adapters:
+[2024.02.22-02.07.24:352][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2060' (Feature Level 11_0)
+[2024.02.22-02.07.24:352][  0]LogD3D11RHI:       5945/0/8170 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2024.02.22-02.07.24:354][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2024.02.22-02.07.24:354][  0]LogD3D11RHI:       0/0/8170 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2024.02.22-02.07.24:354][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2024.02.22-02.07.24:359][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2024.02.22-02.07.24:359][  0]LogD3D11RHI:     GPU DeviceId: 0x1e89 (for the marketing name, search the web for "GPU Device Id")
+[2024.02.22-02.07.24:359][  0]LogWindows: EnumDisplayDevices:
+[2024.02.22-02.07.24:359][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2060' (P:1 D:1)
+[2024.02.22-02.07.24:359][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2060' (P:0 D:1)
+[2024.02.22-02.07.24:359][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2060' (P:0 D:0)
+[2024.02.22-02.07.24:360][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2060' (P:0 D:0)
+[2024.02.22-02.07.24:360][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2024.02.22-02.07.24:360][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2060
+[2024.02.22-02.07.24:360][  0]LogD3D11RHI:   Driver Version: 551.52 (internal:31.0.15.5152, unified:551.52)
+[2024.02.22-02.07.24:360][  0]LogD3D11RHI:      Driver Date: 2-7-2024
+[2024.02.22-02.07.24:360][  0]LogRHI: Texture pool is 4161 MB (70% of 5945 MB)
+[2024.02.22-02.07.24:461][  0]LogD3D11RHI: Async texture creation enabled
+[2024.02.22-02.07.24:489][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2024.02.22-02.07.24:492][  0]LogShaderCompilers: Guid format shader working directory is 17 characters bigger than the processId version (../../../../../../AReproposta/Intermediate/Shaders/WorkingDirectory/6176/).
+[2024.02.22-02.07.24:492][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Teika/AppData/Local/Temp/UnrealShaderWorkingDir/DB8EEEBC498B2562F7DA5B91938300B8/'.
+[2024.02.22-02.07.24:737][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2024.02.22-02.07.24:748][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2024.02.22-02.07.24:759][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2024.02.22-02.07.24:770][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2024.02.22-02.07.24:782][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2024.02.22-02.07.24:794][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2024.02.22-02.07.24:806][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2024.02.22-02.07.24:818][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2024.02.22-02.07.24:824][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2024.02.22-02.07.24:892][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2024.02.22-02.07.24:892][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2024.02.22-02.07.24:892][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2024.02.22-02.07.24:892][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2024.02.22-02.07.24:892][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2024.02.22-02.07.24:892][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2024.02.22-02.07.24:892][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2024.02.22-02.07.24:892][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2024.02.22-02.07.24:892][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2024.02.22-02.07.24:892][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2024.02.22-02.07.24:892][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2024.02.22-02.07.24:892][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2024.02.22-02.07.24:892][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2024.02.22-02.07.24:892][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2024.02.22-02.07.24:892][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2024.02.22-02.07.24:892][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2024.02.22-02.07.24:892][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2024.02.22-02.07.24:892][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2024.02.22-02.07.24:893][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2024.02.22-02.07.24:951][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2024.02.22-02.07.24:951][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2024.02.22-02.07.24:972][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2024.02.22-02.07.24:972][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2024.02.22-02.07.24:983][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2024.02.22-02.07.24:993][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2024.02.22-02.07.25:004][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2024.02.22-02.07.25:015][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2024.02.22-02.07.25:023][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2024.02.22-02.07.25:023][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2024.02.22-02.07.25:076][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2024.02.22-02.07.25:076][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2024.02.22-02.07.25:076][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2024.02.22-02.07.25:862][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2024.02.22-02.07.25:909][  0]LogDerivedDataCache: Loaded boot cache 0.05s 71MB C:/Users/Teika/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2024.02.22-02.07.25:909][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Teika/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2024.02.22-02.07.25:909][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../AReproposta/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2024.02.22-02.07.25:909][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2024.02.22-02.07.25:910][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../AReproposta/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2024.02.22-02.07.25:910][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2024.02.22-02.07.25:922][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2024.02.22-02.07.25:935][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Teika/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2024.02.22-02.07.25:935][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2024.02.22-02.07.25:935][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2024.02.22-02.07.25:951][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2024.02.22-02.07.25:952][  0]LogSlate: Using FreeType 2.6.0
+[2024.02.22-02.07.25:952][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2024.02.22-02.07.26:015][  0]LogAssetRegistry: FAssetRegistry took 0.0252 seconds to start up
+[2024.02.22-02.07.26:280][  0]LogInit: Selected Device Profile: [Windows]
+[2024.02.22-02.07.26:390][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2024.02.22-02.07.26:392][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2024.02.22-02.07.26:392][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2024.02.22-02.07.26:392][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2024.02.22-02.07.26:392][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2024.02.22-02.07.26:407][  0]LogNetVersion: AReporpostaProj 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3188191889)
+[2024.02.22-02.07.26:811][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 1 prioritized culture(s) in 0.050369 seconds
+[2024.02.22-02.07.26:818][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2024.02.22-02.07.26:818][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2024.02.22-02.07.26:818][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2024.02.22-02.07.27:482][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2024.02.22-02.07.27:495][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2024.02.22-02.07.27:619][  0]SourceControl: Source control is disabled
+[2024.02.22-02.07.28:156][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2024.02.22-02.07.28:221][  0]LogOcInput: OculusInput pre-init called
+[2024.02.22-02.07.28:271][  0]LogEngine: Initializing Engine...
+[2024.02.22-02.07.28:272][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2024.02.22-02.07.28:274][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2024.02.22-02.07.28:274][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2024.02.22-02.07.28:274][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2024.02.22-02.07.28:274][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2024.02.22-02.07.28:439][  0]LogInit: Initializing FReadOnlyCVARCache
+[2024.02.22-02.07.28:448][  0]LogAIModule: Creating AISystem for world Untitled
+[2024.02.22-02.07.28:469][  0]LogInit: XAudio2 using 'Alto-falantes (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2024.02.22-02.07.28:489][  0]LogInit: FAudioDevice initialized.
+[2024.02.22-02.07.28:489][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2024.02.22-02.07.28:529][  0]LogDerivedDataCache: Saved boot cache 0.04s 71MB C:/Users/Teika/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2024.02.22-02.07.28:530][  0]LogInit: Texture streaming: Enabled
+[2024.02.22-02.07.28:542][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2024.02.22-02.07.28:551][  0]LogInit: Transaction tracking system initialized
+[2024.02.22-02.07.28:568][  0]BlueprintLog: New page: Editor Load
+[2024.02.22-02.07.28:626][  0]LocalizationService: Localization service is disabled
+[2024.02.22-02.07.28:848][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2024.02.22-02.07.28:848][  0]LogCook: Display: Mobile HDR setting 1
+[2024.02.22-02.07.28:848][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2024.02.22-02.07.28:848][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2024.02.22-02.07.28:848][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2024.02.22-02.07.28:848][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2024.02.22-02.07.28:848][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2024.02.22-02.07.28:933][  0]LogFileCache: Scanning file cache for directory 'C:/AReproposta/Content/' took 0.01s
+[2024.02.22-02.07.28:933][  0]Cmd: MAP LOAD FILE="../../../../../../AReproposta/Content/Map/03Fase.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2024.02.22-02.07.28:934][  0]LightingResults: New page: Lighting Build
+[2024.02.22-02.07.28:936][  0]MapCheck: New page: Map Check
+[2024.02.22-02.07.28:936][  0]LightingResults: New page: Lighting Build
+[2024.02.22-02.07.30:091][  0]LogAIModule: Creating AISystem for world 03Fase
+[2024.02.22-02.07.30:102][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.02.22-02.07.30:122][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.02.22-02.07.30:212][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 89.305ms to complete.
+[2024.02.22-02.07.30:212][  0]LogFileHelpers: Loading map '03Fase' took 1.279
+[2024.02.22-02.07.30:314][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-02.07.30:324][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-02.07.30:332][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-02.07.30:338][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-02.07.30:346][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-02.07.30:355][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-02.07.30:362][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-02.07.30:369][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-02.07.30:377][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-02.07.30:386][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-02.07.30:394][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-02.07.30:403][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-02.07.30:409][  0]LogCollectionManager: Loaded 0 collections in 0.001512 seconds
+[2024.02.22-02.07.30:452][  0]LogFileCache: Scanning file cache for directory 'C:/AReproposta/Saved/Collections/' took 0.01s
+[2024.02.22-02.07.30:452][  0]LogFileCache: Scanning file cache for directory 'C:/AReproposta/Content/Developers/Teika/Collections/' took 0.01s
+[2024.02.22-02.07.30:452][  0]LogFileCache: Scanning file cache for directory 'C:/AReproposta/Content/Collections/' took 0.01s
+[2024.02.22-02.07.30:452][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2024.02.22-02.07.30:461][  0]LogContentBrowser: Native class hierarchy populated in 0.0096 seconds. Added 2572 classes and 603 folders.
+[2024.02.22-02.07.30:468][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2024.02.22-02.07.30:501][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2024.02.22-02.07.30:505][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2024.02.22-02.07.30:580][  0]LogSlate: Took 0.000160 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2024.02.22-02.07.30:584][  0]LogSlate: Took 0.000168 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2024.02.22-02.07.30:587][  0]LogSlate: Took 0.000126 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2024.02.22-02.07.30:651][  0]LogRenderer: Reallocating scene render targets to support 816x508 Format 10 NumSamples 1 (Frame:1).
+[2024.02.22-02.07.30:799][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2024.02.22-02.07.30:799][  0]LogLoad: (Engine Initialization) Total time: 8.90 seconds
+[2024.02.22-02.07.30:799][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2024.02.22-02.07.30:833][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2024.02.22-02.07.30:901][  0]LogSlate: Took 0.000118 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2024.02.22-02.07.30:912][  1]LogAssetRegistry: Asset discovery search completed in 4.9195 seconds
+[2024.02.22-02.07.30:913][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2024.02.22-02.07.30:913][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000043 seconds (updated 0 objects)
+[2024.02.22-02.07.31:833][107]LogSlate: Took 0.000253 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2024.02.22-02.07.33:958][353]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2024.02.22-02.07.37:870][812]LogAssetEditorManager: Opening Asset editor for Material /Game/Map/M_Space_01.M_Space_01
+[2024.02.22-02.07.37:872][812]LogMaterial: Display: Missing cached shader map for material M_Space_01, compiling. 
+[2024.02.22-02.07.38:172][812]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2024.02.22-02.07.38:176][812]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2024.02.22-02.07.38:180][812]LogShaderCompilers: Display: Shaders left to compile 4
+[2024.02.22-02.07.38:180][812]LogShaderCompilers: Display: Shaders left to compile 3
+[2024.02.22-02.07.38:180][812]LogShaderCompilers: Display: Shaders left to compile 2
+[2024.02.22-02.07.38:180][812]LogShaderCompilers: Display: Shaders left to compile 1
+[2024.02.22-02.07.38:180][812]LogMaterial: Display: Missing cached shader map for material M_Space_01, compiling. 
+[2024.02.22-02.07.38:198][812]LogMaterial: Display: Missing cached shader map for material M_Space_01, compiling. 
+[2024.02.22-02.07.38:253][812]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2024.02.22-02.07.38:258][812]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2024.02.22-02.07.38:301][812]LogSlate: Took 0.000239 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2024.02.22-02.07.38:425][812]LogRenderer: Reallocating scene render targets to support 816x588 Format 10 NumSamples 1 (Frame:1).
+[2024.02.22-02.07.39:115][860]LogShaderCompilers: Display: Shaders left to compile 34
+[2024.02.22-02.07.39:133][861]LogShaderCompilers: Display: Shaders left to compile 33
+[2024.02.22-02.07.39:151][862]LogShaderCompilers: Display: Shaders left to compile 32
+[2024.02.22-02.07.39:197][865]LogShaderCompilers: Display: Shaders left to compile 31
+[2024.02.22-02.07.39:458][882]LogShaderCompilers: Display: Shaders left to compile 30
+[2024.02.22-02.07.39:458][882]LogShaderCompilers: Display: Shaders left to compile 29
+[2024.02.22-02.07.39:458][882]LogShaderCompilers: Display: Shaders left to compile 28
+[2024.02.22-02.07.39:475][883]LogShaderCompilers: Display: Shaders left to compile 27
+[2024.02.22-02.07.39:680][895]LogShaderCompilers: Display: Shaders left to compile 26
+[2024.02.22-02.07.39:710][897]LogShaderCompilers: Display: Shaders left to compile 25
+[2024.02.22-02.07.39:724][898]LogShaderCompilers: Display: Shaders left to compile 24
+[2024.02.22-02.07.39:724][898]LogShaderCompilers: Display: Shaders left to compile 23
+[2024.02.22-02.07.39:901][911]LogShaderCompilers: Display: Shaders left to compile 22
+[2024.02.22-02.07.40:008][919]LogShaderCompilers: Display: Shaders left to compile 21
+[2024.02.22-02.07.40:066][924]LogSlate: Window 'M_Space_01' being destroyed
+[2024.02.22-02.07.40:072][924]LogSlate: Window 'M_Space_01' being destroyed
+[2024.02.22-02.07.40:150][924]LogShaderCompilers: Display: Shaders left to compile 16
+[2024.02.22-02.07.40:183][924]LogShaderCompilers: Display: Shaders left to compile 15
+[2024.02.22-02.07.40:425][945]LogShaderCompilers: Display: Shaders left to compile 14
+[2024.02.22-02.07.40:561][958]LogShaderCompilers: Display: Shaders left to compile 13
+[2024.02.22-02.07.40:675][969]LogShaderCompilers: Display: Shaders left to compile 12
+[2024.02.22-02.07.40:853][986]LogShaderCompilers: Display: Shaders left to compile 11
+[2024.02.22-02.07.40:938][995]LogShaderCompilers: Display: Shaders left to compile 10
+[2024.02.22-02.07.41:024][  5]LogShaderCompilers: Display: Shaders left to compile 9
+[2024.02.22-02.07.41:197][ 25]LogShaderCompilers: Display: Shaders left to compile 8
+[2024.02.22-02.07.41:222][ 28]LogShaderCompilers: Display: Shaders left to compile 7
+[2024.02.22-02.07.41:371][ 45]LogShaderCompilers: Display: Shaders left to compile 6
+[2024.02.22-02.07.41:509][ 59]LogShaderCompilers: Display: Shaders left to compile 5
+[2024.02.22-02.07.41:527][ 61]LogShaderCompilers: Display: Shaders left to compile 4
+[2024.02.22-02.07.41:708][ 81]LogShaderCompilers: Display: Shaders left to compile 3
+[2024.02.22-02.07.41:816][ 93]LogShaderCompilers: Display: Shaders left to compile 2
+[2024.02.22-02.07.41:909][102]LogShaderCompilers: Display: Shaders left to compile 1
+[2024.02.22-02.07.42:909][216]LogMaterial: Display: Missing cached shader map for material M_Espaco, compiling. 
+[2024.02.22-02.07.42:950][216]LogShaderCompilers: Display: Shaders left to compile 31
+[2024.02.22-02.07.42:950][216]LogShaderCompilers: Display: Shaders left to compile 21
+[2024.02.22-02.07.42:950][216]LogShaderCompilers: Display: Shaders left to compile 11
+[2024.02.22-02.07.42:950][216]LogShaderCompilers: Display: Shaders left to compile 1
+[2024.02.22-02.07.42:952][216]LogAssetEditorManager: Opening Asset editor for Material /Game/Map/M_Espaco.M_Espaco
+[2024.02.22-02.07.42:955][216]LogMaterial: Display: Missing cached shader map for material M_Espaco, compiling. 
+[2024.02.22-02.07.43:123][216]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2024.02.22-02.07.43:128][216]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2024.02.22-02.07.43:135][216]LogMaterial: Display: Missing cached shader map for material M_Espaco, compiling. 
+[2024.02.22-02.07.43:156][216]LogShaderCompilers: Display: Shaders left to compile 4
+[2024.02.22-02.07.43:159][216]LogMaterial: Display: Missing cached shader map for material M_Espaco, compiling. 
+[2024.02.22-02.07.43:208][216]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2024.02.22-02.07.43:214][216]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2024.02.22-02.07.43:467][221]LogShaderCompilers: Display: Shaders left to compile 34
+[2024.02.22-02.07.43:676][236]LogShaderCompilers: Display: Shaders left to compile 33
+[2024.02.22-02.07.43:898][250]LogShaderCompilers: Display: Shaders left to compile 32
+[2024.02.22-02.07.44:128][265]LogShaderCompilers: Display: Shaders left to compile 31
+[2024.02.22-02.07.44:353][279]LogShaderCompilers: Display: Shaders left to compile 30
+[2024.02.22-02.07.44:546][290]LogShaderCompilers: Display: Shaders left to compile 29
+[2024.02.22-02.07.44:809][309]LogShaderCompilers: Display: Shaders left to compile 28
+[2024.02.22-02.07.44:845][312]LogSlate: Window 'M_Espaco' being destroyed
+[2024.02.22-02.07.44:850][312]LogSlate: Window 'M_Espaco' being destroyed
+[2024.02.22-02.07.45:419][351]LogShaderCompilers: Display: Shaders left to compile 23
+[2024.02.22-02.07.45:950][407]LogShaderCompilers: Display: Shaders left to compile 22
+[2024.02.22-02.07.46:247][437]LogShaderCompilers: Display: Shaders left to compile 21
+[2024.02.22-02.07.46:661][483]LogShaderCompilers: Display: Shaders left to compile 20
+[2024.02.22-02.07.46:851][503]LogShaderCompilers: Display: Shaders left to compile 19
+[2024.02.22-02.07.47:129][532]LogShaderCompilers: Display: Shaders left to compile 18
+[2024.02.22-02.07.47:480][569]LogShaderCompilers: Display: Shaders left to compile 17
+[2024.02.22-02.07.47:845][610]LogShaderCompilers: Display: Shaders left to compile 16
+[2024.02.22-02.07.47:952][622]LogShaderCompilers: Display: Shaders left to compile 15
+[2024.02.22-02.07.48:237][653]LogShaderCompilers: Display: Shaders left to compile 14
+[2024.02.22-02.07.48:295][659]LogShaderCompilers: Display: Shaders left to compile 13
+[2024.02.22-02.07.48:450][676]LogShaderCompilers: Display: Shaders left to compile 12
+[2024.02.22-02.07.48:681][701]LogShaderCompilers: Display: Shaders left to compile 11
+[2024.02.22-02.07.48:681][701]LogShaderCompilers: Display: Shaders left to compile 10
+[2024.02.22-02.07.49:001][732]LogShaderCompilers: Display: Shaders left to compile 9
+[2024.02.22-02.07.49:210][750]LogShaderCompilers: Display: Shaders left to compile 8
+[2024.02.22-02.07.49:542][787]LogShaderCompilers: Display: Shaders left to compile 7
+[2024.02.22-02.07.49:542][787]LogShaderCompilers: Display: Shaders left to compile 6
+[2024.02.22-02.07.49:629][797]LogShaderCompilers: Display: Shaders left to compile 5
+[2024.02.22-02.07.49:719][807]LogShaderCompilers: Display: Shaders left to compile 4
+[2024.02.22-02.07.50:024][840]LogShaderCompilers: Display: Shaders left to compile 3
+[2024.02.22-02.07.50:110][849]LogShaderCompilers: Display: Shaders left to compile 2
+[2024.02.22-02.07.50:287][868]LogShaderCompilers: Display: Shaders left to compile 1
+[2024.02.22-02.07.52:422][111]LogMaterial: Display: Missing cached shader map for material M_Space, compiling. 
+[2024.02.22-02.07.52:455][111]LogShaderCompilers: Display: Shaders left to compile 69
+[2024.02.22-02.07.52:455][111]LogShaderCompilers: Display: Shaders left to compile 59
+[2024.02.22-02.07.52:455][111]LogShaderCompilers: Display: Shaders left to compile 49
+[2024.02.22-02.07.52:455][111]LogShaderCompilers: Display: Shaders left to compile 39
+[2024.02.22-02.07.52:463][111]LogAssetEditorManager: Opening Asset editor for Material /Game/Map/M_Space.M_Space
+[2024.02.22-02.07.52:467][111]LogMaterial: Display: Missing cached shader map for material M_Space, compiling. 
+[2024.02.22-02.07.52:639][111]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2024.02.22-02.07.52:648][111]LogMaterial: Display: Missing cached shader map for material M_Space, compiling. 
+[2024.02.22-02.07.52:679][111]LogMaterial: Display: Missing cached shader map for material M_Space, compiling. 
+[2024.02.22-02.07.52:737][111]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2024.02.22-02.07.56:260][326]LogShaderCompilers: Display: Shaders left to compile 61
+[2024.02.22-02.07.56:559][345]LogShaderCompilers: Display: Shaders left to compile 60
+[2024.02.22-02.07.56:619][349]LogShaderCompilers: Display: Shaders left to compile 59
+[2024.02.22-02.07.57:015][375]LogShaderCompilers: Display: Shaders left to compile 58
+[2024.02.22-02.07.57:151][385]LogShaderCompilers: Display: Shaders left to compile 57
+[2024.02.22-02.07.57:268][392]LogShaderCompilers: Display: Shaders left to compile 56
+[2024.02.22-02.07.57:325][396]LogShaderCompilers: Display: Shaders left to compile 55
+[2024.02.22-02.07.57:382][400]LogShaderCompilers: Display: Shaders left to compile 54
+[2024.02.22-02.07.57:534][411]LogShaderCompilers: Display: Shaders left to compile 53
+[2024.02.22-02.07.57:534][411]LogShaderCompilers: Display: Shaders left to compile 52
+[2024.02.22-02.07.57:589][414]LogShaderCompilers: Display: Shaders left to compile 51
+[2024.02.22-02.07.57:589][414]LogShaderCompilers: Display: Shaders left to compile 50
+[2024.02.22-02.07.57:757][426]LogShaderCompilers: Display: Shaders left to compile 49
+[2024.02.22-02.07.57:892][434]LogShaderCompilers: Display: Shaders left to compile 48
+[2024.02.22-02.07.58:058][445]LogShaderCompilers: Display: Shaders left to compile 47
+[2024.02.22-02.07.58:099][448]LogShaderCompilers: Display: Shaders left to compile 46
+[2024.02.22-02.07.58:220][456]LogShaderCompilers: Display: Shaders left to compile 45
+[2024.02.22-02.07.58:339][464]LogShaderCompilers: Display: Shaders left to compile 44
+[2024.02.22-02.07.58:352][465]LogShaderCompilers: Display: Shaders left to compile 43
+[2024.02.22-02.07.58:565][481]LogShaderCompilers: Display: Shaders left to compile 42
+[2024.02.22-02.07.58:669][487]LogShaderCompilers: Display: Shaders left to compile 41
+[2024.02.22-02.07.58:705][489]LogShaderCompilers: Display: Shaders left to compile 40
+[2024.02.22-02.07.58:886][502]LogShaderCompilers: Display: Shaders left to compile 39
+[2024.02.22-02.07.58:972][508]LogShaderCompilers: Display: Shaders left to compile 38
+[2024.02.22-02.07.59:088][516]LogShaderCompilers: Display: Shaders left to compile 37
+[2024.02.22-02.07.59:184][523]LogShaderCompilers: Display: Shaders left to compile 36
+[2024.02.22-02.07.59:275][530]LogShaderCompilers: Display: Shaders left to compile 35
+[2024.02.22-02.07.59:386][538]LogShaderCompilers: Display: Shaders left to compile 34
+[2024.02.22-02.07.59:542][549]LogShaderCompilers: Display: Shaders left to compile 33
+[2024.02.22-02.07.59:582][552]LogShaderCompilers: Display: Shaders left to compile 32
+[2024.02.22-02.07.59:740][564]LogShaderCompilers: Display: Shaders left to compile 31
+[2024.02.22-02.07.59:812][569]LogShaderCompilers: Display: Shaders left to compile 30
+[2024.02.22-02.07.59:873][574]LogShaderCompilers: Display: Shaders left to compile 29
+[2024.02.22-02.07.59:990][582]LogShaderCompilers: Display: Shaders left to compile 19
+[2024.02.22-02.07.59:991][582]MaterialEditorStats: Base pass shader: 107 instructions
+[2024.02.22-02.07.59:991][582]MaterialEditorStats: Base pass shader with Surface Lightmap: 124 instructions
+[2024.02.22-02.07.59:991][582]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 181 instructions
+[2024.02.22-02.07.59:991][582]MaterialEditorStats: Base pass vertex shader: 36 instructions
+[2024.02.22-02.07.59:991][582]MaterialEditorStats: Texture samplers: 4/16
+[2024.02.22-02.07.59:992][582]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2024.02.22-02.07.59:992][582]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.02.22-02.08.00:093][589]LogShaderCompilers: Display: Shaders left to compile 9
+[2024.02.22-02.08.07:236][676]LogSlate: Window 'Message' being destroyed
+[2024.02.22-02.08.07:241][676]LogSlate: Window 'M_Space' being destroyed
+[2024.02.22-02.08.07:242][676]LogSlate: Window 'M_Space' being destroyed
+[2024.02.22-02.08.26:375][835]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/T_Space_03" FILE="../../../../../../AReproposta/Content/Map/T_Space_03.uasset" SILENT=true
+[2024.02.22-02.08.26:385][835]LogSavePackage: Moving '../../../../../../AReproposta/Saved/T_Space_032138C8F645710D60EC4302AB6F20872A.tmp' to '../../../../../../AReproposta/Content/Map/T_Space_03.uasset'
+[2024.02.22-02.08.27:001][835]SourceControl: rm 'Content/Map/T_Space.uasset'
+[2024.02.22-02.08.27:112][835]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/M_Espaco" FILE="../../../../../../AReproposta/Content/Map/M_Espaco.uasset" SILENT=true
+[2024.02.22-02.08.27:177][835]LogSavePackage: Moving '../../../../../../AReproposta/Saved/M_Espaco6861EB0C4FBEC67D612EC0A58FAB65DD.tmp' to '../../../../../../AReproposta/Content/Map/M_Espaco.uasset'
+[2024.02.22-02.08.27:189][835]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/M_Space" FILE="../../../../../../AReproposta/Content/Map/M_Space.uasset" SILENT=true
+[2024.02.22-02.08.27:254][835]LogSavePackage: Moving '../../../../../../AReproposta/Saved/M_Space261DE3AC4361BEEC001D94AABA37E928.tmp' to '../../../../../../AReproposta/Content/Map/M_Space.uasset'
+[2024.02.22-02.08.38:411][ 34]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/M_Space_03" FILE="../../../../../../AReproposta/Content/Map/M_Space_03.uasset" SILENT=true
+[2024.02.22-02.08.38:422][ 34]LogSavePackage: Moving '../../../../../../AReproposta/Saved/M_Space_03B34A0A8D4017D9802337CD844A3F7CAF.tmp' to '../../../../../../AReproposta/Content/Map/M_Space_03.uasset'
+[2024.02.22-02.08.39:049][ 34]SourceControl: rm 'Content/Map/M_Espaco.uasset'
+[2024.02.22-02.09.05:327][ 49]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/BuiltData/03Fase_BuiltData" FILE="../../../../../../AReproposta/Content/Map/BuiltData/03Fase_BuiltData.uasset" SILENT=true
+[2024.02.22-02.09.05:334][ 49]LogSavePackage: Moving '../../../../../../AReproposta/Saved/03Fase_BuiltDataE05D8411408ECEBE1388AB92CD2A98B4.tmp' to '../../../../../../AReproposta/Content/Map/BuiltData/03Fase_BuiltData.uasset'
+[2024.02.22-02.09.05:485][ 49]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/03Fase_BuiltData" FILE="../../../../../../AReproposta/Content/Map/03Fase_BuiltData.uasset" SILENT=true
+[2024.02.22-02.09.05:539][ 49]LogSavePackage: Moving '../../../../../../AReproposta/Saved/03Fase_BuiltDataB790E23E4125C54651BA73A8982C2B17.tmp' to '../../../../../../AReproposta/Content/Map/03Fase_BuiltData.uasset'
+[2024.02.22-02.09.05:543][ 49]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/BuiltData/02Fase_BuiltData" FILE="../../../../../../AReproposta/Content/Map/BuiltData/02Fase_BuiltData.uasset" SILENT=true
+[2024.02.22-02.09.05:551][ 49]LogSavePackage: Moving '../../../../../../AReproposta/Saved/02Fase_BuiltDataD435B61340C794FCBDB5909FC253D39B.tmp' to '../../../../../../AReproposta/Content/Map/BuiltData/02Fase_BuiltData.uasset'
+[2024.02.22-02.09.05:699][ 49]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/02Fase_BuiltData" FILE="../../../../../../AReproposta/Content/Map/02Fase_BuiltData.uasset" SILENT=true
+[2024.02.22-02.09.05:753][ 49]LogSavePackage: Moving '../../../../../../AReproposta/Saved/02Fase_BuiltData1327CD124D2FB8F9C898579C73757BBD.tmp' to '../../../../../../AReproposta/Content/Map/02Fase_BuiltData.uasset'
+[2024.02.22-02.09.09:590][382]LogAIModule: Creating AISystem for world 02Fase
+[2024.02.22-02.09.09:860][382]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/03Fase" FILE="../../../../../../AReproposta/Content/Map/03Fase.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.02.22-02.09.10:103][382]LogSavePackage: Moving '../../../../../../AReproposta/Saved/03Fase56D2EDE54B74568496CA908FF9E6A1A4.tmp' to '../../../../../../AReproposta/Content/Map/03Fase.umap'
+[2024.02.22-02.09.10:139][382]LogFileHelpers: Saving map '03Fase' took 0.370
+[2024.02.22-02.09.10:230][382]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/02Fase" FILE="../../../../../../AReproposta/Content/Map/02Fase.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.02.22-02.09.10:462][382]LogSavePackage: Moving '../../../../../../AReproposta/Saved/02FaseFD61D64E45FBF8DC8D92BD9020E8DD80.tmp' to '../../../../../../AReproposta/Content/Map/02Fase.umap'
+[2024.02.22-02.09.10:470][382]LogFileHelpers: Saving map '02Fase' took 0.329
+[2024.02.22-02.09.11:239][382]SourceControl: Error: Updated 2 paths from the index
+[2024.02.22-02.09.11:382][382]SourceControl: rm 'Content/Map/02Fase_BuiltData.uasset'
+[2024.02.22-02.09.11:382][382]SourceControl: rm 'Content/Map/03Fase_BuiltData.uasset'
+[2024.02.22-02.09.34:699][125]LogAIModule: Creating AISystem for world MainMenuDefinitivo
+[2024.02.22-02.09.35:607][125]LogMetaData: Removing '/Game/Map/00MainMenu.00MainMenu:PersistentLevel.00MainMenu.EventGraph.K2Node_Event_0' ref from Metadata '/Game/Map/MainMenuDefinitivo.PackageMetaData'
+[2024.02.22-02.09.35:607][125]LogMetaData: Removing '/Game/Map/00MainMenu.00MainMenu:PersistentLevel.00MainMenu.EventGraph.K2Node_Event_1' ref from Metadata '/Game/Map/MainMenuDefinitivo.PackageMetaData'
+[2024.02.22-02.09.35:607][125]LogMetaData: Removing '/Game/Map/00MainMenu.00MainMenu_C' ref from Metadata '/Game/Map/MainMenuDefinitivo.PackageMetaData'
+[2024.02.22-02.09.35:607][125]LogMetaData: Removing '/Game/Map/00MainMenu.SKEL_00MainMenu_C' ref from Metadata '/Game/Map/MainMenuDefinitivo.PackageMetaData'
+[2024.02.22-02.09.35:717][125]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/00MainMenu" FILE="../../../../../../AReproposta/Content/Map/00MainMenu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.02.22-02.09.35:797][125]LogSavePackage: Moving '../../../../../../AReproposta/Saved/00MainMenuB416A2864472EE16087FFC94D1CC36F9.tmp' to '../../../../../../AReproposta/Content/Map/00MainMenu.umap'
+[2024.02.22-02.09.35:959][125]LogFileHelpers: Saving map '00MainMenu' took 0.337
+[2024.02.22-02.09.36:397][125]SourceControl: rm 'Content/Map/MainMenuDefinitivo.umap'
+[2024.02.22-02.09.49:187][633]LogAIModule: Creating AISystem for world 01Fase
+[2024.02.22-02.09.49:192][633]LogAssetEditorManager: Opening Asset editor for World /Game/Map/01Fase.01Fase
+[2024.02.22-02.09.49:210][633]Cmd: MAP LOAD FILE="../../../../../../AReproposta/Content/Map/01Fase.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2024.02.22-02.09.49:210][633]LightingResults: New page: Lighting Build
+[2024.02.22-02.09.49:211][633]LoadErrors: New page: Loading map: 01Fase.umap
+[2024.02.22-02.09.49:211][633]MapCheck: New page: Map Check
+[2024.02.22-02.09.49:211][633]LightingResults: New page: Lighting Build
+[2024.02.22-02.09.49:363][633]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.02.22-02.09.49:406][633]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.02.22-02.09.49:506][633]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 98.407ms to complete.
+[2024.02.22-02.09.49:506][633]LogFileHelpers: Loading map '01Fase' took 0.295
+[2024.02.22-02.09.51:904][913]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2024.02.22-02.09.52:114][932]LogAIModule: Creating AISystem for world 02Fase
+[2024.02.22-02.09.52:118][932]LogAssetEditorManager: Opening Asset editor for World /Game/Map/02Fase.02Fase
+[2024.02.22-02.09.52:134][932]Cmd: MAP LOAD FILE="../../../../../../AReproposta/Content/Map/02Fase.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2024.02.22-02.09.52:134][932]LightingResults: New page: Lighting Build
+[2024.02.22-02.09.52:134][932]LoadErrors: New page: Loading map: 02Fase.umap
+[2024.02.22-02.09.52:135][932]MapCheck: New page: Map Check
+[2024.02.22-02.09.52:135][932]LightingResults: New page: Lighting Build
+[2024.02.22-02.09.52:221][932]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.02.22-02.09.52:265][932]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.02.22-02.09.52:359][932]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 93.144ms to complete.
+[2024.02.22-02.09.52:360][932]LogFileHelpers: Loading map '02Fase' took 0.225
+[2024.02.22-02.09.54:204][135]LogAIModule: Creating AISystem for world 03Fase
+[2024.02.22-02.09.54:212][135]LogAssetEditorManager: Opening Asset editor for World /Game/Map/03Fase.03Fase
+[2024.02.22-02.09.54:229][135]Cmd: MAP LOAD FILE="../../../../../../AReproposta/Content/Map/03Fase.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2024.02.22-02.09.54:229][135]LightingResults: New page: Lighting Build
+[2024.02.22-02.09.54:229][135]LoadErrors: New page: Loading map: 03Fase.umap
+[2024.02.22-02.09.54:230][135]MapCheck: New page: Map Check
+[2024.02.22-02.09.54:230][135]LightingResults: New page: Lighting Build
+[2024.02.22-02.09.54:331][135]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.02.22-02.09.54:380][135]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.02.22-02.09.54:481][135]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 100.996ms to complete.
+[2024.02.22-02.09.54:482][135]LogFileHelpers: Loading map '03Fase' took 0.254
+[2024.02.22-02.10.00:183][813]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2024.02.22-02.10.07:641][592]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/03Fase_BuiltData" FILE="../../../../../../AReproposta/Content/Map/03Fase_BuiltData.uasset" SILENT=true
+[2024.02.22-02.10.07:647][592]LogSavePackage: Moving '../../../../../../AReproposta/Saved/03Fase_BuiltDataEFFEA60A4D58B491A111EC91983E025F.tmp' to '../../../../../../AReproposta/Content/Map/03Fase_BuiltData.uasset'
+[2024.02.22-02.10.07:784][592]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/BuiltData/03Fase_BuiltData" FILE="../../../../../../AReproposta/Content/Map/BuiltData/03Fase_BuiltData.uasset" SILENT=true
+[2024.02.22-02.10.07:837][592]LogSavePackage: Moving '../../../../../../AReproposta/Saved/03Fase_BuiltDataD2836F4B453DDBBF3ED3D5940BDE7CD2.tmp' to '../../../../../../AReproposta/Content/Map/BuiltData/03Fase_BuiltData.uasset'
+[2024.02.22-02.10.07:843][592]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/02Fase_BuiltData" FILE="../../../../../../AReproposta/Content/Map/02Fase_BuiltData.uasset" SILENT=true
+[2024.02.22-02.10.07:849][592]LogSavePackage: Moving '../../../../../../AReproposta/Saved/02Fase_BuiltDataBB3FE9644A5DC4F081F2AD80B01FED9F.tmp' to '../../../../../../AReproposta/Content/Map/02Fase_BuiltData.uasset'
+[2024.02.22-02.10.07:987][592]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/BuiltData/02Fase_BuiltData" FILE="../../../../../../AReproposta/Content/Map/BuiltData/02Fase_BuiltData.uasset" SILENT=true
+[2024.02.22-02.10.08:040][592]LogSavePackage: Moving '../../../../../../AReproposta/Saved/02Fase_BuiltData2C83C02C485EE88F983DCA9279047E8D.tmp' to '../../../../../../AReproposta/Content/Map/BuiltData/02Fase_BuiltData.uasset'
+[2024.02.22-02.10.08:045][592]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/01Fase_BuiltData" FILE="../../../../../../AReproposta/Content/Map/01Fase_BuiltData.uasset" SILENT=true
+[2024.02.22-02.10.08:049][592]LogSavePackage: Moving '../../../../../../AReproposta/Saved/01Fase_BuiltData2BB0B4444F29D8AE898246ABBB4F32D2.tmp' to '../../../../../../AReproposta/Content/Map/01Fase_BuiltData.uasset'
+[2024.02.22-02.10.08:200][592]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/BuiltData/01Fase_BuiltData" FILE="../../../../../../AReproposta/Content/Map/BuiltData/01Fase_BuiltData.uasset" SILENT=true
+[2024.02.22-02.10.08:253][592]LogSavePackage: Moving '../../../../../../AReproposta/Saved/01Fase_BuiltData942ACCEF494B8E9B5360DF935DB42648.tmp' to '../../../../../../AReproposta/Content/Map/BuiltData/01Fase_BuiltData.uasset'
+[2024.02.22-02.10.13:310][ 45]LogAIModule: Creating AISystem for world 02Fase
+[2024.02.22-02.10.13:360][ 45]LogAIModule: Creating AISystem for world 01Fase
+[2024.02.22-02.10.13:638][ 45]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/03Fase" FILE="../../../../../../AReproposta/Content/Map/03Fase.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.02.22-02.10.13:877][ 45]LogSavePackage: Moving '../../../../../../AReproposta/Saved/03Fase6D371BE840BC4982E2FC03987AF03DE6.tmp' to '../../../../../../AReproposta/Content/Map/03Fase.umap'
+[2024.02.22-02.10.13:908][ 45]LogFileHelpers: Saving map '03Fase' took 0.360
+[2024.02.22-02.10.14:002][ 45]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/02Fase" FILE="../../../../../../AReproposta/Content/Map/02Fase.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.02.22-02.10.14:268][ 45]LogSavePackage: Moving '../../../../../../AReproposta/Saved/02Fase7C26FD7E4018C5620783C4A45346EBBD.tmp' to '../../../../../../AReproposta/Content/Map/02Fase.umap'
+[2024.02.22-02.10.14:280][ 45]LogFileHelpers: Saving map '02Fase' took 0.371
+[2024.02.22-02.10.14:380][ 45]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/01Fase" FILE="../../../../../../AReproposta/Content/Map/01Fase.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.02.22-02.10.14:616][ 45]LogSavePackage: Moving '../../../../../../AReproposta/Saved/01FaseA002313F47A04149E4223C81374AAD5D.tmp' to '../../../../../../AReproposta/Content/Map/01Fase.umap'
+[2024.02.22-02.10.14:624][ 45]LogFileHelpers: Saving map '01Fase' took 0.343
+[2024.02.22-02.10.15:629][ 45]SourceControl: Error: Updated 1 path from the index
+[2024.02.22-02.10.15:750][ 45]SourceControl: rm 'Content/Map/BuiltData/01Fase_BuiltData.uasset'
+[2024.02.22-02.10.37:246][497]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particle/BossProjectileSpawnParticles/T_RingAlpha" FILE="../../../../../../AReproposta/Content/Particle/BossProjectileSpawnParticles/T_RingAlpha.uasset" SILENT=true
+[2024.02.22-02.10.37:262][497]LogSavePackage: Moving '../../../../../../AReproposta/Saved/T_RingAlpha50C78357461843D4D3B70E9AC1DEE297.tmp' to '../../../../../../AReproposta/Content/Particle/BossProjectileSpawnParticles/T_RingAlpha.uasset'
+[2024.02.22-02.10.37:446][497]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particle/BossProjectileSpawnParticles/RingAlpha" FILE="../../../../../../AReproposta/Content/Particle/BossProjectileSpawnParticles/RingAlpha.uasset" SILENT=true
+[2024.02.22-02.10.37:501][497]LogSavePackage: Moving '../../../../../../AReproposta/Saved/RingAlphaA01A914941F13BE615E4F4BFDB803E0D.tmp' to '../../../../../../AReproposta/Content/Particle/BossProjectileSpawnParticles/RingAlpha.uasset'
+[2024.02.22-02.10.41:748][890]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particle/BossProjectileSpawnParticles/T_Smoke" FILE="../../../../../../AReproposta/Content/Particle/BossProjectileSpawnParticles/T_Smoke.uasset" SILENT=true
+[2024.02.22-02.10.41:759][890]LogSavePackage: Moving '../../../../../../AReproposta/Saved/T_Smoke1FD194314998E8A26B506ABB6BE839E4.tmp' to '../../../../../../AReproposta/Content/Particle/BossProjectileSpawnParticles/T_Smoke.uasset'
+[2024.02.22-02.10.41:919][890]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particle/BossProjectileSpawnParticles/Smoke" FILE="../../../../../../AReproposta/Content/Particle/BossProjectileSpawnParticles/Smoke.uasset" SILENT=true
+[2024.02.22-02.10.41:974][890]LogSavePackage: Moving '../../../../../../AReproposta/Saved/SmokeCC39D59D4746DF775CC019B393B5D90D.tmp' to '../../../../../../AReproposta/Content/Particle/BossProjectileSpawnParticles/Smoke.uasset'
+[2024.02.22-02.10.46:307][297]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particle/BossProjectileSpawnParticles/T_Smoke1" FILE="../../../../../../AReproposta/Content/Particle/BossProjectileSpawnParticles/T_Smoke1.uasset" SILENT=true
+[2024.02.22-02.10.46:318][297]LogSavePackage: Moving '../../../../../../AReproposta/Saved/T_Smoke1382233FC401DB15BE496FA9233A2F291.tmp' to '../../../../../../AReproposta/Content/Particle/BossProjectileSpawnParticles/T_Smoke1.uasset'
+[2024.02.22-02.10.46:479][297]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particle/BossProjectileSpawnParticles/Smoke1" FILE="../../../../../../AReproposta/Content/Particle/BossProjectileSpawnParticles/Smoke1.uasset" SILENT=true
+[2024.02.22-02.10.46:533][297]LogSavePackage: Moving '../../../../../../AReproposta/Saved/Smoke1E3B5AE8C40E1D565A04308B40C8B8738.tmp' to '../../../../../../AReproposta/Content/Particle/BossProjectileSpawnParticles/Smoke1.uasset'
+[2024.02.22-02.10.50:815][697]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particle/BossProjectileSpawnParticles/T_Smoke2" FILE="../../../../../../AReproposta/Content/Particle/BossProjectileSpawnParticles/T_Smoke2.uasset" SILENT=true
+[2024.02.22-02.10.50:826][697]LogSavePackage: Moving '../../../../../../AReproposta/Saved/T_Smoke24EBE6B9E4E236646DEE95B9F463DDA03.tmp' to '../../../../../../AReproposta/Content/Particle/BossProjectileSpawnParticles/T_Smoke2.uasset'
+[2024.02.22-02.10.50:974][697]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particle/BossProjectileSpawnParticles/Smoke2" FILE="../../../../../../AReproposta/Content/Particle/BossProjectileSpawnParticles/Smoke2.uasset" SILENT=true
+[2024.02.22-02.10.51:031][697]LogSavePackage: Moving '../../../../../../AReproposta/Saved/Smoke223FC2E584CF6ED154B581FB8086BB85A.tmp' to '../../../../../../AReproposta/Content/Particle/BossProjectileSpawnParticles/Smoke2.uasset'
+[2024.02.22-02.10.58:020][412]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particle/BossProjectileSpawnParticles/M_Smoke" FILE="../../../../../../AReproposta/Content/Particle/BossProjectileSpawnParticles/M_Smoke.uasset" SILENT=true
+[2024.02.22-02.10.58:030][412]LogSavePackage: Moving '../../../../../../AReproposta/Saved/M_SmokeA8B008114A9BB8AA3F3C6FB1E1675231.tmp' to '../../../../../../AReproposta/Content/Particle/BossProjectileSpawnParticles/M_Smoke.uasset'
+[2024.02.22-02.10.58:179][412]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particle/BossProjectileSpawnParticles/Smoke_M" FILE="../../../../../../AReproposta/Content/Particle/BossProjectileSpawnParticles/Smoke_M.uasset" SILENT=true
+[2024.02.22-02.10.58:235][412]LogSavePackage: Moving '../../../../../../AReproposta/Saved/Smoke_M8D13E21F4078484B68024492763DC1EE.tmp' to '../../../../../../AReproposta/Content/Particle/BossProjectileSpawnParticles/Smoke_M.uasset'
+[2024.02.22-02.11.05:344][143]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particle/BossProjectileSpawnParticles/M_Ring" FILE="../../../../../../AReproposta/Content/Particle/BossProjectileSpawnParticles/M_Ring.uasset" SILENT=true
+[2024.02.22-02.11.05:404][143]LogSavePackage: Moving '../../../../../../AReproposta/Saved/M_RingF3476A18418BE0B10A1D91A72BBD9D7B.tmp' to '../../../../../../AReproposta/Content/Particle/BossProjectileSpawnParticles/M_Ring.uasset'
+[2024.02.22-02.11.05:418][143]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particle/BossProjectileSpawnParticles/M_Smoke2" FILE="../../../../../../AReproposta/Content/Particle/BossProjectileSpawnParticles/M_Smoke2.uasset" SILENT=true
+[2024.02.22-02.11.05:480][143]LogSavePackage: Moving '../../../../../../AReproposta/Saved/M_Smoke2368104C243D0972C39AF0D8E932D4546.tmp' to '../../../../../../AReproposta/Content/Particle/BossProjectileSpawnParticles/M_Smoke2.uasset'
+[2024.02.22-02.11.05:492][143]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particle/BossProjectileSpawnParticles/M_Smoke1" FILE="../../../../../../AReproposta/Content/Particle/BossProjectileSpawnParticles/M_Smoke1.uasset" SILENT=true
+[2024.02.22-02.11.05:554][143]LogSavePackage: Moving '../../../../../../AReproposta/Saved/M_Smoke15C01C0AB462002DF0C1E0E91DC7BA8F3.tmp' to '../../../../../../AReproposta/Content/Particle/BossProjectileSpawnParticles/M_Smoke1.uasset'
+[2024.02.22-02.11.05:637][143]LogSavePackage: Moving '../../../../../../AReproposta/Saved/P_RingSpawnter8216C98045942E9C670453BF6E165507.tmp' to '../../../../../../AReproposta/Content/Particle/BossProjectileSpawnParticles/P_RingSpawnter.uasset'
+[2024.02.22-02.11.06:976][143]SourceControl: Error: Updated 5 paths from the index
+[2024.02.22-02.11.07:153][143]SourceControl: rm 'Content/Particle/BossProjectileSpawnParticles/RingAlpha.uasset'
+[2024.02.22-02.11.07:153][143]SourceControl: rm 'Content/Particle/BossProjectileSpawnParticles/Smoke.uasset'
+[2024.02.22-02.11.07:153][143]SourceControl: rm 'Content/Particle/BossProjectileSpawnParticles/Smoke1.uasset'
+[2024.02.22-02.11.07:153][143]SourceControl: rm 'Content/Particle/BossProjectileSpawnParticles/Smoke2.uasset'
+[2024.02.22-02.11.07:153][143]SourceControl: rm 'Content/Particle/BossProjectileSpawnParticles/Smoke_M.uasset'
+[2024.02.22-02.11.25:422][193]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particle/Nave/T_Fire" FILE="../../../../../../AReproposta/Content/Particle/Nave/T_Fire.uasset" SILENT=true
+[2024.02.22-02.11.25:458][193]LogSavePackage: Moving '../../../../../../AReproposta/Saved/T_Fire8990C26141BEFC673ED944A77EECDBAB.tmp' to '../../../../../../AReproposta/Content/Particle/Nave/T_Fire.uasset'
+[2024.02.22-02.11.25:723][193]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particle/Nave/Fire_Nave" FILE="../../../../../../AReproposta/Content/Particle/Nave/Fire_Nave.uasset" SILENT=true
+[2024.02.22-02.11.25:784][193]LogSavePackage: Moving '../../../../../../AReproposta/Saved/Fire_Nave3399476D44AA37871C50CC8572DFE375.tmp' to '../../../../../../AReproposta/Content/Particle/Nave/Fire_Nave.uasset'
+[2024.02.22-02.11.28:031][427]LogSlate: Window 'Reference Viewer' being destroyed
+[2024.02.22-02.11.28:035][427]LogSlate: Window 'Reference Viewer' being destroyed
+[2024.02.22-02.11.30:726][606]LogSlate: Window 'Delete Assets' being destroyed
+[2024.02.22-02.11.31:139][606]SourceControl: Error: Updated 0 paths from the index
+[2024.02.22-02.11.31:270][606]SourceControl: rm 'Content/Particle/Nave/lambert1.uasset'
+[2024.02.22-02.11.43:693][ 93]LogMaterial: Display: Missing cached shader map for material NewMaterial, compiling. 
+[2024.02.22-02.11.43:739][ 93]LogShaderCompilers: Display: Shaders left to compile 93
+[2024.02.22-02.11.43:739][ 93]LogShaderCompilers: Display: Shaders left to compile 83
+[2024.02.22-02.11.43:739][ 93]LogShaderCompilers: Display: Shaders left to compile 73
+[2024.02.22-02.11.43:739][ 93]LogShaderCompilers: Display: Shaders left to compile 63
+[2024.02.22-02.11.44:732][ 93]LogMetaData: Removing '/Game/Particle/Nave/S_AirshipTrail.S_AirshipTrail' ref from Metadata '/Game/Particle/Nave/Nave_Trajetoria.PackageMetaData'
+[2024.02.22-02.11.44:774][ 93]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particle/Nave/S_AirshipTrail" FILE="../../../../../../AReproposta/Content/Particle/Nave/S_AirshipTrail.uasset" SILENT=true
+[2024.02.22-02.11.44:788][ 93]LogSavePackage: Moving '../../../../../../AReproposta/Saved/S_AirshipTrail6AF966C64E1F81218F2BF5A48C967FEA.tmp' to '../../../../../../AReproposta/Content/Particle/Nave/S_AirshipTrail.uasset'
+[2024.02.22-02.11.45:001][ 93]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particle/Nave/Nave_Trajetoria" FILE="../../../../../../AReproposta/Content/Particle/Nave/Nave_Trajetoria.uasset" SILENT=true
+[2024.02.22-02.11.45:088][ 93]LogSavePackage: Moving '../../../../../../AReproposta/Saved/Nave_TrajetoriaCA40391144C14BB4925C019EEBEB4519.tmp' to '../../../../../../AReproposta/Content/Particle/Nave/Nave_Trajetoria.uasset'
+[2024.02.22-02.11.48:345][365]LogShaderCompilers: Display: Shaders left to compile 53
+[2024.02.22-02.11.48:452][376]LogShaderCompilers: Display: Shaders left to compile 43
+[2024.02.22-02.11.50:216][517]LogShaderCompilers: Display: Shaders left to compile 33
+[2024.02.22-02.11.50:949][575]LogShaderCompilers: Display: Shaders left to compile 23
+[2024.02.22-02.11.52:924][728]LogShaderCompilers: Display: Shaders left to compile 13
+[2024.02.22-02.11.55:428][922]LogShaderCompilers: Display: Shaders left to compile 3
+[2024.02.22-02.11.56:068][970]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/Particle/Nave/S_AirshipTrail.S_AirshipTrail
+[2024.02.22-02.11.56:549][970]LogRenderer: Reallocating scene render targets to support 1432x964 Format 10 NumSamples 1 (Frame:1).
+[2024.02.22-02.11.56:549][970]LogSlate: Took 0.000258 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2024.02.22-02.12.18:641][121]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particle/Nave/P_Propulsion" FILE="../../../../../../AReproposta/Content/Particle/Nave/P_Propulsion.uasset" SILENT=true
+[2024.02.22-02.12.18:657][121]LogSavePackage: Moving '../../../../../../AReproposta/Saved/P_Propulsion79BE37EC46DCF2C6B36135B248DC64C3.tmp' to '../../../../../../AReproposta/Content/Particle/Nave/P_Propulsion.uasset'
+[2024.02.22-02.12.18:796][121]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particle/Nave/Propursao" FILE="../../../../../../AReproposta/Content/Particle/Nave/Propursao.uasset" SILENT=true
+[2024.02.22-02.12.18:851][121]LogSavePackage: Moving '../../../../../../AReproposta/Saved/Propursao776E21EB4E1502D79DFDB2B8E8AFEA8D.tmp' to '../../../../../../AReproposta/Content/Particle/Nave/Propursao.uasset'
+[2024.02.22-02.12.33:694][498]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particle/Nave/M_AirshipTrail" FILE="../../../../../../AReproposta/Content/Particle/Nave/M_AirshipTrail.uasset" SILENT=true
+[2024.02.22-02.12.33:703][498]LogSavePackage: Moving '../../../../../../AReproposta/Saved/M_AirshipTrail3FFEA5D34D9C9BBB5FBBC5AC311E70D3.tmp' to '../../../../../../AReproposta/Content/Particle/Nave/M_AirshipTrail.uasset'
+[2024.02.22-02.12.33:854][498]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particle/Nave/NewMaterial" FILE="../../../../../../AReproposta/Content/Particle/Nave/NewMaterial.uasset" SILENT=true
+[2024.02.22-02.12.33:908][498]LogSavePackage: Moving '../../../../../../AReproposta/Saved/NewMaterial3B1CCE98411C5E8939171D864947E36B.tmp' to '../../../../../../AReproposta/Content/Particle/Nave/NewMaterial.uasset'
+[2024.02.22-02.12.38:147][843]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particle/Nave/S_AirshipTrail" FILE="../../../../../../AReproposta/Content/Particle/Nave/S_AirshipTrail.uasset" SILENT=true
+[2024.02.22-02.12.38:204][843]LogSavePackage: Moving '../../../../../../AReproposta/Saved/S_AirshipTrail69D50E894FC5E489DFA737878E80C749.tmp' to '../../../../../../AReproposta/Content/Particle/Nave/S_AirshipTrail.uasset'
+[2024.02.22-02.12.38:228][843]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PlayerAirship/BP_PlayerAirship" FILE="../../../../../../AReproposta/Content/PlayerAirship/BP_PlayerAirship.uasset" SILENT=true
+[2024.02.22-02.12.38:377][843]LogSavePackage: Moving '../../../../../../AReproposta/Saved/BP_PlayerAirshipB16CDDDD44E8B9137E7C9B8008512C47.tmp' to '../../../../../../AReproposta/Content/PlayerAirship/BP_PlayerAirship.uasset'
+[2024.02.22-02.12.39:592][843]SourceControl: Error: Updated 4 paths from the index
+[2024.02.22-02.12.39:790][843]SourceControl: rm 'Content/Particle/Nave/Fire_Nave.uasset'
+[2024.02.22-02.12.39:790][843]SourceControl: rm 'Content/Particle/Nave/Nave_Trajetoria.uasset'
+[2024.02.22-02.12.39:790][843]SourceControl: rm 'Content/Particle/Nave/NewMaterial.uasset'
+[2024.02.22-02.12.39:790][843]SourceControl: rm 'Content/Particle/Nave/Propursao.uasset'
+[2024.02.22-02.12.50:392][951]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particle/Nave_Invicible/T_Blast" FILE="../../../../../../AReproposta/Content/Particle/Nave_Invicible/T_Blast.uasset" SILENT=true
+[2024.02.22-02.12.50:406][951]LogSavePackage: Moving '../../../../../../AReproposta/Saved/T_Blast4F09533C4414C166BD36FA9CA2316AFA.tmp' to '../../../../../../AReproposta/Content/Particle/Nave_Invicible/T_Blast.uasset'
+[2024.02.22-02.12.50:591][951]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particle/Nave_Invicible/blast" FILE="../../../../../../AReproposta/Content/Particle/Nave_Invicible/blast.uasset" SILENT=true
+[2024.02.22-02.12.50:651][951]LogSavePackage: Moving '../../../../../../AReproposta/Saved/blastD95A26974538D99C0AE190B93696D3DC.tmp' to '../../../../../../AReproposta/Content/Particle/Nave_Invicible/blast.uasset'
+[2024.02.22-02.13.08:602][857]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particle/Nave_Invicible/P_Ring" FILE="../../../../../../AReproposta/Content/Particle/Nave_Invicible/P_Ring.uasset" SILENT=true
+[2024.02.22-02.13.08:626][857]LogSavePackage: Moving '../../../../../../AReproposta/Saved/P_RingB9E4A79A466BF4EA9BEA2FB67F5ABCB4.tmp' to '../../../../../../AReproposta/Content/Particle/Nave_Invicible/P_Ring.uasset'
+[2024.02.22-02.13.08:778][857]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particle/Nave_Invicible/Nave_Invicible" FILE="../../../../../../AReproposta/Content/Particle/Nave_Invicible/Nave_Invicible.uasset" SILENT=true
+[2024.02.22-02.13.08:837][857]LogSavePackage: Moving '../../../../../../AReproposta/Saved/Nave_Invicible96CCA0C14AAEB427A34378B97AE24D92.tmp' to '../../../../../../AReproposta/Content/Particle/Nave_Invicible/Nave_Invicible.uasset'
+[2024.02.22-02.13.13:449][242]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particle/Nave_Invicible/T_Smoke" FILE="../../../../../../AReproposta/Content/Particle/Nave_Invicible/T_Smoke.uasset" SILENT=true
+[2024.02.22-02.13.13:461][242]LogSavePackage: Moving '../../../../../../AReproposta/Saved/T_Smoke182A062A45811FDD4D5BDC94CA97AAA7.tmp' to '../../../../../../AReproposta/Content/Particle/Nave_Invicible/T_Smoke.uasset'
+[2024.02.22-02.13.13:610][242]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particle/Nave_Invicible/Smoke" FILE="../../../../../../AReproposta/Content/Particle/Nave_Invicible/Smoke.uasset" SILENT=true
+[2024.02.22-02.13.13:664][242]LogSavePackage: Moving '../../../../../../AReproposta/Saved/Smoke369FC6D2452E4C7AAB6C2CBAF7EE0C17.tmp' to '../../../../../../AReproposta/Content/Particle/Nave_Invicible/Smoke.uasset'
+[2024.02.22-02.13.23:218][183]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particle/Nave_Invicible/M_Invicible" FILE="../../../../../../AReproposta/Content/Particle/Nave_Invicible/M_Invicible.uasset" SILENT=true
+[2024.02.22-02.13.23:282][183]LogSavePackage: Moving '../../../../../../AReproposta/Saved/M_InvicibleF9D4EA2E4EFBC372BCD4C893C49E11A8.tmp' to '../../../../../../AReproposta/Content/Particle/Nave_Invicible/M_Invicible.uasset'
+[2024.02.22-02.13.23:297][183]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PlayerAirship/BP_PlayerAirship" FILE="../../../../../../AReproposta/Content/PlayerAirship/BP_PlayerAirship.uasset" SILENT=true
+[2024.02.22-02.13.23:457][183]LogSavePackage: Moving '../../../../../../AReproposta/Saved/BP_PlayerAirship53CC99944BB4C9E85960EC89F2325F94.tmp' to '../../../../../../AReproposta/Content/PlayerAirship/BP_PlayerAirship.uasset'
+[2024.02.22-02.13.24:546][183]SourceControl: Error: Updated 3 paths from the index
+[2024.02.22-02.13.24:712][183]SourceControl: rm 'Content/Particle/Nave_Invicible/Nave_Invicible.uasset'
+[2024.02.22-02.13.24:712][183]SourceControl: rm 'Content/Particle/Nave_Invicible/Smoke.uasset'
+[2024.02.22-02.13.24:712][183]SourceControl: rm 'Content/Particle/Nave_Invicible/blast.uasset'
+[2024.02.22-02.13.30:222][664]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particle/T_Blow" FILE="../../../../../../AReproposta/Content/Particle/T_Blow.uasset" SILENT=true
+[2024.02.22-02.13.30:231][664]LogSavePackage: Moving '../../../../../../AReproposta/Saved/T_Blow086881B74649A4CC7260849975B10DC2.tmp' to '../../../../../../AReproposta/Content/Particle/T_Blow.uasset'
+[2024.02.22-02.13.30:381][664]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particle/Blow" FILE="../../../../../../AReproposta/Content/Particle/Blow.uasset" SILENT=true
+[2024.02.22-02.13.30:438][664]LogSavePackage: Moving '../../../../../../AReproposta/Saved/BlowCA1FBD31470AC7BB8B05E0AD404A7E1A.tmp' to '../../../../../../AReproposta/Content/Particle/Blow.uasset'
+[2024.02.22-02.13.55:114][343]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particle/P_BossExplosion" FILE="../../../../../../AReproposta/Content/Particle/P_BossExplosion.uasset" SILENT=true
+[2024.02.22-02.13.55:155][343]LogSavePackage: Moving '../../../../../../AReproposta/Saved/P_BossExplosionDD00F6C64ED3966CD15D5BBDA775474F.tmp' to '../../../../../../AReproposta/Content/Particle/P_BossExplosion.uasset'
+[2024.02.22-02.13.55:317][343]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particle/Explosion_Boss_Dead" FILE="../../../../../../AReproposta/Content/Particle/Explosion_Boss_Dead.uasset" SILENT=true
+[2024.02.22-02.13.55:375][343]LogSavePackage: Moving '../../../../../../AReproposta/Saved/Explosion_Boss_Dead2AEAE8814515EDE72F9635A3DDD6006E.tmp' to '../../../../../../AReproposta/Content/Particle/Explosion_Boss_Dead.uasset'
+[2024.02.22-02.14.22:684][335]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particle/P_ExplosionShootinh" FILE="../../../../../../AReproposta/Content/Particle/P_ExplosionShootinh.uasset" SILENT=true
+[2024.02.22-02.14.22:719][335]LogSavePackage: Moving '../../../../../../AReproposta/Saved/P_ExplosionShootinhC48D2055435FE43442A7D99A7077A66D.tmp' to '../../../../../../AReproposta/Content/Particle/P_ExplosionShootinh.uasset'
+[2024.02.22-02.14.22:869][335]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particle/Explosion_shootinh" FILE="../../../../../../AReproposta/Content/Particle/Explosion_shootinh.uasset" SILENT=true
+[2024.02.22-02.14.22:924][335]LogSavePackage: Moving '../../../../../../AReproposta/Saved/Explosion_shootinh619633824EDD11D4115F7D9423CFC71F.tmp' to '../../../../../../AReproposta/Content/Particle/Explosion_shootinh.uasset'
+[2024.02.22-02.14.27:526][691]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particle/T_Fog" FILE="../../../../../../AReproposta/Content/Particle/T_Fog.uasset" SILENT=true
+[2024.02.22-02.14.27:557][691]LogSavePackage: Moving '../../../../../../AReproposta/Saved/T_FogE5D72DAB49B7B6936176B6BEA533930A.tmp' to '../../../../../../AReproposta/Content/Particle/T_Fog.uasset'
+[2024.02.22-02.14.27:800][691]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particle/Fog" FILE="../../../../../../AReproposta/Content/Particle/Fog.uasset" SILENT=true
+[2024.02.22-02.14.27:858][691]LogSavePackage: Moving '../../../../../../AReproposta/Saved/Fog59022FC14BCDB2D9B032B9B914492B51.tmp' to '../../../../../../AReproposta/Content/Particle/Fog.uasset'
+[2024.02.22-02.14.33:598][210]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particle/T_FOG_02" FILE="../../../../../../AReproposta/Content/Particle/T_FOG_02.uasset" SILENT=true
+[2024.02.22-02.14.33:616][210]LogSavePackage: Moving '../../../../../../AReproposta/Saved/T_FOG_0263A30E1440A1EDC18810AAAFEA524369.tmp' to '../../../../../../AReproposta/Content/Particle/T_FOG_02.uasset'
+[2024.02.22-02.14.33:790][210]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particle/FOG_2" FILE="../../../../../../AReproposta/Content/Particle/FOG_2.uasset" SILENT=true
+[2024.02.22-02.14.33:847][210]LogSavePackage: Moving '../../../../../../AReproposta/Saved/FOG_2789DC4864D61D5F69B8FCC9E3AD392BC.tmp' to '../../../../../../AReproposta/Content/Particle/FOG_2.uasset'
+[2024.02.22-02.14.39:858][872]LogMaterial: Display: Missing cached shader map for material Fog_Mat, compiling. 
+[2024.02.22-02.14.39:891][872]LogShaderCompilers: Display: Shaders left to compile 60
+[2024.02.22-02.14.39:891][872]LogShaderCompilers: Display: Shaders left to compile 50
+[2024.02.22-02.14.39:891][872]LogShaderCompilers: Display: Shaders left to compile 40
+[2024.02.22-02.14.39:891][872]LogShaderCompilers: Display: Shaders left to compile 30
+[2024.02.22-02.14.44:905][872]LogShaderCompilers: Display: Shaders left to compile 20
+[2024.02.22-02.14.44:905][872]LogShaderCompilers: Display: Shaders left to compile 10
+[2024.02.22-02.14.44:924][872]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particle/M_Fog" FILE="../../../../../../AReproposta/Content/Particle/M_Fog.uasset" SILENT=true
+[2024.02.22-02.14.44:933][872]LogSavePackage: Moving '../../../../../../AReproposta/Saved/M_Fog0156019B4AF8AA58E7EC919C383B2155.tmp' to '../../../../../../AReproposta/Content/Particle/M_Fog.uasset'
+[2024.02.22-02.14.45:075][872]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particle/Fog_Mat" FILE="../../../../../../AReproposta/Content/Particle/Fog_Mat.uasset" SILENT=true
+[2024.02.22-02.14.45:128][872]LogSavePackage: Moving '../../../../../../AReproposta/Saved/Fog_MatB1AE0EBD4C96C202C3E9BF9E4CCA22A1.tmp' to '../../../../../../AReproposta/Content/Particle/Fog_Mat.uasset'
+[2024.02.22-02.14.54:121][788]LogSlate: Window 'Reference Viewer' being destroyed
+[2024.02.22-02.14.54:126][788]LogSlate: Window 'Reference Viewer' being destroyed
+[2024.02.22-02.14.56:806][947]LogSlate: Window 'Delete Assets' being destroyed
+[2024.02.22-02.14.57:278][947]SourceControl: Error: Updated 0 paths from the index
+[2024.02.22-02.14.57:508][947]SourceControl: rm 'Content/Particle/NewParticleSystem.uasset'
+[2024.02.22-02.15.06:707][  7]LogMaterial: Display: Missing cached shader map for material P_Explosion_2, compiling. 
+[2024.02.22-02.15.06:754][  7]LogShaderCompilers: Display: Shaders left to compile 87
+[2024.02.22-02.15.06:754][  7]LogShaderCompilers: Display: Shaders left to compile 77
+[2024.02.22-02.15.06:754][  7]LogShaderCompilers: Display: Shaders left to compile 67
+[2024.02.22-02.15.06:754][  7]LogShaderCompilers: Display: Shaders left to compile 57
+[2024.02.22-02.15.15:783][  7]LogShaderCompilers: Display: Shaders left to compile 47
+[2024.02.22-02.15.15:783][  7]LogShaderCompilers: Display: Shaders left to compile 37
+[2024.02.22-02.15.15:783][  7]LogShaderCompilers: Display: Shaders left to compile 27
+[2024.02.22-02.15.15:784][  7]LogShaderCompilers: Display: Shaders left to compile 17
+[2024.02.22-02.15.15:784][  7]LogShaderCompilers: Display: Shaders left to compile 7
+[2024.02.22-02.15.15:822][  7]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particle/M_Explosion_02" FILE="../../../../../../AReproposta/Content/Particle/M_Explosion_02.uasset" SILENT=true
+[2024.02.22-02.15.15:837][  7]LogSavePackage: Moving '../../../../../../AReproposta/Saved/M_Explosion_024AD8F32642CBE3FA358960BBDFFC773A.tmp' to '../../../../../../AReproposta/Content/Particle/M_Explosion_02.uasset'
+[2024.02.22-02.15.15:981][  7]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particle/P_Explosion_2" FILE="../../../../../../AReproposta/Content/Particle/P_Explosion_2.uasset" SILENT=true
+[2024.02.22-02.15.16:035][  7]LogSavePackage: Moving '../../../../../../AReproposta/Saved/P_Explosion_23905BAA745035C2F26491B9FCFA77AF4.tmp' to '../../../../../../AReproposta/Content/Particle/P_Explosion_2.uasset'
+[2024.02.22-02.15.20:579][383]LogMaterial: Display: Missing cached shader map for material M_Explosion_, compiling. 
+[2024.02.22-02.15.20:616][383]LogShaderCompilers: Display: Shaders left to compile 93
+[2024.02.22-02.15.20:616][383]LogShaderCompilers: Display: Shaders left to compile 83
+[2024.02.22-02.15.20:616][383]LogShaderCompilers: Display: Shaders left to compile 73
+[2024.02.22-02.15.20:616][383]LogShaderCompilers: Display: Shaders left to compile 63
+[2024.02.22-02.15.21:338][383]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemys/Boss/BP_Boss" FILE="../../../../../../AReproposta/Content/Enemys/Boss/BP_Boss.uasset" SILENT=true
+[2024.02.22-02.15.21:583][383]LogSavePackage: Moving '../../../../../../AReproposta/Saved/BP_Boss2515BC934ADC085BFBD65084848CABE3.tmp' to '../../../../../../AReproposta/Content/Enemys/Boss/BP_Boss.uasset'
+[2024.02.22-02.15.21:616][383]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PicksUps/Bomb/BP_Bomb" FILE="../../../../../../AReproposta/Content/PicksUps/Bomb/BP_Bomb.uasset" SILENT=true
+[2024.02.22-02.15.21:728][383]LogSavePackage: Moving '../../../../../../AReproposta/Saved/BP_Bomb6DE405DE4D7A1F74DF09D6BB153C0F76.tmp' to '../../../../../../AReproposta/Content/PicksUps/Bomb/BP_Bomb.uasset'
+[2024.02.22-02.15.21:756][383]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PlayerAirship/BP_PlayerAirship" FILE="../../../../../../AReproposta/Content/PlayerAirship/BP_PlayerAirship.uasset" SILENT=true
+[2024.02.22-02.15.22:056][383]LogSavePackage: Moving '../../../../../../AReproposta/Saved/BP_PlayerAirship7010888B4910941E4E44E0894A02DC14.tmp' to '../../../../../../AReproposta/Content/PlayerAirship/BP_PlayerAirship.uasset'
+[2024.02.22-02.15.30:049][383]LogShaderCompilers: Display: Shaders left to compile 53
+[2024.02.22-02.15.30:049][383]LogShaderCompilers: Display: Shaders left to compile 43
+[2024.02.22-02.15.30:049][383]LogShaderCompilers: Display: Shaders left to compile 33
+[2024.02.22-02.15.30:049][383]LogShaderCompilers: Display: Shaders left to compile 23
+[2024.02.22-02.15.30:049][383]LogShaderCompilers: Display: Shaders left to compile 13
+[2024.02.22-02.15.30:049][383]LogShaderCompilers: Display: Shaders left to compile 3
+[2024.02.22-02.15.30:076][383]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particle/M_Explosion_" FILE="../../../../../../AReproposta/Content/Particle/M_Explosion_.uasset" SILENT=true
+[2024.02.22-02.15.30:141][383]LogSavePackage: Moving '../../../../../../AReproposta/Saved/M_Explosion_D8B5FCF148F6715A8B8FA780A74FE636.tmp' to '../../../../../../AReproposta/Content/Particle/M_Explosion_.uasset'
+[2024.02.22-02.15.32:248][383]SourceControl: Error: Updated 7 paths from the index
+[2024.02.22-02.15.32:556][383]SourceControl: rm 'Content/Particle/Blow.uasset'
+[2024.02.22-02.15.32:556][383]SourceControl: rm 'Content/Particle/Explosion_Boss_Dead.uasset'
+[2024.02.22-02.15.32:556][383]SourceControl: rm 'Content/Particle/Explosion_shootinh.uasset'
+[2024.02.22-02.15.32:556][383]SourceControl: rm 'Content/Particle/FOG_2.uasset'
+[2024.02.22-02.15.32:556][383]SourceControl: rm 'Content/Particle/Fog.uasset'
+[2024.02.22-02.15.32:556][383]SourceControl: rm 'Content/Particle/Fog_Mat.uasset'
+[2024.02.22-02.15.32:556][383]SourceControl: rm 'Content/Particle/P_Explosion_2.uasset'
+[2024.02.22-02.15.41:410][298]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particle/P_Powerup" FILE="../../../../../../AReproposta/Content/Particle/P_Powerup.uasset" SILENT=true
+[2024.02.22-02.15.41:423][298]LogSavePackage: Moving '../../../../../../AReproposta/Saved/P_Powerup692567224D73DF7928BC99A636FEC1E6.tmp' to '../../../../../../AReproposta/Content/Particle/P_Powerup.uasset'
+[2024.02.22-02.15.41:561][298]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particle/Powerup" FILE="../../../../../../AReproposta/Content/Particle/Powerup.uasset" SILENT=true
+[2024.02.22-02.15.41:615][298]LogSavePackage: Moving '../../../../../../AReproposta/Saved/PowerupB02F1D8E41EF22536313799EBDA878DE.tmp' to '../../../../../../AReproposta/Content/Particle/Powerup.uasset'
+[2024.02.22-02.15.48:089][916]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particle/P_Sparks" FILE="../../../../../../AReproposta/Content/Particle/P_Sparks.uasset" SILENT=true
+[2024.02.22-02.15.48:114][916]LogSavePackage: Moving '../../../../../../AReproposta/Saved/P_SparksFCCFA7C044106EB05ECCD6B74C60DEAE.tmp' to '../../../../../../AReproposta/Content/Particle/P_Sparks.uasset'
+[2024.02.22-02.15.48:263][916]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particle/Sparks_" FILE="../../../../../../AReproposta/Content/Particle/Sparks_.uasset" SILENT=true
+[2024.02.22-02.15.48:319][916]LogSavePackage: Moving '../../../../../../AReproposta/Saved/Sparks_367C0F564CE7E8BF36AC63AF7177B799.tmp' to '../../../../../../AReproposta/Content/Particle/Sparks_.uasset'
+[2024.02.22-02.15.56:550][728]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particle/P_Sparks_With_Explosions" FILE="../../../../../../AReproposta/Content/Particle/P_Sparks_With_Explosions.uasset" SILENT=true
+[2024.02.22-02.15.56:590][728]LogSavePackage: Moving '../../../../../../AReproposta/Saved/P_Sparks_With_Explosions91489A85495C833B112CC093A9A5A159.tmp' to '../../../../../../AReproposta/Content/Particle/P_Sparks_With_Explosions.uasset'
+[2024.02.22-02.15.56:758][728]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particle/Sparks_With_Explosions" FILE="../../../../../../AReproposta/Content/Particle/Sparks_With_Explosions.uasset" SILENT=true
+[2024.02.22-02.15.56:813][728]LogSavePackage: Moving '../../../../../../AReproposta/Saved/Sparks_With_ExplosionsC180516C4307C0455579008CA6811685.tmp' to '../../../../../../AReproposta/Content/Particle/Sparks_With_Explosions.uasset'
+[2024.02.22-02.16.03:401][265]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemys/EnemyMelee/BP_EnemyMelee" FILE="../../../../../../AReproposta/Content/Enemys/EnemyMelee/BP_EnemyMelee.uasset" SILENT=true
+[2024.02.22-02.16.03:499][265]LogSavePackage: Moving '../../../../../../AReproposta/Saved/BP_EnemyMelee3F9D657E4BC81C6B36F449AC86A84A83.tmp' to '../../../../../../AReproposta/Content/Enemys/EnemyMelee/BP_EnemyMelee.uasset'
+[2024.02.22-02.16.03:520][265]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemys/EnemyRanged/BP_EnemyRanged" FILE="../../../../../../AReproposta/Content/Enemys/EnemyRanged/BP_EnemyRanged.uasset" SILENT=true
+[2024.02.22-02.16.03:621][265]LogSavePackage: Moving '../../../../../../AReproposta/Saved/BP_EnemyRanged28255ADF49442F016670129625B2AE77.tmp' to '../../../../../../AReproposta/Content/Enemys/EnemyRanged/BP_EnemyRanged.uasset'
+[2024.02.22-02.16.03:646][265]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemys/EnemyRanged/BP_EnemyRanged_Projectile" FILE="../../../../../../AReproposta/Content/Enemys/EnemyRanged/BP_EnemyRanged_Projectile.uasset" SILENT=true
+[2024.02.22-02.16.03:721][265]LogSavePackage: Moving '../../../../../../AReproposta/Saved/BP_EnemyRanged_Projectile2393B6F04C8A22FFFF4B1B8EF8EA3BF6.tmp' to '../../../../../../AReproposta/Content/Enemys/EnemyRanged/BP_EnemyRanged_Projectile.uasset'
+[2024.02.22-02.16.03:742][265]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PlayerAirship/BP_Projectile_Default" FILE="../../../../../../AReproposta/Content/PlayerAirship/BP_Projectile_Default.uasset" SILENT=true
+[2024.02.22-02.16.03:822][265]LogSavePackage: Moving '../../../../../../AReproposta/Saved/BP_Projectile_DefaultACCFF34345693FEB569F55BCAFC0F748.tmp' to '../../../../../../AReproposta/Content/PlayerAirship/BP_Projectile_Default.uasset'
+[2024.02.22-02.16.03:843][265]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PlayerAirship/BP_Projectile_MachineGun" FILE="../../../../../../AReproposta/Content/PlayerAirship/BP_Projectile_MachineGun.uasset" SILENT=true
+[2024.02.22-02.16.03:924][265]LogSavePackage: Moving '../../../../../../AReproposta/Saved/BP_Projectile_MachineGun29820492402BB10CBB5655B8CD8965CE.tmp' to '../../../../../../AReproposta/Content/PlayerAirship/BP_Projectile_MachineGun.uasset'
+[2024.02.22-02.16.03:946][265]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PlayerAirship/BP_Projectile_Spread" FILE="../../../../../../AReproposta/Content/PlayerAirship/BP_Projectile_Spread.uasset" SILENT=true
+[2024.02.22-02.16.04:027][265]LogSavePackage: Moving '../../../../../../AReproposta/Saved/BP_Projectile_Spread51D80A4348E11E96A411E2A15E37F808.tmp' to '../../../../../../AReproposta/Content/PlayerAirship/BP_Projectile_Spread.uasset'
+[2024.02.22-02.16.04:049][265]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PicksUps/MachineGun/BP_MachineGunPickup" FILE="../../../../../../AReproposta/Content/PicksUps/MachineGun/BP_MachineGunPickup.uasset" SILENT=true
+[2024.02.22-02.16.04:125][265]LogSavePackage: Moving '../../../../../../AReproposta/Saved/BP_MachineGunPickup2036B8E848235EEC6EB906A7A37D7292.tmp' to '../../../../../../AReproposta/Content/PicksUps/MachineGun/BP_MachineGunPickup.uasset'
+[2024.02.22-02.16.04:146][265]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PicksUps/SpreadGun/BP_SpreadPickup" FILE="../../../../../../AReproposta/Content/PicksUps/SpreadGun/BP_SpreadPickup.uasset" SILENT=true
+[2024.02.22-02.16.04:222][265]LogSavePackage: Moving '../../../../../../AReproposta/Saved/BP_SpreadPickup18A83EA84CDB13CAF87E76BF01738F1C.tmp' to '../../../../../../AReproposta/Content/PicksUps/SpreadGun/BP_SpreadPickup.uasset'
+[2024.02.22-02.16.04:244][265]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PicksUps/Bomb/BP_BombPickup" FILE="../../../../../../AReproposta/Content/PicksUps/Bomb/BP_BombPickup.uasset" SILENT=true
+[2024.02.22-02.16.04:318][265]LogSavePackage: Moving '../../../../../../AReproposta/Saved/BP_BombPickupECFFAD434CE3376F0092D79738DDE2FB.tmp' to '../../../../../../AReproposta/Content/PicksUps/Bomb/BP_BombPickup.uasset'
+[2024.02.22-02.16.05:661][265]SourceControl: Error: Updated 3 paths from the index
+[2024.02.22-02.16.05:936][265]SourceControl: rm 'Content/Particle/Powerup.uasset'
+[2024.02.22-02.16.05:936][265]SourceControl: rm 'Content/Particle/Sparks_.uasset'
+[2024.02.22-02.16.05:936][265]SourceControl: rm 'Content/Particle/Sparks_With_Explosions.uasset'
+[2024.02.22-02.16.26:458][634]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/03Fase" FILE="../../../../../../AReproposta/Content/Map/03Fase.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.02.22-02.16.26:707][634]LogSavePackage: Moving '../../../../../../AReproposta/Saved/03FaseC748CFE044B962F82799DEBB88E781C5.tmp' to '../../../../../../AReproposta/Content/Map/03Fase.umap'
+[2024.02.22-02.16.26:820][634]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/03Fase_BuiltData" FILE="../../../../../../AReproposta/Content/Map/03Fase_BuiltData.uasset" SILENT=true
+[2024.02.22-02.16.26:881][634]LogSavePackage: Moving '../../../../../../AReproposta/Saved/03Fase_BuiltData31AB8E1A4C7D5E964888E3A82E02D1F4.tmp' to '../../../../../../AReproposta/Content/Map/03Fase_BuiltData.uasset'
+[2024.02.22-02.16.27:374][690]LogSlate: Window 'S_AirshipTrail' being destroyed
+[2024.02.22-02.16.27:379][690]LogSlate: Window 'S_AirshipTrail' being destroyed
+[2024.02.22-02.17.12:140][555]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/03Fase" FILE="../../../../../../AReproposta/Content/Map/03Fase.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.02.22-02.17.12:374][555]LogSavePackage: Moving '../../../../../../AReproposta/Saved/03Fase0C2DD63F494D2F9E10B4619C35D2F0E1.tmp' to '../../../../../../AReproposta/Content/Map/03Fase.umap'
+[2024.02.22-02.17.12:489][555]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/03Fase_BuiltData" FILE="../../../../../../AReproposta/Content/Map/03Fase_BuiltData.uasset" SILENT=true
+[2024.02.22-02.17.12:546][555]LogSavePackage: Moving '../../../../../../AReproposta/Saved/03Fase_BuiltData1160C92C4F27D6B8F13C95A8844FBD02.tmp' to '../../../../../../AReproposta/Content/Map/03Fase_BuiltData.uasset'
+[2024.02.22-02.17.14:349][764]MapCheck: New page: Map Check
+[2024.02.22-02.17.14:362][764]Cmd: MAP REBUILD ALLVISIBLE
+[2024.02.22-02.17.14:363][764]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2024.02.22-02.17.14:487][764]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy MI_CineMat_CameraBody, compiling. 
+[2024.02.22-02.17.14:494][764]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy MI_CineMat_CamViewFinder, compiling. 
+[2024.02.22-02.17.14:498][764]LogShaderCompilers: Display: Shaders left to compile 2
+[2024.02.22-02.17.14:498][764]LogShaderCompilers: Display: Shaders left to compile 1
+[2024.02.22-02.17.14:498][764]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_0, compiling. 
+[2024.02.22-02.17.14:503][764]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy MatineeCam_mat, compiling. 
+[2024.02.22-02.17.14:509][764]LogShaderCompilers: Display: Shaders left to compile 1
+[2024.02.22-02.17.14:509][764]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy M_Space_02, compiling. 
+[2024.02.22-02.17.14:517][764]LogShaderCompilers: Display: Shaders left to compile 1
+[2024.02.22-02.17.14:517][764]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy M_BossHead, compiling. 
+[2024.02.22-02.17.14:524][764]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy M_FiresubUV, compiling. 
+[2024.02.22-02.17.14:532][764]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy M_smoke_subUV, compiling. 
+[2024.02.22-02.17.14:540][764]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy M_PlayerAirship, compiling. 
+[2024.02.22-02.17.14:550][764]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy M_PlayerAirship_Glass, compiling. 
+[2024.02.22-02.17.15:410][764]LogShaderCompilers: Display: Shaders left to compile 6
+[2024.02.22-02.17.15:410][764]LogShaderCompilers: Display: Shaders left to compile 5
+[2024.02.22-02.17.15:410][764]LogShaderCompilers: Display: Shaders left to compile 4
+[2024.02.22-02.17.15:410][764]LogShaderCompilers: Display: Shaders left to compile 3
+[2024.02.22-02.17.15:410][764]LogShaderCompilers: Display: Shaders left to compile 2
+[2024.02.22-02.17.15:410][764]LogShaderCompilers: Display: Shaders left to compile 1
+[2024.02.22-02.17.15:410][764]TextureStreamingBuild: Display: Compiling optional shaders took 0.928 seconds.
+[2024.02.22-02.17.15:420][764]LogLevel: Display: Export Material TexCoord Scales took 0.010 seconds.
+[2024.02.22-02.17.15:429][764]TextureStreamingBuild: Display: Build Texture Streaming took 0.007 seconds.
+[2024.02.22-02.17.15:447][764]LightingResults: New page: Lighting Build - Feb 21, 2024, 8:17:15 PM
+[2024.02.22-02.17.15:492][764]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2024.02.22-02.17.15:540][764]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2024.02.22-02.17.15:553][764]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2024.02.22-02.17.16:074][764]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2024.02.22-02.17.16:074][764]LogSwarmInterface: [TryOpenConnection] Local Process ID is 6176
+[2024.02.22-02.17.22:899][764]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2024.02.22-02.17.22:900][764]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2024.02.22-02.17.22:900][764]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2024.02.22-02.17.22:900][764]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2024.02.22-02.17.22:900][764]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2024.02.22-02.17.22:901][764]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2024.02.22-02.17.23:036][764]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2024.02.22-02.17.23:036][764]MapCheck: New page: 03Fase - Feb 21, 2024, 8:17:23 PM
+[2024.02.22-02.17.23:142][764]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 105.282ms to complete.
+[2024.02.22-02.17.23:164][764]LogEditorBuildUtils: Build time 0:08
+[2024.02.22-02.17.25:060][892]Job is a success!
+[2024.02.22-02.17.25:110][893]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.006s
+[2024.02.22-02.17.25:110][893]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2024.02.22-02.17.25:110][893]LogVolumetricLightmapImport:      BrickData 5x5x5 = 0.0Mb
+[2024.02.22-02.17.25:110][893]LogVolumetricLightmapImport:      Bricks at Level
+[2024.02.22-02.17.25:110][893]LogVolumetricLightmapImport:          0: 100.0% covering 100.0% of volume
+[2024.02.22-02.17.25:110][893]LogVolumetricLightmapImport:          1: 0.0% covering 0.0% of volume
+[2024.02.22-02.17.25:110][893]LogVolumetricLightmapImport:          2: 0.0% covering 0.0% of volume
+[2024.02.22-02.17.25:132][893]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 128X128)
+[2024.02.22-02.17.25:132][893]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 128X128)
+[2024.02.22-02.17.25:132][893]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
+[2024.02.22-02.17.25:132][893]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
+[2024.02.22-02.17.25:132][893]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (G8, 32X32)
+[2024.02.22-02.17.25:132][893]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (G8, 64X64)
+[2024.02.22-02.17.25:167][893]Lightmass on DESKTOP-VE7UTN2: 1.23 sec total, 206 ms importing, 19 ms setup, 562 ms photons, 360 ms processing, 0 ms extra exporting [2/2 mappings]. Threads: 2.28 sec total, 126 ms processing.
+[2024.02.22-02.17.25:196][893]LogStaticLightingSystem: Illumination: 9.73 sec (3 ms encoding lightmaps, 5 ms encoding shadowmaps)
+[2024.02.22-02.17.25:196][893]LogStaticLightingSystem: Lightmap texture memory:  0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 4 textures
+[2024.02.22-02.17.25:196][893]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2024.02.22-02.17.29:905][893]DumpUnbuiltLightIteractions
+[2024.02.22-02.17.29:905][893]Lights with unbuilt interactions: 0
+[2024.02.22-02.17.29:905][893]
+[2024.02.22-02.17.29:905][893]Primitives with unbuilt interactions: 0
+[2024.02.22-02.17.29:931][894]Cmd: MAP CHECK NOTIFYRESULTS
+[2024.02.22-02.17.29:931][894]MapCheck: New page: 03Fase - Feb 21, 2024, 8:17:29 PM
+[2024.02.22-02.17.30:027][894]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 96.07ms to complete.
+[2024.02.22-02.17.37:120][730]LogAssetEditorManager: Opening Asset editor for World /Game/Map/02Fase.02Fase
+[2024.02.22-02.17.38:213][730]LogSlate: Window 'Save Content' being destroyed
+[2024.02.22-02.17.38:407][730]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/03Fase" FILE="../../../../../../AReproposta/Content/Map/03Fase.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.02.22-02.17.38:646][730]LogSavePackage: Moving '../../../../../../AReproposta/Saved/03FaseFE13B1F5410599452C7CCBA44FEF08D6.tmp' to '../../../../../../AReproposta/Content/Map/03Fase.umap'
+[2024.02.22-02.17.38:676][730]LogFileHelpers: Saving map '03Fase' took 0.367
+[2024.02.22-02.17.38:676][730]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/03Fase_BuiltData" FILE="../../../../../../AReproposta/Content/Map/03Fase_BuiltData.uasset" SILENT=true
+[2024.02.22-02.17.38:736][730]LogSavePackage: Moving '../../../../../../AReproposta/Saved/03Fase_BuiltData25D1655B43C48EF2AF8A108482B994AA.tmp' to '../../../../../../AReproposta/Content/Map/03Fase_BuiltData.uasset'
+[2024.02.22-02.17.38:739][730]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/03Fase_BuiltData" FILE="../../../../../../AReproposta/Content/Map/03Fase_BuiltData.uasset" SILENT=true
+[2024.02.22-02.17.38:800][730]LogSavePackage: Moving '../../../../../../AReproposta/Saved/03Fase_BuiltData5BD56B6745474AE569213D9223EC7C4E.tmp' to '../../../../../../AReproposta/Content/Map/03Fase_BuiltData.uasset'
+[2024.02.22-02.17.38:805][730]Cmd: MAP LOAD FILE="../../../../../../AReproposta/Content/Map/02Fase.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2024.02.22-02.17.38:805][730]LightingResults: New page: Lighting Build
+[2024.02.22-02.17.38:805][730]LoadErrors: New page: Loading map: 02Fase.umap
+[2024.02.22-02.17.38:806][730]MapCheck: New page: Map Check
+[2024.02.22-02.17.38:806][730]LightingResults: New page: Lighting Build
+[2024.02.22-02.17.38:927][730]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.02.22-02.17.38:971][730]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.02.22-02.17.39:068][730]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 97.273ms to complete.
+[2024.02.22-02.17.39:068][730]LogFileHelpers: Loading map '02Fase' took 0.265
+[2024.02.22-02.17.41:216][983]MapCheck: New page: Map Check
+[2024.02.22-02.17.41:228][983]Cmd: MAP REBUILD ALLVISIBLE
+[2024.02.22-02.17.41:228][983]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2024.02.22-02.17.41:341][983]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy MI_CineMat_CameraBody, compiling. 
+[2024.02.22-02.17.41:345][983]LogShaderCompilers: Display: Shaders left to compile 1
+[2024.02.22-02.17.41:345][983]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy MI_CineMat_CamViewFinder, compiling. 
+[2024.02.22-02.17.41:350][983]LogShaderCompilers: Display: Shaders left to compile 1
+[2024.02.22-02.17.41:350][983]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_0, compiling. 
+[2024.02.22-02.17.41:359][983]LogShaderCompilers: Display: Shaders left to compile 1
+[2024.02.22-02.17.41:359][983]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy MatineeCam_mat, compiling. 
+[2024.02.22-02.17.41:369][983]LogShaderCompilers: Display: Shaders left to compile 1
+[2024.02.22-02.17.41:369][983]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy M_Space_01, compiling. 
+[2024.02.22-02.17.41:377][983]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy M_smoke_subUV, compiling. 
+[2024.02.22-02.17.41:386][983]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy M_PlayerAirship, compiling. 
+[2024.02.22-02.17.41:395][983]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy M_PlayerAirship_Glass, compiling. 
+[2024.02.22-02.17.42:160][983]LogShaderCompilers: Display: Shaders left to compile 4
+[2024.02.22-02.17.42:160][983]LogShaderCompilers: Display: Shaders left to compile 3
+[2024.02.22-02.17.42:160][983]LogShaderCompilers: Display: Shaders left to compile 2
+[2024.02.22-02.17.42:160][983]LogShaderCompilers: Display: Shaders left to compile 1
+[2024.02.22-02.17.42:160][983]TextureStreamingBuild: Display: Compiling optional shaders took 0.822 seconds.
+[2024.02.22-02.17.42:166][983]LogLevel: Display: Export Material TexCoord Scales took 0.006 seconds.
+[2024.02.22-02.17.42:172][983]TextureStreamingBuild: Display: Build Texture Streaming took 0.006 seconds.
+[2024.02.22-02.17.42:190][983]LightingResults: New page: Lighting Build - Feb 21, 2024, 8:17:42 PM
+[2024.02.22-02.17.42:195][983]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2024.02.22-02.17.42:197][983]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2024.02.22-02.17.42:197][983]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2024.02.22-02.17.42:197][983]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2024.02.22-02.17.42:197][983]LogSwarmInterface: [TryOpenConnection] Local Process ID is 6176
+[2024.02.22-02.17.46:771][983]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2024.02.22-02.17.46:771][983]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2024.02.22-02.17.46:771][983]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2024.02.22-02.17.46:771][983]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2024.02.22-02.17.46:771][983]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2024.02.22-02.17.46:771][983]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2024.02.22-02.17.46:804][983]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2024.02.22-02.17.46:805][983]MapCheck: New page: 02Fase - Feb 21, 2024, 8:17:46 PM
+[2024.02.22-02.17.46:902][983]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 97.383ms to complete.
+[2024.02.22-02.17.46:925][983]LogEditorBuildUtils: Build time 0:05
+[2024.02.22-02.17.48:868][129]Job is a success!
+[2024.02.22-02.17.48:912][130]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.007s
+[2024.02.22-02.17.48:912][130]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2024.02.22-02.17.48:912][130]LogVolumetricLightmapImport:      BrickData 95x5x5 = 0.1Mb (trimmed 0.1Mb due to 0.010000 MinBrickError)
+[2024.02.22-02.17.48:912][130]LogVolumetricLightmapImport:      Bricks at Level
+[2024.02.22-02.17.48:912][130]LogVolumetricLightmapImport:          0: 5.3% covering 100.0% of volume
+[2024.02.22-02.17.48:912][130]LogVolumetricLightmapImport:          1: 21.1% covering 6.3% of volume
+[2024.02.22-02.17.48:912][130]LogVolumetricLightmapImport:          2: 73.7% covering 0.3% of volume
+[2024.02.22-02.17.48:927][130]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 128X128)
+[2024.02.22-02.17.48:927][130]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 128X128)
+[2024.02.22-02.17.48:928][130]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
+[2024.02.22-02.17.48:928][130]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
+[2024.02.22-02.17.48:928][130]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (G8, 32X32)
+[2024.02.22-02.17.48:928][130]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 64X64)
+[2024.02.22-02.17.48:962][130]Lightmass on DESKTOP-VE7UTN2: 1.47 sec total, 172 ms importing, 16 ms setup, 566 ms photons, 607 ms processing, 0 ms extra exporting [2/2 mappings]. Threads: 4.03 sec total, 152 ms processing.
+[2024.02.22-02.17.48:967][130]LogStaticLightingSystem: Illumination: 6.76 sec (1 ms encoding lightmaps, 5 ms encoding shadowmaps)
+[2024.02.22-02.17.48:967][130]LogStaticLightingSystem: Lightmap texture memory:  0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 4 textures
+[2024.02.22-02.17.48:967][130]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2024.02.22-02.17.49:776][130]DumpUnbuiltLightIteractions
+[2024.02.22-02.17.49:776][130]Lights with unbuilt interactions: 0
+[2024.02.22-02.17.49:776][130]
+[2024.02.22-02.17.49:776][130]Primitives with unbuilt interactions: 0
+[2024.02.22-02.17.49:796][131]Cmd: MAP CHECK NOTIFYRESULTS
+[2024.02.22-02.17.49:796][131]MapCheck: New page: 02Fase - Feb 21, 2024, 8:17:49 PM
+[2024.02.22-02.17.49:893][131]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 97.38ms to complete.
+[2024.02.22-02.17.54:167][624]LogAIModule: Creating AISystem for world 01Fase
+[2024.02.22-02.17.54:171][624]LogAssetEditorManager: Opening Asset editor for World /Game/Map/01Fase.01Fase
+[2024.02.22-02.17.56:187][624]LogSlate: Window 'Save Content' being destroyed
+[2024.02.22-02.17.56:392][624]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/02Fase" FILE="../../../../../../AReproposta/Content/Map/02Fase.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.02.22-02.17.56:648][624]LogSavePackage: Moving '../../../../../../AReproposta/Saved/02Fase99D503C54F68F2FBEEDEA0AB28170550.tmp' to '../../../../../../AReproposta/Content/Map/02Fase.umap'
+[2024.02.22-02.17.56:680][624]LogFileHelpers: Saving map '02Fase' took 0.391
+[2024.02.22-02.17.56:680][624]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/02Fase_BuiltData" FILE="../../../../../../AReproposta/Content/Map/02Fase_BuiltData.uasset" SILENT=true
+[2024.02.22-02.17.56:743][624]LogSavePackage: Moving '../../../../../../AReproposta/Saved/02Fase_BuiltData29E1CD244DF25B4928495A8259295639.tmp' to '../../../../../../AReproposta/Content/Map/02Fase_BuiltData.uasset'
+[2024.02.22-02.17.56:746][624]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/02Fase_BuiltData" FILE="../../../../../../AReproposta/Content/Map/02Fase_BuiltData.uasset" SILENT=true
+[2024.02.22-02.17.56:809][624]LogSavePackage: Moving '../../../../../../AReproposta/Saved/02Fase_BuiltData05D86F5243995A0E1AC28084ADBC66AE.tmp' to '../../../../../../AReproposta/Content/Map/02Fase_BuiltData.uasset'
+[2024.02.22-02.17.56:810][624]Cmd: MAP LOAD FILE="../../../../../../AReproposta/Content/Map/01Fase.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2024.02.22-02.17.56:810][624]LightingResults: New page: Lighting Build
+[2024.02.22-02.17.56:811][624]LoadErrors: New page: Loading map: 01Fase.umap
+[2024.02.22-02.17.56:812][624]MapCheck: New page: Map Check
+[2024.02.22-02.17.56:812][624]LightingResults: New page: Lighting Build
+[2024.02.22-02.17.56:898][624]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.02.22-02.17.56:943][624]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.02.22-02.17.57:045][624]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 101.267ms to complete.
+[2024.02.22-02.17.57:046][624]LogFileHelpers: Loading map '01Fase' took 0.236
+[2024.02.22-02.17.59:315][889]MapCheck: New page: Map Check
+[2024.02.22-02.17.59:327][889]Cmd: MAP REBUILD ALLVISIBLE
+[2024.02.22-02.17.59:327][889]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2024.02.22-02.17.59:427][889]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy MI_CineMat_CameraBody, compiling. 
+[2024.02.22-02.17.59:432][889]LogShaderCompilers: Display: Shaders left to compile 1
+[2024.02.22-02.17.59:432][889]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy MI_CineMat_CamViewFinder, compiling. 
+[2024.02.22-02.17.59:436][889]LogShaderCompilers: Display: Shaders left to compile 1
+[2024.02.22-02.17.59:436][889]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_0, compiling. 
+[2024.02.22-02.17.59:441][889]LogShaderCompilers: Display: Shaders left to compile 1
+[2024.02.22-02.17.59:441][889]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy MatineeCam_mat, compiling. 
+[2024.02.22-02.17.59:447][889]LogShaderCompilers: Display: Shaders left to compile 1
+[2024.02.22-02.17.59:447][889]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy M_smoke_subUV, compiling. 
+[2024.02.22-02.17.59:454][889]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy M_Sky_01, compiling. 
+[2024.02.22-02.17.59:460][889]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy M_smoke_subUV, compiling. 
+[2024.02.22-02.17.59:466][889]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy M_PlayerAirship, compiling. 
+[2024.02.22-02.17.59:473][889]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy M_PlayerAirship_Glass, compiling. 
+[2024.02.22-02.17.59:878][889]LogShaderCompilers: Display: Shaders left to compile 5
+[2024.02.22-02.17.59:878][889]LogShaderCompilers: Display: Shaders left to compile 4
+[2024.02.22-02.17.59:878][889]LogShaderCompilers: Display: Shaders left to compile 3
+[2024.02.22-02.17.59:878][889]LogShaderCompilers: Display: Shaders left to compile 2
+[2024.02.22-02.17.59:878][889]LogShaderCompilers: Display: Shaders left to compile 1
+[2024.02.22-02.17.59:878][889]TextureStreamingBuild: Display: Compiling optional shaders took 0.452 seconds.
+[2024.02.22-02.17.59:884][889]LogLevel: Display: Export Material TexCoord Scales took 0.007 seconds.
+[2024.02.22-02.17.59:891][889]TextureStreamingBuild: Display: Build Texture Streaming took 0.007 seconds.
+[2024.02.22-02.17.59:907][889]LightingResults: New page: Lighting Build - Feb 21, 2024, 8:17:59 PM
+[2024.02.22-02.17.59:913][889]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2024.02.22-02.17.59:915][889]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2024.02.22-02.17.59:915][889]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2024.02.22-02.17.59:915][889]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2024.02.22-02.17.59:915][889]LogSwarmInterface: [TryOpenConnection] Local Process ID is 6176
+[2024.02.22-02.18.04:476][889]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2024.02.22-02.18.04:476][889]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2024.02.22-02.18.04:476][889]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2024.02.22-02.18.04:476][889]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2024.02.22-02.18.04:476][889]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2024.02.22-02.18.04:476][889]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2024.02.22-02.18.04:509][889]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2024.02.22-02.18.04:509][889]MapCheck: New page: 01Fase - Feb 21, 2024, 8:18:04 PM
+[2024.02.22-02.18.04:603][889]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 93.544ms to complete.
+[2024.02.22-02.18.04:626][889]LogEditorBuildUtils: Build time 0:05
+[2024.02.22-02.18.06:210][994]Job is a success!
+[2024.02.22-02.18.06:254][995]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.005s
+[2024.02.22-02.18.06:254][995]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2024.02.22-02.18.06:254][995]LogVolumetricLightmapImport:      BrickData 5x5x5 = 0.0Mb
+[2024.02.22-02.18.06:254][995]LogVolumetricLightmapImport:      Bricks at Level
+[2024.02.22-02.18.06:254][995]LogVolumetricLightmapImport:          0: 100.0% covering 100.0% of volume
+[2024.02.22-02.18.06:254][995]LogVolumetricLightmapImport:          1: 0.0% covering 0.0% of volume
+[2024.02.22-02.18.06:254][995]LogVolumetricLightmapImport:          2: 0.0% covering 0.0% of volume
+[2024.02.22-02.18.06:266][995]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 64X64)
+[2024.02.22-02.18.06:266][995]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 64X64)
+[2024.02.22-02.18.06:266][995]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 32X32)
+[2024.02.22-02.18.06:304][995]LogStaticLightingSystem: Illumination: 6.38 sec (1 ms encoding lightmaps, 0 ms encoding shadowmaps)
+[2024.02.22-02.18.06:304][995]LogStaticLightingSystem: Lightmap texture memory:  0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2024.02.22-02.18.06:304][995]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 1 textures
+[2024.02.22-02.18.06:479][995]Lightmass on DESKTOP-VE7UTN2: 1.15 sec total, 154 ms importing, 13 ms setup, 552 ms photons, 333 ms processing, 0 ms extra exporting [1/1 mappings]. Threads: 2.10 sec total, 78 ms processing.
+[2024.02.22-02.18.06:479][995]DumpUnbuiltLightIteractions
+[2024.02.22-02.18.06:479][995]Lights with unbuilt interactions: 0
+[2024.02.22-02.18.06:479][995]
+[2024.02.22-02.18.06:479][995]Primitives with unbuilt interactions: 0
+[2024.02.22-02.18.06:501][996]Cmd: MAP CHECK NOTIFYRESULTS
+[2024.02.22-02.18.06:501][996]MapCheck: New page: 01Fase - Feb 21, 2024, 8:18:06 PM
+[2024.02.22-02.18.06:594][996]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 93.825ms to complete.
+[2024.02.22-02.18.20:180][621]LogAIModule: Creating AISystem for world 00MainMenu
+[2024.02.22-02.18.20:183][621]LogAssetEditorManager: Opening Asset editor for World /Game/Map/00MainMenu.00MainMenu
+[2024.02.22-02.18.21:646][621]LogSlate: Window 'Save Content' being destroyed
+[2024.02.22-02.18.21:844][621]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/01Fase" FILE="../../../../../../AReproposta/Content/Map/01Fase.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.02.22-02.18.22:080][621]LogSavePackage: Moving '../../../../../../AReproposta/Saved/01Fase70CE3FCF499E65F3EAA50BB02F2D2C3D.tmp' to '../../../../../../AReproposta/Content/Map/01Fase.umap'
+[2024.02.22-02.18.22:112][621]LogFileHelpers: Saving map '01Fase' took 0.368
+[2024.02.22-02.18.22:113][621]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/01Fase_BuiltData" FILE="../../../../../../AReproposta/Content/Map/01Fase_BuiltData.uasset" SILENT=true
+[2024.02.22-02.18.22:177][621]LogSavePackage: Moving '../../../../../../AReproposta/Saved/01Fase_BuiltDataC88742EC43024F1BC2E0BF9512FB91AD.tmp' to '../../../../../../AReproposta/Content/Map/01Fase_BuiltData.uasset'
+[2024.02.22-02.18.22:181][621]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/01Fase_BuiltData" FILE="../../../../../../AReproposta/Content/Map/01Fase_BuiltData.uasset" SILENT=true
+[2024.02.22-02.18.22:240][621]LogSavePackage: Moving '../../../../../../AReproposta/Saved/01Fase_BuiltData02B719D8443040B31108D1B122617F97.tmp' to '../../../../../../AReproposta/Content/Map/01Fase_BuiltData.uasset'
+[2024.02.22-02.18.22:242][621]Cmd: MAP LOAD FILE="../../../../../../AReproposta/Content/Map/00MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2024.02.22-02.18.22:242][621]LightingResults: New page: Lighting Build
+[2024.02.22-02.18.22:242][621]LoadErrors: New page: Loading map: 00MainMenu.umap
+[2024.02.22-02.18.22:243][621]MapCheck: New page: Map Check
+[2024.02.22-02.18.22:243][621]LightingResults: New page: Lighting Build
+[2024.02.22-02.18.22:306][621]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.02.22-02.18.22:355][621]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.02.22-02.18.22:454][621]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 99.158ms to complete.
+[2024.02.22-02.18.22:457][621]LogFileHelpers: Loading map '00MainMenu' took 0.215
+[2024.02.22-02.18.24:221][824]MapCheck: New page: Map Check
+[2024.02.22-02.18.24:235][824]Cmd: MAP REBUILD ALLVISIBLE
+[2024.02.22-02.18.24:235][824]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2024.02.22-02.18.24:303][824]TextureStreamingBuild: Display: Build Texture Streaming took 0.003 seconds.
+[2024.02.22-02.18.24:320][824]LightingResults: New page: Lighting Build - Feb 21, 2024, 8:18:24 PM
+[2024.02.22-02.18.24:325][824]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2024.02.22-02.18.24:327][824]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2024.02.22-02.18.24:327][824]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2024.02.22-02.18.24:327][824]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2024.02.22-02.18.24:327][824]LogSwarmInterface: [TryOpenConnection] Local Process ID is 6176
+[2024.02.22-02.18.28:895][824]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2024.02.22-02.18.28:895][824]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2024.02.22-02.18.28:895][824]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2024.02.22-02.18.28:895][824]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2024.02.22-02.18.28:895][824]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2024.02.22-02.18.28:895][824]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2024.02.22-02.18.28:926][824]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2024.02.22-02.18.28:926][824]MapCheck: New page: 00MainMenu - Feb 21, 2024, 8:18:28 PM
+[2024.02.22-02.18.29:022][824]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 95.621ms to complete.
+[2024.02.22-02.18.29:045][824]LogEditorBuildUtils: Build time 0:04
+[2024.02.22-02.18.30:532][931]Job is a success!
+[2024.02.22-02.18.30:572][933]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.006s
+[2024.02.22-02.18.30:572][933]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2024.02.22-02.18.30:572][933]LogVolumetricLightmapImport:      BrickData 5x5x5 = 0.0Mb
+[2024.02.22-02.18.30:572][933]LogVolumetricLightmapImport:      Bricks at Level
+[2024.02.22-02.18.30:572][933]LogVolumetricLightmapImport:          0: 100.0% covering 100.0% of volume
+[2024.02.22-02.18.30:572][933]LogVolumetricLightmapImport:          1: 0.0% covering 0.0% of volume
+[2024.02.22-02.18.30:572][933]LogVolumetricLightmapImport:          2: 0.0% covering 0.0% of volume
+[2024.02.22-02.18.30:607][933]Lightmass on DESKTOP-VE7UTN2: 1.10 sec total, 150 ms importing, 13 ms setup, 559 ms photons, 312 ms processing, 0 ms extra exporting [0/0 mappings]. Threads: 1.95 sec total, 0 ms processing.
+[2024.02.22-02.18.30:614][933]LogStaticLightingSystem: Illumination: 6.27 sec (0 ms encoding lightmaps, 0 ms encoding shadowmaps)
+[2024.02.22-02.18.30:614][933]LogStaticLightingSystem: Lightmap texture memory:  0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
+[2024.02.22-02.18.30:614][933]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
+[2024.02.22-02.18.30:897][933]DumpUnbuiltLightIteractions
+[2024.02.22-02.18.30:897][933]Lights with unbuilt interactions: 0
+[2024.02.22-02.18.30:897][933]
+[2024.02.22-02.18.30:897][933]Primitives with unbuilt interactions: 0
+[2024.02.22-02.18.30:925][934]Cmd: MAP CHECK NOTIFYRESULTS
+[2024.02.22-02.18.30:925][934]MapCheck: New page: 00MainMenu - Feb 21, 2024, 8:18:30 PM
+[2024.02.22-02.18.31:021][934]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 96.255ms to complete.
+[2024.02.22-02.18.33:751][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/00MainMenu" FILE="../../../../../../AReproposta/Content/Map/00MainMenu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.02.22-02.18.33:880][251]LogSavePackage: Moving '../../../../../../AReproposta/Saved/00MainMenu1A09E621494E77591B3190B47C32E22C.tmp' to '../../../../../../AReproposta/Content/Map/00MainMenu.umap'
+[2024.02.22-02.18.33:993][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/00MainMenu_BuiltData" FILE="../../../../../../AReproposta/Content/Map/00MainMenu_BuiltData.uasset" SILENT=true
+[2024.02.22-02.18.33:996][251]LogSavePackage: Moving '../../../../../../AReproposta/Saved/00MainMenu_BuiltDataB7603ABF4F46ED0D2C6DD3984D1B0C5A.tmp' to '../../../../../../AReproposta/Content/Map/00MainMenu_BuiltData.uasset'
+[2024.02.22-02.18.39:625][884]LogSlate: Window 'AReporpostaProj - Unreal Editor' being destroyed
+[2024.02.22-02.18.40:057][885]Cmd: QUIT_EDITOR
+[2024.02.22-02.18.40:067][885]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2024.02.22-02.18.40:075][885]LogExit: Preparing to exit.
+[2024.02.22-02.18.40:863][885]LogExit: Editor shut down
+[2024.02.22-02.18.40:863][885]LogExit: Transaction tracking system shut down
+[2024.02.22-02.18.41:503][885]LogExit: Object subsystem successfully closed.
+[2024.02.22-02.18.41:519][885]LogShaderCompilers: Display: Shaders left to compile 0
+[2024.02.22-02.18.41:523][885]LogD3D11RHI: Shutdown
+[2024.02.22-02.18.41:523][885]LogD3D11RHI: CleanupD3DDevice
+[2024.02.22-02.18.41:526][885]LogD3D11RHI: ~FD3D11DynamicRHI
+[2024.02.22-02.18.41:542][885]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (614)
+[2024.02.22-02.18.41:542][885]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (612)
+[2024.02.22-02.18.41:542][885]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (610)
+[2024.02.22-02.18.41:542][885]LogModuleManager: Shutting down and abandoning module SceneOutliner (608)
+[2024.02.22-02.18.41:542][885]LogModuleManager: Shutting down and abandoning module AddContentDialog (606)
+[2024.02.22-02.18.41:542][885]LogModuleManager: Shutting down and abandoning module WidgetCarousel (605)
+[2024.02.22-02.18.41:542][885]LogModuleManager: Shutting down and abandoning module EditorWidgets (602)
+[2024.02.22-02.18.41:542][885]LogModuleManager: Shutting down and abandoning module CollectionManager (600)
+[2024.02.22-02.18.41:543][885]LogModuleManager: Shutting down and abandoning module StatsViewer (598)
+[2024.02.22-02.18.41:543][885]LogModuleManager: Shutting down and abandoning module FoliageEdit (596)
+[2024.02.22-02.18.41:543][885]LogModuleManager: Shutting down and abandoning module LandscapeEditor (594)
+[2024.02.22-02.18.41:543][885]LogModuleManager: Shutting down and abandoning module MeshPaintMode (592)
+[2024.02.22-02.18.41:543][885]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (590)
+[2024.02.22-02.18.41:543][885]LogModuleManager: Shutting down and abandoning module ActorPickerMode (588)
+[2024.02.22-02.18.41:543][885]LogModuleManager: Shutting down and abandoning module GeometryMode (586)
+[2024.02.22-02.18.41:543][885]LogModuleManager: Shutting down and abandoning module TextureAlignMode (584)
+[2024.02.22-02.18.41:543][885]LogModuleManager: Shutting down and abandoning module BspMode (582)
+[2024.02.22-02.18.41:543][885]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (580)
+[2024.02.22-02.18.41:543][885]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (578)
+[2024.02.22-02.18.41:543][885]LogModuleManager: Shutting down and abandoning module AutomationWorker (576)
+[2024.02.22-02.18.41:543][885]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (574)
+[2024.02.22-02.18.41:543][885]LogModuleManager: Shutting down and abandoning module SequenceRecorder (573)
+[2024.02.22-02.18.41:543][885]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (570)
+[2024.02.22-02.18.41:543][885]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (568)
+[2024.02.22-02.18.41:543][885]LogModuleManager: Shutting down and abandoning module PlacementMode (567)
+[2024.02.22-02.18.41:543][885]LogModuleManager: Shutting down and abandoning module MaterialEditor (566)
+[2024.02.22-02.18.41:543][885]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (562)
+[2024.02.22-02.18.41:543][885]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (560)
+[2024.02.22-02.18.41:543][885]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (558)
+[2024.02.22-02.18.41:543][885]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (556)
+[2024.02.22-02.18.41:543][885]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (554)
+[2024.02.22-02.18.41:543][885]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (552)
+[2024.02.22-02.18.41:543][885]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (550)
+[2024.02.22-02.18.41:543][885]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (548)
+[2024.02.22-02.18.41:543][885]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (546)
+[2024.02.22-02.18.41:543][885]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (544)
+[2024.02.22-02.18.41:543][885]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (542)
+[2024.02.22-02.18.41:543][885]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (540)
+[2024.02.22-02.18.41:543][885]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (538)
+[2024.02.22-02.18.41:543][885]LogModuleManager: Shutting down and abandoning module CharacterAI (536)
+[2024.02.22-02.18.41:543][885]LogModuleManager: Shutting down and abandoning module SmartSnapping (534)
+[2024.02.22-02.18.41:543][885]LogModuleManager: Shutting down and abandoning module SessionServices (532)
+[2024.02.22-02.18.41:543][885]LogModuleManager: Shutting down and abandoning module ViewportSnapping (530)
+[2024.02.22-02.18.41:543][885]LogModuleManager: Shutting down and abandoning module ViewportInteraction (528)
+[2024.02.22-02.18.41:543][885]LogModuleManager: Shutting down and abandoning module ClothPainter (526)
+[2024.02.22-02.18.41:543][885]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (525)
+[2024.02.22-02.18.41:543][885]LogModuleManager: Shutting down and abandoning module LogVisualizer (522)
+[2024.02.22-02.18.41:543][885]LogModuleManager: Shutting down and abandoning module IntroTutorials (520)
+[2024.02.22-02.18.41:543][885]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (519)
+[2024.02.22-02.18.41:544][885]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (516)
+[2024.02.22-02.18.41:544][885]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (514)
+[2024.02.22-02.18.41:544][885]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (512)
+[2024.02.22-02.18.41:544][885]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (510)
+[2024.02.22-02.18.41:544][885]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (509)
+[2024.02.22-02.18.42:005][885]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (506)
+[2024.02.22-02.18.42:005][885]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (504)
+[2024.02.22-02.18.42:005][885]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (502)
+[2024.02.22-02.18.42:005][885]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (500)
+[2024.02.22-02.18.42:005][885]LogModuleManager: Shutting down and abandoning module InputBindingEditor (498)
+[2024.02.22-02.18.42:005][885]LogModuleManager: Shutting down and abandoning module MergeActors (496)
+[2024.02.22-02.18.42:005][885]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (494)
+[2024.02.22-02.18.42:005][885]LogModuleManager: Shutting down and abandoning module LocalizationService (493)
+[2024.02.22-02.18.42:005][885]LogModuleManager: Shutting down and abandoning module HardwareTargeting (490)
+[2024.02.22-02.18.42:005][885]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (488)
+[2024.02.22-02.18.42:005][885]LogModuleManager: Shutting down and abandoning module UndoHistory (486)
+[2024.02.22-02.18.42:005][885]LogModuleManager: Shutting down and abandoning module XmlParser (484)
+[2024.02.22-02.18.42:005][885]LogModuleManager: Shutting down and abandoning module Blutility (482)
+[2024.02.22-02.18.42:005][885]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (480)
+[2024.02.22-02.18.42:005][885]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (479)
+[2024.02.22-02.18.42:005][885]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (476)
+[2024.02.22-02.18.42:005][885]LogModuleManager: Shutting down and abandoning module SettingsEditor (474)
+[2024.02.22-02.18.42:005][885]LogModuleManager: Shutting down and abandoning module ProjectLauncher (472)
+[2024.02.22-02.18.42:005][885]LogModuleManager: Shutting down and abandoning module SessionFrontend (470)
+[2024.02.22-02.18.42:005][885]LogModuleManager: Shutting down and abandoning module ProfilerClient (468)
+[2024.02.22-02.18.42:006][885]LogModuleManager: Shutting down and abandoning module DeviceManager (466)
+[2024.02.22-02.18.42:006][885]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (465)
+[2024.02.22-02.18.42:050][885]LogModuleManager: Shutting down and abandoning module AutomationController (462)
+[2024.02.22-02.18.42:050][885]LogModuleManager: Shutting down and abandoning module AutomationWindow (460)
+[2024.02.22-02.18.42:050][885]LogModuleManager: Shutting down and abandoning module Layers (458)
+[2024.02.22-02.18.42:050][885]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (456)
+[2024.02.22-02.18.42:050][885]LogModuleManager: Shutting down and abandoning module DetailCustomizations (454)
+[2024.02.22-02.18.42:050][885]LogModuleManager: Shutting down and abandoning module PackagesDialog (452)
+[2024.02.22-02.18.42:050][885]LogModuleManager: Shutting down and abandoning module Persona (450)
+[2024.02.22-02.18.42:050][885]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (449)
+[2024.02.22-02.18.42:050][885]LogModuleManager: Shutting down and abandoning module AnimGraph (447)
+[2024.02.22-02.18.42:050][885]LogModuleManager: Shutting down and abandoning module Kismet (444)
+[2024.02.22-02.18.42:051][885]LogModuleManager: Shutting down and abandoning module GraphEditor (442)
+[2024.02.22-02.18.42:051][885]LogModuleManager: Shutting down and abandoning module ClassViewer (440)
+[2024.02.22-02.18.42:051][885]LogModuleManager: Shutting down and abandoning module Toolbox (438)
+[2024.02.22-02.18.42:051][885]LogModuleManager: Shutting down and abandoning module ModuleUI (436)
+[2024.02.22-02.18.42:051][885]LogModuleManager: Shutting down and abandoning module MovieSceneTools (434)
+[2024.02.22-02.18.42:051][885]LogModuleManager: Shutting down and abandoning module OutputLog (432)
+[2024.02.22-02.18.42:051][885]LogModuleManager: Shutting down and abandoning module GammaUI (430)
+[2024.02.22-02.18.42:051][885]LogModuleManager: Shutting down and abandoning module Documentation (428)
+[2024.02.22-02.18.42:051][885]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (426)
+[2024.02.22-02.18.42:051][885]LogModuleManager: Shutting down and abandoning module MovieScene (424)
+[2024.02.22-02.18.42:051][885]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (422)
+[2024.02.22-02.18.42:051][885]LogModuleManager: Shutting down and abandoning module LauncherPlatform (420)
+[2024.02.22-02.18.42:051][885]LogModuleManager: Shutting down and abandoning module AnalyticsET (418)
+[2024.02.22-02.18.42:051][885]LogModuleManager: Shutting down and abandoning module PortalServices (416)
+[2024.02.22-02.18.42:051][885]LogModuleManager: Shutting down and abandoning module PortalRpc (414)
+[2024.02.22-02.18.42:051][885]LogModuleManager: Shutting down and abandoning module MessagingRpc (412)
+[2024.02.22-02.18.42:051][885]LogModuleManager: Shutting down and abandoning module AIModule (410)
+[2024.02.22-02.18.42:051][885]LogModuleManager: Shutting down and abandoning module GameplayDebugger (409)
+[2024.02.22-02.18.42:051][885]LogModuleManager: Shutting down and abandoning module AITestSuite (407)
+[2024.02.22-02.18.42:051][885]LogModuleManager: Shutting down and abandoning module NavigationSystem (405)
+[2024.02.22-02.18.42:051][885]LogModuleManager: Shutting down and abandoning module DesktopPlatform (402)
+[2024.02.22-02.18.42:051][885]LogModuleManager: Shutting down and abandoning module ProfilerService (400)
+[2024.02.22-02.18.42:116][885]LogModuleManager: Shutting down and abandoning module TaskGraph (398)
+[2024.02.22-02.18.42:116][885]LogModuleManager: Shutting down and abandoning module SteamVRController (396)
+[2024.02.22-02.18.42:116][885]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (394)
+[2024.02.22-02.18.42:116][885]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (392)
+[2024.02.22-02.18.42:116][885]LogModuleManager: Shutting down and abandoning module OculusInput (390)
+[2024.02.22-02.18.42:116][885]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (388)
+[2024.02.22-02.18.42:116][885]LogModuleManager: Shutting down and abandoning module EditableMesh (386)
+[2024.02.22-02.18.42:116][885]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (384)
+[2024.02.22-02.18.42:116][885]LogModuleManager: Shutting down and abandoning module CableComponent (382)
+[2024.02.22-02.18.42:116][885]LogModuleManager: Shutting down and abandoning module AudioCapture (380)
+[2024.02.22-02.18.42:116][885]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (378)
+[2024.02.22-02.18.42:116][885]LogModuleManager: Shutting down and abandoning module AndroidPermission (376)
+[2024.02.22-02.18.42:116][885]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (374)
+[2024.02.22-02.18.42:116][885]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (372)
+[2024.02.22-02.18.42:116][885]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (370)
+[2024.02.22-02.18.42:116][885]LogModuleManager: Shutting down and abandoning module MediaCompositing (368)
+[2024.02.22-02.18.42:116][885]LogModuleManager: Shutting down and abandoning module LinearTimecode (366)
+[2024.02.22-02.18.42:116][885]LogModuleManager: Shutting down and abandoning module ImgMedia (364)
+[2024.02.22-02.18.42:119][885]LogModuleManager: Shutting down and abandoning module HTML5Networking (362)
+[2024.02.22-02.18.42:119][885]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (360)
+[2024.02.22-02.18.42:119][885]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (358)
+[2024.02.22-02.18.42:119][885]LogModuleManager: Shutting down and abandoning module BackChannel (356)
+[2024.02.22-02.18.42:119][885]LogModuleManager: Shutting down and abandoning module AppleVision (354)
+[2024.02.22-02.18.42:119][885]LogModuleManager: Shutting down and abandoning module AppleImageUtils (352)
+[2024.02.22-02.18.42:119][885]LogModuleManager: Shutting down and abandoning module AlembicImporter (350)
+[2024.02.22-02.18.42:119][885]LogModuleManager: Shutting down and abandoning module AlembicLibrary (349)
+[2024.02.22-02.18.42:119][885]LogModuleManager: Shutting down and abandoning module GeometryCache (348)
+[2024.02.22-02.18.42:119][885]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (347)
+[2024.02.22-02.18.42:119][885]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (342)
+[2024.02.22-02.18.42:119][885]LogModuleManager: Shutting down and abandoning module DatasmithContent (340)
+[2024.02.22-02.18.42:120][885]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (338)
+[2024.02.22-02.18.42:120][885]LogModuleManager: Shutting down and abandoning module PluginBrowser (336)
+[2024.02.22-02.18.42:120][885]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (334)
+[2024.02.22-02.18.42:120][885]LogModuleManager: Shutting down and abandoning module PolygonModeling (332)
+[2024.02.22-02.18.42:120][885]LogModuleManager: Shutting down and abandoning module MeshEditor (330)
+[2024.02.22-02.18.42:120][885]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (328)
+[2024.02.22-02.18.42:120][885]LogModuleManager: Shutting down and abandoning module CryptoKeys (326)
+[2024.02.22-02.18.42:120][885]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (324)
+[2024.02.22-02.18.42:120][885]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (322)
+[2024.02.22-02.18.42:120][885]LogModuleManager: Shutting down and abandoning module UObjectPlugin (320)
+[2024.02.22-02.18.42:120][885]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (318)
+[2024.02.22-02.18.42:120][885]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (316)
+[2024.02.22-02.18.42:120][885]LogModuleManager: Shutting down and abandoning module GitSourceControl (314)
+[2024.02.22-02.18.42:120][885]LogModuleManager: Shutting down and abandoning module SourceControl (313)
+[2024.02.22-02.18.42:120][885]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (310)
+[2024.02.22-02.18.42:120][885]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (308)
+[2024.02.22-02.18.42:120][885]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (306)
+[2024.02.22-02.18.42:120][885]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (304)
+[2024.02.22-02.18.42:120][885]LogModuleManager: Shutting down and abandoning module Paper2DEditor (302)
+[2024.02.22-02.18.42:120][885]LogModuleManager: Shutting down and abandoning module MeshPaint (301)
+[2024.02.22-02.18.42:120][885]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (298)
+[2024.02.22-02.18.42:120][885]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (296)
+[2024.02.22-02.18.42:120][885]LogModuleManager: Shutting down and abandoning module PhysXVehicles (294)
+[2024.02.22-02.18.42:120][885]LogModuleManager: Shutting down and abandoning module OculusEditor (292)
+[2024.02.22-02.18.42:120][885]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (290)
+[2024.02.22-02.18.42:120][885]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (288)
+[2024.02.22-02.18.42:120][885]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (286)
+[2024.02.22-02.18.42:120][885]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2024.02.22-02.18.42:120][885]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2024.02.22-02.18.42:220][885]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2024.02.22-02.18.42:321][885]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
+[2024.02.22-02.18.42:321][885]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
+[2024.02.22-02.18.42:321][885]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
+[2024.02.22-02.18.42:321][885]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
+[2024.02.22-02.18.42:321][885]LogModuleManager: Shutting down and abandoning module DataValidation (270)
+[2024.02.22-02.18.42:321][885]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
+[2024.02.22-02.18.42:321][885]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
+[2024.02.22-02.18.42:321][885]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
+[2024.02.22-02.18.42:321][885]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
+[2024.02.22-02.18.42:321][885]LogModuleManager: Shutting down and abandoning module MainFrame (262)
+[2024.02.22-02.18.42:321][885]LogModuleManager: Shutting down and abandoning module HotReload (261)
+[2024.02.22-02.18.42:322][885]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
+[2024.02.22-02.18.42:322][885]LogModuleManager: Shutting down and abandoning module TreeMap (255)
+[2024.02.22-02.18.42:322][885]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
+[2024.02.22-02.18.42:322][885]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
+[2024.02.22-02.18.42:322][885]LogModuleManager: Shutting down and abandoning module Paper2D (248)
+[2024.02.22-02.18.42:322][885]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
+[2024.02.22-02.18.42:322][885]LogModuleManager: Shutting down and abandoning module WmfMedia (244)
+[2024.02.22-02.18.42:323][885]LogModuleManager: Shutting down and abandoning module Media (243)
+[2024.02.22-02.18.42:329][885]LogModuleManager: Shutting down and abandoning module PacketHandler (240)
+[2024.02.22-02.18.42:329][885]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (238)
+[2024.02.22-02.18.42:329][885]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (236)
+[2024.02.22-02.18.42:329][885]LogModuleManager: Shutting down and abandoning module MediaAssets (234)
+[2024.02.22-02.18.42:329][885]LogModuleManager: Shutting down and abandoning module Overlay (232)
+[2024.02.22-02.18.42:329][885]LogModuleManager: Shutting down and abandoning module OverlayEditor (231)
+[2024.02.22-02.18.42:329][885]LogModuleManager: Shutting down and abandoning module VREditor (228)
+[2024.02.22-02.18.42:329][885]LogModuleManager: Shutting down and abandoning module StringTableEditor (226)
+[2024.02.22-02.18.42:329][885]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (224)
+[2024.02.22-02.18.42:329][885]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (222)
+[2024.02.22-02.18.42:329][885]LogModuleManager: Shutting down and abandoning module FunctionalTesting (220)
+[2024.02.22-02.18.42:329][885]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (218)
+[2024.02.22-02.18.42:329][885]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (217)
+[2024.02.22-02.18.42:329][885]LogModuleManager: Shutting down and abandoning module UMG (214)
+[2024.02.22-02.18.42:329][885]LogModuleManager: Shutting down and abandoning module UMGEditor (213)
+[2024.02.22-02.18.42:329][885]LogModuleManager: Shutting down and abandoning module Sequencer (212)
+[2024.02.22-02.18.42:330][885]LogModuleManager: Shutting down and abandoning module MessageLog (209)
+[2024.02.22-02.18.42:330][885]LogModuleManager: Shutting down and abandoning module SlateReflector (204)
+[2024.02.22-02.18.42:330][885]LogModuleManager: Shutting down and abandoning module Slate (202)
+[2024.02.22-02.18.42:330][885]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
+[2024.02.22-02.18.42:331][885]LogModuleManager: Shutting down and abandoning module MRMesh (198)
+[2024.02.22-02.18.42:331][885]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (196)
+[2024.02.22-02.18.42:331][885]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (194)
+[2024.02.22-02.18.42:331][885]LogModuleManager: Shutting down and abandoning module XAudio2 (192)
+[2024.02.22-02.18.42:331][885]LogModuleManager: Shutting down and abandoning module Networking (190)
+[2024.02.22-02.18.42:331][885]LogModuleManager: Shutting down and abandoning module Core (188)
+[2024.02.22-02.18.42:331][885]LogModuleManager: Shutting down and abandoning module LevelSequence (186)
+[2024.02.22-02.18.42:331][885]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
+[2024.02.22-02.18.42:331][885]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
+[2024.02.22-02.18.42:331][885]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
+[2024.02.22-02.18.42:331][885]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
+[2024.02.22-02.18.42:331][885]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (179)
+[2024.02.22-02.18.42:331][885]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
+[2024.02.22-02.18.42:331][885]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (175)
+[2024.02.22-02.18.42:331][885]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (173)
+[2024.02.22-02.18.42:331][885]LogModuleManager: Shutting down and abandoning module MaterialBaking (169)
+[2024.02.22-02.18.42:331][885]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (165)
+[2024.02.22-02.18.42:331][885]LogModuleManager: Shutting down and abandoning module DerivedDataCache (162)
+[2024.02.22-02.18.42:426][885]LogDerivedDataCache: Shutdown
+[2024.02.22-02.18.42:426][885]LogModuleManager: Shutting down and abandoning module XGEController (160)
+[2024.02.22-02.18.42:426][885]LogModuleManager: Shutting down and abandoning module TargetPlatform (158)
+[2024.02.22-02.18.42:426][885]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (157)
+[2024.02.22-02.18.42:426][885]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (155)
+[2024.02.22-02.18.42:426][885]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (153)
+[2024.02.22-02.18.42:426][885]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (151)
+[2024.02.22-02.18.42:426][885]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (149)
+[2024.02.22-02.18.42:426][885]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (147)
+[2024.02.22-02.18.42:426][885]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (145)
+[2024.02.22-02.18.42:426][885]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (143)
+[2024.02.22-02.18.42:426][885]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (141)
+[2024.02.22-02.18.42:426][885]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (139)
+[2024.02.22-02.18.42:426][885]LogModuleManager: Shutting down and abandoning module ImageWrapper (138)
+[2024.02.22-02.18.42:426][885]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (135)
+[2024.02.22-02.18.42:426][885]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (133)
+[2024.02.22-02.18.42:426][885]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (131)
+[2024.02.22-02.18.42:426][885]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (129)
+[2024.02.22-02.18.42:426][885]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (127)
+[2024.02.22-02.18.42:426][885]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (125)
+[2024.02.22-02.18.42:426][885]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (123)
+[2024.02.22-02.18.42:426][885]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (121)
+[2024.02.22-02.18.42:427][885]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
+[2024.02.22-02.18.42:427][885]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (117)
+[2024.02.22-02.18.42:427][885]LogModuleManager: Shutting down and abandoning module Messaging (115)
+[2024.02.22-02.18.42:427][885]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
+[2024.02.22-02.18.42:428][885]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (111)
+[2024.02.22-02.18.42:428][885]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (109)
+[2024.02.22-02.18.42:433][885]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (107)
+[2024.02.22-02.18.42:433][885]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (105)
+[2024.02.22-02.18.42:433][885]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (103)
+[2024.02.22-02.18.42:433][885]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (101)
+[2024.02.22-02.18.42:433][885]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (99)
+[2024.02.22-02.18.42:433][885]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (97)
+[2024.02.22-02.18.42:433][885]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (95)
+[2024.02.22-02.18.42:433][885]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (93)
+[2024.02.22-02.18.42:433][885]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (91)
+[2024.02.22-02.18.42:433][885]LogModuleManager: Shutting down and abandoning module InputCore (88)
+[2024.02.22-02.18.42:433][885]LogModuleManager: Shutting down and abandoning module Settings (86)
+[2024.02.22-02.18.42:434][885]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
+[2024.02.22-02.18.42:434][885]LogModuleManager: Shutting down and abandoning module SteamVR (82)
+[2024.02.22-02.18.42:434][885]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
+[2024.02.22-02.18.42:434][885]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
+[2024.02.22-02.18.42:434][885]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
+[2024.02.22-02.18.42:434][885]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2024.02.22-02.18.42:434][885]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
+[2024.02.22-02.18.42:434][885]LogModuleManager: Shutting down and abandoning module XMPP (65)
+[2024.02.22-02.18.42:434][885]LogModuleManager: Shutting down and abandoning module WebSockets (64)
+[2024.02.22-02.18.42:457][885]LogModuleManager: Shutting down and abandoning module HTTP (61)
+[2024.02.22-02.18.42:457][885]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2024.02.22-02.18.42:457][885]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B20AA9EBE-4E1F-A095-17FB-A4A07EAB46FA%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.3-4369336%2B%2B%2BUE4%2BRelease-4.20&UserID=06d1374d4b1e416f4d2ae2924a792f08%7C422e9c7ce01f49ebadcd6a44a0a170a0%7C7c161fbe-103b-41cb-8ff8-59c2d5305b5e&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2024.02.22-02.18.42:474][885]LogModuleManager: Shutting down and abandoning module SSL (60)
+[2024.02.22-02.18.42:475][885]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
+[2024.02.22-02.18.42:475][885]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
+[2024.02.22-02.18.42:475][885]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
+[2024.02.22-02.18.42:475][885]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
+[2024.02.22-02.18.42:475][885]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
+[2024.02.22-02.18.42:475][885]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
+[2024.02.22-02.18.42:475][885]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
+[2024.02.22-02.18.42:475][885]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
+[2024.02.22-02.18.42:475][885]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
+[2024.02.22-02.18.42:475][885]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2024.02.22-02.18.42:475][885]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
+[2024.02.22-02.18.42:475][885]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2024.02.22-02.18.42:475][885]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2024.02.22-02.18.42:476][885]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2024.02.22-02.18.42:476][885]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2024.02.22-02.18.42:476][885]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2024.02.22-02.18.42:476][885]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2024.02.22-02.18.42:476][885]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2024.02.22-02.18.42:476][885]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2024.02.22-02.18.42:476][885]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2024.02.22-02.18.42:476][885]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2024.02.22-02.18.42:476][885]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2024.02.22-02.18.42:476][885]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2024.02.22-02.18.42:476][885]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2024.02.22-02.18.42:476][885]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2024.02.22-02.18.42:476][885]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2024.02.22-02.18.42:476][885]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2024.02.22-02.18.42:476][885]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2024.02.22-02.18.42:476][885]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2024.02.22-02.18.42:481][885]LogExit: Exiting.
+[2024.02.22-02.18.42:484][885]Log file closed, 02/21/24 23:18:42
