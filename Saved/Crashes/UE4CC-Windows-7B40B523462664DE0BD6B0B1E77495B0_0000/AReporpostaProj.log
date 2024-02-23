@@ -1,0 +1,843 @@
+﻿Log file open, 02/22/24 17:07:34
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: AReporpostaProj
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.348141
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -3:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.139s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-7700K CPU @ 4.20GHz, GPU: NVIDIA GeForce RTX 2060
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.004s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2024.02.22-20.07.35:088][  0]LogInit: Selected Device Profile: [Windows]
+[2024.02.22-20.07.35:088][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2024.02.22-20.07.35:100][  0]LogHAL: Display: Platform has ~ 16 GB [17134534656 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2024.02.22-20.07.35:100][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2024.02.22-20.07.35:100][  0]LogInit: Going up to parent DeviceProfile []
+[2024.02.22-20.07.35:100][  0]LogInit: Computer: DESKTOP-VE7UTN2
+[2024.02.22-20.07.35:100][  0]LogInit: User: Teika
+[2024.02.22-20.07.35:100][  0]LogInit: CPU Page size=4096, Cores=4
+[2024.02.22-20.07.35:100][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2024.02.22-20.07.35:101][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2024.02.22-20.07.35:101][  0]LogMemory: Platform Memory Stats for Windows
+[2024.02.22-20.07.35:101][  0]LogMemory: Process Physical Memory: 104.05 MB used, 104.06 MB peak
+[2024.02.22-20.07.35:101][  0]LogMemory: Process Virtual Memory: 87.06 MB used, 87.06 MB peak
+[2024.02.22-20.07.35:101][  0]LogMemory: Physical Memory: 5270.94 MB used,  11069.82 MB free, 16340.77 MB total
+[2024.02.22-20.07.35:101][  0]LogMemory: Virtual Memory: 4625.48 MB used,  11069.82 MB free, 134217728.00 MB total
+[2024.02.22-20.07.35:131][  0]LogInit: Overriding language with editor language configuration option (en).
+[2024.02.22-20.07.35:131][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2024.02.22-20.07.35:398][  0]LogStreaming: Display: Took  0.267s to InitEngineTextLocalization.
+[2024.02.22-20.07.35:399][  0]LogInit: Setting process to per monitor DPI aware
+[2024.02.22-20.07.35:427][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2024.02.22-20.07.35:427][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2024.02.22-20.07.35:577][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2024.02.22-20.07.35:577][  0]LogD3D11RHI: D3D11 adapters:
+[2024.02.22-20.07.35:716][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2060' (Feature Level 11_0)
+[2024.02.22-20.07.35:716][  0]LogD3D11RHI:       5945/0/8170 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2024.02.22-20.07.35:718][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2024.02.22-20.07.35:718][  0]LogD3D11RHI:       0/0/8170 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2024.02.22-20.07.35:718][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2024.02.22-20.07.35:721][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2024.02.22-20.07.35:722][  0]LogD3D11RHI:     GPU DeviceId: 0x1e89 (for the marketing name, search the web for "GPU Device Id")
+[2024.02.22-20.07.35:722][  0]LogWindows: EnumDisplayDevices:
+[2024.02.22-20.07.35:722][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2060' (P:1 D:1)
+[2024.02.22-20.07.35:722][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2060' (P:0 D:1)
+[2024.02.22-20.07.35:722][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2060' (P:0 D:0)
+[2024.02.22-20.07.35:722][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2060' (P:0 D:0)
+[2024.02.22-20.07.35:722][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2024.02.22-20.07.35:722][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2060
+[2024.02.22-20.07.35:722][  0]LogD3D11RHI:   Driver Version: 551.52 (internal:31.0.15.5152, unified:551.52)
+[2024.02.22-20.07.35:722][  0]LogD3D11RHI:      Driver Date: 2-7-2024
+[2024.02.22-20.07.35:723][  0]LogRHI: Texture pool is 4161 MB (70% of 5945 MB)
+[2024.02.22-20.07.35:816][  0]LogD3D11RHI: Async texture creation enabled
+[2024.02.22-20.07.35:837][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2024.02.22-20.07.35:840][  0]LogShaderCompilers: Guid format shader working directory is 17 characters bigger than the processId version (../../../../../../AReproposta/Intermediate/Shaders/WorkingDirectory/3172/).
+[2024.02.22-20.07.35:840][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Teika/AppData/Local/Temp/UnrealShaderWorkingDir/DDEED14542A2B376623B9280B9DD49A4/'.
+[2024.02.22-20.07.36:051][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2024.02.22-20.07.36:062][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2024.02.22-20.07.36:072][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2024.02.22-20.07.36:082][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2024.02.22-20.07.36:092][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2024.02.22-20.07.36:102][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2024.02.22-20.07.36:113][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2024.02.22-20.07.36:123][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2024.02.22-20.07.36:128][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2024.02.22-20.07.36:185][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2024.02.22-20.07.36:185][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2024.02.22-20.07.36:187][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2024.02.22-20.07.36:187][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2024.02.22-20.07.36:187][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2024.02.22-20.07.36:187][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2024.02.22-20.07.36:187][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2024.02.22-20.07.36:187][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2024.02.22-20.07.36:187][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2024.02.22-20.07.36:187][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2024.02.22-20.07.36:187][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2024.02.22-20.07.36:187][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2024.02.22-20.07.36:187][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2024.02.22-20.07.36:187][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2024.02.22-20.07.36:187][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2024.02.22-20.07.36:187][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2024.02.22-20.07.36:187][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2024.02.22-20.07.36:187][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2024.02.22-20.07.36:188][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2024.02.22-20.07.36:240][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2024.02.22-20.07.36:240][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2024.02.22-20.07.36:258][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2024.02.22-20.07.36:258][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2024.02.22-20.07.36:271][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2024.02.22-20.07.36:280][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2024.02.22-20.07.36:290][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2024.02.22-20.07.36:300][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2024.02.22-20.07.36:306][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2024.02.22-20.07.36:306][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2024.02.22-20.07.36:356][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2024.02.22-20.07.36:356][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2024.02.22-20.07.36:356][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2024.02.22-20.07.36:991][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2024.02.22-20.07.37:032][  0]LogDerivedDataCache: Loaded boot cache 0.04s 71MB C:/Users/Teika/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2024.02.22-20.07.37:032][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Teika/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2024.02.22-20.07.37:032][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../AReproposta/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2024.02.22-20.07.37:032][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2024.02.22-20.07.37:032][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../AReproposta/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2024.02.22-20.07.37:032][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2024.02.22-20.07.37:044][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2024.02.22-20.07.37:056][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Teika/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2024.02.22-20.07.37:056][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2024.02.22-20.07.37:056][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2024.02.22-20.07.37:070][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2024.02.22-20.07.37:071][  0]LogSlate: Using FreeType 2.6.0
+[2024.02.22-20.07.37:071][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2024.02.22-20.07.37:132][  0]LogAssetRegistry: FAssetRegistry took 0.0255 seconds to start up
+[2024.02.22-20.07.37:376][  0]LogInit: Selected Device Profile: [Windows]
+[2024.02.22-20.07.37:474][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2024.02.22-20.07.37:476][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2024.02.22-20.07.37:476][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2024.02.22-20.07.37:476][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2024.02.22-20.07.37:476][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2024.02.22-20.07.37:489][  0]LogNetVersion: AReporpostaProj 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3188191889)
+[2024.02.22-20.07.37:856][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 1 prioritized culture(s) in 0.047580 seconds
+[2024.02.22-20.07.37:860][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2024.02.22-20.07.37:860][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2024.02.22-20.07.37:860][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2024.02.22-20.07.38:493][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2024.02.22-20.07.38:505][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2024.02.22-20.07.38:626][  0]SourceControl: Source control is disabled
+[2024.02.22-20.07.39:160][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2024.02.22-20.07.39:218][  0]LogOcInput: OculusInput pre-init called
+[2024.02.22-20.07.39:266][  0]LogEngine: Initializing Engine...
+[2024.02.22-20.07.39:267][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2024.02.22-20.07.39:268][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2024.02.22-20.07.39:268][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2024.02.22-20.07.39:268][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2024.02.22-20.07.39:268][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2024.02.22-20.07.39:422][  0]LogInit: Initializing FReadOnlyCVARCache
+[2024.02.22-20.07.39:431][  0]LogAIModule: Creating AISystem for world Untitled
+[2024.02.22-20.07.39:451][  0]LogInit: XAudio2 using 'Alto-falantes (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2024.02.22-20.07.39:488][  0]LogInit: FAudioDevice initialized.
+[2024.02.22-20.07.39:488][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2024.02.22-20.07.39:531][  0]LogDerivedDataCache: Saved boot cache 0.04s 71MB C:/Users/Teika/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2024.02.22-20.07.39:531][  0]LogInit: Texture streaming: Enabled
+[2024.02.22-20.07.39:543][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2024.02.22-20.07.39:552][  0]LogInit: Transaction tracking system initialized
+[2024.02.22-20.07.39:568][  0]BlueprintLog: New page: Editor Load
+[2024.02.22-20.07.39:622][  0]LocalizationService: Localization service is disabled
+[2024.02.22-20.07.39:836][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2024.02.22-20.07.39:836][  0]LogCook: Display: Mobile HDR setting 1
+[2024.02.22-20.07.39:836][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2024.02.22-20.07.39:836][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2024.02.22-20.07.39:836][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2024.02.22-20.07.39:836][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2024.02.22-20.07.39:836][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2024.02.22-20.07.39:916][  0]LogFileCache: Scanning file cache for directory 'C:/AReproposta/Content/' took 0.02s
+[2024.02.22-20.07.39:916][  0]Cmd: MAP LOAD FILE="../../../../../../AReproposta/Content/Map/01Fase.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2024.02.22-20.07.39:917][  0]LightingResults: New page: Lighting Build
+[2024.02.22-20.07.39:919][  0]MapCheck: New page: Map Check
+[2024.02.22-20.07.39:919][  0]LightingResults: New page: Lighting Build
+[2024.02.22-20.07.40:645][  0]LogAIModule: Creating AISystem for world 01Fase
+[2024.02.22-20.07.40:657][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.02.22-20.07.40:676][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.02.22-20.07.40:747][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 70.926ms to complete.
+[2024.02.22-20.07.40:747][  0]LogFileHelpers: Loading map '01Fase' took 0.830
+[2024.02.22-20.07.40:854][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.07.40:860][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.07.40:868][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.07.40:875][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.07.40:882][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.07.40:891][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.07.40:898][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.07.40:907][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.07.40:914][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.07.40:920][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.07.40:925][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.07.40:931][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.07.40:940][  0]LogCollectionManager: Loaded 0 collections in 0.001209 seconds
+[2024.02.22-20.07.40:982][  0]LogFileCache: Scanning file cache for directory 'C:/AReproposta/Saved/Collections/' took 0.01s
+[2024.02.22-20.07.40:982][  0]LogFileCache: Scanning file cache for directory 'C:/AReproposta/Content/Developers/Teika/Collections/' took 0.01s
+[2024.02.22-20.07.40:982][  0]LogFileCache: Scanning file cache for directory 'C:/AReproposta/Content/Collections/' took 0.01s
+[2024.02.22-20.07.40:982][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2024.02.22-20.07.40:990][  0]LogContentBrowser: Native class hierarchy populated in 0.0085 seconds. Added 2572 classes and 603 folders.
+[2024.02.22-20.07.41:000][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2024.02.22-20.07.41:331][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2024.02.22-20.07.41:335][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2024.02.22-20.07.41:405][  0]LogSlate: Took 0.000159 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2024.02.22-20.07.41:406][  0]LogSlate: Took 0.000124 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2024.02.22-20.07.41:416][  0]LogSlate: Took 0.006152 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2024.02.22-20.07.41:469][  0]LogRenderer: Reallocating scene render targets to support 816x508 Format 10 NumSamples 1 (Frame:1).
+[2024.02.22-20.07.41:670][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2024.02.22-20.07.41:670][  0]LogLoad: (Engine Initialization) Total time: 8.20 seconds
+[2024.02.22-20.07.41:671][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2024.02.22-20.07.41:710][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2024.02.22-20.07.41:768][  0]LogSlate: Took 0.008124 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2024.02.22-20.07.41:799][  1]LogAssetRegistry: Asset discovery search completed in 4.6899 seconds
+[2024.02.22-20.07.41:800][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2024.02.22-20.07.41:800][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000036 seconds (updated 0 objects)
+[2024.02.22-20.07.42:814][ 61]LogSlate: Took 0.000174 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2024.02.22-20.07.45:854][243]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2024.02.22-20.07.47:079][316]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/01Fase.01Fase:PersistentLevel' has LevelScriptBlueprint '/Game/Map/01Fase.01Fase:PersistentLevel.01Fase' with GeneratedClass '/Game/Map/01Fase.01Fase_C' with ClassGeneratedBy '/Game/Map/01Fase.01Fase:PersistentLevel.01Fase'
+[2024.02.22-20.07.47:079][316]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.22-20.07.47:092][316]PIE: New page: PIE session: 01Fase (Feb 22, 2024, 2:07:47 PM)
+[2024.02.22-20.07.47:092][316]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_01Fase
+[2024.02.22-20.07.47:097][316]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005187s)
+[2024.02.22-20.07.47:098][316]LogAIModule: Creating AISystem for world 01Fase
+[2024.02.22-20.07.47:098][316]LogPlayLevel: PIE: World Init took: (0.000580s)
+[2024.02.22-20.07.47:098][316]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/01Fase.01Fase to /Game/Map/UEDPIE_0_01Fase.01Fase (0.005882s)
+[2024.02.22-20.07.47:127][316]LogInit: XAudio2 using 'Alto-falantes (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2024.02.22-20.07.47:142][316]LogInit: FAudioDevice initialized.
+[2024.02.22-20.07.47:147][316]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2024.02.22-20.07.47:151][316]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.07.47:205][316]LogLoad: Game class is 'GameMode_BP_C'
+[2024.02.22-20.07.47:207][316]LogWorld: Bringing World /Game/Map/UEDPIE_0_01Fase.01Fase up for play (max tick rate 0) at 2024.02.22-17.07.47
+[2024.02.22-20.07.47:216][316]LogWorld: Bringing up level for play took: 0.009451
+[2024.02.22-20.07.47:231][316]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0002 seconds. Added 10 classes and 0 folders.
+[2024.02.22-20.07.47:232][316]Cmd: r.setRes 640x800w
+[2024.02.22-20.07.47:232][316]r.SetRes = "640x800w"
+[2024.02.22-20.07.47:273][316]LogRenderer: Reallocating scene render targets to support 816x836 Format 10 NumSamples 1 (Frame:1).
+[2024.02.22-20.07.47:273][316]PIE: Play in editor start time for /Game/Map/UEDPIE_0_01Fase -0.418
+[2024.02.22-20.07.47:273][316]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/01Fase.01Fase:PersistentLevel' has LevelScriptBlueprint '/Game/Map/01Fase.01Fase:PersistentLevel.01Fase' with GeneratedClass '/Game/Map/01Fase.01Fase_C' with ClassGeneratedBy '/Game/Map/01Fase.01Fase:PersistentLevel.01Fase'
+[2024.02.22-20.07.50:700][519]LogBlueprintUserMessages: [BP_Projectile_Default_C_0] Player Projectile Destroyed
+[2024.02.22-20.07.51:017][538]LogBlueprintUserMessages: [BP_Projectile_Default_C_1] Player Projectile Destroyed
+[2024.02.22-20.07.51:333][557]LogBlueprintUserMessages: [BP_Projectile_Default_C_2] Player Projectile Destroyed
+[2024.02.22-20.07.51:633][575]LogBlueprintUserMessages: [BP_Projectile_Default_C_5] Player Projectile Destroyed
+[2024.02.22-20.07.51:650][576]LogBlueprintUserMessages: [BP_Projectile_Default_C_3] Player Projectile Destroyed
+[2024.02.22-20.07.51:966][595]LogBlueprintUserMessages: [BP_Projectile_Default_C_4] Player Projectile Destroyed
+[2024.02.22-20.07.52:533][629]LogBlueprintUserMessages: [BP_Projectile_Default_C_8] Player Projectile Destroyed
+[2024.02.22-20.07.52:599][633]LogBlueprintUserMessages: [BP_Projectile_Default_C_6] Player Projectile Destroyed
+[2024.02.22-20.07.52:916][652]LogBlueprintUserMessages: [BP_Projectile_Default_C_7] Player Projectile Destroyed
+[2024.02.22-20.07.53:450][684]LogBlueprintUserMessages: [BP_Projectile_Default_C_11] Player Projectile Destroyed
+[2024.02.22-20.07.53:550][690]LogBlueprintUserMessages: [BP_Projectile_Default_C_9] Player Projectile Destroyed
+[2024.02.22-20.07.53:766][703]LogBlueprintUserMessages: [BP_Projectile_Default_C_12] Player Projectile Destroyed
+[2024.02.22-20.07.53:866][709]LogBlueprintUserMessages: [BP_Projectile_Default_C_10] Player Projectile Destroyed
+[2024.02.22-20.07.54:816][766]LogBlueprintUserMessages: [BP_Projectile_Default_C_13] Player Projectile Destroyed
+[2024.02.22-20.07.55:133][785]LogBlueprintUserMessages: [BP_Projectile_Default_C_14] Player Projectile Destroyed
+[2024.02.22-20.07.55:267][793]LogBlueprintUserMessages: [BP_Projectile_Default_C_17] Player Projectile Destroyed
+[2024.02.22-20.07.55:450][804]LogBlueprintUserMessages: [BP_Projectile_Default_C_15] Player Projectile Destroyed
+[2024.02.22-20.07.55:766][823]LogBlueprintUserMessages: [BP_Projectile_Default_C_16] Player Projectile Destroyed
+[2024.02.22-20.07.56:400][861]LogBlueprintUserMessages: [BP_Projectile_Default_C_18] Player Projectile Destroyed
+[2024.02.22-20.07.56:484][866]LogBlueprintUserMessages: [BP_Projectile_Default_C_21] Player Projectile Destroyed
+[2024.02.22-20.07.56:716][880]LogBlueprintUserMessages: [BP_Projectile_Default_C_19] Player Projectile Destroyed
+[2024.02.22-20.07.56:767][883]LogBlueprintUserMessages: [BP_Projectile_Default_C_22] Player Projectile Destroyed
+[2024.02.22-20.07.57:034][899]LogBlueprintUserMessages: [BP_Projectile_Default_C_20] Player Projectile Destroyed
+[2024.02.22-20.07.57:083][902]LogBlueprintUserMessages: [BP_Projectile_Default_C_23] Player Projectile Destroyed
+[2024.02.22-20.07.57:400][921]LogBlueprintUserMessages: [BP_Projectile_Default_C_24] Player Projectile Destroyed
+[2024.02.22-20.07.57:700][939]LogBlueprintUserMessages: [BP_Projectile_Default_C_25] Player Projectile Destroyed
+[2024.02.22-20.07.57:967][955]LogBlueprintUserMessages: [BP_Projectile_Default_C_26] Player Projectile Destroyed
+[2024.02.22-20.07.58:733][  1]LogBlueprintUserMessages: [BP_Projectile_Default_C_28] Player Projectile Destroyed
+[2024.02.22-20.07.59:050][ 20]LogBlueprintUserMessages: [BP_Projectile_Default_C_29] Player Projectile Destroyed
+[2024.02.22-20.07.59:250][ 32]LogBlueprintUserMessages: [BP_Projectile_Default_C_27] Player Projectile Destroyed
+[2024.02.22-20.08.00:084][ 82]LogBlueprintUserMessages: [BP_Projectile_Default_C_32] Player Projectile Destroyed
+[2024.02.22-20.08.00:200][ 89]LogBlueprintUserMessages: [BP_Projectile_Default_C_30] Player Projectile Destroyed
+[2024.02.22-20.08.00:517][108]LogBlueprintUserMessages: [BP_Projectile_Default_C_31] Player Projectile Destroyed
+[2024.02.22-20.08.01:150][146]LogBlueprintUserMessages: [BP_Projectile_Default_C_33] Player Projectile Destroyed
+[2024.02.22-20.08.01:267][153]LogBlueprintUserMessages: [BP_Projectile_Default_C_36] Player Projectile Destroyed
+[2024.02.22-20.08.01:467][165]LogBlueprintUserMessages: [BP_Projectile_Default_C_34] Player Projectile Destroyed
+[2024.02.22-20.08.01:784][184]LogBlueprintUserMessages: [BP_Projectile_Default_C_35] Player Projectile Destroyed
+[2024.02.22-20.08.02:416][222]LogBlueprintUserMessages: [BP_Projectile_Default_C_37] Player Projectile Destroyed
+[2024.02.22-20.08.02:734][241]LogBlueprintUserMessages: [BP_Projectile_Default_C_38] Player Projectile Destroyed
+[2024.02.22-20.08.02:784][244]LogBlueprintUserMessages: [BP_Projectile_Default_C_41] Player Projectile Destroyed
+[2024.02.22-20.08.03:050][260]LogBlueprintUserMessages: [BP_Projectile_Default_C_39] Player Projectile Destroyed
+[2024.02.22-20.08.03:167][267]LogBlueprintUserMessages: [BP_Projectile_Default_C_42] Player Projectile Destroyed
+[2024.02.22-20.08.03:366][279]LogBlueprintUserMessages: [BP_Projectile_Default_C_40] Player Projectile Destroyed
+[2024.02.22-20.08.04:317][336]LogBlueprintUserMessages: [BP_Projectile_Default_C_43] Player Projectile Destroyed
+[2024.02.22-20.08.04:633][355]LogBlueprintUserMessages: [BP_Projectile_Default_C_44] Player Projectile Destroyed
+[2024.02.22-20.08.04:783][364]LogBlueprintUserMessages: [BP_Projectile_Default_C_47] Player Projectile Destroyed
+[2024.02.22-20.08.04:950][374]LogBlueprintUserMessages: [BP_Projectile_Default_C_45] Player Projectile Destroyed
+[2024.02.22-20.08.05:083][382]LogBlueprintUserMessages: [BP_Projectile_Default_C_48] Player Projectile Destroyed
+[2024.02.22-20.08.05:267][393]LogBlueprintUserMessages: [BP_Projectile_Default_C_46] Player Projectile Destroyed
+[2024.02.22-20.08.05:433][403]LogBlueprintUserMessages: [BP_Projectile_Default_C_49] Player Projectile Destroyed
+[2024.02.22-20.08.05:683][418]LogBlueprintUserMessages: [BP_Projectile_Default_C_50] Player Projectile Destroyed
+[2024.02.22-20.08.06:601][473]LogBlueprintUserMessages: [BP_Projectile_Default_C_53] Player Projectile Destroyed
+[2024.02.22-20.08.06:850][488]LogBlueprintUserMessages: [BP_Projectile_Default_C_51] Player Projectile Destroyed
+[2024.02.22-20.08.07:167][507]LogBlueprintUserMessages: [BP_Projectile_Default_C_52] Player Projectile Destroyed
+[2024.02.22-20.08.07:200][509]LogBlueprintUserMessages: [BP_Projectile_Default_C_55] Player Projectile Destroyed
+[2024.02.22-20.08.07:500][527]LogBlueprintUserMessages: [BP_Projectile_Default_C_56] Player Projectile Destroyed
+[2024.02.22-20.08.07:800][545]LogBlueprintUserMessages: [BP_Projectile_Default_C_54] Player Projectile Destroyed
+[2024.02.22-20.08.08:351][578]LogBlueprintUserMessages: [BP_Projectile_Default_C_58] Player Projectile Destroyed
+[2024.02.22-20.08.08:600][593]LogBlueprintUserMessages: [BP_Projectile_Default_C_59] Player Projectile Destroyed
+[2024.02.22-20.08.08:750][602]LogBlueprintUserMessages: [BP_Projectile_Default_C_57] Player Projectile Destroyed
+[2024.02.22-20.08.09:450][644]LogBlueprintUserMessages: [BP_Projectile_Default_C_62] Player Projectile Destroyed
+[2024.02.22-20.08.09:701][659]LogBlueprintUserMessages: [BP_Projectile_Default_C_60] Player Projectile Destroyed
+[2024.02.22-20.08.10:017][678]LogBlueprintUserMessages: [BP_Projectile_Default_C_61] Player Projectile Destroyed
+[2024.02.22-20.08.10:650][716]LogBlueprintUserMessages: [BP_Projectile_Default_C_63] Player Projectile Destroyed
+[2024.02.22-20.08.10:967][735]LogBlueprintUserMessages: [BP_Projectile_Default_C_64] Player Projectile Destroyed
+[2024.02.22-20.08.11:284][754]LogBlueprintUserMessages: [BP_Projectile_Default_C_65] Player Projectile Destroyed
+[2024.02.22-20.08.11:435][763]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/01Fase.01Fase:PersistentLevel' has LevelScriptBlueprint '/Game/Map/01Fase.01Fase:PersistentLevel.01Fase' with GeneratedClass '/Game/Map/01Fase.01Fase_C' with ClassGeneratedBy '/Game/Map/01Fase.01Fase:PersistentLevel.01Fase'
+[2024.02.22-20.08.11:435][763]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.08.11:450][763]LogSlate: Window 'AReporpostaProj Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2024.02.22-20.08.11:487][763]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.22-20.08.11:487][763]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/01Fase.01Fase:PersistentLevel' has LevelScriptBlueprint '/Game/Map/01Fase.01Fase:PersistentLevel.01Fase' with GeneratedClass '/Game/Map/01Fase.01Fase_C' with ClassGeneratedBy '/Game/Map/01Fase.01Fase:PersistentLevel.01Fase'
+[2024.02.22-20.08.11:624][770]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2024.02.22-20.08.14:277][929]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2024.02.22-20.08.14:433][937]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/UI/WBP_HUD.WBP_HUD
+[2024.02.22-20.08.14:805][937]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 116 classes and 0 folders.
+[2024.02.22-20.08.15:411][937]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/GameMode_BP.GameMode_BP
+[2024.02.22-20.08.15:682][937]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/PlayerAirship/BP_PlayerAirship.BP_PlayerAirship
+[2024.02.22-20.08.15:952][937]LogSlate: Took 0.005761 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2024.02.22-20.08.16:244][938]LogSlate: Took 0.004570 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2024.02.22-20.08.21:184][227]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2024.02.22-20.10.13:575][907]BlueprintLog: New page: Compile WBP_HUD
+[2024.02.22-20.10.14:392][944]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2024.02.22-20.10.14:397][944]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WBP_HUD" FILE="../../../../../../AReproposta/Content/UI/WBP_HUD.uasset" SILENT=true
+[2024.02.22-20.10.14:494][944]LogSavePackage: Moving '../../../../../../AReproposta/Saved/WBP_HUD4619DE0C44C1F79EBC01F896A4A1BFAF.tmp' to '../../../../../../AReproposta/Content/UI/WBP_HUD.uasset'
+[2024.02.22-20.10.15:880][ 26]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2024.02.22-20.10.16:997][ 93]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2024.02.22-20.10.17:015][ 93]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/01Fase.01Fase:PersistentLevel' has LevelScriptBlueprint '/Game/Map/01Fase.01Fase:PersistentLevel.01Fase' with GeneratedClass '/Game/Map/01Fase.01Fase_C' with ClassGeneratedBy '/Game/Map/01Fase.01Fase:PersistentLevel.01Fase'
+[2024.02.22-20.10.17:015][ 93]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.22-20.10.17:016][ 93]PIE: New page: PIE session: 01Fase (Feb 22, 2024, 2:10:17 PM)
+[2024.02.22-20.10.17:016][ 93]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_01Fase
+[2024.02.22-20.10.17:021][ 93]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005298s)
+[2024.02.22-20.10.17:021][ 93]LogAIModule: Creating AISystem for world 01Fase
+[2024.02.22-20.10.17:022][ 93]LogPlayLevel: PIE: World Init took: (0.000556s)
+[2024.02.22-20.10.17:022][ 93]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/01Fase.01Fase to /Game/Map/UEDPIE_0_01Fase.01Fase (0.005952s)
+[2024.02.22-20.10.17:054][ 93]LogInit: XAudio2 using 'Alto-falantes (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2024.02.22-20.10.17:068][ 93]LogInit: FAudioDevice initialized.
+[2024.02.22-20.10.17:077][ 93]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.10.17:120][ 93]LogLoad: Game class is 'GameMode_BP_C'
+[2024.02.22-20.10.17:121][ 93]LogWorld: Bringing World /Game/Map/UEDPIE_0_01Fase.01Fase up for play (max tick rate 0) at 2024.02.22-17.10.17
+[2024.02.22-20.10.17:123][ 93]LogWorld: Bringing up level for play took: 0.002653
+[2024.02.22-20.10.17:135][ 93]Cmd: r.setRes 640x800w
+[2024.02.22-20.10.17:136][ 93]r.SetRes = "640x800w"
+[2024.02.22-20.10.17:141][ 93]PIE: Play in editor start time for /Game/Map/UEDPIE_0_01Fase -0.549
+[2024.02.22-20.10.17:141][ 93]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/01Fase.01Fase:PersistentLevel' has LevelScriptBlueprint '/Game/Map/01Fase.01Fase:PersistentLevel.01Fase' with GeneratedClass '/Game/Map/01Fase.01Fase_C' with ClassGeneratedBy '/Game/Map/01Fase.01Fase:PersistentLevel.01Fase'
+[2024.02.22-20.10.21:224][335]LogBlueprintUserMessages: [BP_Projectile_Default_C_0] Player Projectile Destroyed
+[2024.02.22-20.10.21:457][349]LogBlueprintUserMessages: [BP_Projectile_Default_C_3] Player Projectile Destroyed
+[2024.02.22-20.10.21:540][354]LogBlueprintUserMessages: [BP_Projectile_Default_C_1] Player Projectile Destroyed
+[2024.02.22-20.10.21:857][373]LogBlueprintUserMessages: [BP_Projectile_Default_C_2] Player Projectile Destroyed
+[2024.02.22-20.10.22:491][411]LogBlueprintUserMessages: [BP_Projectile_Default_C_4] Player Projectile Destroyed
+[2024.02.22-20.10.22:807][430]LogBlueprintUserMessages: [BP_Projectile_Default_C_5] Player Projectile Destroyed
+[2024.02.22-20.10.23:124][449]LogBlueprintUserMessages: [BP_Projectile_Default_C_6] Player Projectile Destroyed
+[2024.02.22-20.10.23:440][468]LogBlueprintUserMessages: [BP_Projectile_Default_C_7] Player Projectile Destroyed
+[2024.02.22-20.10.23:590][477]LogBlueprintUserMessages: [BP_Projectile_Default_C_10] Player Projectile Destroyed
+[2024.02.22-20.10.23:757][487]LogBlueprintUserMessages: [BP_Projectile_Default_C_8] Player Projectile Destroyed
+[2024.02.22-20.10.23:841][492]LogBlueprintUserMessages: [BP_Projectile_Default_C_11] Player Projectile Destroyed
+[2024.02.22-20.10.24:073][506]LogBlueprintUserMessages: [BP_Projectile_Default_C_9] Player Projectile Destroyed
+[2024.02.22-20.10.24:474][530]LogBlueprintUserMessages: [BP_Projectile_Default_C_13] Player Projectile Destroyed
+[2024.02.22-20.10.24:790][549]LogBlueprintUserMessages: [BP_Projectile_Default_C_14] Player Projectile Destroyed
+[2024.02.22-20.10.25:023][563]LogBlueprintUserMessages: [BP_Projectile_Default_C_12] Player Projectile Destroyed
+[2024.02.22-20.10.25:257][577]LogBlueprintUserMessages: [BP_Projectile_Default_C_15] Player Projectile Destroyed
+[2024.02.22-20.10.25:857][613]LogBlueprintUserMessages: [BP_Projectile_Default_C_17] Player Projectile Destroyed
+[2024.02.22-20.10.26:290][639]LogBlueprintUserMessages: [BP_Projectile_Default_C_16] Player Projectile Destroyed
+[2024.02.22-20.10.26:640][660]LogBlueprintUserMessages: [BP_Projectile_Default_C_20] Player Projectile Destroyed
+[2024.02.22-20.10.26:924][677]LogBlueprintUserMessages: [BP_Projectile_Default_C_18] Player Projectile Destroyed
+[2024.02.22-20.10.27:107][688]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/01Fase.01Fase:PersistentLevel' has LevelScriptBlueprint '/Game/Map/01Fase.01Fase:PersistentLevel.01Fase' with GeneratedClass '/Game/Map/01Fase.01Fase_C' with ClassGeneratedBy '/Game/Map/01Fase.01Fase:PersistentLevel.01Fase'
+[2024.02.22-20.10.27:108][688]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.10.27:124][688]LogSlate: Window 'AReporpostaProj Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2024.02.22-20.10.27:158][688]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.22-20.10.27:158][688]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/01Fase.01Fase:PersistentLevel' has LevelScriptBlueprint '/Game/Map/01Fase.01Fase:PersistentLevel.01Fase' with GeneratedClass '/Game/Map/01Fase.01Fase_C' with ClassGeneratedBy '/Game/Map/01Fase.01Fase:PersistentLevel.01Fase'
+[2024.02.22-20.10.27:305][695]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2024.02.22-20.10.30:128][864]LogSlate: Window 'WBP_HUD' being destroyed
+[2024.02.22-20.10.30:496][886]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2024.02.22-20.10.42:267][585]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/UI/WBP_HUD_Boss.WBP_HUD_Boss
+[2024.02.22-20.11.45:848][368]BlueprintLog: New page: Compile WBP_HUD_Boss
+[2024.02.22-20.11.46:358][388]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WBP_HUD_Boss" FILE="../../../../../../AReproposta/Content/UI/WBP_HUD_Boss.uasset" SILENT=true
+[2024.02.22-20.11.46:433][388]LogSavePackage: Moving '../../../../../../AReproposta/Saved/WBP_HUD_BossEA5261F240D2034DE09B48A3BF25A98F.tmp' to '../../../../../../AReproposta/Content/UI/WBP_HUD_Boss.uasset'
+[2024.02.22-20.11.59:615][176]BlueprintLog: New page: Compile WBP_HUD
+[2024.02.22-20.12.00:311][211]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2024.02.22-20.12.00:331][211]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/01Fase.01Fase:PersistentLevel' has LevelScriptBlueprint '/Game/Map/01Fase.01Fase:PersistentLevel.01Fase' with GeneratedClass '/Game/Map/01Fase.01Fase_C' with ClassGeneratedBy '/Game/Map/01Fase.01Fase:PersistentLevel.01Fase'
+[2024.02.22-20.12.00:331][211]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.22-20.12.00:331][211]PIE: New page: PIE session: 01Fase (Feb 22, 2024, 2:12:00 PM)
+[2024.02.22-20.12.00:331][211]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_01Fase
+[2024.02.22-20.12.00:337][211]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005417s)
+[2024.02.22-20.12.00:337][211]LogAIModule: Creating AISystem for world 01Fase
+[2024.02.22-20.12.00:337][211]LogPlayLevel: PIE: World Init took: (0.000516s)
+[2024.02.22-20.12.00:338][211]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/01Fase.01Fase to /Game/Map/UEDPIE_0_01Fase.01Fase (0.006028s)
+[2024.02.22-20.12.00:370][211]LogInit: XAudio2 using 'Alto-falantes (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2024.02.22-20.12.00:385][211]LogInit: FAudioDevice initialized.
+[2024.02.22-20.12.00:395][211]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.12.00:432][211]LogLoad: Game class is 'GameMode_BP_C'
+[2024.02.22-20.12.00:433][211]LogWorld: Bringing World /Game/Map/UEDPIE_0_01Fase.01Fase up for play (max tick rate 0) at 2024.02.22-17.12.00
+[2024.02.22-20.12.00:435][211]LogWorld: Bringing up level for play took: 0.002742
+[2024.02.22-20.12.00:447][211]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2024.02.22-20.12.00:447][211]Cmd: r.setRes 640x800w
+[2024.02.22-20.12.00:447][211]r.SetRes = "640x800w"
+[2024.02.22-20.12.00:449][211]PIE: Play in editor start time for /Game/Map/UEDPIE_0_01Fase 0.759
+[2024.02.22-20.12.00:449][211]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/01Fase.01Fase:PersistentLevel' has LevelScriptBlueprint '/Game/Map/01Fase.01Fase:PersistentLevel.01Fase' with GeneratedClass '/Game/Map/01Fase.01Fase_C' with ClassGeneratedBy '/Game/Map/01Fase.01Fase:PersistentLevel.01Fase'
+[2024.02.22-20.12.04:777][464]LogBlueprintUserMessages: [BP_Projectile_Default_C_0] Player Projectile Destroyed
+[2024.02.22-20.12.05:094][483]LogBlueprintUserMessages: [BP_Projectile_Default_C_1] Player Projectile Destroyed
+[2024.02.22-20.12.05:411][502]LogBlueprintUserMessages: [BP_Projectile_Default_C_2] Player Projectile Destroyed
+[2024.02.22-20.12.05:727][521]LogBlueprintUserMessages: [BP_Projectile_Default_C_3] Player Projectile Destroyed
+[2024.02.22-20.12.06:044][540]LogBlueprintUserMessages: [BP_Projectile_Default_C_4] Player Projectile Destroyed
+[2024.02.22-20.12.06:361][559]LogBlueprintUserMessages: [BP_Projectile_Default_C_5] Player Projectile Destroyed
+[2024.02.22-20.12.06:678][578]LogBlueprintUserMessages: [BP_Projectile_Default_C_6] Player Projectile Destroyed
+[2024.02.22-20.12.06:994][597]LogBlueprintUserMessages: [BP_Projectile_Default_C_7] Player Projectile Destroyed
+[2024.02.22-20.12.07:195][609]LogBlueprintUserMessages: [BP_Projectile_Default_C_10] Player Projectile Destroyed
+[2024.02.22-20.12.07:311][616]LogBlueprintUserMessages: [BP_Projectile_Default_C_8] Player Projectile Destroyed
+[2024.02.22-20.12.07:495][627]LogBlueprintUserMessages: [BP_Projectile_Default_C_11] Player Projectile Destroyed
+[2024.02.22-20.12.07:628][635]LogBlueprintUserMessages: [BP_Projectile_Default_C_9] Player Projectile Destroyed
+[2024.02.22-20.12.07:844][648]LogBlueprintUserMessages: [BP_Projectile_Default_C_12] Player Projectile Destroyed
+[2024.02.22-20.12.08:261][673]LogBlueprintUserMessages: [BP_Projectile_Default_C_13] Player Projectile Destroyed
+[2024.02.22-20.12.09:211][730]LogBlueprintUserMessages: [BP_Projectile_Default_C_14] Player Projectile Destroyed
+[2024.02.22-20.12.09:528][749]LogBlueprintUserMessages: [BP_Projectile_Default_C_15] Player Projectile Destroyed
+[2024.02.22-20.12.09:594][753]LogBlueprintUserMessages: [BP_Projectile_Default_C_18] Player Projectile Destroyed
+[2024.02.22-20.12.09:844][768]LogBlueprintUserMessages: [BP_Projectile_Default_C_16] Player Projectile Destroyed
+[2024.02.22-20.12.10:161][787]LogBlueprintUserMessages: [BP_Projectile_Default_C_17] Player Projectile Destroyed
+[2024.02.22-20.12.10:595][813]LogBlueprintUserMessages: [BP_Projectile_Default_C_21] Player Projectile Destroyed
+[2024.02.22-20.12.10:795][825]LogBlueprintUserMessages: [BP_Projectile_Default_C_19] Player Projectile Destroyed
+[2024.02.22-20.12.10:911][832]LogBlueprintUserMessages: [BP_Projectile_Default_C_22] Player Projectile Destroyed
+[2024.02.22-20.12.11:112][844]LogBlueprintUserMessages: [BP_Projectile_Default_C_20] Player Projectile Destroyed
+[2024.02.22-20.12.11:262][853]LogBlueprintUserMessages: [BP_Projectile_Default_C_23] Player Projectile Destroyed
+[2024.02.22-20.12.11:561][871]LogBlueprintUserMessages: [BP_Projectile_Default_C_24] Player Projectile Destroyed
+[2024.02.22-20.12.12:694][939]LogBlueprintUserMessages: [BP_Projectile_Default_C_25] Player Projectile Destroyed
+[2024.02.22-20.12.13:011][958]LogBlueprintUserMessages: [BP_Projectile_Default_C_26] Player Projectile Destroyed
+[2024.02.22-20.12.13:328][977]LogBlueprintUserMessages: [BP_Projectile_Default_C_27] Player Projectile Destroyed
+[2024.02.22-20.12.13:645][996]LogBlueprintUserMessages: [BP_Projectile_Default_C_28] Player Projectile Destroyed
+[2024.02.22-20.12.13:828][  7]LogBlueprintUserMessages: [BP_Projectile_Default_C_31] Player Projectile Destroyed
+[2024.02.22-20.12.13:961][ 15]LogBlueprintUserMessages: [BP_Projectile_Default_C_29] Player Projectile Destroyed
+[2024.02.22-20.12.14:278][ 34]LogBlueprintUserMessages: [BP_Projectile_Default_C_30] Player Projectile Destroyed
+[2024.02.22-20.12.14:911][ 72]LogBlueprintUserMessages: [BP_Projectile_Default_C_32] Player Projectile Destroyed
+[2024.02.22-20.12.15:228][ 91]LogBlueprintUserMessages: [BP_Projectile_Default_C_33] Player Projectile Destroyed
+[2024.02.22-20.12.15:544][110]LogBlueprintUserMessages: [BP_Projectile_Default_C_34] Player Projectile Destroyed
+[2024.02.22-20.12.15:861][129]LogBlueprintUserMessages: [BP_Projectile_Default_C_35] Player Projectile Destroyed
+[2024.02.22-20.12.16:178][148]LogBlueprintUserMessages: [BP_Projectile_Default_C_36] Player Projectile Destroyed
+[2024.02.22-20.12.16:495][167]LogBlueprintUserMessages: [BP_Projectile_Default_C_37] Player Projectile Destroyed
+[2024.02.22-20.12.16:811][186]LogBlueprintUserMessages: [BP_Projectile_Default_C_38] Player Projectile Destroyed
+[2024.02.22-20.12.17:128][205]LogBlueprintUserMessages: [BP_Projectile_Default_C_39] Player Projectile Destroyed
+[2024.02.22-20.12.17:345][218]LogBlueprintUserMessages: [BP_Projectile_Default_C_42] Player Projectile Destroyed
+[2024.02.22-20.12.17:445][224]LogBlueprintUserMessages: [BP_Projectile_Default_C_40] Player Projectile Destroyed
+[2024.02.22-20.12.17:762][243]LogBlueprintUserMessages: [BP_Projectile_Default_C_41] Player Projectile Destroyed
+[2024.02.22-20.12.18:212][270]LogBlueprintUserMessages: [BP_Projectile_Default_C_45] Player Projectile Destroyed
+[2024.02.22-20.12.18:395][281]LogBlueprintUserMessages: [BP_Projectile_Default_C_43] Player Projectile Destroyed
+[2024.02.22-20.12.18:511][288]LogBlueprintUserMessages: [BP_Projectile_Default_C_46] Player Projectile Destroyed
+[2024.02.22-20.12.18:712][300]LogBlueprintUserMessages: [BP_Projectile_Default_C_44] Player Projectile Destroyed
+[2024.02.22-20.12.18:794][305]LogBlueprintUserMessages: [BP_Projectile_Default_C_47] Player Projectile Destroyed
+[2024.02.22-20.12.19:711][360]LogBlueprintUserMessages: [BP_Projectile_Default_C_50] Player Projectile Destroyed
+[2024.02.22-20.12.19:979][376]LogBlueprintUserMessages: [BP_Projectile_Default_C_48] Player Projectile Destroyed
+[2024.02.22-20.12.20:028][379]LogBlueprintUserMessages: [BP_Projectile_Default_C_51] Player Projectile Destroyed
+[2024.02.22-20.12.20:295][395]LogBlueprintUserMessages: [BP_Projectile_Default_C_49] Player Projectile Destroyed
+[2024.02.22-20.12.20:562][411]LogBlueprintUserMessages: [BP_Projectile_Default_C_52] Player Projectile Destroyed
+[2024.02.22-20.12.20:595][413]LogBlueprintUserMessages: [BP_Projectile_Default_C_53] Player Projectile Destroyed
+[2024.02.22-20.12.21:495][467]LogBlueprintUserMessages: [BP_Projectile_Default_C_55] Player Projectile Destroyed
+[2024.02.22-20.12.21:879][490]LogBlueprintUserMessages: [BP_Projectile_Default_C_54] Player Projectile Destroyed
+[2024.02.22-20.12.22:212][510]LogBlueprintUserMessages: [BP_Projectile_Default_C_58] Player Projectile Destroyed
+[2024.02.22-20.12.22:511][528]LogBlueprintUserMessages: [BP_Projectile_Default_C_56] Player Projectile Destroyed
+[2024.02.22-20.12.22:828][547]LogBlueprintUserMessages: [BP_Projectile_Default_C_59] Player Projectile Destroyed
+[2024.02.22-20.12.22:828][547]LogBlueprintUserMessages: [BP_Projectile_Default_C_57] Player Projectile Destroyed
+[2024.02.22-20.12.23:695][599]LogBlueprintUserMessages: [BP_Projectile_Default_C_62] Player Projectile Destroyed
+[2024.02.22-20.12.23:778][604]LogBlueprintUserMessages: [BP_Projectile_Default_C_60] Player Projectile Destroyed
+[2024.02.22-20.12.23:945][614]LogBlueprintUserMessages: [BP_Projectile_Default_C_63] Player Projectile Destroyed
+[2024.02.22-20.12.24:095][623]LogBlueprintUserMessages: [BP_Projectile_Default_C_61] Player Projectile Destroyed
+[2024.02.22-20.12.25:046][680]LogBlueprintUserMessages: [BP_Projectile_Default_C_64] Player Projectile Destroyed
+[2024.02.22-20.12.25:361][699]LogBlueprintUserMessages: [BP_Projectile_Default_C_65] Player Projectile Destroyed
+[2024.02.22-20.12.25:678][718]LogBlueprintUserMessages: [BP_Projectile_Default_C_66] Player Projectile Destroyed
+[2024.02.22-20.12.25:946][734]LogBlueprintUserMessages: [BP_Projectile_Default_C_69] Player Projectile Destroyed
+[2024.02.22-20.12.25:995][737]LogBlueprintUserMessages: [BP_Projectile_Default_C_67] Player Projectile Destroyed
+[2024.02.22-20.12.26:312][756]LogBlueprintUserMessages: [BP_Projectile_Default_C_68] Player Projectile Destroyed
+[2024.02.22-20.12.26:846][788]LogBlueprintUserMessages: [BP_Projectile_Default_C_72] Player Projectile Destroyed
+[2024.02.22-20.12.26:945][794]LogBlueprintUserMessages: [BP_Projectile_Default_C_70] Player Projectile Destroyed
+[2024.02.22-20.12.27:262][813]LogBlueprintUserMessages: [BP_Projectile_Default_C_71] Player Projectile Destroyed
+[2024.02.22-20.12.27:936][851]LogBlueprintUserMessages: [BP_Projectile_Default_C_73] Player Projectile Destroyed
+[2024.02.22-20.12.28:253][870]LogBlueprintUserMessages: [BP_Projectile_Default_C_74] Player Projectile Destroyed
+[2024.02.22-20.12.28:569][889]LogBlueprintUserMessages: [BP_Projectile_Default_C_75] Player Projectile Destroyed
+[2024.02.22-20.12.28:686][896]LogBlueprintUserMessages: [BP_Projectile_Default_C_78] Player Projectile Destroyed
+[2024.02.22-20.12.28:886][908]LogBlueprintUserMessages: [BP_Projectile_Default_C_76] Player Projectile Destroyed
+[2024.02.22-20.12.28:986][914]LogBlueprintUserMessages: [BP_Projectile_Default_C_79] Player Projectile Destroyed
+[2024.02.22-20.12.29:202][927]LogBlueprintUserMessages: [BP_Projectile_Default_C_77] Player Projectile Destroyed
+[2024.02.22-20.12.29:570][949]LogBlueprintUserMessages: [BP_Projectile_Default_C_81] Player Projectile Destroyed
+[2024.02.22-20.12.30:152][984]LogBlueprintUserMessages: [BP_Projectile_Default_C_80] Player Projectile Destroyed
+[2024.02.22-20.12.30:336][995]LogBlueprintUserMessages: [BP_Projectile_Default_C_83] Player Projectile Destroyed
+[2024.02.22-20.12.30:786][ 22]LogBlueprintUserMessages: [BP_Projectile_Default_C_82] Player Projectile Destroyed
+[2024.02.22-20.12.31:419][ 60]LogBlueprintUserMessages: [BP_Projectile_Default_C_84] Player Projectile Destroyed
+[2024.02.22-20.12.31:536][ 67]LogBlueprintUserMessages: [BP_Projectile_Default_C_87] Player Projectile Destroyed
+[2024.02.22-20.12.31:736][ 79]LogBlueprintUserMessages: [BP_Projectile_Default_C_85] Player Projectile Destroyed
+[2024.02.22-20.12.32:053][ 98]LogBlueprintUserMessages: [BP_Projectile_Default_C_86] Player Projectile Destroyed
+[2024.02.22-20.12.32:553][128]LogBlueprintUserMessages: [BP_Projectile_Default_C_90] Player Projectile Destroyed
+[2024.02.22-20.12.32:686][136]LogBlueprintUserMessages: [BP_Projectile_Default_C_88] Player Projectile Destroyed
+[2024.02.22-20.12.33:003][155]LogBlueprintUserMessages: [BP_Projectile_Default_C_89] Player Projectile Destroyed
+[2024.02.22-20.12.33:636][193]LogBlueprintUserMessages: [BP_Projectile_Default_C_91] Player Projectile Destroyed
+[2024.02.22-20.12.33:836][205]LogBlueprintUserMessages: [BP_Projectile_Default_C_94] Player Projectile Destroyed
+[2024.02.22-20.12.33:952][212]LogBlueprintUserMessages: [BP_Projectile_Default_C_92] Player Projectile Destroyed
+[2024.02.22-20.12.34:269][231]LogBlueprintUserMessages: [BP_Projectile_Default_C_93] Player Projectile Destroyed
+[2024.02.22-20.12.34:903][269]LogBlueprintUserMessages: [BP_Projectile_Default_C_95] Player Projectile Destroyed
+[2024.02.22-20.12.35:219][288]LogBlueprintUserMessages: [BP_Projectile_Default_C_96] Player Projectile Destroyed
+[2024.02.22-20.12.35:403][299]LogBlueprintUserMessages: [BP_Projectile_Default_C_99] Player Projectile Destroyed
+[2024.02.22-20.12.35:536][307]LogBlueprintUserMessages: [BP_Projectile_Default_C_97] Player Projectile Destroyed
+[2024.02.22-20.12.35:853][326]LogBlueprintUserMessages: [BP_Projectile_Default_C_98] Player Projectile Destroyed
+[2024.02.22-20.12.36:320][354]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/01Fase.01Fase:PersistentLevel' has LevelScriptBlueprint '/Game/Map/01Fase.01Fase:PersistentLevel.01Fase' with GeneratedClass '/Game/Map/01Fase.01Fase_C' with ClassGeneratedBy '/Game/Map/01Fase.01Fase:PersistentLevel.01Fase'
+[2024.02.22-20.12.36:320][354]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.12.36:336][354]LogSlate: Window 'AReporpostaProj Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2024.02.22-20.12.36:369][354]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.22-20.12.36:370][354]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/01Fase.01Fase:PersistentLevel' has LevelScriptBlueprint '/Game/Map/01Fase.01Fase:PersistentLevel.01Fase' with GeneratedClass '/Game/Map/01Fase.01Fase_C' with ClassGeneratedBy '/Game/Map/01Fase.01Fase:PersistentLevel.01Fase'
+[2024.02.22-20.12.36:523][361]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2024.02.22-20.12.37:250][400]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WBP_HUD" FILE="../../../../../../AReproposta/Content/UI/WBP_HUD.uasset" SILENT=true
+[2024.02.22-20.12.37:322][400]LogSavePackage: Moving '../../../../../../AReproposta/Saved/WBP_HUDB463A79043F6334847A1E1B062BEB913.tmp' to '../../../../../../AReproposta/Content/UI/WBP_HUD.uasset'
+[2024.02.22-20.23.35:598][880]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WBP_PauseMenu" FILE="../../../../../../AReproposta/Content/UI/WBP_PauseMenu.uasset" SILENT=true
+[2024.02.22-20.23.35:619][880]LogSavePackage: Moving '../../../../../../AReproposta/Saved/WBP_PauseMenuB0EA68A8492E7495978A49A77C3FE58A.tmp' to '../../../../../../AReproposta/Content/UI/WBP_PauseMenu.uasset'
+[2024.02.22-20.23.45:194][437]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/UI/WBP_PauseMenu.WBP_PauseMenu
+[2024.02.22-20.24.38:933][633]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Map/01Fase' took 0.024
+[2024.02.22-20.24.38:935][633]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI/WBP_PauseMenu] ([1] browsable assets)...
+[2024.02.22-20.24.38:935][633]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/WBP_PauseMenu]
+[2024.02.22-20.24.38:935][633]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WBP_PauseMenu" FILE="../../../../../../AReproposta/Saved/Autosaves/Game/UI/WBP_PauseMenu_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2024.02.22-20.24.39:002][633]LogSavePackage: Moving '../../../../../../AReproposta/Saved/WBP_PauseMenu_Auto16EE071AE4A13D72FA967568CEFE52F37.tmp' to '../../../../../../AReproposta/Saved/Autosaves/Game/UI/WBP_PauseMenu_Auto1.uasset'
+[2024.02.22-20.24.39:003][633]LogFileHelpers: Auto-saving content packages took 0.069
+[2024.02.22-20.25.20:530][103]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/WBP_GameOver.WBP_GameOver:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/WBP_HUD.WBP_HUD:WidgetTree.CanvasPanel_0
+[2024.02.22-20.25.20:530][103]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/WBP_GameOver.WBP_GameOver:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/WBP_GameOver.SKEL_WBP_GameOver_C:WidgetTree.CanvasPanel_0
+[2024.02.22-20.25.20:530][103]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/WBP_GameOver.WBP_GameOver:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/WBP_GameOver.WBP_GameOver_C:WidgetTree.CanvasPanel_0
+[2024.02.22-20.25.20:530][103]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/WBP_GameOver.WBP_GameOver:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/WBP_HUD_Boss.WBP_HUD_Boss_C:WidgetTree.CanvasPanel_0
+[2024.02.22-20.25.20:530][103]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/WBP_GameOver.WBP_GameOver:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/WBP_ScoreBoard.WBP_ScoreBoard:WidgetTree.CanvasPanel_0
+[2024.02.22-20.25.20:530][103]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/WBP_GameOver.WBP_GameOver:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/WBP_ScoreBoard.SKEL_WBP_ScoreBoard_C:WidgetTree.CanvasPanel_0
+[2024.02.22-20.25.20:530][103]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/WBP_GameOver.WBP_GameOver:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/WBP_ScoreBoard.WBP_ScoreBoard_C:WidgetTree.CanvasPanel_0
+[2024.02.22-20.25.20:530][103]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/WBP_GameOver.WBP_GameOver:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_WBP_HUD_Boss_C_17:WidgetTree.CanvasPanel_0
+[2024.02.22-20.25.20:530][103]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/WBP_GameOver.WBP_GameOver:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:WBP_HUD_C_1.WidgetTree_0.CanvasPanel_0
+[2024.02.22-20.25.20:530][103]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/WBP_GameOver.WBP_GameOver:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/WBP_HUD.WBP_HUD_C:WidgetTree.CanvasPanel_0
+[2024.02.22-20.25.20:530][103]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/WBP_GameOver.WBP_GameOver:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_WBP_HUD_C_20:WidgetTree.CanvasPanel_0
+[2024.02.22-20.25.20:530][103]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/WBP_GameOver.WBP_GameOver:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_9:WBP_PauseMenu_C_3.WidgetTree_0.CanvasPanel_0
+[2024.02.22-20.25.20:530][103]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/WBP_GameOver.WBP_GameOver:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_7:WBP_HUD_Boss_C_1.WidgetTree_0.CanvasPanel_0
+[2024.02.22-20.25.20:530][103]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/WBP_GameOver.WBP_GameOver:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:WBP_HUD_C_5.WidgetTree_0.CanvasPanel_0
+[2024.02.22-20.25.20:530][103]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/WBP_GameOver.WBP_GameOver:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:WBP_HUD_C_6.WidgetTree_0.CanvasPanel_0
+[2024.02.22-20.25.20:530][103]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/WBP_GameOver.WBP_GameOver:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/WBP_PauseMenu.WBP_PauseMenu:WidgetTree.CanvasPanel_0
+[2024.02.22-20.25.20:530][103]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/WBP_GameOver.WBP_GameOver:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:WBP_HUD_C_7.WidgetTree_0.CanvasPanel_0
+[2024.02.22-20.25.20:530][103]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/WBP_GameOver.WBP_GameOver:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:WBP_HUD_C_14.WidgetTree_0.CanvasPanel_0
+[2024.02.22-20.25.20:530][103]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/WBP_GameOver.WBP_GameOver:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:WBP_HUD_C_10.WidgetTree_0.CanvasPanel_0
+[2024.02.22-20.25.20:530][103]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/WBP_GameOver.WBP_GameOver:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_WBP_HUD_C_11:WidgetTree.CanvasPanel_0
+[2024.02.22-20.25.20:530][103]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/WBP_GameOver.WBP_GameOver:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_7:WBP_HUD_Boss_C_11.WidgetTree_0.CanvasPanel_0
+[2024.02.22-20.25.20:530][103]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/WBP_GameOver.WBP_GameOver:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/WBP_HUD_Boss.WBP_HUD_Boss:WidgetTree.CanvasPanel_0
+[2024.02.22-20.25.20:530][103]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/WBP_GameOver.WBP_GameOver:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/WBP_PauseMenu.WBP_PauseMenu_C:WidgetTree.CanvasPanel_0
+[2024.02.22-20.25.20:530][103]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/WBP_GameOver.WBP_GameOver:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_9:WBP_PauseMenu_C_1.WidgetTree_0.CanvasPanel_0
+[2024.02.22-20.25.20:531][103]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/WBP_GameOver.WBP_GameOver:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_9:WBP_PauseMenu_C_2.WidgetTree_0.CanvasPanel_0
+[2024.02.22-20.25.20:531][103]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/UI/WBP_ScoreBoard.WBP_ScoreBoard:WidgetTree.CanvasPanel_0.CanvasPanelSlot_2 or CanvasPanelSlot /Game/UI/WBP_ScoreBoard.SKEL_WBP_ScoreBoard_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_2
+[2024.02.22-20.25.20:531][103]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/UI/WBP_ScoreBoard.WBP_ScoreBoard:WidgetTree.CanvasPanel_0.CanvasPanelSlot_2 or CanvasPanelSlot /Game/UI/WBP_ScoreBoard.WBP_ScoreBoard_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_2
+[2024.02.22-20.25.20:531][103]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/UI/WBP_ScoreBoard.WBP_ScoreBoard:WidgetTree.CanvasPanel_0.CanvasPanelSlot_2 or CanvasPanelSlot /Engine/Transient.World_9:WBP_PauseMenu_C_3.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_2
+[2024.02.22-20.25.20:531][103]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/UI/WBP_ScoreBoard.WBP_ScoreBoard:WidgetTree.CanvasPanel_0.CanvasPanelSlot_2 or CanvasPanelSlot /Game/UI/WBP_PauseMenu.WBP_PauseMenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_2
+[2024.02.22-20.25.20:531][103]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/UI/WBP_ScoreBoard.WBP_ScoreBoard:WidgetTree.CanvasPanel_0.CanvasPanelSlot_2 or CanvasPanelSlot /Game/UI/WBP_PauseMenu.WBP_PauseMenu_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_2
+[2024.02.22-20.25.20:531][103]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/UI/WBP_ScoreBoard.WBP_ScoreBoard:WidgetTree.CanvasPanel_0.CanvasPanelSlot_2 or CanvasPanelSlot /Engine/Transient.World_9:WBP_PauseMenu_C_1.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_2
+[2024.02.22-20.25.20:531][103]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/UI/WBP_ScoreBoard.WBP_ScoreBoard:WidgetTree.CanvasPanel_0.CanvasPanelSlot_2 or CanvasPanelSlot /Engine/Transient.World_9:WBP_PauseMenu_C_2.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_2
+[2024.02.22-20.25.20:531][103]LogProperty: Warning: Illegal TEXT reference to a private object in external package (CanvasPanelSlot /Game/UI/WBP_ScoreBoard.WBP_ScoreBoard:WidgetTree.CanvasPanel_0.CanvasPanelSlot_2) from referencer (Button /Engine/UMG/Editor/Transient.B_quit).  Import failed...
+[2024.02.22-20.25.20:531][103]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'CanvasPanelSlot'"CanvasPanel_0.CanvasPanelSlot_2"''
+[2024.02.22-20.25.20:596][107]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.20/Engine/Content/UMG/Editor: 'C:/Program Files/Epic Games/UE_4.20/Engine/Content/UMG/Editor' is outside repository
+[2024.02.22-20.25.25:210][383]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/WBP_GameOver.WBP_GameOver:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/WBP_HUD.WBP_HUD:WidgetTree.CanvasPanel_0
+[2024.02.22-20.25.25:210][383]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/WBP_GameOver.WBP_GameOver:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/WBP_GameOver.SKEL_WBP_GameOver_C:WidgetTree.CanvasPanel_0
+[2024.02.22-20.25.25:210][383]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/WBP_GameOver.WBP_GameOver:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/WBP_GameOver.WBP_GameOver_C:WidgetTree.CanvasPanel_0
+[2024.02.22-20.25.25:210][383]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/WBP_GameOver.WBP_GameOver:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/WBP_HUD_Boss.WBP_HUD_Boss_C:WidgetTree.CanvasPanel_0
+[2024.02.22-20.25.25:210][383]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/WBP_GameOver.WBP_GameOver:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/WBP_ScoreBoard.WBP_ScoreBoard:WidgetTree.CanvasPanel_0
+[2024.02.22-20.25.25:210][383]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/WBP_GameOver.WBP_GameOver:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/WBP_ScoreBoard.SKEL_WBP_ScoreBoard_C:WidgetTree.CanvasPanel_0
+[2024.02.22-20.25.25:210][383]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/WBP_GameOver.WBP_GameOver:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/WBP_ScoreBoard.WBP_ScoreBoard_C:WidgetTree.CanvasPanel_0
+[2024.02.22-20.25.25:210][383]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/WBP_GameOver.WBP_GameOver:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_WBP_HUD_Boss_C_17:WidgetTree.CanvasPanel_0
+[2024.02.22-20.25.25:210][383]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/WBP_GameOver.WBP_GameOver:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:WBP_HUD_C_1.WidgetTree_0.CanvasPanel_0
+[2024.02.22-20.25.25:210][383]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/WBP_GameOver.WBP_GameOver:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/WBP_HUD.WBP_HUD_C:WidgetTree.CanvasPanel_0
+[2024.02.22-20.25.25:210][383]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/WBP_GameOver.WBP_GameOver:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_WBP_HUD_C_20:WidgetTree.CanvasPanel_0
+[2024.02.22-20.25.25:210][383]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/WBP_GameOver.WBP_GameOver:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_9:WBP_PauseMenu_C_3.WidgetTree_0.CanvasPanel_0
+[2024.02.22-20.25.25:210][383]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/WBP_GameOver.WBP_GameOver:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_7:WBP_HUD_Boss_C_1.WidgetTree_0.CanvasPanel_0
+[2024.02.22-20.25.25:210][383]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/WBP_GameOver.WBP_GameOver:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:WBP_HUD_C_5.WidgetTree_0.CanvasPanel_0
+[2024.02.22-20.25.25:210][383]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/WBP_GameOver.WBP_GameOver:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:WBP_HUD_C_6.WidgetTree_0.CanvasPanel_0
+[2024.02.22-20.25.25:210][383]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/WBP_GameOver.WBP_GameOver:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/WBP_PauseMenu.WBP_PauseMenu:WidgetTree.CanvasPanel_0
+[2024.02.22-20.25.25:210][383]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/WBP_GameOver.WBP_GameOver:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:WBP_HUD_C_7.WidgetTree_0.CanvasPanel_0
+[2024.02.22-20.25.25:210][383]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/WBP_GameOver.WBP_GameOver:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:WBP_HUD_C_14.WidgetTree_0.CanvasPanel_0
+[2024.02.22-20.25.25:211][383]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/WBP_GameOver.WBP_GameOver:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:WBP_HUD_C_10.WidgetTree_0.CanvasPanel_0
+[2024.02.22-20.25.25:211][383]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/WBP_GameOver.WBP_GameOver:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_WBP_HUD_C_11:WidgetTree.CanvasPanel_0
+[2024.02.22-20.25.25:211][383]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/WBP_GameOver.WBP_GameOver:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_7:WBP_HUD_Boss_C_11.WidgetTree_0.CanvasPanel_0
+[2024.02.22-20.25.25:211][383]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/WBP_GameOver.WBP_GameOver:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/WBP_HUD_Boss.WBP_HUD_Boss:WidgetTree.CanvasPanel_0
+[2024.02.22-20.25.25:211][383]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/WBP_GameOver.WBP_GameOver:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/UI/WBP_PauseMenu.WBP_PauseMenu_C:WidgetTree.CanvasPanel_0
+[2024.02.22-20.25.25:211][383]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/WBP_GameOver.WBP_GameOver:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_9:WBP_PauseMenu_C_1.WidgetTree_0.CanvasPanel_0
+[2024.02.22-20.25.25:211][383]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanel /Game/UI/WBP_GameOver.WBP_GameOver:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_9:WBP_PauseMenu_C_2.WidgetTree_0.CanvasPanel_0
+[2024.02.22-20.25.25:211][383]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/UI/WBP_ScoreBoard.WBP_ScoreBoard:WidgetTree.CanvasPanel_0.CanvasPanelSlot_2 or CanvasPanelSlot /Game/UI/WBP_ScoreBoard.SKEL_WBP_ScoreBoard_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_2
+[2024.02.22-20.25.25:211][383]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/UI/WBP_ScoreBoard.WBP_ScoreBoard:WidgetTree.CanvasPanel_0.CanvasPanelSlot_2 or CanvasPanelSlot /Game/UI/WBP_ScoreBoard.WBP_ScoreBoard_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_2
+[2024.02.22-20.25.25:211][383]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/UI/WBP_ScoreBoard.WBP_ScoreBoard:WidgetTree.CanvasPanel_0.CanvasPanelSlot_2 or CanvasPanelSlot /Engine/Transient.World_9:WBP_PauseMenu_C_3.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_2
+[2024.02.22-20.25.25:211][383]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/UI/WBP_ScoreBoard.WBP_ScoreBoard:WidgetTree.CanvasPanel_0.CanvasPanelSlot_2 or CanvasPanelSlot /Game/UI/WBP_PauseMenu.WBP_PauseMenu:WidgetTree.CanvasPanel_0.CanvasPanelSlot_2
+[2024.02.22-20.25.25:211][383]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/UI/WBP_ScoreBoard.WBP_ScoreBoard:WidgetTree.CanvasPanel_0.CanvasPanelSlot_2 or CanvasPanelSlot /Game/UI/WBP_PauseMenu.WBP_PauseMenu_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_2
+[2024.02.22-20.25.25:211][383]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/UI/WBP_ScoreBoard.WBP_ScoreBoard:WidgetTree.CanvasPanel_0.CanvasPanelSlot_2 or CanvasPanelSlot /Engine/Transient.World_9:WBP_PauseMenu_C_1.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_2
+[2024.02.22-20.25.25:211][383]LogUObjectHash: Warning: Ambiguous search, could be CanvasPanelSlot /Game/UI/WBP_ScoreBoard.WBP_ScoreBoard:WidgetTree.CanvasPanel_0.CanvasPanelSlot_2 or CanvasPanelSlot /Engine/Transient.World_9:WBP_PauseMenu_C_2.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_2
+[2024.02.22-20.25.25:211][383]LogProperty: Warning: Illegal TEXT reference to a private object in external package (CanvasPanelSlot /Game/UI/WBP_ScoreBoard.WBP_ScoreBoard:WidgetTree.CanvasPanel_0.CanvasPanelSlot_2) from referencer (Button /Engine/UMG/Editor/Transient.B_quit).  Import failed...
+[2024.02.22-20.25.25:211][383]LogProperty: Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'CanvasPanelSlot'"CanvasPanel_0.CanvasPanelSlot_2"''
+[2024.02.22-20.25.25:319][386]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.20/Engine/Content/UMG/Editor: 'C:/Program Files/Epic Games/UE_4.20/Engine/Content/UMG/Editor' is outside repository
+[2024.02.22-20.29.07:931][602]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WBP_PauseMenu" FILE="../../../../../../AReproposta/Content/UI/WBP_PauseMenu.uasset" SILENT=true
+[2024.02.22-20.29.07:998][602]LogSavePackage: Moving '../../../../../../AReproposta/Saved/WBP_PauseMenu76DDBDA14BEFDC74B7BC03AC1F76D11F.tmp' to '../../../../../../AReproposta/Content/UI/WBP_PauseMenu.uasset'
+[2024.02.22-20.31.13:991][955]BlueprintLog: New page: Compile WBP_PauseMenu
+[2024.02.22-20.32.32:191][841]LogSlate: Window 'Reference Viewer' being destroyed
+[2024.02.22-20.32.32:196][841]LogSlate: Window 'Reference Viewer' being destroyed
+[2024.02.22-20.32.44:498][559]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/PlayerAirship/BP_PlayerAirship.BP_PlayerAirship
+[2024.02.22-20.34.15:262][827]BlueprintLog: New page: Compile BP_PlayerAirship
+[2024.02.22-20.34.38:647][191]BlueprintLog: New page: Compile WBP_PauseMenu
+[2024.02.22-20.34.39:288][222]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2024.02.22-20.34.39:321][222]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/01Fase.01Fase:PersistentLevel' has LevelScriptBlueprint '/Game/Map/01Fase.01Fase:PersistentLevel.01Fase' with GeneratedClass '/Game/Map/01Fase.01Fase_C' with ClassGeneratedBy '/Game/Map/01Fase.01Fase:PersistentLevel.01Fase'
+[2024.02.22-20.34.39:321][222]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.22-20.34.39:321][222]PIE: New page: PIE session: 01Fase (Feb 22, 2024, 2:34:39 PM)
+[2024.02.22-20.34.39:321][222]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_01Fase
+[2024.02.22-20.34.39:327][222]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005100s)
+[2024.02.22-20.34.39:327][222]LogAIModule: Creating AISystem for world 01Fase
+[2024.02.22-20.34.39:327][222]LogPlayLevel: PIE: World Init took: (0.000618s)
+[2024.02.22-20.34.39:327][222]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/01Fase.01Fase to /Game/Map/UEDPIE_0_01Fase.01Fase (0.005847s)
+[2024.02.22-20.34.39:367][222]LogInit: XAudio2 using 'Alto-falantes (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2024.02.22-20.34.39:384][222]LogInit: FAudioDevice initialized.
+[2024.02.22-20.34.39:394][222]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.34.39:426][222]LogLoad: Game class is 'GameMode_BP_C'
+[2024.02.22-20.34.39:428][222]LogWorld: Bringing World /Game/Map/UEDPIE_0_01Fase.01Fase up for play (max tick rate 0) at 2024.02.22-17.34.39
+[2024.02.22-20.34.39:430][222]LogWorld: Bringing up level for play took: 0.003099
+[2024.02.22-20.34.39:442][222]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2024.02.22-20.34.39:443][222]Cmd: r.setRes 640x800w
+[2024.02.22-20.34.39:443][222]r.SetRes = "640x800w"
+[2024.02.22-20.34.39:444][222]PIE: Play in editor start time for /Game/Map/UEDPIE_0_01Fase -0.246
+[2024.02.22-20.34.39:444][222]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/01Fase.01Fase:PersistentLevel' has LevelScriptBlueprint '/Game/Map/01Fase.01Fase:PersistentLevel.01Fase' with GeneratedClass '/Game/Map/01Fase.01Fase_C' with ClassGeneratedBy '/Game/Map/01Fase.01Fase:PersistentLevel.01Fase'
+[2024.02.22-20.34.41:225][325]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/01Fase.01Fase:PersistentLevel' has LevelScriptBlueprint '/Game/Map/01Fase.01Fase:PersistentLevel.01Fase' with GeneratedClass '/Game/Map/01Fase.01Fase_C' with ClassGeneratedBy '/Game/Map/01Fase.01Fase:PersistentLevel.01Fase'
+[2024.02.22-20.34.41:225][325]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.34.41:243][325]LogSlate: Window 'AReporpostaProj Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2024.02.22-20.34.41:280][325]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.22-20.34.41:281][325]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/01Fase.01Fase:PersistentLevel' has LevelScriptBlueprint '/Game/Map/01Fase.01Fase:PersistentLevel.01Fase' with GeneratedClass '/Game/Map/01Fase.01Fase_C' with ClassGeneratedBy '/Game/Map/01Fase.01Fase:PersistentLevel.01Fase'
+[2024.02.22-20.34.41:457][332]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2024.02.22-20.34.48:891][716]LogSlate: Window 'Save Content' being destroyed
+[2024.02.22-20.34.49:173][716]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/01Fase" FILE="../../../../../../AReproposta/Content/Map/01Fase.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.02.22-20.34.49:456][716]LogSavePackage: Moving '../../../../../../AReproposta/Saved/01Fase8BACC52B4E6F9ADBC6BDC2ACFF4DD601.tmp' to '../../../../../../AReproposta/Content/Map/01Fase.umap'
+[2024.02.22-20.34.49:487][716]LogFileHelpers: Saving map '01Fase' took 0.396
+[2024.02.22-20.34.49:506][716]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PlayerAirship/BP_PlayerAirship" FILE="../../../../../../AReproposta/Content/PlayerAirship/BP_PlayerAirship.uasset" SILENT=true
+[2024.02.22-20.34.49:667][716]LogSavePackage: Moving '../../../../../../AReproposta/Saved/BP_PlayerAirship4C53DAEE44A390106D1169A86DEF8E7B.tmp' to '../../../../../../AReproposta/Content/PlayerAirship/BP_PlayerAirship.uasset'
+[2024.02.22-20.34.49:674][716]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WBP_PauseMenu" FILE="../../../../../../AReproposta/Content/UI/WBP_PauseMenu.uasset" SILENT=true
+[2024.02.22-20.34.49:748][716]LogSavePackage: Moving '../../../../../../AReproposta/Saved/WBP_PauseMenuA68C85974FB8A2CFD89E7EBC67E5CA83.tmp' to '../../../../../../AReproposta/Content/UI/WBP_PauseMenu.uasset'
+[2024.02.22-20.36.12:824][109]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/GameMode_BP.GameMode_BP
+[2024.02.22-20.37.02:252][  2]BlueprintLog: New page: Compile BP_PlayerAirship
+[2024.02.22-20.37.11:490][529]LogTemp: Repeating last play command: Standalone Game
+[2024.02.22-20.37.13:280][529]LogSlate: Window 'Save Content' being destroyed
+[2024.02.22-20.37.13:507][529]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/01Fase" FILE="../../../../../../AReproposta/Content/Map/01Fase.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.02.22-20.37.13:772][529]LogSavePackage: Moving '../../../../../../AReproposta/Saved/01FaseC428BE594DDCF833A49D02BF1CE86DD0.tmp' to '../../../../../../AReproposta/Content/Map/01Fase.umap'
+[2024.02.22-20.37.13:805][529]LogFileHelpers: Saving map '01Fase' took 0.379
+[2024.02.22-20.37.13:820][529]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PlayerAirship/BP_PlayerAirship" FILE="../../../../../../AReproposta/Content/PlayerAirship/BP_PlayerAirship.uasset" SILENT=true
+[2024.02.22-20.37.13:977][529]LogSavePackage: Moving '../../../../../../AReproposta/Saved/BP_PlayerAirship4415D9124585B13A15718B9743CA3D90.tmp' to '../../../../../../AReproposta/Content/PlayerAirship/BP_PlayerAirship.uasset'
+[2024.02.22-20.38.31:870][900]LogTemp: Repeating last play command: Standalone Game
+[2024.02.22-20.41.02:768][828]BlueprintLog: New page: Compile BP_PlayerAirship
+[2024.02.22-20.41.04:370][898]LogTemp: Repeating last play command: Standalone Game
+[2024.02.22-20.41.05:430][898]LogSlate: Window 'Save Content' being destroyed
+[2024.02.22-20.41.05:654][898]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/01Fase" FILE="../../../../../../AReproposta/Content/Map/01Fase.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.02.22-20.41.05:916][898]LogSavePackage: Moving '../../../../../../AReproposta/Saved/01Fase756E8E814E6F67315C3C308807623A66.tmp' to '../../../../../../AReproposta/Content/Map/01Fase.umap'
+[2024.02.22-20.41.05:944][898]LogFileHelpers: Saving map '01Fase' took 0.369
+[2024.02.22-20.41.05:959][898]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PlayerAirship/BP_PlayerAirship" FILE="../../../../../../AReproposta/Content/PlayerAirship/BP_PlayerAirship.uasset" SILENT=true
+[2024.02.22-20.41.06:109][898]LogSavePackage: Moving '../../../../../../AReproposta/Saved/BP_PlayerAirshipB65B4A964F2F3BD9D7B131AA89B841AC.tmp' to '../../../../../../AReproposta/Content/PlayerAirship/BP_PlayerAirship.uasset'
+[2024.02.22-20.42.09:717][336]BlueprintLog: New page: Compile BP_PlayerAirship
+[2024.02.22-20.42.10:561][360]LogTemp: Repeating last play command: Standalone Game
+[2024.02.22-20.42.11:731][360]LogSlate: Window 'Save Content' being destroyed
+[2024.02.22-20.42.11:961][360]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/01Fase" FILE="../../../../../../AReproposta/Content/Map/01Fase.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.02.22-20.42.12:224][360]LogSavePackage: Moving '../../../../../../AReproposta/Saved/01Fase33AC91B5462B4FFFE0E73AA7D4BEE556.tmp' to '../../../../../../AReproposta/Content/Map/01Fase.umap'
+[2024.02.22-20.42.12:253][360]LogFileHelpers: Saving map '01Fase' took 0.370
+[2024.02.22-20.42.12:279][360]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PlayerAirship/BP_PlayerAirship" FILE="../../../../../../AReproposta/Content/PlayerAirship/BP_PlayerAirship.uasset" SILENT=true
+[2024.02.22-20.42.12:425][360]LogSavePackage: Moving '../../../../../../AReproposta/Saved/BP_PlayerAirship547D5DE5429262D0988A9F9D76C8EBC2.tmp' to '../../../../../../AReproposta/Content/PlayerAirship/BP_PlayerAirship.uasset'
+[2024.02.22-20.42.31:801][275]LogTemp: Repeating last play command: Standalone Game
+[2024.02.22-20.43.46:516][390]BlueprintLog: New page: Compile BP_PlayerAirship
+[2024.02.22-20.43.47:315][412]LogTemp: Repeating last play command: Standalone Game
+[2024.02.22-20.43.48:643][412]LogSlate: Window 'Save Content' being destroyed
+[2024.02.22-20.43.48:866][412]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/01Fase" FILE="../../../../../../AReproposta/Content/Map/01Fase.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.02.22-20.43.49:126][412]LogSavePackage: Moving '../../../../../../AReproposta/Saved/01Fase802523D84273CFF4DA2CAC9E14D2D66B.tmp' to '../../../../../../AReproposta/Content/Map/01Fase.umap'
+[2024.02.22-20.43.49:155][412]LogFileHelpers: Saving map '01Fase' took 0.367
+[2024.02.22-20.43.49:180][412]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PlayerAirship/BP_PlayerAirship" FILE="../../../../../../AReproposta/Content/PlayerAirship/BP_PlayerAirship.uasset" SILENT=true
+[2024.02.22-20.43.49:328][412]LogSavePackage: Moving '../../../../../../AReproposta/Saved/BP_PlayerAirship8158B1BB4AEC9F8066794E89D91D58D8.tmp' to '../../../../../../AReproposta/Content/PlayerAirship/BP_PlayerAirship.uasset'
+[2024.02.22-20.44.46:454][168]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PlayerAirship/BP_PlayerAirship" FILE="../../../../../../AReproposta/Content/PlayerAirship/BP_PlayerAirship.uasset" SILENT=true
+[2024.02.22-20.44.46:596][168]LogSavePackage: Moving '../../../../../../AReproposta/Saved/BP_PlayerAirship714CED854C44B7F5943F6390E3D5632E.tmp' to '../../../../../../AReproposta/Content/PlayerAirship/BP_PlayerAirship.uasset'
+[2024.02.22-20.45.08:504][475]BlueprintLog: New page: Compile WBP_PauseMenu
+[2024.02.22-20.45.08:538][475]LogBlueprint: Error: [Compiler WBP_PauseMenu] This blueprint (self) is not a PlayerController, therefore ' Target ' must have a connection.
+[2024.02.22-20.45.08:539][475]LogBlueprint: Error: [Compiler WBP_PauseMenu] Variable node  Set bShowMouseCursor  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2024.02.22-20.45.08:588][475]LogBlueprint: Warning: [Compiler WBP_PauseMenu] [2255.12] Compile of WBP_PauseMenu failed. 2 Fatal Issue(s) 0 Warning(s) [in 83 ms] (/Game/UI/WBP_PauseMenu.WBP_PauseMenu)
+[2024.02.22-20.45.09:027][498]LogTemp: Repeating last play command: Standalone Game
+[2024.02.22-20.45.10:020][498]LogSlate: Window 'Save Content' being destroyed
+[2024.02.22-20.45.10:242][498]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/01Fase" FILE="../../../../../../AReproposta/Content/Map/01Fase.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.02.22-20.45.10:509][498]LogSavePackage: Moving '../../../../../../AReproposta/Saved/01Fase0C0471864A86B7605EBDB8BD3CBFC95B.tmp' to '../../../../../../AReproposta/Content/Map/01Fase.umap'
+[2024.02.22-20.45.10:538][498]LogFileHelpers: Saving map '01Fase' took 0.376
+[2024.02.22-20.45.10:541][498]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WBP_PauseMenu" FILE="../../../../../../AReproposta/Content/UI/WBP_PauseMenu.uasset" SILENT=true
+[2024.02.22-20.45.10:609][498]LogSavePackage: Moving '../../../../../../AReproposta/Saved/WBP_PauseMenu63C631FF49FE9693CEDBFABEE19D1CA0.tmp' to '../../../../../../AReproposta/Content/UI/WBP_PauseMenu.uasset'
+[2024.02.22-20.45.36:848][911]BlueprintLog: New page: Compile WBP_PauseMenu
+[2024.02.22-20.45.39:449][ 59]LogTemp: Repeating last play command: Standalone Game
+[2024.02.22-20.45.40:531][ 59]LogSlate: Window 'Save Content' being destroyed
+[2024.02.22-20.45.40:754][ 59]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Map/01Fase" FILE="../../../../../../AReproposta/Content/Map/01Fase.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.02.22-20.45.41:009][ 59]LogSavePackage: Moving '../../../../../../AReproposta/Saved/01Fase559729B0435E7D1CAC3B74AC438B5A20.tmp' to '../../../../../../AReproposta/Content/Map/01Fase.umap'
+[2024.02.22-20.45.41:037][ 59]LogFileHelpers: Saving map '01Fase' took 0.363
+[2024.02.22-20.45.41:040][ 59]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/WBP_PauseMenu" FILE="../../../../../../AReproposta/Content/UI/WBP_PauseMenu.uasset" SILENT=true
+[2024.02.22-20.45.41:112][ 59]LogSavePackage: Moving '../../../../../../AReproposta/Saved/WBP_PauseMenuCD104340487D23A588FC828491DABA9A.tmp' to '../../../../../../AReproposta/Content/UI/WBP_PauseMenu.uasset'
+[2024.02.22-20.46.57:093][ 29]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PlayerAirship/BP_PlayerAirship" FILE="../../../../../../AReproposta/Content/PlayerAirship/BP_PlayerAirship.uasset" SILENT=true
+[2024.02.22-20.46.57:242][ 29]LogSavePackage: Moving '../../../../../../AReproposta/Saved/BP_PlayerAirshipB0365807411D271A9B8BA4B40CDF2602.tmp' to '../../../../../../AReproposta/Content/PlayerAirship/BP_PlayerAirship.uasset'
+[2024.02.22-20.47.50:760][ 66]LogEditorTransaction: Undo Move Anchor
+[2024.02.22-20.47.51:796][ 66]LogStats: FPlatformStackWalk::StackWalkAndDump -  1.035 s
+[2024.02.22-20.47.51:796][ 66]LogOutputDevice: Error: === Handled ensure: ===
+[2024.02.22-20.47.51:796][ 66]LogOutputDevice: Error: 
+[2024.02.22-20.47.51:796][ 66]LogOutputDevice: Error: Ensure condition failed: PinHelpers::UnresolvedPins.Num() == 0 [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\Engine\Private\EdGraph\EdGraphPin.cpp] [Line: 2103]
+[2024.02.22-20.47.51:796][ 66]LogOutputDevice: Error: 
+[2024.02.22-20.47.51:796][ 66]LogOutputDevice: Error: Stack: 
+[2024.02.22-20.47.51:796][ 66]LogOutputDevice: Error: [Callstack] 0x00007ffe16a571f6 UE4Editor-Core.dll!UnknownFunction []
+[2024.02.22-20.47.51:796][ 66]LogOutputDevice: Error: [Callstack] 0x00007ffe16790c92 UE4Editor-Core.dll!UnknownFunction []
+[2024.02.22-20.47.51:796][ 66]LogOutputDevice: Error: [Callstack] 0x00007ffe167ab356 UE4Editor-Core.dll!UnknownFunction []
+[2024.02.22-20.47.51:796][ 66]LogOutputDevice: Error: [Callstack] 0x00007ffdf3acf1e8 UE4Editor-Engine.dll!UnknownFunction []
+[2024.02.22-20.47.51:796][ 66]LogOutputDevice: Error: [Callstack] 0x00007ffdf9044c25 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2024.02.22-20.47.51:796][ 66]LogOutputDevice: Error: [Callstack] 0x00007ffdf90701fb UE4Editor-UnrealEd.dll!UnknownFunction []
+[2024.02.22-20.47.51:796][ 66]LogOutputDevice: Error: [Callstack] 0x00007ffdf9056535 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2024.02.22-20.47.51:796][ 66]LogOutputDevice: Error: [Callstack] 0x00007ffdf90c2dc5 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2024.02.22-20.47.51:796][ 66]LogOutputDevice: Error: [Callstack] 0x00007ffdf9109b6d UE4Editor-UnrealEd.dll!UnknownFunction []
+[2024.02.22-20.47.51:796][ 66]LogOutputDevice: Error: [Callstack] 0x00007ffdf909c81f UE4Editor-UnrealEd.dll!UnknownFunction []
+[2024.02.22-20.47.51:796][ 66]LogOutputDevice: Error: [Callstack] 0x00007ffdf2a005b8 UE4Editor-Kismet.dll!UnknownFunction []
+[2024.02.22-20.47.51:796][ 66]LogOutputDevice: Error: [Callstack] 0x00007ffe15e924df UE4Editor-Slate.dll!UnknownFunction []
+[2024.02.22-20.47.51:796][ 66]LogOutputDevice: Error: [Callstack] 0x00007ffe15ed437e UE4Editor-Slate.dll!UnknownFunction []
+[2024.02.22-20.47.51:796][ 66]LogOutputDevice: Error: [Callstack] 0x00007ffdf98f3a8e UE4Editor-UnrealEd.dll!UnknownFunction []
+[2024.02.22-20.47.51:796][ 66]LogOutputDevice: Error: [Callstack] 0x00007ffdf98e1a08 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2024.02.22-20.47.51:796][ 66]LogOutputDevice: Error: [Callstack] 0x00007ffe15e570ac UE4Editor-Slate.dll!UnknownFunction []
+[2024.02.22-20.47.51:796][ 66]LogOutputDevice: Error: [Callstack] 0x00007ffe15ed606c UE4Editor-Slate.dll!UnknownFunction []
+[2024.02.22-20.47.51:796][ 66]LogOutputDevice: Error: [Callstack] 0x00007ffe15ec9846 UE4Editor-Slate.dll!UnknownFunction []
+[2024.02.22-20.47.51:796][ 66]LogOutputDevice: Error: [Callstack] 0x00007ffe28b6ce45 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2024.02.22-20.47.51:796][ 66]LogOutputDevice: Error: [Callstack] 0x00007ffe28b60270 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2024.02.22-20.47.51:796][ 66]LogOutputDevice: Error: [Callstack] 0x00007ffe28b6f4c5 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2024.02.22-20.47.51:796][ 66]LogOutputDevice: Error: [Callstack] 0x00007ffe28b5c209 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2024.02.22-20.47.51:796][ 66]LogOutputDevice: Error: [Callstack] 0x00007ffe491eef75 USER32.dll!UnknownFunction []
+[2024.02.22-20.47.51:796][ 66]LogOutputDevice: Error: [Callstack] 0x00007ffe491ee69d USER32.dll!UnknownFunction []
+[2024.02.22-20.47.51:796][ 66]LogOutputDevice: Error: [Callstack] 0x00007ffe28b70646 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2024.02.22-20.47.51:796][ 66]LogOutputDevice: Error: [Callstack] 0x00007ff7531354e5 UE4Editor.exe!UnknownFunction []
+[2024.02.22-20.47.51:796][ 66]LogOutputDevice: Error: [Callstack] 0x00007ff753145b3c UE4Editor.exe!UnknownFunction []
+[2024.02.22-20.47.51:796][ 66]LogOutputDevice: Error: [Callstack] 0x00007ff753145bba UE4Editor.exe!UnknownFunction []
+[2024.02.22-20.47.51:796][ 66]LogOutputDevice: Error: [Callstack] 0x00007ff753153dac UE4Editor.exe!UnknownFunction []
+[2024.02.22-20.47.51:796][ 66]LogOutputDevice: Error: [Callstack] 0x00007ff753155aaa UE4Editor.exe!UnknownFunction []
+[2024.02.22-20.47.51:796][ 66]LogOutputDevice: Error: [Callstack] 0x00007ffe495f7344 KERNEL32.DLL!UnknownFunction []
+[2024.02.22-20.47.51:796][ 66]LogOutputDevice: Error: [Callstack] 0x00007ffe4b0426b1 ntdll.dll!UnknownFunction []
+[2024.02.22-20.47.51:796][ 66]LogOutputDevice: Error: 
+[2024.02.22-20.47.51:798][ 66]LogStats:                SubmitErrorReport -  0.000 s

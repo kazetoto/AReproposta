@@ -1,0 +1,875 @@
+﻿Log file open, 02/22/24 17:38:33
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: AReporpostaProj
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.356266
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -3:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.062s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-7700K CPU @ 4.20GHz, GPU: NVIDIA GeForce RTX 2060
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  /Game/Map/01Fase -game -PIEVIACONSOLE -ResX=640 -ResY=800  -Multiprocess -messaging -SessionName="Play in Standalone Game" -windowed 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.004s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2024.02.22-20.38.33:409][  0]LogInit: Selected Device Profile: [Windows]
+[2024.02.22-20.38.33:409][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2024.02.22-20.38.33:412][  0]LogHAL: Display: Platform has ~ 16 GB [17134534656 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2024.02.22-20.38.33:412][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2024.02.22-20.38.33:412][  0]LogInit: Going up to parent DeviceProfile []
+[2024.02.22-20.38.33:413][  0]LogInit: Computer: DESKTOP-VE7UTN2
+[2024.02.22-20.38.33:413][  0]LogInit: User: Teika
+[2024.02.22-20.38.33:413][  0]LogInit: CPU Page size=4096, Cores=4
+[2024.02.22-20.38.33:413][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2024.02.22-20.38.33:413][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2024.02.22-20.38.33:413][  0]LogMemory: Platform Memory Stats for Windows
+[2024.02.22-20.38.33:413][  0]LogMemory: Process Physical Memory: 103.27 MB used, 103.27 MB peak
+[2024.02.22-20.38.33:413][  0]LogMemory: Process Virtual Memory: 97.28 MB used, 97.28 MB peak
+[2024.02.22-20.38.33:413][  0]LogMemory: Physical Memory: 8101.22 MB used,  8239.54 MB free, 16340.77 MB total
+[2024.02.22-20.38.33:413][  0]LogMemory: Virtual Memory: 4635.86 MB used,  8239.54 MB free, 134217728.00 MB total
+[2024.02.22-20.38.33:446][  0]LogInit: Using OS detected language (pt-BR).
+[2024.02.22-20.38.33:446][  0]LogInit: Using OS detected locale (pt-BR).
+[2024.02.22-20.38.33:768][  0]LogStreaming: Display: Took  0.322s to InitEngineTextLocalization.
+[2024.02.22-20.38.33:789][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2024.02.22-20.38.33:789][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2024.02.22-20.38.33:799][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2024.02.22-20.38.33:799][  0]LogD3D11RHI: D3D11 adapters:
+[2024.02.22-20.38.33:971][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2060' (Feature Level 11_0)
+[2024.02.22-20.38.33:971][  0]LogD3D11RHI:       5945/0/8170 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2024.02.22-20.38.33:972][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2024.02.22-20.38.33:972][  0]LogD3D11RHI:       0/0/8170 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2024.02.22-20.38.33:973][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2024.02.22-20.38.33:978][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2024.02.22-20.38.33:978][  0]LogD3D11RHI:     GPU DeviceId: 0x1e89 (for the marketing name, search the web for "GPU Device Id")
+[2024.02.22-20.38.33:978][  0]LogWindows: EnumDisplayDevices:
+[2024.02.22-20.38.33:978][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2060' (P:1 D:1)
+[2024.02.22-20.38.33:979][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2060' (P:0 D:1)
+[2024.02.22-20.38.33:979][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2060' (P:0 D:0)
+[2024.02.22-20.38.33:979][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2060' (P:0 D:0)
+[2024.02.22-20.38.33:980][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2024.02.22-20.38.33:980][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2060
+[2024.02.22-20.38.33:980][  0]LogD3D11RHI:   Driver Version: 551.52 (internal:31.0.15.5152, unified:551.52)
+[2024.02.22-20.38.33:980][  0]LogD3D11RHI:      Driver Date: 2-7-2024
+[2024.02.22-20.38.33:980][  0]LogRHI: Texture pool is 4161 MB (70% of 5945 MB)
+[2024.02.22-20.38.34:087][  0]LogD3D11RHI: Async texture creation enabled
+[2024.02.22-20.38.34:106][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2024.02.22-20.38.34:109][  0]LogShaderCompilers: Guid format shader working directory is 17 characters bigger than the processId version (../../../../../../AReproposta/Intermediate/Shaders/WorkingDirectory/3508/).
+[2024.02.22-20.38.34:109][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Teika/AppData/Local/Temp/UnrealShaderWorkingDir/8382E9FB4A3963B5B0EE5BAFA1B3C3F7/'.
+[2024.02.22-20.38.34:353][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2024.02.22-20.38.34:364][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2024.02.22-20.38.34:377][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2024.02.22-20.38.34:388][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2024.02.22-20.38.34:388][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2024.02.22-20.38.34:434][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2024.02.22-20.38.34:434][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2024.02.22-20.38.34:434][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2024.02.22-20.38.35:144][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2024.02.22-20.38.35:186][  0]LogDerivedDataCache: Loaded boot cache 0.04s 71MB C:/Users/Teika/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2024.02.22-20.38.35:186][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Teika/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2024.02.22-20.38.35:186][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../AReproposta/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2024.02.22-20.38.35:186][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2024.02.22-20.38.35:186][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../AReproposta/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2024.02.22-20.38.35:186][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2024.02.22-20.38.35:198][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2024.02.22-20.38.35:210][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Teika/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2024.02.22-20.38.35:210][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2024.02.22-20.38.35:210][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2024.02.22-20.38.35:224][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2024.02.22-20.38.35:225][  0]LogSlate: Using FreeType 2.6.0
+[2024.02.22-20.38.35:226][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2024.02.22-20.38.35:259][  0]LogInit: Using OS detected language (pt-BR).
+[2024.02.22-20.38.35:259][  0]LogInit: Using OS detected locale (pt-BR).
+[2024.02.22-20.38.35:259][  0]LogTextLocalizationManager: No localization for 'pt-BR' exists, so 'en' will be used for the language.
+[2024.02.22-20.38.35:259][  0]LogTextLocalizationManager: No localization for 'pt-BR' exists, so 'en' will be used for the locale.
+[2024.02.22-20.38.35:488][  0]LogStreaming: Display: Took  0.229s to InitGameTextLocalization.
+[2024.02.22-20.38.35:493][  0]LogAssetRegistry: FAssetRegistry took 0.0035 seconds to start up
+[2024.02.22-20.38.35:643][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 1 prioritized culture(s) in 0.010050 seconds
+[2024.02.22-20.38.35:755][  0]LogInit: Selected Device Profile: [Windows]
+[2024.02.22-20.38.35:857][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2024.02.22-20.38.35:859][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2024.02.22-20.38.35:859][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2024.02.22-20.38.35:859][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2024.02.22-20.38.35:859][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2024.02.22-20.38.35:871][  0]LogNetVersion: AReporpostaProj 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3188191889)
+[2024.02.22-20.38.36:291][  0]LogMoviePlayer: Initializing movie player
+[2024.02.22-20.38.36:435][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2024.02.22-20.38.36:448][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2024.02.22-20.38.36:522][  0]SourceControl: Source control is disabled
+[2024.02.22-20.38.36:522][  0]SourceControl: Source control is disabled
+[2024.02.22-20.38.36:523][  0]SourceControl: Source control is disabled
+[2024.02.22-20.38.36:635][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2024.02.22-20.38.36:699][  0]LogOcInput: OculusInput pre-init called
+[2024.02.22-20.38.36:708][  0]LogUObjectArray: 42168 objects as part of root set at end of initial load.
+[2024.02.22-20.38.36:708][  0]LogUObjectAllocator: 7432352 out of 0 bytes used by permanent object pool.
+[2024.02.22-20.38.36:708][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2024.02.22-20.38.36:753][  0]LogEngine: Initializing Engine...
+[2024.02.22-20.38.36:754][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2024.02.22-20.38.36:767][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2024.02.22-20.38.36:767][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2024.02.22-20.38.36:767][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2024.02.22-20.38.36:767][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2024.02.22-20.38.36:896][  0]LogInit: Initializing FReadOnlyCVARCache
+[2024.02.22-20.38.36:916][  0]LogInit: XAudio2 using 'Alto-falantes (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2024.02.22-20.38.36:935][  0]LogInit: FAudioDevice initialized.
+[2024.02.22-20.38.36:946][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2024.02.22-20.38.36:946][  0]LogInit: Texture streaming: Enabled
+[2024.02.22-20.38.37:048][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.38.37:049][  0]LogInit: Display: Game Engine Initialized.
+[2024.02.22-20.38.37:049][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2024.02.22-20.38.37:049][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2024.02.22-20.38.37:049][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2024.02.22-20.38.37:049][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2024.02.22-20.38.37:049][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2024.02.22-20.38.37:059][  0]LogInit: Display: Starting Game.
+[2024.02.22-20.38.37:059][  0]LogNet: Browse: /Game/Map/01Fase?Name=Player
+[2024.02.22-20.38.37:059][  0]LogLoad: LoadMap: /Game/Map/01Fase?Name=Player
+[2024.02.22-20.38.37:602][  0]LogAIModule: Creating AISystem for world 01Fase
+[2024.02.22-20.38.37:603][  0]LogLoad: Game class is 'GameMode_BP_C'
+[2024.02.22-20.38.37:607][  0]LogWorld: Bringing World /Game/Map/01Fase.01Fase up for play (max tick rate 0) at 2024.02.22-17.38.37
+[2024.02.22-20.38.37:615][  0]LogWorld: Bringing up level for play took: 0.011441
+[2024.02.22-20.38.37:615][  0]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2024.02.22-20.38.37:618][  0]r.SetRes = "640x800w"
+[2024.02.22-20.38.37:618][  0]LogLoad: Took 0.559784 seconds to LoadMap(/Game/Map/01Fase)
+[2024.02.22-20.38.37:680][  0]LogRenderer: Reallocating scene render targets to support 640x800 Format 10 NumSamples 1 (Frame:1).
+[2024.02.22-20.38.37:680][  0]LogLoad: (Engine Initialization) Total time: 5.73 seconds
+[2024.02.22-20.38.37:680][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2024.02.22-20.38.37:702][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2024.02.22-20.38.41:715][241]LogBlueprintUserMessages: [BP_Projectile_Default_C_0] Player Projectile Destroyed
+[2024.02.22-20.38.42:032][260]LogBlueprintUserMessages: [BP_Projectile_Default_C_1] Player Projectile Destroyed
+[2024.02.22-20.38.42:349][279]LogBlueprintUserMessages: [BP_Projectile_Default_C_2] Player Projectile Destroyed
+[2024.02.22-20.38.42:666][298]LogBlueprintUserMessages: [BP_Projectile_Default_C_3] Player Projectile Destroyed
+[2024.02.22-20.38.42:899][312]LogBlueprintUserMessages: [BP_Projectile_Default_C_6] Player Projectile Destroyed
+[2024.02.22-20.38.42:982][317]LogBlueprintUserMessages: [BP_Projectile_Default_C_4] Player Projectile Destroyed
+[2024.02.22-20.38.43:299][336]LogBlueprintUserMessages: [BP_Projectile_Default_C_5] Player Projectile Destroyed
+[2024.02.22-20.38.43:932][374]LogBlueprintUserMessages: [BP_Projectile_Default_C_7] Player Projectile Destroyed
+[2024.02.22-20.38.44:115][385]LogBlueprintUserMessages: [BP_Projectile_Default_C_10] Player Projectile Destroyed
+[2024.02.22-20.38.44:249][393]LogBlueprintUserMessages: [BP_Projectile_Default_C_8] Player Projectile Destroyed
+[2024.02.22-20.38.44:566][412]LogBlueprintUserMessages: [BP_Projectile_Default_C_9] Player Projectile Destroyed
+[2024.02.22-20.38.45:099][444]LogBlueprintUserMessages: [BP_Projectile_Default_C_13] Player Projectile Destroyed
+[2024.02.22-20.38.45:199][450]LogBlueprintUserMessages: [BP_Projectile_Default_C_11] Player Projectile Destroyed
+[2024.02.22-20.38.45:515][469]LogBlueprintUserMessages: [BP_Projectile_Default_C_12] Player Projectile Destroyed
+[2024.02.22-20.38.46:148][507]LogBlueprintUserMessages: [BP_Projectile_Default_C_14] Player Projectile Destroyed
+[2024.02.22-20.38.46:466][526]LogBlueprintUserMessages: [BP_Projectile_Default_C_15] Player Projectile Destroyed
+[2024.02.22-20.38.46:782][545]LogBlueprintUserMessages: [BP_Projectile_Default_C_16] Player Projectile Destroyed
+[2024.02.22-20.38.46:816][547]LogBlueprintUserMessages: [BP_Projectile_Default_C_19] Player Projectile Destroyed
+[2024.02.22-20.38.47:099][564]LogBlueprintUserMessages: [BP_Projectile_Default_C_17] Player Projectile Destroyed
+[2024.02.22-20.38.47:283][575]LogBlueprintUserMessages: [BP_Projectile_Default_C_20] Player Projectile Destroyed
+[2024.02.22-20.38.47:399][582]LogBlueprintUserMessages: [BP_Projectile_Default_C_21] Player Projectile Destroyed
+[2024.02.22-20.38.47:416][583]LogBlueprintUserMessages: [BP_Projectile_Default_C_18] Player Projectile Destroyed
+[2024.02.22-20.38.47:999][618]LogBlueprintUserMessages: [BP_Projectile_Default_C_22] Player Projectile Destroyed
+[2024.02.22-20.38.54:783][ 25]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2024.02.22-20.38.54:916][ 29]LogPackageName: SearchForPackageOnDisk took   0.067s to resolve 00MainMenu.umap.
+[2024.02.22-20.38.54:985][ 29]LogPackageName: SearchForPackageOnDisk took   0.067s to resolve 00MainMenu.umap.
+[2024.02.22-20.38.54:985][ 29]LogNet: Browse: /Game/Map/00MainMenu
+[2024.02.22-20.38.54:985][ 29]LogLoad: LoadMap: /Game/Map/00MainMenu
+[2024.02.22-20.38.55:213][ 29]LogAIModule: Creating AISystem for world 00MainMenu
+[2024.02.22-20.38.55:497][ 29]LogLoad: Game class is 'GameMode_BP_C'
+[2024.02.22-20.38.55:498][ 29]LogWorld: Bringing World /Game/Map/00MainMenu.00MainMenu up for play (max tick rate 0) at 2024.02.22-17.38.55
+[2024.02.22-20.38.55:498][ 29]LogWorld: Bringing up level for play took: 0.000414
+[2024.02.22-20.38.55:498][ 29]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2024.02.22-20.38.55:499][ 29]r.SetRes = "640x800w"
+[2024.02.22-20.38.55:501][ 29]LogLoad: Took 0.515644 seconds to LoadMap(/Game/Map/00MainMenu)
+[2024.02.22-20.38.57:269][136]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2024.02.22-20.38.57:436][142]LogPackageName: SearchForPackageOnDisk took   0.067s to resolve 01Fase.umap.
+[2024.02.22-20.38.57:502][142]LogPackageName: SearchForPackageOnDisk took   0.066s to resolve 01Fase.umap.
+[2024.02.22-20.38.57:502][142]LogNet: Browse: /Game/Map/01Fase
+[2024.02.22-20.38.57:502][142]LogLoad: LoadMap: /Game/Map/01Fase
+[2024.02.22-20.38.58:028][142]LogAIModule: Creating AISystem for world 01Fase
+[2024.02.22-20.38.58:028][142]LogLoad: Game class is 'GameMode_BP_C'
+[2024.02.22-20.38.58:032][142]LogWorld: Bringing World /Game/Map/01Fase.01Fase up for play (max tick rate 0) at 2024.02.22-17.38.58
+[2024.02.22-20.38.58:039][142]LogWorld: Bringing up level for play took: 0.010483
+[2024.02.22-20.38.58:040][142]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2024.02.22-20.38.58:040][142]r.SetRes = "640x800w"
+[2024.02.22-20.38.58:041][142]LogLoad: Took 0.539464 seconds to LoadMap(/Game/Map/01Fase)
+[2024.02.22-20.39.01:177][331]LogBlueprintUserMessages: [BP_Projectile_Default_C_0] Player Projectile Destroyed
+[2024.02.22-20.39.01:493][350]LogBlueprintUserMessages: [BP_Projectile_Default_C_1] Player Projectile Destroyed
+[2024.02.22-20.39.01:811][369]LogBlueprintUserMessages: [BP_Projectile_Default_C_2] Player Projectile Destroyed
+[2024.02.22-20.39.02:127][388]LogBlueprintUserMessages: [BP_Projectile_Default_C_3] Player Projectile Destroyed
+[2024.02.22-20.39.02:444][407]LogBlueprintUserMessages: [BP_Projectile_Default_C_4] Player Projectile Destroyed
+[2024.02.22-20.39.02:760][426]LogBlueprintUserMessages: [BP_Projectile_Default_C_5] Player Projectile Destroyed
+[2024.02.22-20.39.03:077][445]LogBlueprintUserMessages: [BP_Projectile_Default_C_6] Player Projectile Destroyed
+[2024.02.22-20.39.03:394][464]LogBlueprintUserMessages: [BP_Projectile_Default_C_7] Player Projectile Destroyed
+[2024.02.22-20.39.03:493][470]LogBlueprintUserMessages: [BP_Projectile_Default_C_10] Player Projectile Destroyed
+[2024.02.22-20.39.03:711][483]LogBlueprintUserMessages: [BP_Projectile_Default_C_8] Player Projectile Destroyed
+[2024.02.22-20.39.04:027][502]LogBlueprintUserMessages: [BP_Projectile_Default_C_9] Player Projectile Destroyed
+[2024.02.22-20.39.04:461][528]LogBlueprintUserMessages: [BP_Projectile_Default_C_13] Player Projectile Destroyed
+[2024.02.22-20.39.04:661][540]LogBlueprintUserMessages: [BP_Projectile_Default_C_11] Player Projectile Destroyed
+[2024.02.22-20.39.04:794][548]LogBlueprintUserMessages: [BP_Projectile_Default_C_14] Player Projectile Destroyed
+[2024.02.22-20.39.04:977][559]LogBlueprintUserMessages: [BP_Projectile_Default_C_12] Player Projectile Destroyed
+[2024.02.22-20.39.05:494][590]LogBlueprintUserMessages: [BP_Projectile_Default_C_16] Player Projectile Destroyed
+[2024.02.22-20.39.05:927][616]LogBlueprintUserMessages: [BP_Projectile_Default_C_15] Player Projectile Destroyed
+[2024.02.22-20.39.06:560][654]LogBlueprintUserMessages: [BP_Projectile_Default_C_17] Player Projectile Destroyed
+[2024.02.22-20.39.06:627][658]LogBlueprintUserMessages: [BP_Projectile_Default_C_20] Player Projectile Destroyed
+[2024.02.22-20.39.06:877][673]LogBlueprintUserMessages: [BP_Projectile_Default_C_18] Player Projectile Destroyed
+[2024.02.22-20.39.06:927][676]LogBlueprintUserMessages: [BP_Projectile_Default_C_21] Player Projectile Destroyed
+[2024.02.22-20.39.07:194][692]LogBlueprintUserMessages: [BP_Projectile_Default_C_19] Player Projectile Destroyed
+[2024.02.22-20.39.07:227][694]LogBlueprintUserMessages: [BP_Projectile_Default_C_22] Player Projectile Destroyed
+[2024.02.22-20.39.07:644][719]LogBlueprintUserMessages: [BP_Projectile_Default_C_23] Player Projectile Destroyed
+[2024.02.22-20.39.08:294][758]LogBlueprintUserMessages: [BP_Projectile_Default_C_25] Player Projectile Destroyed
+[2024.02.22-20.39.08:644][779]LogBlueprintUserMessages: [BP_Projectile_Default_C_26] Player Projectile Destroyed
+[2024.02.22-20.39.08:777][787]LogBlueprintUserMessages: [BP_Projectile_Default_C_24] Player Projectile Destroyed
+[2024.02.22-20.39.08:877][793]LogBlueprintUserMessages: [BP_Projectile_Default_C_27] Player Projectile Destroyed
+[2024.02.22-20.39.10:044][863]LogBlueprintUserMessages: [BP_Projectile_Default_C_28] Player Projectile Destroyed
+[2024.02.22-20.39.10:360][882]LogBlueprintUserMessages: [BP_Projectile_Default_C_29] Player Projectile Destroyed
+[2024.02.22-20.39.10:461][888]LogBlueprintUserMessages: [BP_Projectile_Default_C_32] Player Projectile Destroyed
+[2024.02.22-20.39.10:678][901]LogBlueprintUserMessages: [BP_Projectile_Default_C_30] Player Projectile Destroyed
+[2024.02.22-20.39.10:744][905]LogBlueprintUserMessages: [BP_Projectile_Default_C_33] Player Projectile Destroyed
+[2024.02.22-20.39.10:994][920]LogBlueprintUserMessages: [BP_Projectile_Default_C_31] Player Projectile Destroyed
+[2024.02.22-20.39.11:011][921]LogBlueprintUserMessages: [BP_Projectile_Default_C_34] Player Projectile Destroyed
+[2024.02.22-20.39.11:378][943]LogBlueprintUserMessages: [BP_Projectile_Default_C_35] Player Projectile Destroyed
+[2024.02.22-20.39.12:578][ 15]LogBlueprintUserMessages: [BP_Projectile_Default_C_36] Player Projectile Destroyed
+[2024.02.22-20.39.12:594][ 16]LogBlueprintUserMessages: [BP_Projectile_Default_C_39] Player Projectile Destroyed
+[2024.02.22-20.39.12:894][ 34]LogBlueprintUserMessages: [BP_Projectile_Default_C_37] Player Projectile Destroyed
+[2024.02.22-20.39.13:211][ 53]LogBlueprintUserMessages: [BP_Projectile_Default_C_38] Player Projectile Destroyed
+[2024.02.22-20.39.13:261][ 56]LogBlueprintUserMessages: [BP_Projectile_Default_C_41] Player Projectile Destroyed
+[2024.02.22-20.39.13:561][ 74]LogBlueprintUserMessages: [BP_Projectile_Default_C_42] Player Projectile Destroyed
+[2024.02.22-20.39.13:844][ 91]LogBlueprintUserMessages: [BP_Projectile_Default_C_40] Player Projectile Destroyed
+[2024.02.22-20.39.14:594][136]LogBlueprintUserMessages: [BP_Projectile_Default_C_45] Player Projectile Destroyed
+[2024.02.22-20.39.14:795][148]LogBlueprintUserMessages: [BP_Projectile_Default_C_43] Player Projectile Destroyed
+[2024.02.22-20.39.14:878][153]LogBlueprintUserMessages: [BP_Projectile_Default_C_46] Player Projectile Destroyed
+[2024.02.22-20.39.15:112][167]LogBlueprintUserMessages: [BP_Projectile_Default_C_44] Player Projectile Destroyed
+[2024.02.22-20.39.15:212][173]LogBlueprintUserMessages: [BP_Projectile_Default_C_47] Player Projectile Destroyed
+[2024.02.22-20.39.15:495][190]LogBlueprintUserMessages: [BP_Projectile_Default_C_48] Player Projectile Destroyed
+[2024.02.22-20.39.15:844][211]LogBlueprintUserMessages: [BP_Projectile_Default_C_49] Player Projectile Destroyed
+[2024.02.22-20.39.17:011][281]LogBlueprintUserMessages: [BP_Projectile_Default_C_50] Player Projectile Destroyed
+[2024.02.22-20.39.17:328][300]LogBlueprintUserMessages: [BP_Projectile_Default_C_51] Player Projectile Destroyed
+[2024.02.22-20.39.17:645][319]LogBlueprintUserMessages: [BP_Projectile_Default_C_52] Player Projectile Destroyed
+[2024.02.22-20.39.17:961][338]LogBlueprintUserMessages: [BP_Projectile_Default_C_53] Player Projectile Destroyed
+[2024.02.22-20.39.18:279][357]LogBlueprintUserMessages: [BP_Projectile_Default_C_54] Player Projectile Destroyed
+[2024.02.22-20.39.18:378][363]LogBlueprintUserMessages: [BP_Projectile_Default_C_57] Player Projectile Destroyed
+[2024.02.22-20.39.18:595][376]LogBlueprintUserMessages: [BP_Projectile_Default_C_55] Player Projectile Destroyed
+[2024.02.22-20.39.18:912][395]LogBlueprintUserMessages: [BP_Projectile_Default_C_56] Player Projectile Destroyed
+[2024.02.22-20.39.19:345][421]LogBlueprintUserMessages: [BP_Projectile_Default_C_60] Player Projectile Destroyed
+[2024.02.22-20.39.19:545][433]LogBlueprintUserMessages: [BP_Projectile_Default_C_58] Player Projectile Destroyed
+[2024.02.22-20.39.19:594][436]LogBlueprintUserMessages: [BP_Projectile_Default_C_61] Player Projectile Destroyed
+[2024.02.22-20.39.19:861][452]LogBlueprintUserMessages: [BP_Projectile_Default_C_59] Player Projectile Destroyed
+[2024.02.22-20.39.19:961][458]LogBlueprintUserMessages: [BP_Projectile_Default_C_62] Player Projectile Destroyed
+[2024.02.22-20.39.20:662][500]LogBlueprintUserMessages: [BP_Projectile_Default_C_64] Player Projectile Destroyed
+[2024.02.22-20.39.20:962][518]LogBlueprintUserMessages: [BP_Projectile_Default_C_65] Player Projectile Destroyed
+[2024.02.22-20.39.21:128][528]LogBlueprintUserMessages: [BP_Projectile_Default_C_63] Player Projectile Destroyed
+[2024.02.22-20.39.21:612][557]LogBlueprintUserMessages: [BP_Projectile_Default_C_67] Player Projectile Destroyed
+[2024.02.22-20.39.22:078][585]LogBlueprintUserMessages: [BP_Projectile_Default_C_66] Player Projectile Destroyed
+[2024.02.22-20.39.22:712][623]LogBlueprintUserMessages: [BP_Projectile_Default_C_68] Player Projectile Destroyed
+[2024.02.22-20.39.23:028][642]LogBlueprintUserMessages: [BP_Projectile_Default_C_69] Player Projectile Destroyed
+[2024.02.22-20.39.23:345][661]LogBlueprintUserMessages: [BP_Projectile_Default_C_70] Player Projectile Destroyed
+[2024.02.22-20.39.23:562][674]LogBlueprintUserMessages: [BP_Projectile_Default_C_73] Player Projectile Destroyed
+[2024.02.22-20.39.23:661][680]LogBlueprintUserMessages: [BP_Projectile_Default_C_71] Player Projectile Destroyed
+[2024.02.22-20.39.23:978][699]LogBlueprintUserMessages: [BP_Projectile_Default_C_72] Player Projectile Destroyed
+[2024.02.22-20.39.24:612][737]LogBlueprintUserMessages: [BP_Projectile_Default_C_74] Player Projectile Destroyed
+[2024.02.22-20.39.24:928][756]LogBlueprintUserMessages: [BP_Projectile_Default_C_75] Player Projectile Destroyed
+[2024.02.22-20.39.25:245][775]LogBlueprintUserMessages: [BP_Projectile_Default_C_76] Player Projectile Destroyed
+[2024.02.22-20.39.25:395][784]LogBlueprintUserMessages: [BP_Projectile_Default_C_79] Player Projectile Destroyed
+[2024.02.22-20.39.25:562][794]LogBlueprintUserMessages: [BP_Projectile_Default_C_77] Player Projectile Destroyed
+[2024.02.22-20.39.25:729][804]LogBlueprintUserMessages: [BP_Projectile_Default_C_80] Player Projectile Destroyed
+[2024.02.22-20.39.25:879][813]LogBlueprintUserMessages: [BP_Projectile_Default_C_78] Player Projectile Destroyed
+[2024.02.22-20.39.26:612][857]LogBlueprintUserMessages: [BP_Projectile_Default_C_83] Player Projectile Destroyed
+[2024.02.22-20.39.26:828][870]LogBlueprintUserMessages: [BP_Projectile_Default_C_81] Player Projectile Destroyed
+[2024.02.22-20.39.26:912][875]LogBlueprintUserMessages: [BP_Projectile_Default_C_84] Player Projectile Destroyed
+[2024.02.22-20.39.27:145][889]LogBlueprintUserMessages: [BP_Projectile_Default_C_82] Player Projectile Destroyed
+[2024.02.22-20.39.27:228][894]LogBlueprintUserMessages: [BP_Projectile_Default_C_85] Player Projectile Destroyed
+[2024.02.22-20.39.27:828][930]LogBlueprintUserMessages: [BP_Projectile_Default_C_87] Player Projectile Destroyed
+[2024.02.22-20.39.28:128][948]LogBlueprintUserMessages: [BP_Projectile_Default_C_88] Player Projectile Destroyed
+[2024.02.22-20.39.28:411][965]LogBlueprintUserMessages: [BP_Projectile_Default_C_86] Player Projectile Destroyed
+[2024.02.22-20.39.28:429][966]LogBlueprintUserMessages: [BP_Projectile_Default_C_89] Player Projectile Destroyed
+[2024.02.22-20.39.29:212][ 13]LogBlueprintUserMessages: [BP_Projectile_Default_C_91] Player Projectile Destroyed
+[2024.02.22-20.39.29:595][ 36]LogBlueprintUserMessages: [BP_Projectile_Default_C_92] Player Projectile Destroyed
+[2024.02.22-20.39.29:678][ 41]LogBlueprintUserMessages: [BP_Projectile_Default_C_90] Player Projectile Destroyed
+[2024.02.22-20.39.30:629][ 98]LogBlueprintUserMessages: [BP_Projectile_Default_C_93] Player Projectile Destroyed
+[2024.02.22-20.39.30:946][117]LogBlueprintUserMessages: [BP_Projectile_Default_C_94] Player Projectile Destroyed
+[2024.02.22-20.39.31:078][125]LogBlueprintUserMessages: [BP_Projectile_Default_C_97] Player Projectile Destroyed
+[2024.02.22-20.39.31:262][136]LogBlueprintUserMessages: [BP_Projectile_Default_C_95] Player Projectile Destroyed
+[2024.02.22-20.39.31:412][145]LogBlueprintUserMessages: [BP_Projectile_Default_C_98] Player Projectile Destroyed
+[2024.02.22-20.39.31:579][155]LogBlueprintUserMessages: [BP_Projectile_Default_C_96] Player Projectile Destroyed
+[2024.02.22-20.39.32:312][199]LogBlueprintUserMessages: [BP_Projectile_Default_C_101] Player Projectile Destroyed
+[2024.02.22-20.39.32:529][212]LogBlueprintUserMessages: [BP_Projectile_Default_C_99] Player Projectile Destroyed
+[2024.02.22-20.39.32:845][231]LogBlueprintUserMessages: [BP_Projectile_Default_C_100] Player Projectile Destroyed
+[2024.02.22-20.39.33:279][257]LogBlueprintUserMessages: [BP_Projectile_Default_C_104] Player Projectile Destroyed
+[2024.02.22-20.39.33:479][269]LogBlueprintUserMessages: [BP_Projectile_Default_C_102] Player Projectile Destroyed
+[2024.02.22-20.39.33:795][288]LogBlueprintUserMessages: [BP_Projectile_Default_C_103] Player Projectile Destroyed
+[2024.02.22-20.39.34:429][326]LogBlueprintUserMessages: [BP_Projectile_Default_C_105] Player Projectile Destroyed
+[2024.02.22-20.39.34:596][336]LogBlueprintUserMessages: [BP_Projectile_Default_C_108] Player Projectile Destroyed
+[2024.02.22-20.39.34:746][345]LogBlueprintUserMessages: [BP_Projectile_Default_C_106] Player Projectile Destroyed
+[2024.02.22-20.39.34:929][356]LogBlueprintUserMessages: [BP_Projectile_Default_C_109] Player Projectile Destroyed
+[2024.02.22-20.39.35:062][364]LogBlueprintUserMessages: [BP_Projectile_Default_C_107] Player Projectile Destroyed
+[2024.02.22-20.39.35:796][408]LogBlueprintUserMessages: [BP_Projectile_Default_C_112] Player Projectile Destroyed
+[2024.02.22-20.39.36:013][421]LogBlueprintUserMessages: [BP_Projectile_Default_C_110] Player Projectile Destroyed
+[2024.02.22-20.39.36:095][426]LogBlueprintUserMessages: [BP_Projectile_Default_C_113] Player Projectile Destroyed
+[2024.02.22-20.39.36:328][440]LogBlueprintUserMessages: [BP_Projectile_Default_C_111] Player Projectile Destroyed
+[2024.02.22-20.39.36:395][444]LogBlueprintUserMessages: [BP_Projectile_Default_C_114] Player Projectile Destroyed
+[2024.02.22-20.39.37:362][502]LogBlueprintUserMessages: [BP_Projectile_Default_C_117] Player Projectile Destroyed
+[2024.02.22-20.39.37:596][516]LogBlueprintUserMessages: [BP_Projectile_Default_C_115] Player Projectile Destroyed
+[2024.02.22-20.39.37:912][535]LogBlueprintUserMessages: [BP_Projectile_Default_C_116] Player Projectile Destroyed
+[2024.02.22-20.39.38:546][573]LogBlueprintUserMessages: [BP_Projectile_Default_C_118] Player Projectile Destroyed
+[2024.02.22-20.39.38:712][583]LogBlueprintUserMessages: [BP_Projectile_Default_C_121] Player Projectile Destroyed
+[2024.02.22-20.39.38:862][592]LogBlueprintUserMessages: [BP_Projectile_Default_C_119] Player Projectile Destroyed
+[2024.02.22-20.39.39:179][611]LogBlueprintUserMessages: [BP_Projectile_Default_C_120] Player Projectile Destroyed
+[2024.02.22-20.39.39:279][617]LogBlueprintUserMessages: [BP_Projectile_Default_C_123] Player Projectile Destroyed
+[2024.02.22-20.39.39:812][649]LogBlueprintUserMessages: [BP_Projectile_Default_C_122] Player Projectile Destroyed
+[2024.02.22-20.39.40:229][674]LogBlueprintUserMessages: [BP_Projectile_Default_C_126] Player Projectile Destroyed
+[2024.02.22-20.39.40:446][687]LogBlueprintUserMessages: [BP_Projectile_Default_C_124] Player Projectile Destroyed
+[2024.02.22-20.39.40:762][706]LogBlueprintUserMessages: [BP_Projectile_Default_C_125] Player Projectile Destroyed
+[2024.02.22-20.39.41:396][744]LogBlueprintUserMessages: [BP_Projectile_Default_C_127] Player Projectile Destroyed
+[2024.02.22-20.39.41:645][759]LogBlueprintUserMessages: [BP_Projectile_Default_C_130] Player Projectile Destroyed
+[2024.02.22-20.39.41:712][763]LogBlueprintUserMessages: [BP_Projectile_Default_C_128] Player Projectile Destroyed
+[2024.02.22-20.39.42:029][782]LogBlueprintUserMessages: [BP_Projectile_Default_C_129] Player Projectile Destroyed
+[2024.02.22-20.39.42:662][820]LogBlueprintUserMessages: [BP_Projectile_Default_C_131] Player Projectile Destroyed
+[2024.02.22-20.39.42:979][839]LogBlueprintUserMessages: [BP_Projectile_Default_C_132] Player Projectile Destroyed
+[2024.02.22-20.39.43:295][858]LogBlueprintUserMessages: [BP_Projectile_Default_C_133] Player Projectile Destroyed
+[2024.02.22-20.39.43:612][877]LogBlueprintUserMessages: [BP_Projectile_Default_C_134] Player Projectile Destroyed
+[2024.02.22-20.39.43:812][889]LogBlueprintUserMessages: [BP_Projectile_Default_C_137] Player Projectile Destroyed
+[2024.02.22-20.39.43:929][896]LogBlueprintUserMessages: [BP_Projectile_Default_C_135] Player Projectile Destroyed
+[2024.02.22-20.39.44:246][915]LogBlueprintUserMessages: [BP_Projectile_Default_C_136] Player Projectile Destroyed
+[2024.02.22-20.39.44:462][928]LogBlueprintUserMessages: [BP_Projectile_Default_C_139] Player Projectile Destroyed
+[2024.02.22-20.39.44:879][953]LogBlueprintUserMessages: [BP_Projectile_Default_C_138] Player Projectile Destroyed
+[2024.02.22-20.39.45:512][991]LogBlueprintUserMessages: [BP_Projectile_Default_C_140] Player Projectile Destroyed
+[2024.02.22-20.39.45:829][ 10]LogBlueprintUserMessages: [BP_Projectile_Default_C_141] Player Projectile Destroyed
+[2024.02.22-20.39.45:930][ 16]LogBlueprintUserMessages: [BP_Projectile_Default_C_144] Player Projectile Destroyed
+[2024.02.22-20.39.46:146][ 29]LogBlueprintUserMessages: [BP_Projectile_Default_C_142] Player Projectile Destroyed
+[2024.02.22-20.39.46:213][ 33]LogBlueprintUserMessages: [BP_Projectile_Default_C_145] Player Projectile Destroyed
+[2024.02.22-20.39.46:463][ 48]LogBlueprintUserMessages: [BP_Projectile_Default_C_143] Player Projectile Destroyed
+[2024.02.22-20.39.46:796][ 68]LogBlueprintUserMessages: [BP_Projectile_Default_C_147] Player Projectile Destroyed
+[2024.02.22-20.39.47:130][ 88]LogBlueprintUserMessages: [BP_Projectile_Default_C_148] Player Projectile Destroyed
+[2024.02.22-20.39.47:413][105]LogBlueprintUserMessages: [BP_Projectile_Default_C_146] Player Projectile Destroyed
+[2024.02.22-20.39.47:463][108]LogBlueprintUserMessages: [BP_Projectile_Default_C_149] Player Projectile Destroyed
+[2024.02.22-20.39.48:413][165]LogBlueprintUserMessages: [BP_Projectile_Default_C_152] Player Projectile Destroyed
+[2024.02.22-20.39.48:679][181]LogBlueprintUserMessages: [BP_Projectile_Default_C_150] Player Projectile Destroyed
+[2024.02.22-20.39.48:996][200]LogBlueprintUserMessages: [BP_Projectile_Default_C_151] Player Projectile Destroyed
+[2024.02.22-20.39.49:463][228]LogBlueprintUserMessages: [BP_Projectile_Default_C_155] Player Projectile Destroyed
+[2024.02.22-20.39.49:629][238]LogBlueprintUserMessages: [BP_Projectile_Default_C_153] Player Projectile Destroyed
+[2024.02.22-20.39.49:946][257]LogBlueprintUserMessages: [BP_Projectile_Default_C_154] Player Projectile Destroyed
+[2024.02.22-20.39.50:579][295]LogBlueprintUserMessages: [BP_Projectile_Default_C_156] Player Projectile Destroyed
+[2024.02.22-20.39.50:896][314]LogBlueprintUserMessages: [BP_Projectile_Default_C_157] Player Projectile Destroyed
+[2024.02.22-20.39.51:046][323]LogBlueprintUserMessages: [BP_Projectile_Default_C_160] Player Projectile Destroyed
+[2024.02.22-20.39.51:213][333]LogBlueprintUserMessages: [BP_Projectile_Default_C_158] Player Projectile Destroyed
+[2024.02.22-20.39.51:529][352]LogBlueprintUserMessages: [BP_Projectile_Default_C_159] Player Projectile Destroyed
+[2024.02.22-20.39.52:012][381]LogBlueprintUserMessages: [BP_Projectile_Default_C_163] Player Projectile Destroyed
+[2024.02.22-20.39.52:163][390]LogBlueprintUserMessages: [BP_Projectile_Default_C_161] Player Projectile Destroyed
+[2024.02.22-20.39.52:479][409]LogBlueprintUserMessages: [BP_Projectile_Default_C_162] Player Projectile Destroyed
+[2024.02.22-20.39.53:113][447]LogBlueprintUserMessages: [BP_Projectile_Default_C_164] Player Projectile Destroyed
+[2024.02.22-20.39.53:430][466]LogBlueprintUserMessages: [BP_Projectile_Default_C_165] Player Projectile Destroyed
+[2024.02.22-20.39.53:746][485]LogBlueprintUserMessages: [BP_Projectile_Default_C_166] Player Projectile Destroyed
+[2024.02.22-20.39.54:063][504]LogBlueprintUserMessages: [BP_Projectile_Default_C_167] Player Projectile Destroyed
+[2024.02.22-20.39.54:246][515]LogBlueprintUserMessages: [BP_Projectile_Default_C_170] Player Projectile Destroyed
+[2024.02.22-20.39.54:380][523]LogBlueprintUserMessages: [BP_Projectile_Default_C_168] Player Projectile Destroyed
+[2024.02.22-20.39.54:563][534]LogBlueprintUserMessages: [BP_Projectile_Default_C_171] Player Projectile Destroyed
+[2024.02.22-20.39.54:696][542]LogBlueprintUserMessages: [BP_Projectile_Default_C_169] Player Projectile Destroyed
+[2024.02.22-20.39.55:646][599]LogBlueprintUserMessages: [BP_Projectile_Default_C_172] Player Projectile Destroyed
+[2024.02.22-20.39.55:963][618]LogBlueprintUserMessages: [BP_Projectile_Default_C_173] Player Projectile Destroyed
+[2024.02.22-20.39.56:063][624]LogBlueprintUserMessages: [BP_Projectile_Default_C_176] Player Projectile Destroyed
+[2024.02.22-20.39.56:280][637]LogBlueprintUserMessages: [BP_Projectile_Default_C_174] Player Projectile Destroyed
+[2024.02.22-20.39.56:363][642]LogBlueprintUserMessages: [BP_Projectile_Default_C_177] Player Projectile Destroyed
+[2024.02.22-20.39.56:596][656]LogBlueprintUserMessages: [BP_Projectile_Default_C_175] Player Projectile Destroyed
+[2024.02.22-20.39.57:146][689]LogBlueprintUserMessages: [BP_Projectile_Default_C_179] Player Projectile Destroyed
+[2024.02.22-20.39.57:296][698]LogBlueprintUserMessages: [BP_Projectile_Default_C_180] Player Projectile Destroyed
+[2024.02.22-20.39.57:546][713]LogBlueprintUserMessages: [BP_Projectile_Default_C_178] Player Projectile Destroyed
+[2024.02.22-20.39.57:579][715]LogBlueprintUserMessages: [BP_Projectile_Default_C_181] Player Projectile Destroyed
+[2024.02.22-20.39.57:896][734]LogBlueprintUserMessages: [BP_Projectile_Default_C_182] Player Projectile Destroyed
+[2024.02.22-20.39.58:297][758]LogBlueprintUserMessages: [BP_Projectile_Default_C_183] Player Projectile Destroyed
+[2024.02.22-20.39.58:563][774]LogBlueprintUserMessages: [BP_Projectile_Default_C_184] Player Projectile Destroyed
+[2024.02.22-20.39.59:263][816]LogBlueprintUserMessages: [BP_Projectile_Default_C_186] Player Projectile Destroyed
+[2024.02.22-20.39.59:763][846]LogBlueprintUserMessages: [BP_Projectile_Default_C_185] Player Projectile Destroyed
+[2024.02.22-20.40.00:013][861]LogBlueprintUserMessages: [BP_Projectile_Default_C_188] Player Projectile Destroyed
+[2024.02.22-20.40.00:397][884]LogBlueprintUserMessages: [BP_Projectile_Default_C_187] Player Projectile Destroyed
+[2024.02.22-20.40.00:514][891]LogBlueprintUserMessages: [BP_Projectile_Default_C_190] Player Projectile Destroyed
+[2024.02.22-20.40.01:030][922]LogBlueprintUserMessages: [BP_Projectile_Default_C_189] Player Projectile Destroyed
+[2024.02.22-20.40.01:063][924]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.01:079][925]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.01:096][926]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.01:113][927]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.01:130][928]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.01:146][929]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.01:162][930]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.01:179][931]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.01:196][932]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.01:213][933]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.01:230][934]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.01:246][935]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.01:263][936]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.01:280][937]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.01:297][938]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.01:313][939]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.01:330][940]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.01:346][941]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.01:363][942]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.01:380][943]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.01:397][944]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.01:413][945]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.01:430][946]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.01:447][947]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.01:463][948]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.01:480][949]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.01:496][950]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.01:513][951]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.01:529][952]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.01:546][953]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.01:563][954]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.01:579][955]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.01:596][956]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.01:613][957]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.01:630][958]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.01:646][959]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.01:663][960]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.01:663][960]LogBlueprintUserMessages: [BP_Projectile_Default_C_191] Player Projectile Destroyed
+[2024.02.22-20.40.01:680][961]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.01:696][962]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.01:713][963]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.01:730][964]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.01:746][965]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.01:763][966]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.01:779][967]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.01:796][968]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.01:813][969]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.01:830][970]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.01:847][971]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.01:863][972]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.01:879][973]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.01:896][974]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.01:913][975]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.01:929][976]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.01:946][977]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.01:963][978]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.01:980][979]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.01:980][979]LogBlueprintUserMessages: [BP_Projectile_Default_C_192] Player Projectile Destroyed
+[2024.02.22-20.40.01:996][980]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.02:013][981]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.02:030][982]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.02:047][983]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.02:063][984]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.02:080][985]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.02:097][986]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.02:113][987]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.02:130][988]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.02:147][989]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.02:163][990]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.02:180][991]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.02:197][992]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.02:213][993]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.02:230][994]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.02:247][995]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.02:263][996]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.02:280][997]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.02:297][998]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.02:313][999]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.02:329][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.02:346][  1]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.02:363][  2]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.02:379][  3]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.02:396][  4]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.02:413][  5]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.02:430][  6]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.02:446][  7]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.02:463][  8]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.02:480][  9]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.02:496][ 10]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.02:513][ 11]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.02:530][ 12]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.02:546][ 13]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.02:563][ 14]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.02:580][ 15]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.02:596][ 16]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.02:613][ 17]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.02:630][ 18]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.02:647][ 19]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.02:663][ 20]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.02:680][ 21]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.02:697][ 22]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.02:713][ 23]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.02:730][ 24]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.02:747][ 25]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.02:763][ 26]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.02:780][ 27]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.02:797][ 28]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.02:813][ 29]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.02:829][ 30]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.02:846][ 31]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.02:863][ 32]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.02:879][ 33]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.02:896][ 34]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.02:913][ 35]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.02:929][ 36]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.02:947][ 37]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.02:963][ 38]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.02:980][ 39]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.02:997][ 40]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.03:013][ 41]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.03:030][ 42]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.03:047][ 43]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.03:064][ 44]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.03:064][ 44]LogBlueprintUserMessages: [01Fase_C_1] 1
+[2024.02.22-20.40.07:097][286]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2024.02.22-20.40.07:263][292]LogPackageName: SearchForPackageOnDisk took   0.066s to resolve 02Fase.umap.
+[2024.02.22-20.40.07:330][292]LogPackageName: SearchForPackageOnDisk took   0.067s to resolve 02Fase.umap.
+[2024.02.22-20.40.07:330][292]LogNet: Browse: /Game/Map/02Fase
+[2024.02.22-20.40.07:330][292]LogLoad: LoadMap: /Game/Map/02Fase
+[2024.02.22-20.40.07:946][292]LogAIModule: Creating AISystem for world 02Fase
+[2024.02.22-20.40.07:946][292]LogLoad: Game class is 'GameMode_BP_C'
+[2024.02.22-20.40.07:950][292]LogWorld: Bringing World /Game/Map/02Fase.02Fase up for play (max tick rate 0) at 2024.02.22-17.40.07
+[2024.02.22-20.40.07:956][292]LogWorld: Bringing up level for play took: 0.008261
+[2024.02.22-20.40.07:956][292]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2024.02.22-20.40.07:956][292]r.SetRes = "640x800w"
+[2024.02.22-20.40.07:957][292]LogLoad: Took 0.626651 seconds to LoadMap(/Game/Map/02Fase)
+[2024.02.22-20.40.11:393][499]LogBlueprintUserMessages: [BP_Projectile_Default_C_0] Player Projectile Destroyed
+[2024.02.22-20.40.11:710][518]LogBlueprintUserMessages: [BP_Projectile_Default_C_1] Player Projectile Destroyed
+[2024.02.22-20.40.12:027][537]LogBlueprintUserMessages: [BP_Projectile_Default_C_2] Player Projectile Destroyed
+[2024.02.22-20.40.12:343][556]LogBlueprintUserMessages: [BP_Projectile_Default_C_3] Player Projectile Destroyed
+[2024.02.22-20.40.12:660][575]LogBlueprintUserMessages: [BP_Projectile_Default_C_4] Player Projectile Destroyed
+[2024.02.22-20.40.12:826][585]LogBlueprintUserMessages: [BP_Projectile_Default_C_7] Player Projectile Destroyed
+[2024.02.22-20.40.12:976][594]LogBlueprintUserMessages: [BP_Projectile_Default_C_5] Player Projectile Destroyed
+[2024.02.22-20.40.13:127][603]LogBlueprintUserMessages: [BP_Projectile_Default_C_8] Player Projectile Destroyed
+[2024.02.22-20.40.13:293][613]LogBlueprintUserMessages: [BP_Projectile_Default_C_6] Player Projectile Destroyed
+[2024.02.22-20.40.13:426][621]LogBlueprintUserMessages: [BP_Projectile_Default_C_9] Player Projectile Destroyed
+[2024.02.22-20.40.13:710][638]LogBlueprintUserMessages: [BP_Projectile_Default_C_10] Player Projectile Destroyed
+[2024.02.22-20.40.14:043][658]LogBlueprintUserMessages: [BP_Projectile_Default_C_11] Player Projectile Destroyed
+[2024.02.22-20.40.14:344][676]LogBlueprintUserMessages: [BP_Projectile_Default_C_12] Player Projectile Destroyed
+[2024.02.22-20.40.14:643][694]LogBlueprintUserMessages: [BP_Projectile_Default_C_13] Player Projectile Destroyed
+[2024.02.22-20.40.14:960][713]LogBlueprintUserMessages: [BP_Projectile_Default_C_14] Player Projectile Destroyed
+[2024.02.22-20.40.15:260][731]LogBlueprintUserMessages: [BP_Projectile_Default_C_15] Player Projectile Destroyed
+[2024.02.22-20.40.15:893][769]LogBlueprintUserMessages: [BP_Projectile_Default_C_16] Player Projectile Destroyed
+[2024.02.22-20.40.16:194][787]LogBlueprintUserMessages: [BP_Projectile_Default_C_17] Player Projectile Destroyed
+[2024.02.22-20.40.16:494][805]LogBlueprintUserMessages: [BP_Projectile_Default_C_18] Player Projectile Destroyed
+[2024.02.22-20.40.17:421][860]LogBlueprintUserMessages: [BP_Projectile_Default_C_21] Player Projectile Destroyed
+[2024.02.22-20.40.17:421][860]LogBlueprintUserMessages: [BP_Projectile_Default_C_19] Player Projectile Destroyed
+[2024.02.22-20.40.17:721][878]LogBlueprintUserMessages: [BP_Projectile_Default_C_22] Player Projectile Destroyed
+[2024.02.22-20.40.17:737][879]LogBlueprintUserMessages: [BP_Projectile_Default_C_20] Player Projectile Destroyed
+[2024.02.22-20.40.18:004][895]LogBlueprintUserMessages: [BP_Projectile_Default_C_23] Player Projectile Destroyed
+[2024.02.22-20.40.21:104][ 81]LogBlueprintUserMessages: [BP_Projectile_Default_C_24] Player Projectile Destroyed
+[2024.02.22-20.40.23:164][203]LogSlate: Window 'AReporpostaProj (64-bit Development PCD3D_SM5) ' being destroyed
+[2024.02.22-20.40.23:165][203]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2024.02.22-20.40.23:168][203]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2024.02.22-20.40.23:170][203]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.23:170][203]LogEngine: All Windows Closed
+[2024.02.22-20.40.23:170][203]LogWindows: FPlatformMisc::RequestExit(0)
+[2024.02.22-20.40.23:816][204]LogExit: Preparing to exit.
+[2024.02.22-20.40.23:816][204]LogMoviePlayer: Shutting down movie player
+[2024.02.22-20.40.24:509][204]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.22-20.40.24:521][204]LogExit: Game engine shut down
+[2024.02.22-20.40.24:822][204]LogExit: Object subsystem successfully closed.
+[2024.02.22-20.40.24:837][204]LogShaderCompilers: Display: Shaders left to compile 0
+[2024.02.22-20.40.24:839][204]LogD3D11RHI: Shutdown
+[2024.02.22-20.40.24:839][204]LogD3D11RHI: CleanupD3DDevice
+[2024.02.22-20.40.24:840][204]LogD3D11RHI: ~FD3D11DynamicRHI
+[2024.02.22-20.40.24:850][204]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (376)
+[2024.02.22-20.40.24:850][204]LogModuleManager: Shutting down and abandoning module SequenceRecorder (374)
+[2024.02.22-20.40.24:850][204]LogModuleManager: Shutting down and abandoning module AutomationController (372)
+[2024.02.22-20.40.24:850][204]LogModuleManager: Shutting down and abandoning module AutomationWorker (370)
+[2024.02.22-20.40.24:850][204]LogModuleManager: Shutting down and abandoning module Voice (368)
+[2024.02.22-20.40.24:850][204]LogModuleManager: Shutting down and abandoning module AIModule (366)
+[2024.02.22-20.40.24:850][204]LogModuleManager: Shutting down and abandoning module GameplayDebugger (365)
+[2024.02.22-20.40.24:850][204]LogModuleManager: Shutting down and abandoning module AITestSuite (363)
+[2024.02.22-20.40.24:850][204]LogModuleManager: Shutting down and abandoning module NavigationSystem (361)
+[2024.02.22-20.40.24:850][204]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (358)
+[2024.02.22-20.40.24:850][204]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (356)
+[2024.02.22-20.40.24:850][204]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (354)
+[2024.02.22-20.40.24:850][204]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (352)
+[2024.02.22-20.40.24:850][204]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (350)
+[2024.02.22-20.40.24:850][204]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (348)
+[2024.02.22-20.40.24:850][204]LogModuleManager: Shutting down and abandoning module CharacterAI (346)
+[2024.02.22-20.40.24:850][204]LogModuleManager: Shutting down and abandoning module SessionServices (344)
+[2024.02.22-20.40.24:850][204]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (342)
+[2024.02.22-20.40.24:850][204]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (340)
+[2024.02.22-20.40.24:850][204]LogModuleManager: Shutting down and abandoning module MovieScene (338)
+[2024.02.22-20.40.24:850][204]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (336)
+[2024.02.22-20.40.24:850][204]LogModuleManager: Shutting down and abandoning module PortalServices (334)
+[2024.02.22-20.40.24:850][204]LogModuleManager: Shutting down and abandoning module PortalRpc (332)
+[2024.02.22-20.40.24:850][204]LogModuleManager: Shutting down and abandoning module MessagingRpc (330)
+[2024.02.22-20.40.24:850][204]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2024.02.22-20.40.24:930][204]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2024.02.22-20.40.24:930][204]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2024.02.22-20.40.24:930][204]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (322)
+[2024.02.22-20.40.24:930][204]LogModuleManager: Shutting down and abandoning module OculusInput (320)
+[2024.02.22-20.40.24:930][204]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (318)
+[2024.02.22-20.40.24:930][204]LogModuleManager: Shutting down and abandoning module EditableMesh (316)
+[2024.02.22-20.40.24:930][204]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (314)
+[2024.02.22-20.40.24:930][204]LogModuleManager: Shutting down and abandoning module CableComponent (312)
+[2024.02.22-20.40.24:930][204]LogModuleManager: Shutting down and abandoning module AudioCapture (310)
+[2024.02.22-20.40.24:930][204]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (308)
+[2024.02.22-20.40.24:930][204]LogModuleManager: Shutting down and abandoning module AndroidPermission (306)
+[2024.02.22-20.40.24:930][204]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (304)
+[2024.02.22-20.40.24:930][204]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (302)
+[2024.02.22-20.40.24:930][204]LogModuleManager: Shutting down and abandoning module MediaCompositing (300)
+[2024.02.22-20.40.24:930][204]LogModuleManager: Shutting down and abandoning module LinearTimecode (298)
+[2024.02.22-20.40.24:930][204]LogModuleManager: Shutting down and abandoning module ImgMedia (296)
+[2024.02.22-20.40.24:932][204]LogModuleManager: Shutting down and abandoning module HTML5Networking (294)
+[2024.02.22-20.40.24:932][204]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (292)
+[2024.02.22-20.40.24:932][204]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (291)
+[2024.02.22-20.40.24:932][204]LogModuleManager: Shutting down and abandoning module GeometryCache (288)
+[2024.02.22-20.40.24:932][204]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (287)
+[2024.02.22-20.40.24:932][204]LogModuleManager: Shutting down and abandoning module BackChannel (284)
+[2024.02.22-20.40.24:932][204]LogModuleManager: Shutting down and abandoning module AppleVision (282)
+[2024.02.22-20.40.24:932][204]LogModuleManager: Shutting down and abandoning module AppleImageUtils (280)
+[2024.02.22-20.40.24:932][204]LogModuleManager: Shutting down and abandoning module DatasmithContent (278)
+[2024.02.22-20.40.24:932][204]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (276)
+[2024.02.22-20.40.24:932][204]LogModuleManager: Shutting down and abandoning module CryptoKeys (274)
+[2024.02.22-20.40.24:933][204]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (272)
+[2024.02.22-20.40.24:933][204]LogModuleManager: Shutting down and abandoning module HotReload (271)
+[2024.02.22-20.40.24:933][204]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (270)
+[2024.02.22-20.40.24:933][204]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (266)
+[2024.02.22-20.40.24:933][204]LogModuleManager: Shutting down and abandoning module UObjectPlugin (264)
+[2024.02.22-20.40.24:933][204]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (262)
+[2024.02.22-20.40.24:933][204]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (260)
+[2024.02.22-20.40.24:933][204]LogModuleManager: Shutting down and abandoning module SourceControl (259)
+[2024.02.22-20.40.24:933][204]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (256)
+[2024.02.22-20.40.24:933][204]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (254)
+[2024.02.22-20.40.24:933][204]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (252)
+[2024.02.22-20.40.24:933][204]LogModuleManager: Shutting down and abandoning module PhysXVehicles (250)
+[2024.02.22-20.40.24:933][204]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (248)
+[2024.02.22-20.40.24:933][204]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (246)
+[2024.02.22-20.40.24:933][204]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (244)
+[2024.02.22-20.40.24:933][204]LogModuleManager: Shutting down and abandoning module ActorSequence (242)
+[2024.02.22-20.40.24:933][204]LogModuleManager: Shutting down and abandoning module UdpMessaging (240)
+[2024.02.22-20.40.25:034][204]LogModuleManager: Shutting down and abandoning module TcpMessaging (238)
+[2024.02.22-20.40.25:498][204]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (236)
+[2024.02.22-20.40.25:498][204]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (234)
+[2024.02.22-20.40.25:498][204]LogModuleManager: Shutting down and abandoning module FacialAnimation (232)
+[2024.02.22-20.40.25:498][204]LogModuleManager: Shutting down and abandoning module DataValidation (230)
+[2024.02.22-20.40.25:498][204]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (228)
+[2024.02.22-20.40.25:498][204]LogModuleManager: Shutting down and abandoning module TreeMap (227)
+[2024.02.22-20.40.25:498][204]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (224)
+[2024.02.22-20.40.25:498][204]LogModuleManager: Shutting down and abandoning module AISupportModule (222)
+[2024.02.22-20.40.25:498][204]LogModuleManager: Shutting down and abandoning module Paper2D (220)
+[2024.02.22-20.40.25:498][204]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (218)
+[2024.02.22-20.40.25:498][204]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2024.02.22-20.40.25:498][204]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2024.02.22-20.40.25:499][204]LogModuleManager: Shutting down and abandoning module Media (213)
+[2024.02.22-20.40.25:506][204]LogModuleManager: Shutting down and abandoning module PacketHandler (210)
+[2024.02.22-20.40.25:506][204]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (208)
+[2024.02.22-20.40.25:506][204]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (206)
+[2024.02.22-20.40.25:506][204]LogModuleManager: Shutting down and abandoning module MediaAssets (204)
+[2024.02.22-20.40.25:506][204]LogModuleManager: Shutting down and abandoning module Overlay (202)
+[2024.02.22-20.40.25:506][204]LogModuleManager: Shutting down and abandoning module OverlayEditor (201)
+[2024.02.22-20.40.25:506][204]LogModuleManager: Shutting down and abandoning module VREditor (198)
+[2024.02.22-20.40.25:506][204]LogModuleManager: Shutting down and abandoning module StringTableEditor (196)
+[2024.02.22-20.40.25:506][204]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (194)
+[2024.02.22-20.40.25:506][204]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (192)
+[2024.02.22-20.40.25:506][204]LogModuleManager: Shutting down and abandoning module FunctionalTesting (190)
+[2024.02.22-20.40.25:506][204]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (188)
+[2024.02.22-20.40.25:506][204]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (187)
+[2024.02.22-20.40.25:506][204]LogModuleManager: Shutting down and abandoning module UMG (184)
+[2024.02.22-20.40.25:506][204]LogModuleManager: Shutting down and abandoning module UMGEditor (183)
+[2024.02.22-20.40.25:506][204]LogModuleManager: Shutting down and abandoning module Sequencer (182)
+[2024.02.22-20.40.25:506][204]LogModuleManager: Shutting down and abandoning module MessageLog (179)
+[2024.02.22-20.40.25:506][204]LogModuleManager: Shutting down and abandoning module SlateReflector (174)
+[2024.02.22-20.40.25:506][204]LogModuleManager: Shutting down and abandoning module Slate (172)
+[2024.02.22-20.40.25:506][204]LogModuleManager: Shutting down and abandoning module EditorStyle (170)
+[2024.02.22-20.40.25:507][204]LogModuleManager: Shutting down and abandoning module MRMesh (168)
+[2024.02.22-20.40.25:507][204]LogModuleManager: Shutting down and abandoning module Messaging (166)
+[2024.02.22-20.40.25:507][204]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (164)
+[2024.02.22-20.40.25:507][204]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (162)
+[2024.02.22-20.40.25:507][204]LogModuleManager: Shutting down and abandoning module XAudio2 (160)
+[2024.02.22-20.40.25:507][204]LogModuleManager: Shutting down and abandoning module Networking (158)
+[2024.02.22-20.40.25:507][204]LogModuleManager: Shutting down and abandoning module Core (156)
+[2024.02.22-20.40.25:507][204]LogModuleManager: Shutting down and abandoning module LevelSequence (154)
+[2024.02.22-20.40.25:507][204]LogModuleManager: Shutting down and abandoning module KismetCompiler (152)
+[2024.02.22-20.40.25:507][204]LogModuleManager: Shutting down and abandoning module MeshUtilities (150)
+[2024.02.22-20.40.25:507][204]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (149)
+[2024.02.22-20.40.25:507][204]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (148)
+[2024.02.22-20.40.25:507][204]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (147)
+[2024.02.22-20.40.25:507][204]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (145)
+[2024.02.22-20.40.25:507][204]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (143)
+[2024.02.22-20.40.25:507][204]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (141)
+[2024.02.22-20.40.25:507][204]LogModuleManager: Shutting down and abandoning module MaterialBaking (137)
+[2024.02.22-20.40.25:507][204]LogModuleManager: Shutting down and abandoning module DerivedDataCache (132)
+[2024.02.22-20.40.25:822][204]LogDerivedDataCache: Shutdown
+[2024.02.22-20.40.25:823][204]LogModuleManager: Shutting down and abandoning module XGEController (130)
+[2024.02.22-20.40.25:823][204]LogModuleManager: Shutting down and abandoning module TargetPlatform (128)
+[2024.02.22-20.40.25:823][204]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (127)
+[2024.02.22-20.40.25:823][204]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (125)
+[2024.02.22-20.40.25:823][204]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (123)
+[2024.02.22-20.40.25:823][204]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (121)
+[2024.02.22-20.40.25:823][204]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (119)
+[2024.02.22-20.40.25:823][204]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (117)
+[2024.02.22-20.40.25:823][204]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (115)
+[2024.02.22-20.40.25:823][204]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (113)
+[2024.02.22-20.40.25:823][204]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (111)
+[2024.02.22-20.40.25:823][204]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (109)
+[2024.02.22-20.40.25:823][204]LogModuleManager: Shutting down and abandoning module ImageWrapper (108)
+[2024.02.22-20.40.25:823][204]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (105)
+[2024.02.22-20.40.25:823][204]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (103)
+[2024.02.22-20.40.25:823][204]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (101)
+[2024.02.22-20.40.25:823][204]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (99)
+[2024.02.22-20.40.25:823][204]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (97)
+[2024.02.22-20.40.25:823][204]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (95)
+[2024.02.22-20.40.25:823][204]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (93)
+[2024.02.22-20.40.25:823][204]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (91)
+[2024.02.22-20.40.25:823][204]LogModuleManager: Shutting down and abandoning module InputCore (88)
+[2024.02.22-20.40.25:823][204]LogModuleManager: Shutting down and abandoning module Settings (86)
+[2024.02.22-20.40.25:823][204]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
+[2024.02.22-20.40.25:823][204]LogModuleManager: Shutting down and abandoning module SteamVR (82)
+[2024.02.22-20.40.25:823][204]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
+[2024.02.22-20.40.25:823][204]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
+[2024.02.22-20.40.25:823][204]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
+[2024.02.22-20.40.25:823][204]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2024.02.22-20.40.25:823][204]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
+[2024.02.22-20.40.25:823][204]LogModuleManager: Shutting down and abandoning module XMPP (65)
+[2024.02.22-20.40.25:823][204]LogModuleManager: Shutting down and abandoning module WebSockets (64)
+[2024.02.22-20.40.25:843][204]LogModuleManager: Shutting down and abandoning module HTTP (61)
+[2024.02.22-20.40.25:869][204]LogModuleManager: Shutting down and abandoning module SSL (60)
+[2024.02.22-20.40.25:869][204]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
+[2024.02.22-20.40.25:869][204]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
+[2024.02.22-20.40.25:869][204]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
+[2024.02.22-20.40.25:869][204]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
+[2024.02.22-20.40.25:869][204]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
+[2024.02.22-20.40.25:869][204]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
+[2024.02.22-20.40.25:869][204]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
+[2024.02.22-20.40.25:869][204]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
+[2024.02.22-20.40.25:869][204]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
+[2024.02.22-20.40.25:869][204]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2024.02.22-20.40.25:869][204]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
+[2024.02.22-20.40.25:869][204]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2024.02.22-20.40.25:869][204]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2024.02.22-20.40.25:869][204]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2024.02.22-20.40.25:869][204]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2024.02.22-20.40.25:870][204]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2024.02.22-20.40.25:870][204]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2024.02.22-20.40.25:870][204]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2024.02.22-20.40.25:870][204]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2024.02.22-20.40.25:870][204]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2024.02.22-20.40.25:870][204]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2024.02.22-20.40.25:870][204]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2024.02.22-20.40.25:870][204]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2024.02.22-20.40.25:870][204]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2024.02.22-20.40.25:870][204]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2024.02.22-20.40.25:870][204]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2024.02.22-20.40.25:870][204]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2024.02.22-20.40.25:870][204]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2024.02.22-20.40.25:870][204]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2024.02.22-20.40.25:874][204]LogExit: Exiting.
+[2024.02.22-20.40.25:878][204]Log file closed, 02/22/24 17:40:25
