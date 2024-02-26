@@ -5,6 +5,7 @@
 	"Description": "",
 	"TargetPlatforms": [
 		"HTML5",
-		"WindowsNoEditor"
+		"WindowsNoEditor",
+		"Android"
 	]
 }
