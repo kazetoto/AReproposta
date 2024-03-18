@@ -522,46 +522,14 @@
 			}
 		},
 		{
-			"File": "../../../Engine/Plugins/Experimental/HTML5Networking/HTML5Networking.uplugin",
-			"Descriptor": 
-			{
-				"FileVersion": 3,
-				"Version": 1,
-				"VersionName": "1.0",
-				"FriendlyName": "Experimental HTML5 Networking Plugin",
-				"Description": "HTML5 Networking",
-				"Category": "Misc",
-				"CreatedBy": "Epic Games, Inc.",
-				"CreatedByURL": "http://epicgames.com",
-				"DocsURL": "",
-				"MarketplaceURL": "",
-				"SupportURL": "",
-				"EnabledByDefault": true,
-				"CanContainContent": false,
-				"Modules": [
-					{
-						"Name": "HTML5Networking",
-						"Type": "Runtime",
-						"LoadingPhase": "Default",
-						"WhitelistPlatforms": [
-							"Mac",
-							"Win32",
-							"Win64",
-							"HTML5"
-						]
-					}
-				]
-			}
-		},
-		{
-			"File": "../../../Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin",
+			"File": "../../../Engine/Plugins/Media/AndroidMedia/AndroidMedia.uplugin",
 			"Descriptor": 
 			{
 				"FileVersion": 3,
 				"Version": 2,
 				"VersionName": "2.0",
-				"FriendlyName": "AVF Media Player",
-				"Description": "Implements a media player using Apple AV Foundation.",
+				"FriendlyName": "Android Media Player",
+				"Description": "Implements a media player using the Android Media library.",
 				"Category": "Media Players",
 				"CreatedBy": "Epic Games, Inc.",
 				"CreatedByURL": "http://epicgames.com",
@@ -572,36 +540,29 @@
 				"CanContainContent": false,
 				"Modules": [
 					{
-						"Name": "AvfMedia",
+						"Name": "AndroidMedia",
 						"Type": "RuntimeNoCommandlet",
 						"LoadingPhase": "PreLoadingScreen",
 						"WhitelistPlatforms": [
-							"IOS",
-							"Mac",
-							"TVOS"
+							"Android"
 						]
 					},
 					{
-						"Name": "AvfMediaEditor",
+						"Name": "AndroidMediaEditor",
 						"Type": "Editor",
 						"LoadingPhase": "PostEngineInit"
 					},
 					{
-						"Name": "AvfMediaFactory",
+						"Name": "AndroidMediaFactory",
 						"Type": "Editor",
 						"LoadingPhase": "PostEngineInit"
 					},
 					{
-						"Name": "AvfMediaFactory",
+						"Name": "AndroidMediaFactory",
 						"Type": "RuntimeNoCommandlet",
 						"LoadingPhase": "PostEngineInit",
 						"WhitelistPlatforms": [
-							"IOS",
-							"Linux",
-							"Mac",
-							"TVOS",
-							"Win32",
-							"Win64"
+							"Android"
 						]
 					}
 				]
@@ -712,57 +673,6 @@
 						"Name": "MediaCompositingEditor",
 						"Type": "Editor",
 						"LoadingPhase": "Default"
-					}
-				]
-			}
-		},
-		{
-			"File": "../../../Engine/Plugins/Media/WmfMedia/WmfMedia.uplugin",
-			"Descriptor": 
-			{
-				"FileVersion": 3,
-				"Version": 2,
-				"VersionName": "2.0",
-				"FriendlyName": "WMF Media Player",
-				"Description": "Implements a media player using the Windows Media Foundation framework.",
-				"Category": "Media Players",
-				"CreatedBy": "Epic Games, Inc.",
-				"CreatedByURL": "http://epicgames.com",
-				"DocsURL": "https://forums.unrealengine.com/showthread.php?46879-Media-Framework-Documentation-for-4-5-Preview",
-				"MarketplaceURL": "",
-				"SupportURL": "",
-				"EnabledByDefault": true,
-				"CanContainContent": false,
-				"Modules": [
-					{
-						"Name": "WmfMedia",
-						"Type": "RuntimeNoCommandlet",
-						"LoadingPhase": "PreLoadingScreen",
-						"WhitelistPlatforms": [
-							"Win32",
-							"Win64"
-						]
-					},
-					{
-						"Name": "WmfMediaEditor",
-						"Type": "Editor",
-						"LoadingPhase": "PostEngineInit"
-					},
-					{
-						"Name": "WmfMediaFactory",
-						"Type": "Editor",
-						"LoadingPhase": "PostEngineInit"
-					},
-					{
-						"Name": "WmfMediaFactory",
-						"Type": "RuntimeNoCommandlet",
-						"LoadingPhase": "PostEngineInit",
-						"WhitelistPlatforms": [
-							"Mac",
-							"Linux",
-							"Win32",
-							"Win64"
-						]
 					}
 				]
 			}
@@ -921,6 +831,54 @@
 			}
 		},
 		{
+			"File": "../../../Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/OnlineSubsystemGooglePlay.uplugin",
+			"Descriptor": 
+			{
+				"FileVersion": 3,
+				"Version": 1,
+				"VersionName": "1.0",
+				"FriendlyName": "Online Subsystem GooglePlay",
+				"Description": "Access to GooglePlay platform",
+				"Category": "Online Platform",
+				"CreatedBy": "Epic Games, Inc.",
+				"CreatedByURL": "http://epicgames.com",
+				"DocsURL": "",
+				"MarketplaceURL": "",
+				"SupportURL": "",
+				"EnabledByDefault": true,
+				"CanContainContent": false,
+				"SupportedTargetPlatforms": [
+					"Android"
+				],
+				"Modules": [
+					{
+						"Name": "OnlineSubsystemGooglePlay",
+						"Type": "Runtime",
+						"LoadingPhase": "Default",
+						"WhitelistPlatforms": [
+							"Android"
+						]
+					}
+				],
+				"LocalizationTargets": [
+					{
+						"Name": "OnlineSubsystemGooglePlay",
+						"LoadingPolicy": "Always"
+					}
+				],
+				"Plugins": [
+					{
+						"Name": "OnlineSubsystem",
+						"Enabled": true
+					},
+					{
+						"Name": "AndroidPermission",
+						"Enabled": true
+					}
+				]
+			}
+		},
+		{
 			"File": "../../../Engine/Plugins/Online/OnlineSubsystem/OnlineSubsystem.uplugin",
 			"Descriptor": 
 			{
@@ -948,6 +906,33 @@
 					{
 						"Name": "OnlineSubsystem",
 						"LoadingPolicy": "Always"
+					}
+				]
+			}
+		},
+		{
+			"File": "../../../Engine/Plugins/Runtime/AndroidPermission/AndroidPermission.uplugin",
+			"Descriptor": 
+			{
+				"FileVersion": 3,
+				"Version": 1,
+				"VersionName": "0.1",
+				"FriendlyName": "Android Runtime Permission",
+				"Description": "Support for Android Runtime Permission",
+				"Category": "Android",
+				"CreatedBy": "Google",
+				"CreatedByURL": "http://developers.google.com",
+				"DocsURL": "",
+				"MarketplaceURL": "",
+				"SupportURL": "",
+				"EnabledByDefault": true,
+				"CanContainContent": false,
+				"IsBetaVersion": true,
+				"Modules": [
+					{
+						"Name": "AndroidPermission",
+						"Type": "Runtime",
+						"LoadingPhase": "Default"
 					}
 				]
 			}
@@ -1032,15 +1017,15 @@
 			}
 		},
 		{
-			"File": "../../../Engine/Plugins/Portal/LauncherChunkInstaller/LauncherChunkInstaller.uplugin",
+			"File": "../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/AndroidDeviceProfileSelector.uplugin",
 			"Descriptor": 
 			{
 				"FileVersion": 3,
 				"Version": 1,
 				"VersionName": "1.0",
-				"FriendlyName": "Launcher Chunk Installer",
-				"Description": "Chunk installer module that hooks into launcher",
-				"Category": "Launcher",
+				"FriendlyName": "Android Device Profile Selector",
+				"Description": "Android Device Profile Selector used show selection of device profiles on hardware",
+				"Category": "Device Profile Selectors",
 				"CreatedBy": "Epic Games, Inc.",
 				"CreatedByURL": "http://epicgames.com",
 				"DocsURL": "",
@@ -1050,42 +1035,47 @@
 				"CanContainContent": false,
 				"Modules": [
 					{
-						"Name": "LauncherChunkInstaller",
-						"Type": "Runtime",
+						"Name": "AndroidDeviceProfileSelector",
+						"Type": "Editor",
+						"LoadingPhase": "PostConfigInit"
+					},
+					{
+						"Name": "AndroidDeviceProfileSelectorRuntime",
+						"Type": "RuntimeNoCommandlet",
 						"LoadingPhase": "PostConfigInit",
 						"WhitelistPlatforms": [
-							"Win64",
-							"Win32",
-							"Linux",
-							"Mac"
+							"Android",
+							"Lumin"
 						]
 					}
 				]
 			}
 		},
 		{
-			"File": "../../../Engine/Plugins/Runtime/AndroidPermission/AndroidPermission.uplugin",
+			"File": "../../../Engine/Plugins/Runtime/AndroidMoviePlayer/AndroidMoviePlayer.uplugin",
 			"Descriptor": 
 			{
 				"FileVersion": 3,
 				"Version": 1,
-				"VersionName": "0.1",
-				"FriendlyName": "Android Runtime Permission",
-				"Description": "Support for Android Runtime Permission",
-				"Category": "Android",
-				"CreatedBy": "Google",
-				"CreatedByURL": "http://developers.google.com",
+				"VersionName": "1.0",
+				"FriendlyName": "Android Movie Player",
+				"Description": "Android Platform Movie Player using Android Media library",
+				"Category": "Movie Players",
+				"CreatedBy": "Epic Games, Inc.",
+				"CreatedByURL": "http://epicgames.com",
 				"DocsURL": "",
 				"MarketplaceURL": "",
 				"SupportURL": "",
 				"EnabledByDefault": true,
 				"CanContainContent": false,
-				"IsBetaVersion": true,
 				"Modules": [
 					{
-						"Name": "AndroidPermission",
-						"Type": "Runtime",
-						"LoadingPhase": "Default"
+						"Name": "AndroidMoviePlayer",
+						"Type": "RuntimeNoCommandlet",
+						"LoadingPhase": "PreLoadingScreen",
+						"WhitelistPlatforms": [
+							"Android"
+						]
 					}
 				]
 			}
@@ -1112,44 +1102,6 @@
 						"Name": "ArchVisCharacter",
 						"Type": "Runtime",
 						"LoadingPhase": "Default"
-					}
-				]
-			}
-		},
-		{
-			"File": "../../../Engine/Plugins/Runtime/AudioCapture/AudioCapture.uplugin",
-			"Descriptor": 
-			{
-				"FileVersion": 3,
-				"Version": 1,
-				"VersionName": "1.0",
-				"FriendlyName": "Audio Capture",
-				"Description": "Plugin provides an interface for microphone input capture.",
-				"Category": "Audio",
-				"CreatedBy": "Epic Games, Inc.",
-				"CreatedByURL": "http://epicgames.com",
-				"DocsURL": "",
-				"MarketplaceURL": "",
-				"SupportURL": "",
-				"EnabledByDefault": true,
-				"CanContainContent": false,
-				"Modules": [
-					{
-						"Name": "AudioCapture",
-						"Type": "Runtime",
-						"LoadingPhase": "Default",
-						"WhitelistPlatforms": [
-							"Win64",
-							"Lumin"
-						]
-					},
-					{
-						"Name": "AudioCaptureEditor",
-						"Type": "Editor",
-						"LoadingPhase": "PostEngineInit",
-						"WhitelistPlatforms": [
-							"Win64"
-						]
 					}
 				]
 			}
@@ -1231,6 +1183,35 @@
 						"Name": "ExampleDeviceProfileSelector",
 						"Type": "RuntimeNoCommandlet",
 						"LoadingPhase": "PostConfigInit"
+					}
+				]
+			}
+		},
+		{
+			"File": "../../../Engine/Plugins/Runtime/GoogleCloudMessaging/GoogleCloudMessaging.uplugin",
+			"Descriptor": 
+			{
+				"FileVersion": 3,
+				"Version": 1,
+				"VersionName": "1.0",
+				"FriendlyName": "Google Cloud Messaging",
+				"Description": "Support for remote notifications using Google Cloud Messaging",
+				"Category": "Notifications",
+				"CreatedBy": "Epic Games, Inc.",
+				"CreatedByURL": "http://epicgames.com",
+				"DocsURL": "",
+				"MarketplaceURL": "",
+				"SupportURL": "",
+				"EnabledByDefault": true,
+				"CanContainContent": false,
+				"Modules": [
+					{
+						"Name": "GoogleCloudMessaging",
+						"Type": "Runtime",
+						"LoadingPhase": "PreDefault",
+						"WhitelistPlatforms": [
+							"Android"
+						]
 					}
 				]
 			}
@@ -1509,36 +1490,6 @@
 					{
 						"Name": "ProceduralMeshComponent",
 						"Enabled": true
-					}
-				]
-			}
-		},
-		{
-			"File": "../../../Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin",
-			"Descriptor": 
-			{
-				"FileVersion": 3,
-				"Version": 1,
-				"VersionName": "1.0",
-				"FriendlyName": "Windows Movie Player",
-				"Description": "Windows Specific Movie Player using Media Foundation",
-				"Category": "Movie Players",
-				"CreatedBy": "Epic Games, Inc.",
-				"CreatedByURL": "http://epicgames.com",
-				"DocsURL": "",
-				"MarketplaceURL": "",
-				"SupportURL": "",
-				"EnabledByDefault": true,
-				"CanContainContent": false,
-				"Modules": [
-					{
-						"Name": "WindowsMoviePlayer",
-						"Type": "RuntimeNoCommandlet",
-						"LoadingPhase": "PreLoadingScreen",
-						"WhitelistPlatforms": [
-							"Win64",
-							"Win32"
-						]
 					}
 				]
 			}
